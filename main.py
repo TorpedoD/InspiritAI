@@ -1,17 +1,10 @@
-from src.download_google_drive import *
+from docx_to_txt import convert_docx_to_txt
 
 def main():
-    # Authenticate and build the Drive API client
-    service = authenticate_drive_api()
-
-    # The ID of the folder you want to download files from
-    folder_id = '1BxIrqbSvJsdBAzaQaVolzIvX017rttEq'  # Replace with your folder ID
-
-    # The directory where you want to save the downloaded files
-    download_dir = 'downloads'
-
-    # Download the files
-    download_files_from_folder(service, folder_id, download_dir)
+    input_folder = r"/Users/damianwong/Desktop/Input"  # Replace with the path to the folder containing .docx files
+    output_folder = r"/Users/damianwong/Desktop/Output"  # Replace with the path to save .txt files
+    
+    convert_docx_to_txt(input_folder, output_folder)
 
 if __name__ == '__main__':
   main()
