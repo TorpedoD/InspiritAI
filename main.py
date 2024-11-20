@@ -1,8 +1,8 @@
 from docx_to_txt import convert_docx_to_txt
 
 def main():
-    input_folder = r"/Users/damianwong/Desktop/Input"  # Replace with the path to the folder containing .docx files
-    output_folder = r"/Users/damianwong/Desktop/Output"  # Replace with the path to save .txt files
+    input_folder = '/content/Input'  # Use Colab's file system path
+    output_folder = '/content/Output'  # Use Colab's file system path
     
     convert_docx_to_txt(input_folder, output_folder)
 
