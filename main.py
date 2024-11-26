@@ -57,23 +57,30 @@ def preprocess_text(data):
 
 
 # Step 3: Generate word clouds for each category
-def generate_word_clouds(data, labels):
+def generate_word_clouds(data, labels, output_dir="data/plots"):
+    # Ensure the output directory exists
+    os.makedirs(output_dir, exist_ok=True)
+
     category_texts = {}
     for text, label in zip(data, labels):
         if label not in category_texts:
             category_texts[label] = []
         category_texts[label].append(text)
     
-    # Generate a word cloud for each category
+    # Generate and save a word cloud for each category
     for category, texts in category_texts.items():
         combined_text = " ".join(texts)  # Combine all text for the category
         wordcloud = WordCloud(width=800, height=400, background_color="white").generate(combined_text)
+        
+        # Save the word cloud to a file
+        output_path = os.path.join(output_dir, f"word_cloud_{category}.png")
         plt.figure(figsize=(10, 5))
         plt.imshow(wordcloud, interpolation='bilinear')
         plt.title(f"Word Cloud for Category: {category}")
         plt.axis("off")
-        plt.show()
-
+        plt.savefig(output_path, bbox_inches='tight')
+        plt.close()
+        print(f"Word cloud saved: {output_path}")
 
 # Step 4: Save data into a DataFrame
 def save_to_dataframe(data, labels, file_names, output_file='prepared_data.csv'):
