@@ -29,12 +29,17 @@ def read_txt_files_from_folder(folder_path):
             if file.endswith('.txt'):
                 file_path = os.path.join(root, file)
                 folder_name = os.path.basename(os.path.dirname(file_path))  # Get folder name (label)
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    data.append(content)
-                    labels.append(folder_name)  # Use folder name as label
-                    file_names.append(file)  # Save file name
+                try:
+                    # Open the file with a fallback encoding
+                    with open(file_path, 'r', encoding='utf-8', errors='replace') as f:
+                        content = f.read()
+                        data.append(content)
+                        labels.append(folder_name)  # Use folder name as label
+                        file_names.append(file)  # Save file name
+                except Exception as e:
+                    print(f"Error reading file {file_path}: {e}")
     return data, labels, file_names
+
 
 # Step 2: Preprocess the text data (tokenization, stopword removal, lemmatization)
 def preprocess_text(data):
