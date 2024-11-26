@@ -11,9 +11,7 @@ import nltk
 import zipfile
 
 # Download required NLTK resources (only needed once)
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+nltk.download('all') 
 
 # Step 1: Define a function to read .txt files from subfolders
 def read_txt_files_from_folder(folder_path):
