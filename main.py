@@ -1,7 +1,9 @@
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -55,12 +57,33 @@ def preprocess_text(data):
         processed_data.append(" ".join(filtered_tokens))
     return processed_data
 
-# Step 3: Save data into a DataFrame
+
+# Step 3: Generate word clouds for each category
+def generate_word_clouds(data, labels):
+    category_texts = {}
+    for text, label in zip(data, labels):
+        if label not in category_texts:
+            category_texts[label] = []
+        category_texts[label].append(text)
+    
+    # Generate a word cloud for each category
+    for category, texts in category_texts.items():
+        combined_text = " ".join(texts)  # Combine all text for the category
+        wordcloud = WordCloud(width=800, height=400, background_color="white").generate(combined_text)
+        plt.figure(figsize=(10, 5))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.title(f"Word Cloud for Category: {category}")
+        plt.axis("off")
+        plt.show()
+
+
+# Step 4: Save data into a DataFrame
 def save_to_dataframe(data, labels, file_names, output_file='prepared_data.csv'):
     df = pd.DataFrame({'Content': data, 'Label': labels, 'File_Name': file_names})
     df.to_csv(output_file, index=False)
     print(f"Data saved as '{output_file}'")
     return df
+
 
 # Unzip the dataset
 def unzip_file(zip_path, extract_to):
@@ -70,6 +93,7 @@ def unzip_file(zip_path, extract_to):
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         zip_ref.extractall(extract_to)
     print(f"Files unzipped to: {extract_to}")
+
 
 # Main function to execute the workflow
 if __name__ == "__main__":
@@ -97,17 +121,20 @@ if __name__ == "__main__":
     # Step 4: Preprocess the text data
     processed_data = preprocess_text(data)
 
-    # Step 5: Split the dataset into training and testing datasets
+    # Step 5: Generate word clouds for visualization
+    generate_word_clouds(processed_data, labels)
+
+    # Step 6: Split the dataset into training and testing datasets
     X_train, X_test, y_train, y_test = train_test_split(processed_data, labels, test_size=0.2, random_state=42)
     print(f"Training Dataset # of Samples: {len(X_train)}")
     print(f"Testing Dataset # of Samples: {len(X_test)}")
 
-    # Step 6: Vectorize the text data
+    # Step 7: Vectorize the text data
     vectorizer = TfidfVectorizer()  # You can use CountVectorizer() or TfidfVectorizer() here
     X_train_vec = vectorizer.fit_transform(X_train)
     X_test_vec = vectorizer.transform(X_test)
 
-    # Step 7: Output the names of the X matrix and y vector
+    # Step 8: Output the names of the X matrix and y vector
     print("Name of the X matrix: X_train_vec (Training Data Vectorized), X_test_vec (Testing Data Vectorized)")
     print("Name of the y vector: y_train (Training Labels), y_test (Testing Labels)")
 
