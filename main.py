@@ -98,12 +98,13 @@ if __name__ == "__main__":
     # Path to the zip file
     zip_file_path = "data/txt_test.zip"  # Replace with the path to your zip file
     extract_to = "data/txt_test"  # Path to extract files
+    pull_from = "data/txt_test/txt_test"  # Path to extract files
 
     # Unzip the file
     unzip_file(zip_file_path, extract_to)
 
     # Read .txt files and handle subfolders
-    data, labels, file_names = read_txt_files_from_folder(extract_to)
+    data, labels, file_names = read_txt_files_from_folder(pull_from)
     if data is None or labels is None or file_names is None:
         exit(1)  # Exit if folder path is invalid
 
