@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import nltk
-nltk.download('punkt_tab')
+import zipfile
 
 # Download required NLTK resources (only needed once)
 nltk.download('punkt')
@@ -57,13 +57,26 @@ def save_to_dataframe(data, labels, file_names, output_file='prepared_data.csv')
     print(f"Data saved as '{output_file}'")
     return df
 
+# Unzip the dataset
+def unzip_file(zip_path, extract_to):
+    if not os.path.exists(zip_path):
+        print(f"Error: The zip file '{zip_path}' does not exist.")
+        return
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall(extract_to)
+    print(f"Files unzipped to: {extract_to}")
+
 # Main function to execute the workflow
 if __name__ == "__main__":
-    # Hardcode the folder path here
-    folder_path = "/Users/damianwong/Downloads/txt_test"  # Replace this with your folder path
+    # Path to the zip file
+    zip_file_path = "data/txt_test.zip"  # Replace with the path to your zip file
+    extract_to = "data/txt_test"  # Path to extract files
+
+    # Unzip the file
+    unzip_file(zip_file_path, extract_to)
 
     # Read .txt files and handle subfolders
-    data, labels, file_names = read_txt_files_from_folder(folder_path)
+    data, labels, file_names = read_txt_files_from_folder(extract_to)
     if data is None or labels is None or file_names is None:
         exit(1)  # Exit if folder path is invalid
 
