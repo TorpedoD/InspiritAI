@@ -103,9 +103,9 @@ def unzip_file(zip_path, extract_to):
 # Main function to execute the workflow
 if __name__ == "__main__":
     # Path to the zip file
-    zip_file_path = "data/txt_test.zip"  # Replace with the path to your zip file
-    extract_to = "data/txt_test"  # Path to extract files
-    pull_from = "data/txt_test/txt_test"  # Path to extract files
+    zip_file_path = "data/txt.zip"  # Replace with the path to your zip file
+    extract_to = "data/txt"  # Path to extract files
+    pull_from = "data/txt/txt"  # Path to extract files
 
     # Unzip the file
     unzip_file(zip_file_path, extract_to)
