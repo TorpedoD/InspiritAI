@@ -105,9 +105,9 @@ if __name__ == "__main__":
 
     # Load the Llama 3.1-8B-Instruct model and tokenizer with 8-bit quantization
     # Ensure you have accepted the license and have access
-    model_name = "meta-llama/Llama-3.1-8B-Instruct"
+    model_name = "meta-llama/Llama-3.2-1B-Instruct"
 
-    print("Loading Llama 3.1-8B-Instruct model...")
+    print("Loading Llama 3.2-1B-Instruct model...")
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
