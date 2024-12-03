@@ -21,6 +21,7 @@ bnb_config = BitsAndBytesConfig(load_in_8bit=torch.cuda.is_available())
 print("Loading model...")
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
+# Check if the model is already saved
 if not os.path.exists("llama_model"):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
@@ -38,6 +39,7 @@ print("Model loaded.")
 categories = list(set(labels))
 categories_str = ', '.join(categories)
 
+# Create prompt for model input
 def create_prompt(text):
     max_input_length = tokenizer.model_max_length
     truncated_text = text[:max_input_length]
@@ -57,10 +59,10 @@ for idx in range(0, len(X_test), batch_size):
     batch_texts = X_test[idx:idx + batch_size]
     batch_prompts = [create_prompt(text) for text in batch_texts]
     inputs = tokenizer(batch_prompts, padding=True, truncation=True, return_tensors="pt").to(device)
-    
+
     outputs = model.generate(
         **inputs,
-        max_new_tokens=10,
+        max_new_tokens=50,  # Increased token length for category prediction
         do_sample=False,
         eos_token_id=tokenizer.eos_token_id
     )
@@ -69,22 +71,28 @@ for idx in range(0, len(X_test), batch_size):
         generated_text = tokenizer.decode(output, skip_special_tokens=True)
         predicted_category = generated_text[len(batch_prompts[i]):].strip().split("\n")[0]
         predicted_category = predicted_category.lower().strip('".\'')
+        
+        # Find best match with available categories
         match = get_close_matches(predicted_category, [cat.lower() for cat in categories], n=1, cutoff=0.0)
         if match:
             predictions.append(categories[[cat.lower() for cat in categories].index(match[0])])
         else:
             predictions.append("Unknown")
+    
     print(f"Batch {idx // batch_size + 1}/{len(X_test) // batch_size} processed.")
 
+# Filter out 'Unknown' predictions
 valid_indices = [i for i, p in enumerate(predictions) if p != "Unknown"]
 filtered_predictions = [predictions[i] for i in valid_indices]
 filtered_y_test = [y_test[i] for i in valid_indices]
 
+# Calculate accuracy if valid predictions exist
 if filtered_predictions:
     accuracy = accuracy_score(filtered_y_test, filtered_predictions)
     print(f"\nAccuracy on the test set (excluding 'Unknown'): {accuracy:.2f}")
 else:
     print("No valid predictions made.")
 
+# Print classification report
 print("\nClassification Report:")
 print(classification_report(y_test, predictions, labels=categories))
