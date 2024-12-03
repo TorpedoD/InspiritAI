@@ -73,16 +73,12 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
         print(f"Error loading tokenizer: {e}")
         return None, None, None
 
-    # Skip moving model to GPU if it is 8-bit and already handled by BitsAndBytesConfig
-    if not isinstance(model, torch.nn.Module):
-        print(f"Skipping model movement to {device} because it's an 8-bit model managed by BitsAndBytes.")
+    # Skip moving model to GPU if it is 8-bit and already handled by BitsAndBytes
+    if isinstance(model, torch.nn.Module):
+        # The model has been handled by BitsAndBytes and should already be on the correct device
+        print(f"Model is already moved to {device}.")
     else:
-        try:
-            model.to(device)
-            print(f"Model moved to {device}.")
-        except Exception as e:
-            print(f"Error moving model to {device}: {e}")
-            return None, None, None
+        print(f"Skipping model movement to {device} because it's an 8-bit model managed by BitsAndBytes.")
 
     print("Model and tokenizer loaded successfully.")
     return model, tokenizer, device
