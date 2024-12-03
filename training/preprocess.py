@@ -8,9 +8,10 @@ from nltk.stem import WordNetLemmatizer
 import pickle
 
 # Download required NLTK resources (only needed once)
-nltk.download('punkt')
+nltk.download('punkt')  # Ensure punkt tokenizer is available
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt_tab')  # Add this line to download the missing resource
 
 # Step 1: Define a function to read .txt files from subfolders
 def read_txt_files_from_folder(folder_path):
