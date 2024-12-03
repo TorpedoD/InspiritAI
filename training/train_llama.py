@@ -22,6 +22,9 @@ model, tokenizer, device = load_model(model_name=model_name, model_dir=model_dir
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token  # Set pad_token to eos_token if not set
 
+# Set padding_side to 'left' for decoder-only architecture
+tokenizer.padding_side = 'left'
+
 categories = list(set(labels))
 categories_str = ', '.join(categories)
 
@@ -52,7 +55,7 @@ for idx in range(0, len(X_test), batch_size):
     outputs = model.generate(
         **inputs,
         max_new_tokens=50,  # Increased token length for category prediction
-        do_sample=False,
+        do_sample=False,    # This ensures deterministic generation
         eos_token_id=tokenizer.eos_token_id
     )
 
