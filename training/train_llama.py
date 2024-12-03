@@ -39,8 +39,8 @@ def create_prompt(text):
         f"Answer with only the category name."
     )
 
-# Use batching for prediction
-batch_size = 8  # Adjust batch size based on available GPU memory
+# Use smaller batch size to avoid overload on CPU
+batch_size = 2  # Reduced batch size for CPU
 predictions = []
 print("Predicting categories for the test set...")
 
@@ -51,13 +51,17 @@ for idx in range(0, len(X_test), batch_size):
     # Ensure padding and truncation work without errors
     inputs = tokenizer(batch_prompts, padding=True, truncation=True, return_tensors="pt").to(device)
 
-    # Generate outputs using the model
-    outputs = model.generate(
-        **inputs,
-        max_new_tokens=50,  # Increased token length for category prediction
-        do_sample=False,    # This ensures deterministic generation
-        eos_token_id=tokenizer.eos_token_id
-    )
+    # Generate outputs using the model with limited max_new_tokens and adjusted batch size
+    try:
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=20,  # Limit token generation to 20 to speed up processing
+            do_sample=False,    # This ensures deterministic generation
+            eos_token_id=tokenizer.eos_token_id
+        )
+    except KeyboardInterrupt:
+        print("Inference interrupted due to timeout or processing delay.")
+        break
 
     # Decode and process predictions
     for i, output in enumerate(outputs):
