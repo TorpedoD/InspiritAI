@@ -1,6 +1,6 @@
 import os
-import pickle
 import torch
+import pickle
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
 from difflib import get_close_matches
@@ -8,27 +8,19 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Load processed data
 with open('processed_data.pkl', 'rb') as f:
-    processed_data, labels, file_names = pickle.load(f)
+    X_train, X_test, y_train, y_test, labels = pickle.load(f)
 
-print(f"Total number of samples in the dataset: {len(processed_data)}")
+print(f"Total number of samples in the dataset: {len(X_train) + len(X_test)}")
 unique_labels = set(labels)
 print(f"Total number of unique labels: {len(unique_labels)}")
-
-# Split data into training and testing (80% training, 20% testing)
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(processed_data, labels, test_size=0.2, random_state=42)
-print(f"Training Dataset Samples: {len(X_train)}")
-print(f"Testing Dataset Samples: {len(X_test)}")
 
 # Load the model
 model_name = "meta-llama/Llama-3.2-1B-Instruct"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 bnb_config = BitsAndBytesConfig(load_in_8bit=torch.cuda.is_available())
 print("Loading model...")
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-# Check if the model is already saved locally to avoid reloading it
 if not os.path.exists("llama_model"):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
@@ -61,13 +53,11 @@ batch_size = 8  # Adjust batch size based on available GPU memory
 predictions = []
 print("Predicting categories for the test set...")
 
-# Predict in batches
 for idx in range(0, len(X_test), batch_size):
     batch_texts = X_test[idx:idx + batch_size]
     batch_prompts = [create_prompt(text) for text in batch_texts]
     inputs = tokenizer(batch_prompts, padding=True, truncation=True, return_tensors="pt").to(device)
     
-    # Generate predictions using the model
     outputs = model.generate(
         **inputs,
         max_new_tokens=10,
@@ -75,33 +65,26 @@ for idx in range(0, len(X_test), batch_size):
         eos_token_id=tokenizer.eos_token_id
     )
 
-    # Post-process the predictions
     for i, output in enumerate(outputs):
         generated_text = tokenizer.decode(output, skip_special_tokens=True)
         predicted_category = generated_text[len(batch_prompts[i]):].strip().split("\n")[0]
         predicted_category = predicted_category.lower().strip('".\'')
-        
-        # Find closest match
         match = get_close_matches(predicted_category, [cat.lower() for cat in categories], n=1, cutoff=0.0)
         if match:
             predictions.append(categories[[cat.lower() for cat in categories].index(match[0])])
         else:
             predictions.append("Unknown")
-    
     print(f"Batch {idx // batch_size + 1}/{len(X_test) // batch_size} processed.")
 
-# Filter out 'Unknown' predictions
 valid_indices = [i for i, p in enumerate(predictions) if p != "Unknown"]
 filtered_predictions = [predictions[i] for i in valid_indices]
 filtered_y_test = [y_test[i] for i in valid_indices]
 
-# Evaluate the model performance
 if filtered_predictions:
     accuracy = accuracy_score(filtered_y_test, filtered_predictions)
     print(f"\nAccuracy on the test set (excluding 'Unknown'): {accuracy:.2f}")
 else:
     print("No valid predictions made.")
 
-# Display classification report
 print("\nClassification Report:")
 print(classification_report(y_test, predictions, labels=categories))
