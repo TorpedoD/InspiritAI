@@ -19,7 +19,15 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
         tokenizer: The loaded tokenizer.
         device: The device (CPU or GPU).
     """
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = "cpu"  # Default to CPU
+    
+    # Check if CUDA is available and set device
+    if torch.cuda.is_available():
+        device = "cuda"
+        print("CUDA is available. Loading the model on GPU.")
+    else:
+        print("CUDA not available. Loading the model on CPU.")
+
     bnb_config = BitsAndBytesConfig(load_in_8bit=torch.cuda.is_available())
     
     # Check if the model needs to be reloaded or not
@@ -36,24 +44,41 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
         
         # Load model from Hugging Face and save it locally
         print("Loading model from Hugging Face...")
-        model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            device_map="auto",
-            quantization_config=bnb_config if torch.cuda.is_available() else None,
-            torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-        )
-        model.save_pretrained(model_dir)
-        print(f"Model saved at {model_dir}")
+        try:
+            model = AutoModelForCausalLM.from_pretrained(
+                model_name,
+                device_map="auto" if device == "cuda" else None,
+                quantization_config=bnb_config if device == "cuda" else None,
+                torch_dtype=torch.float16 if device == "cuda" else torch.float32,
+            )
+            model.save_pretrained(model_dir)
+            print(f"Model saved at {model_dir}")
+        except Exception as e:
+            print(f"Error loading model from Hugging Face: {e}")
+            return None, None, None
     else:
         # Load model from local directory
         print("Loading model from local directory...")
-        model = AutoModelForCausalLM.from_pretrained(model_dir)
+        try:
+            model = AutoModelForCausalLM.from_pretrained(model_dir)
+        except Exception as e:
+            print(f"Error loading model from local directory: {e}")
+            return None, None, None
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model.to(device)
     
+    # Ensure the model is moved to the correct device
+    try:
+        model.to(device)
+        print(f"Model moved to {device}.")
+    except Exception as e:
+        print(f"Error moving model to {device}: {e}")
+        return None, None, None
+
     print("Model and tokenizer loaded successfully.")
     return model, tokenizer, device
 
 if __name__ == "__main__":
     model, tokenizer, device = load_model(reload_model=True)
+    if model is None:
+        print("Failed to load the model. Exiting.")
