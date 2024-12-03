@@ -28,6 +28,7 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
     else:
         print("CUDA not available. Loading the model on CPU.")
 
+    # Config for BitsAndBytes
     bnb_config = BitsAndBytesConfig(load_in_8bit=torch.cuda.is_available())
     
     # Check if the model needs to be reloaded or not
@@ -72,13 +73,16 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
         print(f"Error loading tokenizer: {e}")
         return None, None, None
 
-    # Ensure the model is moved to the correct device
-    try:
-        model.to(device)
-        print(f"Model moved to {device}.")
-    except Exception as e:
-        print(f"Error moving model to {device}: {e}")
-        return None, None, None
+    # Skip moving model to GPU if it is 8-bit and already handled by BitsAndBytesConfig
+    if not isinstance(model, torch.nn.Module):
+        print(f"Skipping model movement to {device} because it's an 8-bit model managed by BitsAndBytes.")
+    else:
+        try:
+            model.to(device)
+            print(f"Model moved to {device}.")
+        except Exception as e:
+            print(f"Error moving model to {device}: {e}")
+            return None, None, None
 
     print("Model and tokenizer loaded successfully.")
     return model, tokenizer, device
