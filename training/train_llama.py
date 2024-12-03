@@ -1,10 +1,7 @@
-import os
-import torch
 import pickle
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers import BitsAndBytesConfig
 from difflib import get_close_matches
 from sklearn.metrics import accuracy_score, classification_report
+from load_model import load_model  # Import the function from the model loading script
 
 # Load processed data
 with open('processed_data.pkl', 'rb') as f:
@@ -16,25 +13,10 @@ print(f"Total number of unique labels: {len(unique_labels)}")
 
 # Load the model
 model_name = "meta-llama/Llama-3.2-1B-Instruct"
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-bnb_config = BitsAndBytesConfig(load_in_8bit=torch.cuda.is_available())
-print("Loading model...")
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+model_dir = "llama_model"  # Directory to save/load the model
 
-# Check if the model is already saved
-if not os.path.exists("llama_model"):
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        device_map="auto",
-        quantization_config=bnb_config if torch.cuda.is_available() else None,
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-    )
-    model.save_pretrained("llama_model")
-else:
-    model = AutoModelForCausalLM.from_pretrained("llama_model")
-
-model.to(device)
-print("Model loaded.")
+# Load model using the function from load_model.py
+model, tokenizer, device = load_model(model_name=model_name, model_dir=model_dir)
 
 categories = list(set(labels))
 categories_str = ', '.join(categories)
