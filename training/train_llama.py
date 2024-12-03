@@ -76,4 +76,13 @@ valid_indices = [i for i, p in enumerate(predictions) if p != "Unknown"]
 filtered_predictions = [predictions[i] for i in valid_indices]
 filtered_y_test = [y_test[i] for i in valid_indices]
 
-# Calculate accuracy if valid predictions 
+# Calculate accuracy if valid predictions exist
+if filtered_predictions:
+    accuracy = accuracy_score(filtered_y_test, filtered_predictions)
+    print(f"\nAccuracy on the test set (excluding 'Unknown'): {accuracy:.2f}")
+else:
+    print("No valid predictions made.")
+
+# Print classification report
+print("\nClassification Report:")
+print(classification_report(y_test, predictions, labels=categories))
