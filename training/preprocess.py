@@ -1,14 +1,17 @@
 import os
+import zipfile
 import nltk
 import pandas as pd
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import pickle
+
 # Download required NLTK resources (only needed once)
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+
 # Step 1: Define a function to read .txt files from subfolders
 def read_txt_files_from_folder(folder_path):
     data = []  # Stores content of .txt files
@@ -32,6 +35,7 @@ def read_txt_files_from_folder(folder_path):
                 except Exception as e:
                     print(f"Error reading file {file_path}: {e}")
     return data, labels, file_names
+
 # Step 2: Preprocess the text data (tokenization, stopword removal, lemmatization)
 def preprocess_text(data):
     stop_words = set(stopwords.words('english'))
@@ -46,18 +50,44 @@ def preprocess_text(data):
         ]
         processed_data.append(" ".join(filtered_tokens))
     return processed_data
-# Main function for preprocessing
+
+# Unzip the dataset
+def unzip_file(zip_path, extract_to):
+    if not os.path.exists(zip_path):
+        print(f"Error: The zip file '{zip_path}' does not exist.")
+        return
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall(extract_to)
+    print(f"Files unzipped to: {extract_to}")
+
+# Main function to execute preprocessing
 if __name__ == "__main__":
-    folder_path = "data/txt/txt"  # Folder containing .txt files (change to your path)
+    zip_file_path = "data/txt.zip"  # Replace with the path to your zip file
+    extract_to = "data/txt"  # Path to extract files
+    pull_from = "data/txt/txt"  # Adjust this path if needed
+    
+    # Unzip the file
+    unzip_file(zip_file_path, extract_to)
     
     # Read .txt files and handle subfolders
-    data, labels, file_names = read_txt_files_from_folder(folder_path)
+    data, labels, file_names = read_txt_files_from_folder(pull_from)
     if data is None or labels is None or file_names is None:
         exit(1)
-    # Preprocess the text
-    processed_data = preprocess_text(data)
-    # Save processed data, labels, and file names
-    with open('processed_data.pkl', 'wb') as f:
-        pickle.dump((processed_data, labels, file_names), f)
     
-    print("Preprocessing complete and data saved as 'processed_data.pkl'.")
+    print(f"Total number of samples in the dataset: {len(data)}")
+    print(f"Total number of unique labels: {len(set(labels))}")
+    
+    # Preprocess the data
+    processed_data = preprocess_text(data)
+
+    # Split the data into training and testing sets
+    from sklearn.model_selection import train_test_split
+    X_train, X_test, y_train, y_test = train_test_split(processed_data, labels, test_size=0.2, random_state=42)
+    print(f"Training Dataset Samples: {len(X_train)}")
+    print(f"Testing Dataset Samples: {len(X_test)}")
+
+    # Save the preprocessed data and splits for the training script
+    with open('processed_data.pkl', 'wb') as f:
+        pickle.dump((X_train, X_test, y_train, y_test, labels), f)
+
+    print("Preprocessing and data saving complete.")
