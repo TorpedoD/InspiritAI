@@ -65,8 +65,13 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
             print(f"Error loading model from local directory: {e}")
             return None, None, None
 
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    
+    tokenizer = None
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+    except Exception as e:
+        print(f"Error loading tokenizer: {e}")
+        return None, None, None
+
     # Ensure the model is moved to the correct device
     try:
         model.to(device)
