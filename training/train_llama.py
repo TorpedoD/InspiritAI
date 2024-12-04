@@ -7,7 +7,8 @@ from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
 
 class TextClassifier:
-    def __init__(self, model_name, model_dir, num_labels):
+    def __init__(self, model_name, model_dir, num_labels, device='cuda'):
+        self.device = device
         self.model_name = model_name
         self.model_dir = model_dir
         self.num_labels = num_labels
@@ -26,7 +27,7 @@ class TextClassifier:
         base_model = AutoModelForCausalLM.from_pretrained(self.model_name, cache_dir=self.model_dir).half()
 
         # Define the custom model with classification head
-        self.model = self.LlamaForSequenceClassification(base_model, self.num_labels)
+        self.model = self.LlamaForSequenceClassification(base_model, self.num_labels).to(self.device)
 
     class LlamaForSequenceClassification(nn.Module):
         def __init__(self, base_model, num_labels):
@@ -103,6 +104,7 @@ class TextClassifier:
             save_total_limit=2,
             logging_dir='./logs',
             logging_steps=10,
+            device=self.device  # Make sure device is set properly
         )
 
         # Initialize the Trainer
@@ -156,7 +158,7 @@ class TextClassifier:
         # Tokenize texts
         encoding = self.tokenizer(
             texts, padding=True, truncation=True, max_length=512, return_tensors='pt')
-        encoding = {k: v.to(self.model.base_model.device) for k, v in encoding.items()}
+        encoding = {k: v.to(self.device) for k, v in encoding.items()}
 
         # Get predictions
         self.model.eval()
@@ -180,7 +182,7 @@ if __name__ == "__main__":
         _, _, _, _, labels = pickle.load(f)
     num_labels = len(set(labels))
 
-    classifier = TextClassifier(model_name, model_dir, num_labels)
+    classifier = TextClassifier(model_name, model_dir, num_labels, device='cuda' if torch.cuda.is_available() else 'cpu')
 
     # Load and preprocess data
     classifier.load_data(data_path)
