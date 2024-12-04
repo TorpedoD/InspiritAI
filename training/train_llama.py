@@ -17,13 +17,13 @@ class TextClassifier:
 
         # Set the pad_token if it's not defined
         if self.tokenizer.pad_token is None:
-            self.tokenizer.pad_token = self.tokenizer.eos_token  # Set pad_token to eos_token if not set
+            self.tokenizer.pad_token = self.tokenizer.eos_token
 
-        # Set padding_side to 'left' for decoder-only architecture
+        # Use left padding for decoder-only models
         self.tokenizer.padding_side = 'left'
 
-        # Load the base model
-        base_model = AutoModelForCausalLM.from_pretrained(self.model_name, cache_dir=self.model_dir)
+        # Load the base model in mixed precision (half-precision)
+        base_model = AutoModelForCausalLM.from_pretrained(self.model_name, cache_dir=self.model_dir).half()
 
         # Define the custom model with classification head
         self.model = self.LlamaForSequenceClassification(base_model, self.num_labels)
@@ -37,16 +37,16 @@ class TextClassifier:
 
         def forward(self, input_ids=None, attention_mask=None, labels=None):
             outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask, output_hidden_states=True)
-            hidden_states = outputs.hidden_states  # tuple of hidden states from all layers
-            last_hidden_state = hidden_states[-1]  # last hidden state
-            pooled_output = last_hidden_state[:, -1, :]  # Use the last token's hidden state
+            hidden_states = outputs.hidden_states
+            last_hidden_state = hidden_states[-1]
+            pooled_output = last_hidden_state[:, -1, :]
             pooled_output = self.dropout(pooled_output)
             logits = self.classifier(pooled_output)
 
             loss = None
             if labels is not None:
                 loss_fct = nn.CrossEntropyLoss()
-                loss = loss_fct(logits.view(-1, num_labels), labels.view(-1))
+                loss = loss_fct(logits.view(-1, self.classifier.out_features), labels.view(-1))
 
             return {'loss': loss, 'logits': logits}
 
@@ -80,13 +80,13 @@ class TextClassifier:
 
         # Tokenize function
         def tokenize_function(examples):
-            return self.tokenizer(examples['text'], padding='max_length', truncation=True, max_length=512)
+            return self.tokenizer(examples['text'], truncation=True)
 
         # Tokenize datasets
         self.tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
         self.tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 
-        # Set format for PyTorch
+        # Set format for PyTorch with dynamic padding
         self.tokenized_train_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
         self.tokenized_test_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
         print("Datasets prepared and tokenized.")
@@ -97,13 +97,12 @@ class TextClassifier:
             output_dir=output_dir,
             num_train_epochs=num_train_epochs,
             per_device_train_batch_size=batch_size,
-            per_device_eval_batch_size=batch_size,
-            warmup_steps=500,
-            weight_decay=0.01,
+            gradient_accumulation_steps=4,  # Use gradient accumulation
+            fp16=True,  # Enable mixed precision
             evaluation_strategy="epoch",
+            save_total_limit=2,
             logging_dir='./logs',
             logging_steps=10,
-            save_total_limit=2,
         )
 
         # Initialize the Trainer
@@ -156,7 +155,7 @@ class TextClassifier:
     def predict(self, texts):
         # Tokenize texts
         encoding = self.tokenizer(
-            texts, padding='max_length', truncation=True, max_length=512, return_tensors='pt')
+            texts, padding=True, truncation=True, max_length=512, return_tensors='pt')
         encoding = {k: v.to(self.model.base_model.device) for k, v in encoding.items()}
 
         # Get predictions
@@ -172,9 +171,8 @@ class TextClassifier:
 
 # Usage example
 if __name__ == "__main__":
-    # Initialize the classifier
     model_name = "meta-llama/Llama-3.2-1B-Instruct"
-    model_dir = "llama_model"  # Directory to save/load the model
+    model_dir = "llama_model"
     data_path = 'processed_data.pkl'
 
     # Load processed data to get the number of labels
