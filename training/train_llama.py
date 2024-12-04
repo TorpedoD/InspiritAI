@@ -5,6 +5,10 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingA
 from sklearn.metrics import accuracy_score, classification_report, precision_recall_fscore_support
 from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
+import os
+
+# Set the CUDA_VISIBLE_DEVICES environment variable if needed to avoid conflicts
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only the first GPU
 
 class TextClassifier:
     def __init__(self, model_name, model_dir, num_labels, device='cuda'):
@@ -158,49 +162,34 @@ class TextClassifier:
         # Tokenize texts
         encoding = self.tokenizer(
             texts, padding=True, truncation=True, max_length=512, return_tensors='pt')
-        encoding = {k: v.to(self.device) for k, v in encoding.items()}
+        encoding = encoding.to(self.device)
 
-        # Get predictions
-        self.model.eval()
+        # Get model predictions
         with torch.no_grad():
             outputs = self.model(**encoding)
             logits = outputs['logits']
-            preds = logits.argmax(-1).cpu().numpy()
+            preds = torch.argmax(logits, dim=-1)
+            return self.label_encoder.inverse_transform(preds.cpu().numpy())
 
-        # Decode labels
-        predicted_labels = self.label_encoder.inverse_transform(preds)
-        return predicted_labels
+# Example Usage:
+# Initialize the classifier
+model_name = 'path_to_pretrained_model_or_model_name'
+output_dir = './results'
+num_labels = len(set(y_train))  # Define number of labels
 
-# Usage example
-if __name__ == "__main__":
-    model_name = "meta-llama/Llama-3.2-1B-Instruct"
-    model_dir = "llama_model"
-    data_path = 'processed_data.pkl'
+classifier = TextClassifier(model_name=model_name, model_dir=output_dir, num_labels=num_labels)
 
-    # Load processed data to get the number of labels
-    with open(data_path, 'rb') as f:
-        _, _, _, _, labels = pickle.load(f)
-    num_labels = len(set(labels))
+# Load and process data
+classifier.load_data('path_to_pickled_data.pkl')
 
-    classifier = TextClassifier(model_name, model_dir, num_labels, device='cuda' if torch.cuda.is_available() else 'cpu')
+# Encode labels
+classifier.encode_labels()
 
-    # Load and preprocess data
-    classifier.load_data(data_path)
-    classifier.encode_labels()
-    classifier.prepare_datasets()
+# Prepare datasets
+classifier.prepare_datasets()
 
-    # Train the model
-    classifier.train(output_dir='./results', num_train_epochs=3, batch_size=2)
+# Train the model
+classifier.train()
 
-    # Evaluate the model
-    classifier.evaluate()
-
-    # Optional: Predict on new texts
-    new_texts = [
-        "Sample text for classification.",
-        "Another example text to classify."
-    ]
-    predictions = classifier.predict(new_texts)
-    print("\nPredictions on new texts:")
-    for text, label in zip(new_texts, predictions):
-        print(f"Text: {text}\nPredicted Label: {label}\n")
+# Evaluate the model
+classifier.evaluate()
