@@ -1,15 +1,5 @@
 import os
 import torch
-
-# Try to disable TensorFlow
-try:
-    import tensorflow as tf
-    print("TensorFlow detected. Disabling TensorFlow for this run.")
-    # Unset the environment variable to prevent loading tensorflow
-    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  # Disable GPU for TensorFlow
-except ImportError:
-    print("TensorFlow is not installed or is disabled.")
-
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
 
