@@ -80,7 +80,7 @@ class TextClassifier:
         self.y_test_encoded = self.label_encoder.transform(self.y_test)
         print("Labels encoded successfully.")
 
-    def prepare_datasets(self):
+    def prepare_datasets(self, batch_size=64):
         print("Preparing datasets...")
         train_dataset = Dataset.from_dict({'text': self.X_train, 'labels': self.y_train_encoded})
         test_dataset = Dataset.from_dict({'text': self.X_test, 'labels': self.y_test_encoded})
@@ -88,8 +88,9 @@ class TextClassifier:
         def tokenize_function(examples):
             return self.tokenizer(examples['text'], padding='max_length', truncation=True, max_length=64)
 
-        self.tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
-        self.tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
+        # Use batch processing for tokenization to reduce memory load
+        self.tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True, batch_size=batch_size)
+        self.tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True, batch_size=batch_size)
 
         self.tokenized_train_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
         self.tokenized_test_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
@@ -142,7 +143,7 @@ def main():
     classifier.encode_labels()
 
     print("Preparing datasets...")
-    classifier.prepare_datasets()
+    classifier.prepare_datasets(batch_size=64)  # Set an appropriate batch size for your environment
 
     print("Starting evaluation...")
     classifier.evaluate()
