@@ -18,12 +18,17 @@ class TextClassifier:
         self.model = AutoModelForCausalLM.from_pretrained(self.model_name, cache_dir=self.model_dir)
         self.model.to(self.device)
 
+        # Print initial model weights and structure
+        print(f"Model structure:\n{self.model}")
+        print(f"Initial model parameters: {sum(p.numel() for p in self.model.parameters())}")
+    
     def train(self, output_dir='./results', num_train_epochs=3, batch_size=2):
         # Ensure datasets are loaded
         if not hasattr(self, 'tokenized_train_dataset') or not hasattr(self, 'tokenized_test_dataset'):
             raise ValueError("Datasets must be tokenized and assigned before training.")
 
         print(f"Training with {len(self.tokenized_train_dataset)} training samples.")
+        print(f"Batch size: {batch_size}, Training epochs: {num_train_epochs}")
 
         # Set up optimizer and learning rate scheduler
         optimizer = torch.optim.AdamW(self.model.parameters(), lr=5e-5, weight_decay=0.01)
@@ -57,8 +62,13 @@ class TextClassifier:
         print("Starting training...")
         # Train with mixed precision
         scaler = GradScaler()
-        trainer.train()  # Trainer handles batch processing and mixed precision for you
+
+        # Starting training
+        trainer.train()
         print("Training completed.")
+
+        # Print final model parameters
+        print(f"Final model parameters: {sum(p.numel() for p in self.model.parameters())}")
 
     def evaluate(self):
         print("Evaluating the model...")
@@ -68,10 +78,23 @@ class TextClassifier:
             eval_results = self.trainer.evaluate()
             print("Evaluation Results:", eval_results)
 
-    # Additional functions like `predict` and others can also use similar optimizations
-
     def compute_metrics(self, eval_pred):
         logits, labels = eval_pred
         predictions = torch.argmax(logits, axis=-1)
         accuracy = (predictions == labels).float().mean()
+        print(f"Accuracy during evaluation: {accuracy.item()}")
         return {"accuracy": accuracy.item()}
+    
+    def print_model_params(self):
+        """
+        Print out the model's parameter values (e.g., for debugging purposes).
+        """
+        for name, param in self.model.named_parameters():
+            if param.requires_grad:
+                print(f"Parameter {name}: {param.data}")
+
+# Example usage:
+# Assuming you've tokenized your train and test datasets, and assigned them
+# text_classifier = TextClassifier(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_model", num_labels=2)
+# text_classifier.train(num_train_epochs=3, batch_size=2)
+# text_classifier.evaluate()
