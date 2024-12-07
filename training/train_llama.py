@@ -11,7 +11,7 @@ class TextClassifier:
         self.model_dir = model_dir
         self.num_labels = num_labels
 
-        # Load the tokenizer
+        # Load the tokenizer from the model directory
         try:
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_dir)
         except Exception as e:
@@ -112,57 +112,15 @@ class TextClassifier:
         predicted_labels = self.label_encoder.inverse_transform(preds)
 
         print("\nClassification Report:")
-        print(classification_report(true_labels, predicted_labels, labels=self.label_encoder.classes_))
+        print(classification_report(true_labels, predicted_labels))
 
-    @staticmethod
-    def compute_metrics(pred):
+    def compute_metrics(self, pred):
         labels = pred.label_ids
         preds = pred.predictions.argmax(-1)
-        precision, recall, f1, _ = precision_recall_fscore_support(
-            labels, preds, average='weighted', zero_division=0)
-        acc = accuracy_score(labels, preds)
+        precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average='weighted')
+
         return {
-            'accuracy': acc,
-            'f1': f1,
             'precision': precision,
-            'recall': recall
+            'recall': recall,
+            'f1': f1
         }
-
-    def predict(self, texts):
-        encoding = self.tokenizer(
-            texts, padding='max_length', truncation=True, max_length=64, return_tensors='pt')
-        encoding = {k: v.to(self.model.base_model.device) for k, v in encoding.items()}
-
-        self.model.eval()
-        with torch.no_grad():
-            outputs = self.model(**encoding)
-            logits = outputs['logits']
-            preds = logits.argmax(-1).cpu().numpy()
-
-        predicted_labels = self.label_encoder.inverse_transform(preds)
-        return predicted_labels
-
-if __name__ == "__main__":
-    model_dir = "llama2_model"  # Path to the trained model directory (saved in Script 1)
-    data_path = 'processed_data.pkl'
-
-    with open(data_path, 'rb') as f:
-        _, _, _, _, labels = pickle.load(f)
-    num_labels = len(set(labels))
-
-    classifier = TextClassifier(model_dir, num_labels)
-
-    classifier.load_data(data_path)
-    classifier.encode_labels()
-    classifier.prepare_datasets()
-
-    classifier.evaluate()
-
-    new_texts = [
-        "Sample text for classification.",
-        "Another example text to classify."
-    ]
-    predictions = classifier.predict(new_texts)
-    print("\nPredictions on new texts:")
-    for text, label in zip(new_texts, predictions):
-        print(f"Text: {text}\nPredicted Label: {label}\n")
