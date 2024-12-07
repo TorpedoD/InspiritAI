@@ -6,6 +6,10 @@ from sklearn.metrics import accuracy_score, classification_report, precision_rec
 from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
 
+# Optionally disable GPU for TensorFlow if it's not needed
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Disable TensorFlow GPU usage
+
 class TextClassifier:
     def __init__(self, model_name, model_dir, num_labels):
         self.model_name = model_name
