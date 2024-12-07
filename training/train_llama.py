@@ -50,7 +50,7 @@ class TextClassifier:
             loss = None
             if labels is not None:
                 loss_fct = nn.CrossEntropyLoss()
-                loss = loss_fct(logits.view(-1, num_labels), labels.view(-1))
+                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
 
             return {'loss': loss, 'logits': logits}
 
@@ -82,7 +82,7 @@ class TextClassifier:
 
         # Tokenization function with truncation and padding
         def tokenize_function(examples):
-            return self.tokenizer(examples['text'], padding='max_length', truncation=True, max_length=128)
+            return self.tokenizer(examples['text'], padding='max_length', truncation=True, max_length=64)
 
         # Tokenize datasets
         self.tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
@@ -109,6 +109,9 @@ class TextClassifier:
             fp16=True,  # Use mixed precision for training
             gradient_accumulation_steps=4,  # Gradient accumulation
             load_best_model_at_end=True,
+            max_grad_norm=1.0,  # Prevent exploding gradients
+            dataloader_num_workers=2,  # Number of CPU workers for data loading
+            report_to="none",  # Disable reporting to external services
         )
 
         # Initialize Trainer with mixed precision
@@ -159,7 +162,7 @@ class TextClassifier:
     def predict(self, texts):
         # Tokenize texts
         encoding = self.tokenizer(
-            texts, padding='max_length', truncation=True, max_length=128, return_tensors='pt')
+            texts, padding='max_length', truncation=True, max_length=64, return_tensors='pt')
         encoding = {k: v.to(self.model.base_model.device) for k, v in encoding.items()}
 
         # Get predictions
