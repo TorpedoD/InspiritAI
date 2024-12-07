@@ -7,8 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
 
 class TextClassifier:
-    def __init__(self, model_name, model_dir, num_labels):
-        self.model_name = model_name
+    def __init__(self, model_dir, num_labels):
         self.model_dir = model_dir
         self.num_labels = num_labels
 
@@ -24,7 +23,7 @@ class TextClassifier:
 
         self.tokenizer.padding_side = 'left'
 
-        # Load the base model
+        # Load the trained model
         try:
             base_model = AutoModelForCausalLM.from_pretrained(self.model_dir)
         except Exception as e:
@@ -94,45 +93,19 @@ class TextClassifier:
         self.tokenized_test_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
         print("Datasets prepared and tokenized.")
 
-    def train(self, output_dir='./results', num_train_epochs=3, batch_size=2):
-        training_args = TrainingArguments(
-            output_dir=output_dir,
-            num_train_epochs=num_train_epochs,
-            per_device_train_batch_size=batch_size,
-            per_device_eval_batch_size=batch_size,
-            warmup_steps=500,
-            weight_decay=0.01,
-            evaluation_strategy="epoch",
-            logging_dir='./logs',
-            logging_steps=10,
-            save_total_limit=2,
-            fp16=True,
-            gradient_accumulation_steps=4,
-            load_best_model_at_end=True,
-            max_grad_norm=1.0,
-            dataloader_num_workers=2,
-            report_to="none",
-        )
-
-        self.trainer = Trainer(
+    def evaluate(self):
+        print("Evaluating the model...")
+        trainer = Trainer(
             model=self.model,
-            args=training_args,
-            train_dataset=self.tokenized_train_dataset,
             eval_dataset=self.tokenized_test_dataset,
             tokenizer=self.tokenizer,
             compute_metrics=self.compute_metrics,
         )
 
-        print("Starting training...")
-        self.trainer.train()
-        print("Training completed.")
-
-    def evaluate(self):
-        print("Evaluating the model...")
-        eval_results = self.trainer.evaluate()
+        eval_results = trainer.evaluate()
         print(f"\nEvaluation results:\n{eval_results}")
 
-        predictions = self.trainer.predict(self.tokenized_test_dataset)
+        predictions = trainer.predict(self.tokenized_test_dataset)
         preds = predictions.predictions.argmax(-1)
 
         true_labels = self.label_encoder.inverse_transform(self.y_test_encoded)
@@ -170,21 +143,18 @@ class TextClassifier:
         return predicted_labels
 
 if __name__ == "__main__":
-    model_name = "meta-llama/Llama-2-7B-hf"
-    model_dir = "llama2_model"
+    model_dir = "./trained_model"  # Path to the trained model directory (saved in Script 1)
     data_path = 'processed_data.pkl'
 
     with open(data_path, 'rb') as f:
         _, _, _, _, labels = pickle.load(f)
     num_labels = len(set(labels))
 
-    classifier = TextClassifier(model_name, model_dir, num_labels)
+    classifier = TextClassifier(model_dir, num_labels)
 
     classifier.load_data(data_path)
     classifier.encode_labels()
     classifier.prepare_datasets()
-
-    classifier.train(output_dir='./results', num_train_epochs=3, batch_size=2)
 
     classifier.evaluate()
 
