@@ -143,7 +143,7 @@ class TextClassifier:
         return predicted_labels
 
 if __name__ == "__main__":
-    model_dir = "./trained_model"  # Path to the trained model directory (saved in Script 1)
+    model_dir = "llama2_model"  # Path to the trained model directory (saved in Script 1)
     data_path = 'processed_data.pkl'
 
     with open(data_path, 'rb') as f:
