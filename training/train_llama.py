@@ -11,19 +11,18 @@ class TextClassifier:
         self.model_dir = model_dir
         self.num_labels = num_labels
 
-        # Load the tokenizer from the model directory
+        print("Loading tokenizer...")
         try:
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_dir)
         except Exception as e:
             raise RuntimeError(f"Failed to load tokenizer from {self.model_dir}: {e}")
-
+        
         # Set pad_token if it's not defined
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
-
         self.tokenizer.padding_side = 'left'
 
-        # Load the trained model
+        print("Loading model...")
         try:
             base_model = AutoModelForCausalLM.from_pretrained(self.model_dir)
         except Exception as e:
@@ -59,6 +58,7 @@ class TextClassifier:
             return {'loss': loss, 'logits': logits}
 
     def load_data(self, data_path):
+        print("Loading data...")
         with open(data_path, 'rb') as f:
             X_train, X_test, y_train, y_test, labels = pickle.load(f)
 
@@ -73,6 +73,7 @@ class TextClassifier:
         self.labels = labels
 
     def encode_labels(self):
+        print("Encoding labels...")
         self.label_encoder = LabelEncoder()
         self.label_encoder.fit(self.labels)
         self.y_train_encoded = self.label_encoder.transform(self.y_train)
@@ -80,6 +81,7 @@ class TextClassifier:
         print("Labels encoded successfully.")
 
     def prepare_datasets(self):
+        print("Preparing datasets...")
         train_dataset = Dataset.from_dict({'text': self.X_train, 'labels': self.y_train_encoded})
         test_dataset = Dataset.from_dict({'text': self.X_test, 'labels': self.y_test_encoded})
 
@@ -124,3 +126,28 @@ class TextClassifier:
             'recall': recall,
             'f1': f1
         }
+
+def main():
+    model_dir = "llama2_model"  # Directory where the model is saved
+    data_path = "data.pkl"  # Path to your data file
+    num_labels = 10  # Example number of labels for classification
+
+    print("Initializing the classifier...")
+    classifier = TextClassifier(model_dir=model_dir, num_labels=num_labels)
+
+    print("Loading data...")
+    classifier.load_data(data_path)
+
+    print("Encoding labels...")
+    classifier.encode_labels()
+
+    print("Preparing datasets...")
+    classifier.prepare_datasets()
+
+    print("Starting evaluation...")
+    classifier.evaluate()
+
+    print("Evaluation complete.")
+
+if __name__ == "__main__":
+    main()
