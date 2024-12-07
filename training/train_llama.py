@@ -1,7 +1,17 @@
+import os
 import torch
 from torch.utils.data import DataLoader
 from transformers import Trainer, TrainingArguments, AutoModelForCausalLM, AutoTokenizer, get_linear_schedule_with_warmup
 from torch.cuda.amp import autocast, GradScaler
+
+# Try to disable TensorFlow if installed
+try:
+    import tensorflow as tf
+    print("TensorFlow detected. Disabling TensorFlow for this run.")
+    # Unset the environment variable to prevent TensorFlow from using GPU
+    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  # Disable GPU for TensorFlow
+except ImportError:
+    print("TensorFlow is not installed or is disabled.")
 
 class TextClassifier:
     def __init__(self, model_name, model_dir, num_labels):
