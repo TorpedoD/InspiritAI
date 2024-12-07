@@ -19,19 +19,15 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
         tokenizer: The loaded tokenizer.
         device: The device (CPU or GPU).
     """
-    device = "cpu"  # Default to CPU
+    # Set device to CUDA if available
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     
-    # Check if CUDA is available and set device
-    if torch.cuda.is_available():
-        device = "cuda"
-        print("CUDA is available. Loading the model on GPU.")
-    else:
-        print("CUDA not available. Loading the model on CPU.")
+    print(f"Device set to {device}.")
 
-    # Config for BitsAndBytes
+    # Initialize BitsAndBytes config for 8-bit quantization if CUDA is available
     bnb_config = BitsAndBytesConfig(load_in_8bit=torch.cuda.is_available())
-    
-    # Check if the model needs to be reloaded or not
+
+    # Check if the model needs to be reloaded
     if reload_model or not os.path.exists(model_dir):
         # Delete the local model directory if it exists
         if os.path.exists(model_dir):
@@ -42,15 +38,15 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
                 for dir in dirs:
                     os.rmdir(os.path.join(root, dir))
             os.rmdir(model_dir)
-        
+
         # Load model from Hugging Face and save it locally
         print("Loading model from Hugging Face...")
         try:
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
-                device_map="auto" if device == "cuda" else None,
-                quantization_config=bnb_config if device == "cuda" else None,
-                torch_dtype=torch.float16 if device == "cuda" else torch.float32,
+                device_map="auto" if device == "cuda" else None,  # Automatically handle GPU if available
+                quantization_config=bnb_config if device == "cuda" else None,  # Use 8-bit if on GPU
+                torch_dtype=torch.float16 if device == "cuda" else torch.float32,  # Set dtype for GPU or CPU
             )
             model.save_pretrained(model_dir)
             print(f"Model saved at {model_dir}")
@@ -73,13 +69,9 @@ def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_m
         print(f"Error loading tokenizer: {e}")
         return None, None, None
 
-    # Skip moving model to GPU if it is 8-bit and already handled by BitsAndBytes
-    if isinstance(model, torch.nn.Module):
-        # The model has been handled by BitsAndBytes and should already be on the correct device
-        print(f"Model is already moved to {device}.")
-    else:
-        print(f"Skipping model movement to {device} because it's an 8-bit model managed by BitsAndBytes.")
-
+    # No need to move model to GPU manually as it's already handled by device_map
+    print(f"Model is already on {device}.")
+    
     print("Model and tokenizer loaded successfully.")
     return model, tokenizer, device
 
