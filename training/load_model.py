@@ -3,9 +3,6 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
 
-# Temporarily disable TensorFlow by setting CUDA_VISIBLE_DEVICES to empty
-os.environ["CUDA_VISIBLE_DEVICES"] = ""
-
 def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_model", reload_model=False):
     """
     Loads the model and tokenizer from the Hugging Face Hub or from a saved directory.
