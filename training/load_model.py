@@ -50,6 +50,12 @@ def load_model(model_name="meta-llama/Llama-2-7b-chat-hf", model_dir="llama2_mod
             )
             model.save_pretrained(model_dir)
             print(f"Model saved at {model_dir}")
+            
+            # Save the tokenizer along with the model
+            tokenizer = AutoTokenizer.from_pretrained(model_name)
+            tokenizer.save_pretrained(model_dir)
+            print(f"Tokenizer saved at {model_dir}")
+            
         except Exception as e:
             print(f"Error loading model from Hugging Face: {e}")
             return None, None, None
@@ -64,7 +70,7 @@ def load_model(model_name="meta-llama/Llama-2-7b-chat-hf", model_dir="llama2_mod
 
     tokenizer = None
     try:
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        tokenizer = AutoTokenizer.from_pretrained(model_dir)
     except Exception as e:
         print(f"Error loading tokenizer: {e}")
         return None, None, None
