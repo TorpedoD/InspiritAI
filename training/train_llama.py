@@ -16,18 +16,21 @@ class TextClassifier:
         # Load the tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, cache_dir=self.model_dir)
 
-        # Set the pad_token if it's not defined
+        # Set pad_token if it's not defined
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token  # Set pad_token to eos_token if not set
 
-        # Set padding_side to 'left' for decoder-only architecture
-        self.tokenizer.padding_side = 'left'
+        self.tokenizer.padding_side = 'left'  # Set padding_side to 'left' for decoder-only architecture
 
         # Load the base model
         base_model = AutoModelForCausalLM.from_pretrained(self.model_name, cache_dir=self.model_dir)
 
-        # Define the custom model with classification head
+        # Define custom model with classification head
         self.model = self.LlamaForSequenceClassification(base_model, self.num_labels)
+
+        # Move the model to GPU if available
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model.to(self.device)
 
     class LlamaForSequenceClassification(nn.Module):
         def __init__(self, base_model, num_labels):
@@ -38,7 +41,8 @@ class TextClassifier:
 
         def forward(self, input_ids=None, attention_mask=None, labels=None):
             outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask, output_hidden_states=True)
-            last_hidden_state = outputs.hidden_states[-1]  # last hidden state
+            hidden_states = outputs.hidden_states  # tuple of hidden states from all layers
+            last_hidden_state = hidden_states[-1]  # last hidden state
             pooled_output = last_hidden_state[:, -1, :]  # Use the last token's hidden state
             pooled_output = self.dropout(pooled_output)
             logits = self.classifier(pooled_output)
@@ -51,7 +55,6 @@ class TextClassifier:
             return {'loss': loss, 'logits': logits}
 
     def load_data(self, data_path):
-        # Load processed data
         with open(data_path, 'rb') as f:
             X_train, X_test, y_train, y_test, labels = pickle.load(f)
 
@@ -66,7 +69,6 @@ class TextClassifier:
         self.labels = labels
 
     def encode_labels(self):
-        # Encode labels to integers
         self.label_encoder = LabelEncoder()
         self.label_encoder.fit(self.labels)
         self.y_train_encoded = self.label_encoder.transform(self.y_train)
@@ -78,13 +80,13 @@ class TextClassifier:
         train_dataset = Dataset.from_dict({'text': self.X_train, 'labels': self.y_train_encoded})
         test_dataset = Dataset.from_dict({'text': self.X_test, 'labels': self.y_test_encoded})
 
-        # Tokenize function
+        # Tokenization function with truncation and padding
         def tokenize_function(examples):
-            return self.tokenizer(examples['text'], padding='max_length', truncation=True, max_length=512)
+            return self.tokenizer(examples['text'], padding='max_length', truncation=True, max_length=128)
 
-        # Tokenize datasets with optimization
-        self.tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True, load_from_cache_file=False)
-        self.tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True, load_from_cache_file=False)
+        # Tokenize datasets
+        self.tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
+        self.tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 
         # Set format for PyTorch
         self.tokenized_train_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
@@ -92,7 +94,7 @@ class TextClassifier:
         print("Datasets prepared and tokenized.")
 
     def train(self, output_dir='./results', num_train_epochs=3, batch_size=2):
-        # Define training arguments with gradient accumulation and mixed precision
+        # Use gradient accumulation and mixed precision for memory optimization
         training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=num_train_epochs,
@@ -104,11 +106,12 @@ class TextClassifier:
             logging_dir='./logs',
             logging_steps=10,
             save_total_limit=2,
-            gradient_accumulation_steps=2,  # Gradient accumulation
-            fp16=True  # Mixed precision training
+            fp16=True,  # Use mixed precision for training
+            gradient_accumulation_steps=4,  # Gradient accumulation
+            load_best_model_at_end=True,
         )
 
-        # Initialize the Trainer
+        # Initialize Trainer with mixed precision
         self.trainer = Trainer(
             model=self.model,
             args=training_args,
@@ -118,13 +121,11 @@ class TextClassifier:
             compute_metrics=self.compute_metrics,
         )
 
-        # Train the model
         print("Starting training...")
         self.trainer.train()
         print("Training completed.")
 
     def evaluate(self):
-        # Evaluate the model
         print("Evaluating the model...")
         eval_results = self.trainer.evaluate()
         print(f"\nEvaluation results:\n{eval_results}")
@@ -158,7 +159,7 @@ class TextClassifier:
     def predict(self, texts):
         # Tokenize texts
         encoding = self.tokenizer(
-            texts, padding='max_length', truncation=True, max_length=512, return_tensors='pt')
+            texts, padding='max_length', truncation=True, max_length=128, return_tensors='pt')
         encoding = {k: v.to(self.model.base_model.device) for k, v in encoding.items()}
 
         # Get predictions
