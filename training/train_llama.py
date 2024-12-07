@@ -129,7 +129,7 @@ class TextClassifier:
 
 def main():
     model_dir = "llama2_model"  # Directory where the model is saved
-    data_path = "data.pkl"  # Path to your data file
+    data_path = "processed_data.pkl"  # Path to your data file
     num_labels = 10  # Example number of labels for classification
 
     print("Initializing the classifier...")
