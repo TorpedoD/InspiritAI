@@ -178,9 +178,9 @@ class TextClassifier:
 
 # Usage example
 if __name__ == "__main__":
-    # Initialize the classifier
-    model_name = "meta-llama/Llama-3.2-1B-Instruct"
-    model_dir = "llama_model"  # Directory to save/load the model
+    # Initialize the classifier with Llama-2-7B
+    model_name = "meta-llama/Llama-2-7B"
+    model_dir = "llama2_model"  # Directory to save/load the model
     data_path = 'processed_data.pkl'
 
     # Load processed data to get the number of labels
