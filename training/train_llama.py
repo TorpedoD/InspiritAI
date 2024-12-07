@@ -178,8 +178,8 @@ class TextClassifier:
 
 # Usage example
 if __name__ == "__main__":
-    # Initialize the classifier with Llama-2-7B
-    model_name = "meta-llama/Llama-2-7B"
+    # Initialize the classifier with Llama-2-7B-hf
+    model_name = "meta-llama/Llama-2-7B-hf"  # Use the PyTorch-compatible version of the model
     model_dir = "llama2_model"  # Directory to save/load the model
     data_path = 'processed_data.pkl'
 
