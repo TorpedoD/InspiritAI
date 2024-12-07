@@ -3,7 +3,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
 
-def load_model(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir="llama_model", reload_model=False):
+def load_model(model_name="meta-llama/Llama-2-7b-chat-hf", model_dir="llama2_model", reload_model=False):
     """
     Loads the model and tokenizer from the Hugging Face Hub or from a saved directory.
     If the model is not saved locally, it will be downloaded and saved.
