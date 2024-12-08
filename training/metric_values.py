@@ -1,21 +1,23 @@
 import torch
-from sklearn.metrics import precision_score, accuracy_score, f1_score, recall_score, confusion_matrix, roc_curve, auc
+from sklearn.metrics import precision_score, accuracy_score, f1_score, recall_score, confusion_matrix, roc_auc_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import pickle
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from sklearn.model_selection import train_test_split
-from sklearn.datasets import fetch_20newsgroups  # Sample dataset, replace with your own
+from sklearn.preprocessing import label_binarize
 
 # Load saved model
 model_path = './saved_model'
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-# Sample dataset, replace this with your own test dataset
-newsgroups = fetch_20newsgroups(subset='test')
-texts = newsgroups.data
-labels = newsgroups.target
+# Load processed test data
+with open('processed_data.pkl', 'rb') as file:
+    data = pickle.load(file)
+
+texts = data['texts']
+labels = data['labels']
 
 # Tokenize texts
 inputs = tokenizer(texts, padding=True, truncation=True, return_tensors='pt')
@@ -42,25 +44,13 @@ cm = confusion_matrix(labels, predictions)
 
 # Plot confusion matrix
 plt.figure(figsize=(8, 6))
-sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=newsgroups.target_names, yticklabels=newsgroups.target_names)
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(labels), yticklabels=np.unique(labels))
 plt.title('Confusion Matrix')
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.show()
 
-# ROC Curve
-fpr, tpr, thresholds = roc_curve(labels, outputs.logits[:, 1].numpy())  # Assuming binary classification
-roc_auc = auc(fpr, tpr)
-
-# Plot ROC curve
-plt.figure(figsize=(8, 6))
-plt.plot(fpr, tpr, color='blue', lw=2, label=f'ROC curve (area = {roc_auc:.2f})')
-plt.plot([0, 1], [0, 1], color='gray', lw=2, linestyle='--')
-plt.xlim([0.0, 1.0])
-plt.ylim([0.0, 1.05])
-plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate')
-plt.title('Receiver Operating Characteristic (ROC) Curve')
-plt.legend(loc='lower right')
-plt.show()
-
+# Multi-class ROC AUC
+labels_bin = label_binarize(labels, classes=np.unique(labels))
+roc_auc = roc_auc_score(labels_bin, outputs.logits.detach().numpy(), average='macro', multi_class='ovr')
+print(f'Multi-class ROC AUC: {roc_auc:.4f}')
