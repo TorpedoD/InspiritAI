@@ -16,15 +16,16 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 with open('processed_data.pkl', 'rb') as file:
     data = pickle.load(file)
 
-# Inspect the structure of the loaded data
-print(f"Type of data: {type(data)}")
-print(f"Content of data: {data}")
-
-# Adjust data loading based on structure
+# Check if the data is a tuple and process it
 if isinstance(data, tuple) and len(data) == 2:
     texts, labels = data
-elif isinstance(data, dict) and 'texts' in data and 'labels' in data:
-    texts, labels = data['texts'], data['labels']
+    # Validate that `texts` is a list of strings and `labels` is a list of integers
+    if not isinstance(texts, list) or not all(isinstance(text, str) for text in texts):
+        print("Texts are not in the correct format.")
+        exit()
+    if not isinstance(labels, list) or not all(isinstance(label, int) for label in labels):
+        print("Labels are not in the correct format.")
+        exit()
 else:
     print("Unexpected data structure.")
     exit()
@@ -44,7 +45,7 @@ precision = precision_score(labels, predictions, average='weighted')
 recall = recall_score(labels, predictions, average='weighted')
 f1 = f1_score(labels, predictions, average='weighted')
 
-# Print metrics
+# Print metrics only
 print(f'Accuracy: {accuracy:.4f}')
 print(f'Precision: {precision:.4f}')
 print(f'Recall: {recall:.4f}')
