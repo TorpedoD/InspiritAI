@@ -16,33 +16,9 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 with open('processed_data.pkl', 'rb') as file:
     data = pickle.load(file)
 
-# Check the structure of data
-print(f"Data structure: {type(data)}")
-print(f"Data content (sample): {data[:2]}")  # Print a sample of the data to understand its structure
-
-# Assuming data is a list or tuple with texts and labels at known positions
-if isinstance(data, tuple):
-    if len(data) == 2:  # Tuple with texts and labels
-        texts, labels = data
-    else:
-        print(f"Unexpected tuple size: {len(data)}")
-        exit()
-
-elif isinstance(data, list):
-    if len(data) == 2:  # List with texts and labels
-        texts, labels = data
-    else:
-        print(f"Unexpected list size: {len(data)}")
-        exit()
-
-elif isinstance(data, dict):
-    # If the data is a dictionary, extract texts and labels
-    if 'texts' in data and 'labels' in data:
-        texts = data['texts']
-        labels = data['labels']
-    else:
-        print("Dictionary does not contain expected 'texts' and 'labels' keys.")
-        exit()
+# Check if data is in tuple format with two elements (texts and labels)
+if isinstance(data, tuple) and len(data) == 2:
+    texts, labels = data
 else:
     print("Unexpected data structure.")
     exit()
@@ -62,6 +38,7 @@ precision = precision_score(labels, predictions, average='weighted')
 recall = recall_score(labels, predictions, average='weighted')
 f1 = f1_score(labels, predictions, average='weighted')
 
+# Print metrics
 print(f'Accuracy: {accuracy:.4f}')
 print(f'Precision: {precision:.4f}')
 print(f'Recall: {recall:.4f}')
@@ -84,4 +61,5 @@ labels_bin = label_binarize(labels, classes=np.unique(labels))
 roc_auc = roc_auc_score(labels_bin, outputs.logits.detach().numpy(), average='macro', multi_class='ovr')
 print(f'Multi-class ROC AUC: {roc_auc:.4f}')
 
+# Print message that the graph has been saved
 print("Graphs have been saved as 'confusion_matrix.png'.")
