@@ -16,8 +16,36 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 with open('processed_data.pkl', 'rb') as file:
     data = pickle.load(file)
 
-# If data is a tuple, unpack it
-texts, labels = data  # Assuming the tuple contains texts and labels in that order
+# Check the structure of data
+print(f"Data structure: {type(data)}")
+print(f"Data content (sample): {data[:2]}")  # Print a sample of the data to understand its structure
+
+# Assuming data is a list or tuple with texts and labels at known positions
+if isinstance(data, tuple):
+    if len(data) == 2:  # Tuple with texts and labels
+        texts, labels = data
+    else:
+        print(f"Unexpected tuple size: {len(data)}")
+        exit()
+
+elif isinstance(data, list):
+    if len(data) == 2:  # List with texts and labels
+        texts, labels = data
+    else:
+        print(f"Unexpected list size: {len(data)}")
+        exit()
+
+elif isinstance(data, dict):
+    # If the data is a dictionary, extract texts and labels
+    if 'texts' in data and 'labels' in data:
+        texts = data['texts']
+        labels = data['labels']
+    else:
+        print("Dictionary does not contain expected 'texts' and 'labels' keys.")
+        exit()
+else:
+    print("Unexpected data structure.")
+    exit()
 
 # Tokenize texts
 inputs = tokenizer(texts, padding=True, truncation=True, return_tensors='pt')
