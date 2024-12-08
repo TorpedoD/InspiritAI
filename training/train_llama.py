@@ -5,7 +5,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingA
 from sklearn.metrics import accuracy_score, classification_report, precision_recall_fscore_support
 from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
-
+from safetensors.torch import save_model, load_model
 
 class TextClassifier:
     def __init__(self, model_name, model_dir, num_labels):
@@ -103,13 +103,15 @@ class TextClassifier:
             per_device_eval_batch_size=batch_size,
             warmup_steps=500,
             weight_decay=0.01,
-            evaluation_strategy="epoch",  # Use evaluation strategy "epoch"
+            evaluation_strategy="epoch",  # Evaluate after every epoch
             logging_dir='./logs',
             logging_steps=10,
-            save_total_limit=2,
-            report_to="tensorboard",  # Tensorboard integration for better monitoring
-            gradient_accumulation_steps=1,  # Optimize memory usage, use if needed
-            fp16=True,  # Enable mixed precision if using GPUs to speed up training
+            save_total_limit=2,  # Limit the number of saved models to save storage space
+            save_strategy="steps",  # Save model every X steps
+            save_steps=100,  # Save model every 100 steps (can be adjusted based on your training duration)
+            report_to="tensorboard",  # Enable TensorBoard logging
+            gradient_accumulation_steps=1,  # Optimize memory usage
+            fp16=True,  # Enable mixed precision if using GPUs
         )
 
         # Initialize the Trainer
@@ -125,12 +127,10 @@ class TextClassifier:
         # Train the model
         print("Starting training...")
         self.trainer.train()
-        print("Training completed.")
 
-        # Save the model using Hugging Face's method
-        print("Saving the trained model...")
-        self.trainer.save_model(output_dir)  # Hugging Face's method handles shared memory better
-        print(f"Model saved to {output_dir}")
+        # Save model using safetensors
+        print("Saving model using safetensors...")
+        save_model_to_safetensors(self.model, self.tokenizer, output_dir)
 
     def evaluate(self):
         # Evaluate the model
@@ -181,6 +181,17 @@ class TextClassifier:
         predicted_labels = self.label_encoder.inverse_transform(preds)
         return predicted_labels
 
+def save_model_to_safetensors(model, tokenizer, output_dir):
+    # Save the model and tokenizer using safetensors
+    save_model(model, output_dir)
+    tokenizer.save_pretrained(output_dir)
+    print(f"Model and tokenizer saved to {output_dir} using safetensors.")
+
+def load_model_from_safetensors(output_dir):
+    model = load_model(output_dir)
+    tokenizer = AutoTokenizer.from_pretrained(output_dir)
+    print(f"Model and tokenizer loaded from {output_dir} using safetensors.")
+    return model, tokenizer
 
 # Usage example
 if __name__ == "__main__":
