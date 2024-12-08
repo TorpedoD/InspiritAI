@@ -5,7 +5,6 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingA
 from sklearn.metrics import accuracy_score, classification_report, precision_recall_fscore_support
 from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
-from safetensors.torch import save_model, load_model
 
 class TextClassifier:
     def __init__(self, model_name, model_dir, num_labels):
@@ -33,16 +32,15 @@ class TextClassifier:
         def __init__(self, base_model, num_labels):
             super(TextClassifier.LlamaForSequenceClassification, self).__init__()
             self.base_model = base_model
-            self.num_labels = num_labels
+            self.num_labels = num_labels  # Define num_labels in the model class
             self.dropout = nn.Dropout(0.1)
             self.classifier = nn.Linear(base_model.config.hidden_size, num_labels)
 
         def forward(self, input_ids=None, attention_mask=None, labels=None):
             outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask, output_hidden_states=True)
-            # Retrieve hidden states or use last hidden state if not present
             hidden_states = outputs.hidden_states if hasattr(outputs, 'hidden_states') else outputs.last_hidden_state
-            last_hidden_state = hidden_states[-1]  # Using the last layer's hidden state
-            pooled_output = last_hidden_state[:, -1, :]  # Use the last token's hidden state for classification
+            last_hidden_state = hidden_states[-1]  # last hidden state
+            pooled_output = last_hidden_state[:, -1, :]  # Use the last token's hidden state
             pooled_output = self.dropout(pooled_output)
             logits = self.classifier(pooled_output)
 
@@ -95,7 +93,7 @@ class TextClassifier:
         print("Datasets prepared and tokenized.")
 
     def train(self, output_dir='./results', num_train_epochs=3, batch_size=2):
-        # Define training arguments with optimizations
+        # Define training arguments
         training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=num_train_epochs,
@@ -103,15 +101,12 @@ class TextClassifier:
             per_device_eval_batch_size=batch_size,
             warmup_steps=500,
             weight_decay=0.01,
-            evaluation_strategy="epoch",  # Evaluate after every epoch
+            evaluation_strategy="epoch",  # Update to eval_strategy if necessary
             logging_dir='./logs',
             logging_steps=10,
-            save_total_limit=2,  # Limit the number of saved models to save storage space
-            save_strategy="steps",  # Save model every X steps
-            save_steps=100,  # Save model every 100 steps (can be adjusted based on your training duration)
-            report_to="tensorboard",  # Enable TensorBoard logging
-            gradient_accumulation_steps=1,  # Optimize memory usage
-            fp16=True,  # Enable mixed precision if using GPUs
+            save_total_limit=2,
+            eval_strategy="epoch",  # Update to eval_strategy if necessary
+            report_to="tensorboard",  # Tensorboard integration for better monitoring
         )
 
         # Initialize the Trainer
@@ -127,10 +122,7 @@ class TextClassifier:
         # Train the model
         print("Starting training...")
         self.trainer.train()
-
-        # Save model using safetensors
-        print("Saving model using safetensors...")
-        save_model_to_safetensors(self.model, self.tokenizer, output_dir)
+        print("Training completed.")
 
     def evaluate(self):
         # Evaluate the model
@@ -180,24 +172,6 @@ class TextClassifier:
         # Decode labels
         predicted_labels = self.label_encoder.inverse_transform(preds)
         return predicted_labels
-
-def save_model_to_safetensors(model, tokenizer, output_dir):
-    # Ensure to avoid memory duplication by saving without shared memory tensors
-    safe_model = model
-    if hasattr(model.base_model, "lm_head") and hasattr(model.base_model, "embed_tokens"):
-        model.base_model.lm_head.weight = model.base_model.lm_head.weight.detach()
-        model.base_model.embed_tokens.weight = model.base_model.embed_tokens.weight.detach()
-
-    # Save the model and tokenizer using safetensors
-    save_model(safe_model, output_dir)
-    tokenizer.save_pretrained(output_dir)
-    print(f"Model and tokenizer saved to {output_dir} using safetensors.")
-
-def load_model_from_safetensors(output_dir):
-    model = load_model(output_dir)
-    tokenizer = AutoTokenizer.from_pretrained(output_dir)
-    print(f"Model and tokenizer loaded from {output_dir} using safetensors.")
-    return model, tokenizer
 
 # Usage example
 if __name__ == "__main__":
