@@ -24,7 +24,8 @@ class TextClassifier:
 
         # Load and adjust the model configuration
         config = AutoConfig.from_pretrained(self.model_name, cache_dir=self.model_dir)
-        # Fixing rope_scaling if necessary
+        
+        # Fix rope_scaling if necessary
         if 'rope_scaling' not in config:
             config.rope_scaling = {'type': 'llama3', 'factor': 32.0}
         
