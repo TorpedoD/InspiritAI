@@ -70,15 +70,18 @@ print(f'F1 Score: {f1:.4f}')
 # Confusion Matrix
 cm = confusion_matrix(labels, predictions)
 
-# Plot confusion matrix
+# Plot and save confusion matrix
 plt.figure(figsize=(8, 6))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(labels), yticklabels=np.unique(labels))
 plt.title('Confusion Matrix')
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
-plt.show()
+plt.savefig('confusion_matrix.png')  # Save the plot as a PNG file
+plt.close()  # Close the plot to avoid it displaying
 
 # Multi-class ROC AUC
 labels_bin = label_binarize(labels, classes=np.unique(labels))
 roc_auc = roc_auc_score(labels_bin, outputs.logits.detach().numpy(), average='macro', multi_class='ovr')
 print(f'Multi-class ROC AUC: {roc_auc:.4f}')
+
+print("Graphs have been saved as 'confusion_matrix.png'.")
