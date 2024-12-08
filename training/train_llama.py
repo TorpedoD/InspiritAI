@@ -346,16 +346,15 @@ class TextClassifier:
 
 # Main method to run the script
 def main():
-    # Set parameters
-    model_name = 'your-pretrained-model-name'
-    model_dir = './model'
-    num_labels = 3  # Modify based on your dataset
-    data_path = 'data.pkl'  # Path to your pickled dataset
+    model_name = 'your-pretrained-model-name'  # Replace with the correct model name
+    model_dir = './model_cache'  # Directory to save cached models
+    num_labels = 2  # Adjust according to your number of labels
 
-    # Initialize the classifier
+    # Create an instance of the TextClassifier
     classifier = TextClassifier(model_name, model_dir, num_labels)
 
     # Load data
+    data_path = 'path_to_your_data.pkl'  # Replace with your data path
     classifier.load_data(data_path)
 
     # Encode labels
@@ -365,10 +364,16 @@ def main():
     classifier.prepare_datasets()
 
     # Train the model
-    classifier.train(output_dir='./results')
+    output_dir = './results'
+    classifier.train(output_dir=output_dir)
 
-    # Evaluate the model
-    classifier.evaluate()
+    # Save the trained model
+    classifier.save_model(output_dir)
+
+
+if __name__ == "__main__":
+    main()
+
 
 if __name__ == "__main__":
     main()
