@@ -6,23 +6,16 @@ import numpy as np
 import pickle
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from sklearn.preprocessing import label_binarize
-from tqdm import tqdm  # For progress bar
+from tqdm import tqdm
 
 # Check if CUDA is available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
-# Load saved model and move it to the appropriate device
+# Load saved model and tokenizer
 model_path = './Sequence_classification_saved_model'
 model = AutoModelForSequenceClassification.from_pretrained(model_path).to(device)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
-
-# Verify CUDA usage
-if torch.cuda.is_available():
-    print(f"CUDA device name: {torch.cuda.get_device_name(0)}")
-    print(f"Is CUDA being used: {torch.cuda.current_device() == 0}")
-else:
-    print("CUDA not available. Using CPU.")
 
 # Load processed test data
 with open('processed_data.pkl', 'rb') as file:
@@ -32,60 +25,61 @@ with open('processed_data.pkl', 'rb') as file:
 if isinstance(data, tuple) and len(data) == 5:
     _, X_test, _, y_test, labels = data
 else:
-    print("Unexpected data structure in 'processed_data.pkl'.")
-    exit()
+    raise ValueError("Unexpected data structure in 'processed_data.pkl'.")
 
-# Resolve potential label type mismatch
+# Ensure labels are consistent
 if isinstance(y_test[0], str):
     y_test = [str(label) for label in y_test]
 elif isinstance(y_test[0], int):
     y_test = [int(label) for label in y_test]
+y_test = np.array(y_test)
 
-# Batch processing parameters
-batch_size = 16  # Reduce batch size to fit in GPU memory
-num_batches = len(X_test) // batch_size + (1 if len(X_test) % batch_size != 0 else 0)
+# Increase batch size for speed (adjust based on GPU capacity)
+batch_size = 64
 
-# Initialize storage for predictions
+# Make predictions
+model.eval()
 all_predictions = []
 all_logits = []
 
-# Make predictions batch by batch with progress bar
-model.eval()
 with torch.no_grad():
-    with tqdm(total=num_batches, desc="Processing", unit="batch") as pbar:
-        for i in range(0, len(X_test), batch_size):
-            # Prepare batch
-            batch_inputs = tokenizer(
-                X_test[i:i + batch_size],
-                padding=True,
-                truncation=True,
-                return_tensors='pt'
-            ).to(device)
+    for i in tqdm(range(0, len(X_test), batch_size), desc="Processing", unit="batch"):
+        batch_inputs = tokenizer(
+            X_test[i:i + batch_size],
+            padding=True,
+            truncation=True,
+            return_tensors='pt'
+        ).to(device)
 
-            # Mixed precision inference
-            with torch.amp.autocast('cuda'):
-                outputs = model(**batch_inputs)
+        # Perform inference
+        with torch.amp.autocast('cuda'):
+            outputs = model(**batch_inputs)
 
-            # Collect predictions and logits
-            all_predictions.extend(torch.argmax(outputs.logits, dim=-1).cpu().numpy())
-            all_logits.extend(outputs.logits.cpu().numpy())
+        # Collect predictions and logits
+        logits = outputs.logits.cpu().numpy()
+        predictions = np.argmax(logits, axis=-1)
 
-            # Update progress bar
-            pbar.update(1)
+        all_predictions.extend(predictions)
+        all_logits.extend(logits)
 
-# Convert predictions and logits to numpy arrays
+# Convert to numpy arrays
 predictions = np.array(all_predictions)
 logits = np.array(all_logits)
 
-# Ensure label types match
-y_test = np.array(y_test)
-if y_test.dtype != predictions.dtype:
-    predictions = predictions.astype(y_test.dtype)
+# Debugging: Print sample logits and predictions
+print(f"Sample logits: {logits[:5]}")
+print(f"Sample predictions: {predictions[:5]}")
+print(f"Unique predictions: {np.unique(predictions)}")
+print(f"Unique ground truth labels: {np.unique(y_test)}")
 
-# Calculate metrics
+# Ensure label alignment
+if set(np.unique(predictions)) - set(np.unique(y_test)):
+    print("Warning: Predicted labels do not match ground truth labels.")
+
+# Metrics calculation
 accuracy = accuracy_score(y_test, predictions)
-precision = precision_score(y_test, predictions, average='weighted')
-recall = recall_score(y_test, predictions, average='weighted')
+precision = precision_score(y_test, predictions, average='weighted', zero_division=1)
+recall = recall_score(y_test, predictions, average='weighted', zero_division=1)
 f1 = f1_score(y_test, predictions, average='weighted')
 
 # Print metrics
@@ -97,19 +91,32 @@ print(f'F1 Score: {f1:.4f}')
 # Confusion Matrix
 cm = confusion_matrix(y_test, predictions)
 
-# Plot and save confusion matrix
-plt.figure(figsize=(8, 6))
+# Normalized Confusion Matrix
+cm_normalized = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+
+# Plot and save confusion matrices
+plt.figure(figsize=(12, 6))
+
+plt.subplot(1, 2, 1)
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(y_test), yticklabels=np.unique(y_test))
 plt.title('Confusion Matrix')
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
-plt.savefig('confusion_matrix.png')  # Save the plot as a PNG file
-plt.close()  # Close the plot to avoid it displaying
+
+plt.subplot(1, 2, 2)
+sns.heatmap(cm_normalized, annot=True, fmt='.2f', cmap='Blues', xticklabels=np.unique(y_test), yticklabels=np.unique(y_test))
+plt.title('Normalized Confusion Matrix')
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+
+plt.tight_layout()
+plt.savefig('confusion_matrices.png')
+plt.close()
 
 # Multi-class ROC AUC
 y_test_bin = label_binarize(y_test, classes=np.unique(y_test))
 roc_auc = roc_auc_score(y_test_bin, logits, average='macro', multi_class='ovr')
 print(f'Multi-class ROC AUC: {roc_auc:.4f}')
 
-# Print confirmation of graph save
-print("Graphs have been saved as 'confusion_matrix.png'.")
+# Final confirmation
+print("Metrics calculated and graphs saved as 'confusion_matrices.png'.")
