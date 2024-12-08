@@ -6,6 +6,7 @@ import numpy as np
 import pickle
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from sklearn.preprocessing import label_binarize
+from tqdm import tqdm  # For progress bar
 
 # Check if CUDA is available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -27,14 +28,41 @@ else:
     print("Unexpected data structure in 'processed_data.pkl'.")
     exit()
 
-# Tokenize the test data
-inputs = tokenizer(X_test, padding=True, truncation=True, return_tensors='pt').to(device)
+# Batch processing parameters
+batch_size = 16  # Reduce batch size to fit in GPU memory
+num_batches = len(X_test) // batch_size + (1 if len(X_test) % batch_size != 0 else 0)
 
-# Make predictions
+# Initialize storage for predictions
+all_predictions = []
+all_logits = []
+
+# Make predictions batch by batch with progress bar
+model.eval()
 with torch.no_grad():
-    model.eval()
-    outputs = model(**inputs)
-    predictions = torch.argmax(outputs.logits, dim=-1).cpu().numpy()  # Move predictions back to CPU
+    with tqdm(total=num_batches, desc="Processing", unit="batch") as pbar:
+        for i in range(0, len(X_test), batch_size):
+            # Prepare batch
+            batch_inputs = tokenizer(
+                X_test[i:i + batch_size],
+                padding=True,
+                truncation=True,
+                return_tensors='pt'
+            ).to(device)
+
+            # Mixed precision inference
+            with torch.cuda.amp.autocast():
+                outputs = model(**batch_inputs)
+
+            # Collect predictions and logits
+            all_predictions.extend(torch.argmax(outputs.logits, dim=-1).cpu().numpy())
+            all_logits.extend(outputs.logits.cpu().numpy())
+
+            # Update progress bar
+            pbar.update(1)
+
+# Convert predictions and logits to numpy arrays
+predictions = np.array(all_predictions)
+logits = np.array(all_logits)
 
 # Calculate metrics
 accuracy = accuracy_score(y_test, predictions)
@@ -42,7 +70,7 @@ precision = precision_score(y_test, predictions, average='weighted')
 recall = recall_score(y_test, predictions, average='weighted')
 f1 = f1_score(y_test, predictions, average='weighted')
 
-# Print metrics only
+# Print metrics
 print(f'Accuracy: {accuracy:.4f}')
 print(f'Precision: {precision:.4f}')
 print(f'Recall: {recall:.4f}')
@@ -62,8 +90,8 @@ plt.close()  # Close the plot to avoid it displaying
 
 # Multi-class ROC AUC
 y_test_bin = label_binarize(y_test, classes=np.unique(y_test))
-roc_auc = roc_auc_score(y_test_bin, outputs.logits.cpu().numpy(), average='macro', multi_class='ovr')  # Move logits back to CPU
+roc_auc = roc_auc_score(y_test_bin, logits, average='macro', multi_class='ovr')
 print(f'Multi-class ROC AUC: {roc_auc:.4f}')
 
-# Print message that the graph has been saved
+# Print confirmation of graph save
 print("Graphs have been saved as 'confusion_matrix.png'.")
