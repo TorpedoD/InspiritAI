@@ -7,9 +7,13 @@ import pickle
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from sklearn.preprocessing import label_binarize
 
-# Load saved model
+# Check if CUDA is available
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Using device: {device}")
+
+# Load saved model and move it to the appropriate device
 model_path = './Sequence_classification_saved_model'
-model = AutoModelForSequenceClassification.from_pretrained(model_path)
+model = AutoModelForSequenceClassification.from_pretrained(model_path).to(device)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 # Load processed test data
@@ -24,13 +28,13 @@ else:
     exit()
 
 # Tokenize the test data
-inputs = tokenizer(X_test, padding=True, truncation=True, return_tensors='pt')
+inputs = tokenizer(X_test, padding=True, truncation=True, return_tensors='pt').to(device)
 
 # Make predictions
 with torch.no_grad():
     model.eval()
     outputs = model(**inputs)
-    predictions = torch.argmax(outputs.logits, dim=-1).numpy()
+    predictions = torch.argmax(outputs.logits, dim=-1).cpu().numpy()  # Move predictions back to CPU
 
 # Calculate metrics
 accuracy = accuracy_score(y_test, predictions)
@@ -58,7 +62,7 @@ plt.close()  # Close the plot to avoid it displaying
 
 # Multi-class ROC AUC
 y_test_bin = label_binarize(y_test, classes=np.unique(y_test))
-roc_auc = roc_auc_score(y_test_bin, outputs.logits.detach().numpy(), average='macro', multi_class='ovr')
+roc_auc = roc_auc_score(y_test_bin, outputs.logits.cpu().numpy(), average='macro', multi_class='ovr')  # Move logits back to CPU
 print(f'Multi-class ROC AUC: {roc_auc:.4f}')
 
 # Print message that the graph has been saved
