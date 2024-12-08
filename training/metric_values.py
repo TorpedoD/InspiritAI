@@ -4,9 +4,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pickle
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, AdamW
 from sklearn.preprocessing import label_binarize
 from tqdm import tqdm
+from collections import Counter
 
 # Check if CUDA is available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -17,27 +18,67 @@ model_path = './Sequence_classification_saved_model'
 model = AutoModelForSequenceClassification.from_pretrained(model_path).to(device)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-# Load processed test data
+# Load processed data (both training and test data)
 with open('processed_data.pkl', 'rb') as file:
     data = pickle.load(file)
 
-# Extract the test split (X_test and y_test) from the loaded data
+# Extract training and test splits (X_train, y_train, X_test, y_test)
 if isinstance(data, tuple) and len(data) == 5:
-    _, X_test, _, y_test, labels = data
+    X_train, X_test, y_train, y_test, labels = data
 else:
     raise ValueError("Unexpected data structure in 'processed_data.pkl'.")
 
-# Ensure labels are consistent
-if isinstance(y_test[0], str):
-    y_test = [str(label) for label in y_test]
-elif isinstance(y_test[0], int):
-    y_test = [int(label) for label in y_test]
+# Ensure labels are consistent (convert to string or integer if necessary)
+y_train = np.array(y_train)
 y_test = np.array(y_test)
+
+# Convert labels to integers if they are strings
+if isinstance(y_train[0], str):
+    unique_labels = np.unique(y_train)
+    label_mapping = {label: idx for idx, label in enumerate(unique_labels)}
+    y_train = np.array([label_mapping[label] for label in y_train])
+    y_test = np.array([label_mapping[label] for label in y_test])
 
 # Increase batch size for speed (adjust based on GPU capacity)
 batch_size = 64
 
-# Make predictions
+# Define training function to fine-tune the model
+def train_model(model, X_train, y_train, tokenizer, batch_size=64, epochs=3):
+    model.train()
+    optimizer = AdamW(model.parameters(), lr=5e-5)
+    
+    # Training loop
+    for epoch in range(epochs):
+        print(f"Epoch {epoch+1}/{epochs}")
+        for i in tqdm(range(0, len(X_train), batch_size), desc="Training", unit="batch"):
+            batch_inputs = tokenizer(
+                X_train[i:i + batch_size],
+                padding=True,
+                truncation=True,
+                return_tensors='pt'
+            ).to(device)
+
+            labels = torch.tensor(y_train[i:i + batch_size]).to(device)
+
+            # Forward pass
+            outputs = model(**batch_inputs, labels=labels)
+            loss = outputs.loss
+
+            # Backward pass
+            loss.backward()
+            optimizer.step()
+            optimizer.zero_grad()
+
+            # Log loss every 100 batches
+            if i % 100 == 0:
+                print(f"Batch {i}/{len(X_train)} - Loss: {loss.item():.4f}")
+    
+    print("Training complete.")
+
+# Fine-tune the model on the training data (ensure this is done for a sufficient number of epochs)
+train_model(model, X_train, y_train, tokenizer, batch_size, epochs=3)
+
+# Make predictions using the fine-tuned model
 model.eval()
 all_predictions = []
 all_logits = []
@@ -52,8 +93,7 @@ with torch.no_grad():
         ).to(device)
 
         # Perform inference
-        with torch.amp.autocast('cuda'):
-            outputs = model(**batch_inputs)
+        outputs = model(**batch_inputs)
 
         # Collect predictions and logits
         logits = outputs.logits.cpu().numpy()
@@ -72,21 +112,21 @@ print(f"Sample predictions: {predictions[:5]}")
 print(f"Unique predictions: {np.unique(predictions)}")
 print(f"Unique ground truth labels: {np.unique(y_test)}")
 
-# Ensure label alignment
-if set(np.unique(predictions)) - set(np.unique(y_test)):
-    print("Warning: Predicted labels do not match ground truth labels.")
-
 # Metrics calculation
 accuracy = accuracy_score(y_test, predictions)
-precision = precision_score(y_test, predictions, average='weighted', zero_division=1)
-recall = recall_score(y_test, predictions, average='weighted', zero_division=1)
-f1 = f1_score(y_test, predictions, average='weighted')
+precision = precision_score(y_test, predictions, average='weighted', zero_division=0)
+recall = recall_score(y_test, predictions, average='weighted', zero_division=0)
+f1 = f1_score(y_test, predictions, average='weighted', zero_division=0)
 
 # Print metrics
 print(f'Accuracy: {accuracy:.4f}')
 print(f'Precision: {precision:.4f}')
 print(f'Recall: {recall:.4f}')
 print(f'F1 Score: {f1:.4f}')
+
+# Print label distributions
+print("True label distribution:", Counter(y_test))
+print("Predicted label distribution:", Counter(predictions))
 
 # Confusion Matrix
 cm = confusion_matrix(y_test, predictions)
