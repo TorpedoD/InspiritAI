@@ -94,7 +94,7 @@ class TextClassifier:
         print("Datasets prepared and tokenized.")
 
     def train(self, output_dir='./results', num_train_epochs=3, batch_size=2):
-        # Define training arguments
+        # Define training arguments with optimizations
         training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=num_train_epochs,
@@ -102,12 +102,13 @@ class TextClassifier:
             per_device_eval_batch_size=batch_size,
             warmup_steps=500,
             weight_decay=0.01,
-            evaluation_strategy="epoch",  # Update to eval_strategy if necessary
+            evaluation_strategy="epoch",  # Use evaluation strategy "epoch"
             logging_dir='./logs',
             logging_steps=10,
             save_total_limit=2,
-            eval_strategy="epoch",  # Update to eval_strategy if necessary
             report_to="tensorboard",  # Tensorboard integration for better monitoring
+            gradient_accumulation_steps=1,  # Optimize memory usage, use if needed
+            fp16=True,  # Enable mixed precision if using GPUs to speed up training
         )
 
         # Initialize the Trainer
@@ -124,7 +125,11 @@ class TextClassifier:
         print("Starting training...")
         self.trainer.train()
         print("Training completed.")
-        self.trainer.save_model(output_dir)  # Save model using Hugging Face method
+
+        # Save the model using Hugging Face's method
+        print("Saving the trained model...")
+        self.trainer.save_model(output_dir)  # Hugging Face's method handles shared memory better
+        print(f"Model saved to {output_dir}")
 
     def evaluate(self):
         # Evaluate the model
