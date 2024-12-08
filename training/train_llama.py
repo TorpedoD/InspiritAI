@@ -24,11 +24,17 @@ class TextClassifier:
 
         # Load and adjust the model configuration
         config = AutoConfig.from_pretrained(self.model_name, cache_dir=self.model_dir)
-        
+
         # Fix rope_scaling if necessary
         if 'rope_scaling' not in config:
             config.rope_scaling = {'type': 'llama3', 'factor': 32.0}
-        
+        elif isinstance(config.rope_scaling, dict):
+            # Ensure it matches the expected structure
+            config.rope_scaling = {
+                'type': config.rope_scaling.get('type', 'llama3'),
+                'factor': config.rope_scaling.get('factor', 32.0),
+            }
+
         # Load the base model with the adjusted config
         self.base_model = AutoModelForCausalLM.from_pretrained(self.model_name, config=config, cache_dir=self.model_dir)
 
