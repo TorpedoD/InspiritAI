@@ -30,7 +30,7 @@ class TextClassifier:
         self.tokenizer.padding_side = 'left'
 
         # Load the base model for sequence classification
-        base_model = AutoModelForSequenceClassification.from_pretrained(self.model_name, cache_dir=self.model_dir, num_labels=self.num_labels)
+        base_model = AutoModelForSequenceClassification.from_pretrained(self.model_name, cache_dir=self.model_dir, num_labels=self.num_labels, pad_token_id=self.tokenizer.pad_token_id)
 
         # Define the custom model with classification head
         self.model = base_model.to(self.device)
