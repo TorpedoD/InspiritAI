@@ -355,7 +355,7 @@ def main():
     # Define parameters
     model_name = "EleutherAI/gpt-neo-2.7B"
     model_dir = "./model_cache"
-    data_path = "./data.pkl"  # Path to your data pickle file
+    data_path = "processed_data.pkl"  # Path to your data pickle file
     num_labels = 10  # Example number of labels
     
     # Initialize TextClassifier
