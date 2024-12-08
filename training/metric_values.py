@@ -17,6 +17,13 @@ model_path = './Sequence_classification_saved_model'
 model = AutoModelForSequenceClassification.from_pretrained(model_path).to(device)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
+# Verify CUDA usage
+if torch.cuda.is_available():
+    print(f"CUDA device name: {torch.cuda.get_device_name(0)}")
+    print(f"Is CUDA being used: {torch.cuda.current_device() == 0}")
+else:
+    print("CUDA not available. Using CPU.")
+
 # Load processed test data
 with open('processed_data.pkl', 'rb') as file:
     data = pickle.load(file)
@@ -27,6 +34,12 @@ if isinstance(data, tuple) and len(data) == 5:
 else:
     print("Unexpected data structure in 'processed_data.pkl'.")
     exit()
+
+# Resolve potential label type mismatch
+if isinstance(y_test[0], str):
+    y_test = [str(label) for label in y_test]
+elif isinstance(y_test[0], int):
+    y_test = [int(label) for label in y_test]
 
 # Batch processing parameters
 batch_size = 16  # Reduce batch size to fit in GPU memory
@@ -50,7 +63,7 @@ with torch.no_grad():
             ).to(device)
 
             # Mixed precision inference
-            with torch.cuda.amp.autocast():
+            with torch.amp.autocast('cuda'):
                 outputs = model(**batch_inputs)
 
             # Collect predictions and logits
