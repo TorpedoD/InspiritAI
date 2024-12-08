@@ -8,6 +8,13 @@ from datasets import Dataset
 
 class TextClassifier:
     def __init__(self, model_name, model_dir, num_labels):
+        # Check if CUDA is available and if it's working
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        if torch.cuda.is_available():
+            print(f"CUDA is available. Using GPU: {torch.cuda.get_device_name(self.device)}")
+        else:
+            print("CUDA is not available. Using CPU.")
+
         self.model_name = model_name
         self.model_dir = model_dir
         self.num_labels = num_labels
@@ -26,7 +33,7 @@ class TextClassifier:
         base_model = AutoModelForCausalLM.from_pretrained(self.model_name, cache_dir=self.model_dir)
 
         # Define the custom model with classification head
-        self.model = self.LlamaForSequenceClassification(base_model, self.num_labels)
+        self.model = self.LlamaForSequenceClassification(base_model, self.num_labels).to(self.device)
 
     class LlamaForSequenceClassification(nn.Module):
         def __init__(self, base_model, num_labels):
@@ -151,7 +158,7 @@ class TextClassifier:
     def predict(self, texts):
         encoding = self.tokenizer(
             texts, padding='max_length', truncation=True, max_length=512, return_tensors='pt')
-        encoding = {k: v.to(self.model.base_model.device) for k, v in encoding.items()}
+        encoding = {k: v.to(self.device) for k, v in encoding.items()}
 
         self.model.eval()
         with torch.no_grad():
