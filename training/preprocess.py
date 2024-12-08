@@ -12,6 +12,7 @@ nltk.download('punkt')  # Ensure punkt tokenizer is available
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt_tab')  # Add this line to download the missing resource
+nltk.download('omw-1.4')
 
 # Step 1: Define a function to read .txt files from subfolders
 def read_txt_files_from_folder(folder_path):
