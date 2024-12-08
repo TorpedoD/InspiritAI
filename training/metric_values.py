@@ -39,17 +39,26 @@ if isinstance(y_train[0], str):
     y_train = np.array([label_mapping[label] for label in y_train])
     y_test = np.array([label_mapping[label] for label in y_test])
 
-# Increase batch size for speed (adjust based on GPU capacity)
-batch_size = 64
+# Reduce batch size to avoid memory issues
+batch_size = 16  # Reduced batch size
+
+# Gradient Accumulation Settings
+accumulation_steps = 2  # Simulate larger batch size by accumulating gradients
+
+# Mixed Precision Training (float16 for reduced memory usage)
+from torch.cuda.amp import autocast, GradScaler
+scaler = GradScaler()
 
 # Define training function to fine-tune the model
-def train_model(model, X_train, y_train, tokenizer, batch_size=64, epochs=3):
+def train_model(model, X_train, y_train, tokenizer, batch_size=16, epochs=3):
     model.train()
     optimizer = AdamW(model.parameters(), lr=5e-5)
     
     # Training loop
     for epoch in range(epochs):
         print(f"Epoch {epoch+1}/{epochs}")
+        optimizer.zero_grad()  # Clear previous gradients
+
         for i in tqdm(range(0, len(X_train), batch_size), desc="Training", unit="batch"):
             batch_inputs = tokenizer(
                 X_train[i:i + batch_size],
@@ -60,14 +69,22 @@ def train_model(model, X_train, y_train, tokenizer, batch_size=64, epochs=3):
 
             labels = torch.tensor(y_train[i:i + batch_size]).to(device)
 
-            # Forward pass
-            outputs = model(**batch_inputs, labels=labels)
-            loss = outputs.loss
+            # Mixed Precision Training
+            with autocast():
+                outputs = model(**batch_inputs, labels=labels)
+                loss = outputs.loss
 
-            # Backward pass
-            loss.backward()
-            optimizer.step()
-            optimizer.zero_grad()
+            # Scale the loss and backpropagate
+            scaler.scale(loss).backward()
+
+            # Update weights after accumulating gradients
+            if (i // batch_size + 1) % accumulation_steps == 0:
+                scaler.step(optimizer)
+                scaler.update()
+                optimizer.zero_grad()
+
+            # Clear cache regularly to avoid memory fragmentation
+            torch.cuda.empty_cache()
 
             # Log loss every 100 batches
             if i % 100 == 0:
@@ -92,8 +109,9 @@ with torch.no_grad():
             return_tensors='pt'
         ).to(device)
 
-        # Perform inference
-        outputs = model(**batch_inputs)
+        # Perform inference (no gradients)
+        with autocast():
+            outputs = model(**batch_inputs)
 
         # Collect predictions and logits
         logits = outputs.logits.cpu().numpy()
