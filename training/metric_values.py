@@ -16,22 +16,15 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 with open('processed_data.pkl', 'rb') as file:
     data = pickle.load(file)
 
-# Check if the data is a tuple and process it
-if isinstance(data, tuple) and len(data) == 2:
-    texts, labels = data
-    # Validate that `texts` is a list of strings and `labels` is a list of integers
-    if not isinstance(texts, list) or not all(isinstance(text, str) for text in texts):
-        print("Texts are not in the correct format.")
-        exit()
-    if not isinstance(labels, list) or not all(isinstance(label, int) for label in labels):
-        print("Labels are not in the correct format.")
-        exit()
+# Extract the test split (X_test and y_test) from the loaded data
+if isinstance(data, tuple) and len(data) == 5:
+    _, X_test, _, y_test, labels = data
 else:
-    print("Unexpected data structure.")
+    print("Unexpected data structure in 'processed_data.pkl'.")
     exit()
 
-# Tokenize texts
-inputs = tokenizer(texts, padding=True, truncation=True, return_tensors='pt')
+# Tokenize the test data
+inputs = tokenizer(X_test, padding=True, truncation=True, return_tensors='pt')
 
 # Make predictions
 with torch.no_grad():
@@ -40,10 +33,10 @@ with torch.no_grad():
     predictions = torch.argmax(outputs.logits, dim=-1).numpy()
 
 # Calculate metrics
-accuracy = accuracy_score(labels, predictions)
-precision = precision_score(labels, predictions, average='weighted')
-recall = recall_score(labels, predictions, average='weighted')
-f1 = f1_score(labels, predictions, average='weighted')
+accuracy = accuracy_score(y_test, predictions)
+precision = precision_score(y_test, predictions, average='weighted')
+recall = recall_score(y_test, predictions, average='weighted')
+f1 = f1_score(y_test, predictions, average='weighted')
 
 # Print metrics only
 print(f'Accuracy: {accuracy:.4f}')
@@ -52,11 +45,11 @@ print(f'Recall: {recall:.4f}')
 print(f'F1 Score: {f1:.4f}')
 
 # Confusion Matrix
-cm = confusion_matrix(labels, predictions)
+cm = confusion_matrix(y_test, predictions)
 
 # Plot and save confusion matrix
 plt.figure(figsize=(8, 6))
-sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(labels), yticklabels=np.unique(labels))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(y_test), yticklabels=np.unique(y_test))
 plt.title('Confusion Matrix')
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
@@ -64,8 +57,8 @@ plt.savefig('confusion_matrix.png')  # Save the plot as a PNG file
 plt.close()  # Close the plot to avoid it displaying
 
 # Multi-class ROC AUC
-labels_bin = label_binarize(labels, classes=np.unique(labels))
-roc_auc = roc_auc_score(labels_bin, outputs.logits.detach().numpy(), average='macro', multi_class='ovr')
+y_test_bin = label_binarize(y_test, classes=np.unique(y_test))
+roc_auc = roc_auc_score(y_test_bin, outputs.logits.detach().numpy(), average='macro', multi_class='ovr')
 print(f'Multi-class ROC AUC: {roc_auc:.4f}')
 
 # Print message that the graph has been saved
