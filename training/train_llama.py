@@ -6,29 +6,6 @@ from sklearn.metrics import accuracy_score, classification_report, precision_rec
 from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
 
-class LlamaForSequenceClassification(nn.Module):
-    def __init__(self, base_model, num_labels):
-        super(LlamaForSequenceClassification, self).__init__()
-        self.base_model = base_model
-        self.dropout = nn.Dropout(0.1)
-        self.classifier = nn.Linear(base_model.config.hidden_size, num_labels)
-
-    def forward(self, input_ids=None, attention_mask=None, labels=None):
-        outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask, output_hidden_states=True)
-        hidden_states = outputs.hidden_states  # tuple of hidden states from all layers
-        last_hidden_state = hidden_states[-1]  # last hidden state
-        pooled_output = last_hidden_state[:, -1, :]  # Use the last token's hidden state
-        pooled_output = self.dropout(pooled_output)
-        logits = self.classifier(pooled_output)
-
-        loss = None
-        if labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
-
-        return {'loss': loss, 'logits': logits}
-
-
 class TextClassifier:
     def __init__(self, model_name, model_dir, num_labels):
         self.model_name = model_name
@@ -49,9 +26,30 @@ class TextClassifier:
         base_model = AutoModelForCausalLM.from_pretrained(self.model_name, cache_dir=self.model_dir)
 
         # Define the custom model with classification head
-        self.model = LlamaForSequenceClassification(base_model, self.num_labels)
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.model.to(self.device)
+        self.model = self.LlamaForSequenceClassification(base_model, self.num_labels)
+
+    class LlamaForSequenceClassification(nn.Module):
+        def __init__(self, base_model, num_labels):
+            super(TextClassifier.LlamaForSequenceClassification, self).__init__()
+            self.base_model = base_model
+            self.num_labels = num_labels  # Define num_labels in the model class
+            self.dropout = nn.Dropout(0.1)
+            self.classifier = nn.Linear(base_model.config.hidden_size, num_labels)
+
+        def forward(self, input_ids=None, attention_mask=None, labels=None):
+            outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask, output_hidden_states=True)
+            hidden_states = outputs.hidden_states  # tuple of hidden states from all layers
+            last_hidden_state = hidden_states[-1]  # last hidden state
+            pooled_output = last_hidden_state[:, -1, :]  # Use the last token's hidden state
+            pooled_output = self.dropout(pooled_output)
+            logits = self.classifier(pooled_output)
+
+            loss = None
+            if labels is not None:
+                loss_fct = nn.CrossEntropyLoss()
+                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+
+            return {'loss': loss, 'logits': logits}
 
     def load_data(self, data_path):
         # Load processed data
@@ -160,7 +158,7 @@ class TextClassifier:
         # Tokenize texts
         encoding = self.tokenizer(
             texts, padding='max_length', truncation=True, max_length=512, return_tensors='pt')
-        encoding = {k: v.to(self.device) for k, v in encoding.items()}
+        encoding = {k: v.to(self.model.base_model.device) for k, v in encoding.items()}
 
         # Get predictions
         self.model.eval()
@@ -172,7 +170,6 @@ class TextClassifier:
         # Decode labels
         predicted_labels = self.label_encoder.inverse_transform(preds)
         return predicted_labels
-
 
 # Usage example
 if __name__ == "__main__":
