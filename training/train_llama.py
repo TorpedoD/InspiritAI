@@ -38,7 +38,7 @@ class TextClassifier:
 
         def forward(self, input_ids=None, attention_mask=None, labels=None):
             outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask, output_hidden_states=True)
-            hidden_states = outputs.hidden_states  # tuple of hidden states from all layers
+            hidden_states = outputs.hidden_states if hasattr(outputs, 'hidden_states') else outputs.last_hidden_state
             last_hidden_state = hidden_states[-1]  # last hidden state
             pooled_output = last_hidden_state[:, -1, :]  # Use the last token's hidden state
             pooled_output = self.dropout(pooled_output)
@@ -101,10 +101,12 @@ class TextClassifier:
             per_device_eval_batch_size=batch_size,
             warmup_steps=500,
             weight_decay=0.01,
-            evaluation_strategy="epoch",
+            evaluation_strategy="epoch",  # Update to eval_strategy if necessary
             logging_dir='./logs',
             logging_steps=10,
             save_total_limit=2,
+            eval_strategy="epoch",  # Update to eval_strategy if necessary
+            report_to="tensorboard",  # Tensorboard integration for better monitoring
         )
 
         # Initialize the Trainer
