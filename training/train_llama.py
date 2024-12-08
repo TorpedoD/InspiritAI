@@ -30,10 +30,10 @@ class TextClassifier:
             config.rope_scaling = {'type': 'llama3', 'factor': 32.0}
         
         # Load the base model with the adjusted config
-        base_model = AutoModelForCausalLM.from_pretrained(self.model_name, config=config, cache_dir=self.model_dir)
+        self.base_model = AutoModelForCausalLM.from_pretrained(self.model_name, config=config, cache_dir=self.model_dir)
 
         # Define the custom model with classification head
-        self.model = self.LlamaForSequenceClassification(base_model, self.num_labels)
+        self.model = self.LlamaForSequenceClassification(self.base_model, self.num_labels)
 
     class LlamaForSequenceClassification(nn.Module):
         def __init__(self, base_model, num_labels):
