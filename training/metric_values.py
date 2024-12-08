@@ -77,6 +77,11 @@ with torch.no_grad():
 predictions = np.array(all_predictions)
 logits = np.array(all_logits)
 
+# Ensure label types match
+y_test = np.array(y_test)
+if y_test.dtype != predictions.dtype:
+    predictions = predictions.astype(y_test.dtype)
+
 # Calculate metrics
 accuracy = accuracy_score(y_test, predictions)
 precision = precision_score(y_test, predictions, average='weighted')
