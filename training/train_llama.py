@@ -1,7 +1,7 @@
 import pickle
 import torch
 import torch.nn as nn
-from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments, AutoConfig
+from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments
 from sklearn.metrics import accuracy_score, classification_report, precision_recall_fscore_support
 from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
@@ -22,24 +22,11 @@ class TextClassifier:
         # Set padding_side to 'left' for decoder-only architecture
         self.tokenizer.padding_side = 'left'
 
-        # Load and adjust the model configuration
-        config = AutoConfig.from_pretrained(self.model_name, cache_dir=self.model_dir)
-
-        # Fix rope_scaling if necessary
-        if 'rope_scaling' not in config:
-            config.rope_scaling = {'type': 'llama3', 'factor': 32.0}
-        elif isinstance(config.rope_scaling, dict):
-            # Ensure it matches the expected structure
-            config.rope_scaling = {
-                'type': config.rope_scaling.get('type', 'llama3'),
-                'factor': config.rope_scaling.get('factor', 32.0),
-            }
-
-        # Load the base model with the adjusted config
-        self.base_model = AutoModelForCausalLM.from_pretrained(self.model_name, config=config, cache_dir=self.model_dir)
+        # Load the base model
+        base_model = AutoModelForCausalLM.from_pretrained(self.model_name, cache_dir=self.model_dir)
 
         # Define the custom model with classification head
-        self.model = self.LlamaForSequenceClassification(self.base_model, self.num_labels)
+        self.model = self.LlamaForSequenceClassification(base_model, self.num_labels)
 
     class LlamaForSequenceClassification(nn.Module):
         def __init__(self, base_model, num_labels):
