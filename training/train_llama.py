@@ -225,6 +225,8 @@ class TextClassifier:
             dict: Dictionary with accuracy and other metrics
         """
         logits, labels = eval_pred
+        logits = torch.tensor(logits)  # Ensure logits is a tensor
+
         preds = torch.argmax(logits, axis=-1)
         accuracy = accuracy_score(labels, preds)
         return {
@@ -330,63 +332,42 @@ class TextClassifier:
         state_dict = load_file(os.path.join(output_dir, 'model.safetensors'))
         loaded_model.load_state_dict(state_dict)
         
+        # Return loaded model
         return loaded_model
 
     def evaluate(self):
         """
-        Evaluate the model and print detailed metrics.
+        Evaluate the trained model on test data.
         """
-        print("Evaluating the model...")
-        
-        # Get evaluation results
-        eval_results = self.trainer.evaluate()
-        print(f"\nEvaluation results:\n{eval_results}")
+        results = self.trainer.evaluate()
+        print(f"Evaluation results: {results}")
+        return results
 
-        # Predict on test dataset
-        predictions = self.trainer.predict(self.tokenized_test_dataset)
-        preds = predictions.predictions.argmax(-1)
 
-        # Decode labels
-        true_labels = self.label_encoder.inverse_transform(self.y_test_encoded)
-        predicted_labels = self.label_encoder.inverse_transform(preds)
-
-        # Print detailed classification report
-        print("\nClassification Report:")
-        print(classification_report(
-            true_labels, 
-            predicted_labels, 
-            target_names=self.labels
-        ))
-
-        # Print additional metrics
-        precision, recall, f1, _ = precision_recall_fscore_support(
-            true_labels, 
-            predicted_labels, 
-            average='weighted'
-        )
-        print(f"Precision: {precision}")
-        print(f"Recall: {recall}")
-        print(f"F1 Score: {f1}")
-
+# Main method to run the script
 def main():
-    # Define parameters
-    model_name = "EleutherAI/gpt-neo-2.7B"
-    model_dir = "./model_cache"
-    data_path = "processed_data.pkl"  # Path to your data pickle file
-    num_labels = 10  # Example number of labels
-    
-    # Initialize TextClassifier
+    # Set parameters
+    model_name = 'your-pretrained-model-name'
+    model_dir = './model'
+    num_labels = 3  # Modify based on your dataset
+    data_path = 'data.pkl'  # Path to your pickled dataset
+
+    # Initialize the classifier
     classifier = TextClassifier(model_name, model_dir, num_labels)
-    
-    # Load and prepare data
+
+    # Load data
     classifier.load_data(data_path)
+
+    # Encode labels
     classifier.encode_labels()
+
+    # Prepare datasets
     classifier.prepare_datasets()
 
-    # Train model
-    classifier.train(output_dir='./results', num_train_epochs=3, batch_size=2)
+    # Train the model
+    classifier.train(output_dir='./results')
 
-    # Evaluate model
+    # Evaluate the model
     classifier.evaluate()
 
 if __name__ == "__main__":
