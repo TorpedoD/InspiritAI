@@ -1,12 +1,12 @@
 python-docx
-torch==2.1.0
-tensorflow==2.13.0
-transformers==4.34.0
-scikit-learn==1.2.2
-datasets==2.11.0
-nltk==3.7
-pandas==1.5.3
+torch
+tensorflow
+transformers
+scikit-learn
+datasets
+nltk
+pandas
 huggingface_hub
-numpy<=1.24.3
-accelerate>=0.26.0
+numpy
+accelerate
 
