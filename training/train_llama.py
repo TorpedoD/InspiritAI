@@ -6,6 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, precision_rec
 from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
 
+
 class TextClassifier:
     def __init__(self, model_name, model_dir, num_labels):
         self.model_name = model_name
@@ -32,7 +33,7 @@ class TextClassifier:
         def __init__(self, base_model, num_labels):
             super(TextClassifier.LlamaForSequenceClassification, self).__init__()
             self.base_model = base_model
-            self.num_labels = num_labels  # Define num_labels in the model class
+            self.num_labels = num_labels
             self.dropout = nn.Dropout(0.1)
             self.classifier = nn.Linear(base_model.config.hidden_size, num_labels)
 
@@ -123,6 +124,7 @@ class TextClassifier:
         print("Starting training...")
         self.trainer.train()
         print("Training completed.")
+        self.trainer.save_model(output_dir)  # Save model using Hugging Face method
 
     def evaluate(self):
         # Evaluate the model
@@ -172,6 +174,7 @@ class TextClassifier:
         # Decode labels
         predicted_labels = self.label_encoder.inverse_transform(preds)
         return predicted_labels
+
 
 # Usage example
 if __name__ == "__main__":
