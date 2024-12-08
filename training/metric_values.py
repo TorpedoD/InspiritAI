@@ -16,11 +16,11 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 with open('processed_data.pkl', 'rb') as file:
     data = pickle.load(file)
 
-texts = data['texts']
-labels = data['labels']
+# If data is a tuple, unpack it
+texts, labels = data  # Assuming the tuple contains texts and labels in that order
 
 # Tokenize texts
-inputs = tokenizer(texts, padding=True, truncation=True, return_tensors='pt', max_length=512)
+inputs = tokenizer(texts, padding=True, truncation=True, return_tensors='pt')
 
 # Make predictions
 with torch.no_grad():
@@ -51,9 +51,6 @@ plt.ylabel('True Label')
 plt.show()
 
 # Multi-class ROC AUC
-# Binarize labels for multi-class ROC AUC
 labels_bin = label_binarize(labels, classes=np.unique(labels))
-
-# Compute ROC AUC score
 roc_auc = roc_auc_score(labels_bin, outputs.logits.detach().numpy(), average='macro', multi_class='ovr')
 print(f'Multi-class ROC AUC: {roc_auc:.4f}')
