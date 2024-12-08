@@ -214,6 +214,23 @@ class TextClassifier:
         
         print("Datasets prepared and tokenized.")
 
+    def compute_metrics(self, eval_pred):
+        """
+        Compute accuracy and other evaluation metrics.
+        
+        Args:
+            eval_pred: Prediction results from the model evaluation
+        
+        Returns:
+            dict: Dictionary with accuracy and other metrics
+        """
+        logits, labels = eval_pred
+        preds = torch.argmax(logits, axis=-1)
+        accuracy = accuracy_score(labels, preds)
+        return {
+            'accuracy': accuracy
+        }
+
     def train(self, output_dir='./results', num_train_epochs=3, batch_size=2):
         """
         Train the model with optimized training arguments.
