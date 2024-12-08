@@ -103,6 +103,7 @@ class TextClassifier:
             logging_dir='./logs',
             logging_steps=10,
             save_total_limit=2,
+            save_strategy='no',  # Disable saving checkpoints
             report_to="tensorboard",
         )
 
@@ -135,7 +136,7 @@ class TextClassifier:
 
     def save_model(self, output_dir):
         """Save the model, tokenizer, and label encoder."""
-        self.model.base_model.save_pretrained(output_dir)
+        self.model.base_model.save_pretrained(output_dir, safe_serialization=True)  # Safe serialization for transformers models
         self.tokenizer.save_pretrained(output_dir)
         with open(f"{output_dir}/label_encoder.pkl", "wb") as f:
             pickle.dump(self.label_encoder, f)
