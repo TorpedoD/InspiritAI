@@ -182,8 +182,14 @@ class TextClassifier:
         return predicted_labels
 
 def save_model_to_safetensors(model, tokenizer, output_dir):
+    # Ensure to avoid memory duplication by saving without shared memory tensors
+    safe_model = model
+    if hasattr(model.base_model, "lm_head") and hasattr(model.base_model, "embed_tokens"):
+        model.base_model.lm_head.weight = model.base_model.lm_head.weight.detach()
+        model.base_model.embed_tokens.weight = model.base_model.embed_tokens.weight.detach()
+
     # Save the model and tokenizer using safetensors
-    save_model(model, output_dir)
+    save_model(safe_model, output_dir)
     tokenizer.save_pretrained(output_dir)
     print(f"Model and tokenizer saved to {output_dir} using safetensors.")
 
