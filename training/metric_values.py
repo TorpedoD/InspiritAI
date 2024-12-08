@@ -20,7 +20,7 @@ texts = data['texts']
 labels = data['labels']
 
 # Tokenize texts
-inputs = tokenizer(texts, padding=True, truncation=True, return_tensors='pt')
+inputs = tokenizer(texts, padding=True, truncation=True, return_tensors='pt', max_length=512)
 
 # Make predictions
 with torch.no_grad():
@@ -51,6 +51,9 @@ plt.ylabel('True Label')
 plt.show()
 
 # Multi-class ROC AUC
+# Binarize labels for multi-class ROC AUC
 labels_bin = label_binarize(labels, classes=np.unique(labels))
+
+# Compute ROC AUC score
 roc_auc = roc_auc_score(labels_bin, outputs.logits.detach().numpy(), average='macro', multi_class='ovr')
 print(f'Multi-class ROC AUC: {roc_auc:.4f}')
