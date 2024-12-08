@@ -16,9 +16,15 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 with open('processed_data.pkl', 'rb') as file:
     data = pickle.load(file)
 
-# Check if data is in tuple format with two elements (texts and labels)
+# Inspect the structure of the loaded data
+print(f"Type of data: {type(data)}")
+print(f"Content of data: {data}")
+
+# Adjust data loading based on structure
 if isinstance(data, tuple) and len(data) == 2:
     texts, labels = data
+elif isinstance(data, dict) and 'texts' in data and 'labels' in data:
+    texts, labels = data['texts'], data['labels']
 else:
     print("Unexpected data structure.")
     exit()
