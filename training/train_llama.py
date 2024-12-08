@@ -198,6 +198,10 @@ class TextClassifier:
             remove_columns=test_dataset.column_names
         )
 
+        # Add the 'labels' column to the datasets explicitly
+        self.tokenized_train_dataset = self.tokenized_train_dataset.add_column('labels', self.y_train_encoded)
+        self.tokenized_test_dataset = self.tokenized_test_dataset.add_column('labels', self.y_test_encoded)
+
         # Set format for PyTorch
         self.tokenized_train_dataset.set_format(
             'torch', 
@@ -334,115 +338,39 @@ class TextClassifier:
         print(classification_report(
             true_labels, 
             predicted_labels, 
-            labels=self.label_encoder.classes_
+            target_names=self.labels
         ))
 
-    @staticmethod
-    def compute_metrics(pred):
-        """
-        Compute evaluation metrics.
-        
-        Args:
-            pred (EvalPrediction): Prediction results
-        
-        Returns:
-            dict: Computed metrics
-        """
-        labels = pred.label_ids
-        preds = pred.predictions.argmax(-1)
-        
-        # Compute various metrics
+        # Print additional metrics
         precision, recall, f1, _ = precision_recall_fscore_support(
-            labels, preds, average='weighted', zero_division=0)
-        accuracy = accuracy_score(labels, preds)
-        
-        return {
-            'accuracy': accuracy,
-            'f1': f1,
-            'precision': precision,
-            'recall': recall
-        }
-
-    def predict(self, texts):
-        """
-        Predict labels for new texts.
-        
-        Args:
-            texts (list): List of input texts
-        
-        Returns:
-            list: Predicted labels
-        """
-        # Tokenize texts
-        encoding = self.tokenizer(
-            texts, 
-            padding=True, 
-            truncation=True, 
-            max_length=512, 
-            return_tensors='pt'
+            true_labels, 
+            predicted_labels, 
+            average='weighted'
         )
-        
-        # Move to device
-        encoding = {k: v.to(self.device) for k, v in encoding.items()}
+        print(f"Precision: {precision}")
+        print(f"Recall: {recall}")
+        print(f"F1 Score: {f1}")
 
-        # Get predictions
-        self.model.eval()
-        with torch.no_grad():
-            outputs = self.model(**encoding)
-            logits = outputs['logits']
-            preds = logits.argmax(-1).cpu().numpy()
-
-        # Decode labels
-        predicted_labels = self.label_encoder.inverse_transform(preds)
-        return predicted_labels
-
-# Main execution block
 def main():
-    # Configuration
-    model_name = "meta-llama/Llama-3.2-1B-Instruct"
-    model_dir = "./llama_model"
-    data_path = 'processed_data.pkl'
-    output_dir = './results'
-
-    # Seed for reproducibility
-    torch.manual_seed(42)
-
-    # Load processed data to get number of labels
-    with open(data_path, 'rb') as f:
-        _, _, _, _, labels = pickle.load(f)
-    num_labels = len(set(labels))
-
-    # Initialize classifier
-    classifier = TextClassifier(
-        model_name=model_name, 
-        model_dir=model_dir, 
-        num_labels=num_labels
-    )
-
-    # Prepare data
+    # Define parameters
+    model_name = "EleutherAI/gpt-neo-2.7B"
+    model_dir = "./model_cache"
+    data_path = "./data.pkl"  # Path to your data pickle file
+    num_labels = 10  # Example number of labels
+    
+    # Initialize TextClassifier
+    classifier = TextClassifier(model_name, model_dir, num_labels)
+    
+    # Load and prepare data
     classifier.load_data(data_path)
     classifier.encode_labels()
     classifier.prepare_datasets()
 
-    # Train the model
-    classifier.train(
-        output_dir=output_dir, 
-        num_train_epochs=3, 
-        batch_size=2
-    )
+    # Train model
+    classifier.train(output_dir='./results', num_train_epochs=3, batch_size=2)
 
-    # Evaluate the model
+    # Evaluate model
     classifier.evaluate()
-
-    # Example prediction
-    new_texts = [
-        "Sample text for classification.",
-        "Another example text to classify."
-    ]
-    predictions = classifier.predict(new_texts)
-    print("\nPredictions on new texts:")
-    for text, label in zip(new_texts, predictions):
-        print(f"Text: {text}\nPredicted Label: {label}\n")
 
 if __name__ == "__main__":
     main()
