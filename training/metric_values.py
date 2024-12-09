@@ -25,9 +25,7 @@ model = AutoModelForCausalLM.from_pretrained(saved_model_dir).to(device)
 # Add a padding token if not already defined
 if tokenizer.pad_token is None:
     tokenizer.add_special_tokens({'pad_token': '[PAD]'})
-
-# Ensure the model recognizes the new token
-model.resize_token_embeddings(len(tokenizer))
+    model.resize_token_embeddings(len(tokenizer))
 
 # Load the label encoder
 with open(f"{saved_model_dir}/label_encoder.pkl", "rb") as f:
@@ -51,32 +49,38 @@ test_dataset = Dataset.from_dict({'text': X_test, 'labels': y_test_encoded})
 def tokenize_function(examples):
     return tokenizer(examples['text'], padding='max_length', truncation=True, max_length=512)
 
-# Tokenizing the dataset
+# Tokenize the dataset
 tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 tokenized_test_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
 
-# Get predictions
-model.eval()
-all_predictions = []
-all_labels = []
+# Function to compute predictions in batches
+def compute_predictions(model, dataset, batch_size=16):
+    model.eval()
+    all_predictions = []
+    all_labels = []
 
-for i in range(len(tokenized_test_dataset)):
-    input_ids = tokenized_test_dataset[i]['input_ids'].unsqueeze(0).to(device)
-    attention_mask = tokenized_test_dataset[i]['attention_mask'].unsqueeze(0).to(device)
-    label = tokenized_test_dataset[i]['labels']
+    for i in range(0, len(dataset), batch_size):
+        batch = dataset[i:i + batch_size]
+        input_ids = batch['input_ids'].to(device)
+        attention_mask = batch['attention_mask'].to(device)
+        labels = batch['labels']
 
-    with torch.no_grad():
-        logits = model(input_ids=input_ids, attention_mask=attention_mask).logits
+        with torch.no_grad():
+            logits = model(input_ids=input_ids, attention_mask=attention_mask).logits
+        predictions = F.softmax(logits, dim=-1).cpu().numpy()
 
-    predictions = F.softmax(logits, dim=-1).cpu().numpy()
-    all_predictions.append(predictions)
-    all_labels.append(label)
+        all_predictions.append(predictions)
+        all_labels.extend(labels.numpy())
 
-predicted_probs = np.vstack(all_predictions)
+    return np.vstack(all_predictions), np.array(all_labels)
+
+# Compute predictions
+batch_size = 16  # Adjust based on available GPU memory
+predicted_probs, true_labels = compute_predictions(model, tokenized_test_dataset, batch_size=batch_size)
 predicted_labels = np.argmax(predicted_probs, axis=1)
 
 # Confusion Matrix
-cm = confusion_matrix(y_test_encoded, predicted_labels)
+cm = confusion_matrix(true_labels, predicted_labels)
 
 # Plot confusion matrix
 plt.figure(figsize=(8, 6))
@@ -87,7 +91,7 @@ plt.ylabel('True')
 plt.show()
 
 # Compute ROC curve for each class (multi-class ROC curve)
-true_labels_one_hot = np.eye(num_labels)[y_test_encoded]
+true_labels_one_hot = np.eye(num_labels)[true_labels]
 
 plt.figure(figsize=(8, 6))
 for i in range(num_labels):
