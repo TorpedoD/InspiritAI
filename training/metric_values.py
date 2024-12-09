@@ -1,5 +1,5 @@
 import pickle
-import torch  # Ensure torch is imported
+import torch
 from train_llama import TextClassifier  # Ensure this is importing the correct class from your original script
 
 def evaluate_model(model_path, data_path):
@@ -13,8 +13,11 @@ def evaluate_model(model_path, data_path):
     classifier.encode_labels()
     classifier.prepare_datasets()
 
-    # Load the trained model directly from the saved directory
-    classifier.model = TextClassifier.LlamaForSequenceClassification.from_pretrained(model_path)
+    # Load the saved model manually
+    base_model = TextClassifier.AutoModelForCausalLM.from_pretrained(model_path)
+    
+    # Reinitialize your custom classifier with the loaded model
+    classifier.model = TextClassifier.LlamaForSequenceClassification(base_model, num_labels=len(set(labels)))
     classifier.model.eval()
 
     # Evaluate the model and print metrics
