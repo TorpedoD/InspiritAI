@@ -1,5 +1,5 @@
 import pickle
-import train_llama
+from train_llama import TextClassifier  # Import the TextClassifier class from train_llama.py
 
 # Define file paths
 model_dir = './saved_model'  # Path to the saved model directory
