@@ -200,7 +200,10 @@ class TextClassifier:
 
         # Compute ROC curve for each class (multi-class ROC curve)
         true_labels_one_hot = np.array([self.label_encoder.transform([label])[0] for label in true_labels])
-        predicted_probs = torch.softmax(torch.tensor(predicted_labels), dim=-1).numpy()  # Apply softmax to get probabilities
+        
+        # Use logits (predictions) to compute softmax probabilities
+        logits = self.model(**encoding).logits.detach().cpu().numpy()
+        predicted_probs = torch.softmax(torch.tensor(logits), dim=-1).numpy()  # Apply softmax to get probabilities
 
         # Plot ROC curve for each class
         plt.figure(figsize=(8, 6))
