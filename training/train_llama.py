@@ -226,24 +226,12 @@ if __name__ == "__main__":
     data_path = 'processed_data.pkl'
 
     with open(data_path, 'rb') as f:
-        _, _, _, _, labels = pickle.load(f)
-    num_labels = len(set(labels))
+        X_train, X_test, y_train, y_test, labels = pickle.load(f)
 
-    classifier = TextClassifier(model_name, model_dir, num_labels)
-
+    classifier = TextClassifier(model_name, model_dir, num_labels=len(set(labels)))
     classifier.load_data(data_path)
     classifier.encode_labels()
     classifier.prepare_datasets()
-
-    classifier.train(output_dir='./results', num_train_epochs=3, batch_size=2)
+    classifier.train()
     classifier.evaluate()
-    classifier.save_model(output_dir='./saved_model')
-
-    new_texts = [
-        "Sample text for classification.",
-        "Another example text to classify."
-    ]
-    predictions = classifier.predict(new_texts)
-    print("\nPredictions on new texts:")
-    for text, label in zip(new_texts, predictions):
-        print(f"Text: {text}\nPredicted Label: {label}\n")
+    classifier.save_model('./results')
