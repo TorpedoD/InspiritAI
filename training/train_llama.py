@@ -160,12 +160,20 @@ class TextClassifier:
         # Generate confusion matrix and ROC curve
         self.generate_visualizations(true_labels, predicted_labels)
 
-    def save_model(self, output_dir):
-        """Save the model, tokenizer, and label encoder."""
+    def save_model(self):
+        """Save the model, tokenizer, and label encoder to './save_model'."""
+        output_dir = './save_model'  # Set the save location to './save_model'
+    
+        # Save the base model
         self.model.base_model.save_pretrained(output_dir, safe_serialization=True)  # Safe serialization for transformers models
+        
+        # Save the tokenizer
         self.tokenizer.save_pretrained(output_dir)
+        
+        # Save the label encoder
         with open(f"{output_dir}/label_encoder.pkl", "wb") as f:
             pickle.dump(self.label_encoder, f)
+        
         print(f"Model saved successfully to {output_dir}")
 
     @staticmethod
@@ -197,7 +205,7 @@ class TextClassifier:
         return predicted_labels
 
     def generate_visualizations(self, true_labels, predicted_labels):
-    # Confusion Matrix
+        # Confusion Matrix
         cm = confusion_matrix(true_labels, predicted_labels)
         plt.figure(figsize=(8, 6))
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=self.label_encoder.classes_, yticklabels=self.label_encoder.classes_)
@@ -239,4 +247,4 @@ if __name__ == "__main__":
     classifier.prepare_datasets()
     classifier.train()
     classifier.evaluate()
-    classifier.save_model('./saved_model')
+    classifier.save_model()  # This will save everything in './save_model'
