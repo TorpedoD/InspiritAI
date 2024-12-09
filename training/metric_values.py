@@ -1,6 +1,6 @@
 import pickle
 import torch
-from transformers import AutoModelForCausalLM  # Import from Hugging Face library
+from transformers import AutoModelForCausalLM
 from train_llama import TextClassifier  # Ensure this is importing the correct class from your original script
 
 def evaluate_model(model_path, data_path):
@@ -10,10 +10,7 @@ def evaluate_model(model_path, data_path):
 
     # Initialize the classifier
     classifier = TextClassifier(model_name="meta-llama/Llama-3.2-1B-Instruct", model_dir=model_path, num_labels=len(set(labels)))
-    classifier.load_data(data_path)
-    classifier.encode_labels()
-    classifier.prepare_datasets()
-
+    
     # Load the saved model manually from Hugging Face
     base_model = AutoModelForCausalLM.from_pretrained(model_path)
     
