@@ -20,6 +20,6 @@ def evaluate_model(model_path, data_path):
     classifier.evaluate()
 
 if __name__ == "__main__":
-    model_path = './results'  # Path where the trained model is saved
+    model_path = './saved_model'  # Path where the trained model is saved
     data_path = 'processed_data.pkl'  # Path to your dataset
     evaluate_model(model_path, data_path)
