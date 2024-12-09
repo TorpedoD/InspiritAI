@@ -22,6 +22,13 @@ data_path = 'processed_data.pkl'  # Path to the pickle file with your data
 tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=model_dir)
 model = AutoModelForCausalLM.from_pretrained(saved_model_dir).to(device)
 
+# Add a padding token if not already defined
+if tokenizer.pad_token is None:
+    tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+
+# Ensure the model recognizes the new token
+model.resize_token_embeddings(len(tokenizer))
+
 # Load the label encoder
 with open(f"{saved_model_dir}/label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)
@@ -50,11 +57,25 @@ tokenized_test_dataset.set_format('torch', columns=['input_ids', 'attention_mask
 
 # Get predictions
 model.eval()
-predictions = model(**tokenized_test_dataset[0]).logits.detach().cpu().numpy()
-predicted_probs = torch.softmax(torch.tensor(predictions), dim=-1).numpy()  # Apply softmax to get probabilities
+all_predictions = []
+all_labels = []
+
+for i in range(len(tokenized_test_dataset)):
+    input_ids = tokenized_test_dataset[i]['input_ids'].unsqueeze(0).to(device)
+    attention_mask = tokenized_test_dataset[i]['attention_mask'].unsqueeze(0).to(device)
+    label = tokenized_test_dataset[i]['labels']
+
+    with torch.no_grad():
+        logits = model(input_ids=input_ids, attention_mask=attention_mask).logits
+
+    predictions = F.softmax(logits, dim=-1).cpu().numpy()
+    all_predictions.append(predictions)
+    all_labels.append(label)
+
+predicted_probs = np.vstack(all_predictions)
+predicted_labels = np.argmax(predicted_probs, axis=1)
 
 # Confusion Matrix
-predicted_labels = np.argmax(predicted_probs, axis=1)
 cm = confusion_matrix(y_test_encoded, predicted_labels)
 
 # Plot confusion matrix
@@ -66,12 +87,11 @@ plt.ylabel('True')
 plt.show()
 
 # Compute ROC curve for each class (multi-class ROC curve)
-true_labels_one_hot = np.array([label_encoder.transform([label])[0] for label in y_test])
+true_labels_one_hot = np.eye(num_labels)[y_test_encoded]
 
-# Plot ROC curve for each class
 plt.figure(figsize=(8, 6))
 for i in range(num_labels):
-    fpr, tpr, _ = roc_curve(true_labels_one_hot == i, predicted_probs[:, i])
+    fpr, tpr, _ = roc_curve(true_labels_one_hot[:, i], predicted_probs[:, i])
     roc_auc = auc(fpr, tpr)
     plt.plot(fpr, tpr, lw=2, label=f'Class {label_encoder.classes_[i]} (AUC = {roc_auc:.2f})')
 
