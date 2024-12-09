@@ -38,6 +38,9 @@ class TextClassifier:
         # Define the custom model with classification head
         self.model = self.LlamaForSequenceClassification(base_model, self.num_labels).to(self.device)
 
+        # Initialize Trainer (move this to __init__)
+        self.trainer = None  # Initialize it to None to handle cases before training
+
     class LlamaForSequenceClassification(nn.Module):
         def __init__(self, base_model, num_labels):
             super(TextClassifier.LlamaForSequenceClassification, self).__init__()
@@ -124,6 +127,10 @@ class TextClassifier:
         print("Training completed.")
 
     def evaluate(self):
+        # Check if trainer is initialized before evaluation
+        if self.trainer is None:
+            raise ValueError("Trainer is not initialized. Please call the 'train' method first.")
+        
         print("Evaluating the model...")
         eval_results = self.trainer.evaluate()
         print(f"\nEvaluation results:\n{eval_results}")
@@ -225,10 +232,7 @@ if __name__ == "__main__":
     model_dir = "llama_model"
     data_path = 'processed_data.pkl'
 
-    with open(data_path, 'rb') as f:
-        X_train, X_test, y_train, y_test, labels = pickle.load(f)
-
-    classifier = TextClassifier(model_name, model_dir, num_labels=len(set(labels)))
+    classifier = TextClassifier(model_name, model_dir, num_labels=10)  # Assuming you have 10 classes for your dataset
     classifier.load_data(data_path)
     classifier.encode_labels()
     classifier.prepare_datasets()
