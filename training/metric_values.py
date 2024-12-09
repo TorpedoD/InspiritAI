@@ -18,5 +18,8 @@ classifier.load_data(data_path)
 classifier.encode_labels()
 classifier.prepare_datasets()
 
+# Initialize the trainer before evaluating
+classifier.trainer = classifier.prepare_trainer()  # This will initialize the trainer
+
 # Evaluate the model and print metrics
 classifier.evaluate()
