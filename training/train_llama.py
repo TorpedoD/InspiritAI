@@ -97,7 +97,7 @@ class TextClassifier:
         self.tokenized_test_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
         print("Datasets prepared and tokenized.")
 
-    def train(self, output_dir='./results', num_train_epochs=3, batch_size=2):
+    def train(self, output_dir='./results', num_train_epochs=3, batch_size=2, learning_rate=5e-5):
         training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=num_train_epochs,
@@ -111,6 +111,7 @@ class TextClassifier:
             save_total_limit=2,
             save_strategy='no',  # Disable saving checkpoints
             report_to="tensorboard",
+            learning_rate=learning_rate,  # Added learning rate parameter
         )
 
         self.trainer = Trainer(
