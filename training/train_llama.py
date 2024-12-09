@@ -197,7 +197,7 @@ class TextClassifier:
         return predicted_labels
 
     def generate_visualizations(self, true_labels, predicted_labels):
-        # Confusion Matrix
+    # Confusion Matrix
         cm = confusion_matrix(true_labels, predicted_labels)
         plt.figure(figsize=(8, 6))
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=self.label_encoder.classes_, yticklabels=self.label_encoder.classes_)
@@ -205,21 +205,21 @@ class TextClassifier:
         plt.xlabel('Predicted')
         plt.ylabel('True')
         plt.show()
-
+    
         # Compute ROC curve for each class (multi-class ROC curve)
         true_labels_one_hot = np.array([self.label_encoder.transform([label])[0] for label in true_labels])
         
-        # Use logits (predictions) to compute softmax probabilities
-        logits = self.model(**encoding).logits.detach().cpu().numpy()
-        predicted_probs = torch.softmax(torch.tensor(logits), dim=-1).numpy()  # Apply softmax to get probabilities
-
+        # Use the predictions to compute softmax probabilities
+        predicted_probs = self.trainer.predict(self.tokenized_test_dataset).predictions
+        predicted_probs = torch.softmax(torch.tensor(predicted_probs), dim=-1).numpy()  # Apply softmax to get probabilities
+    
         # Plot ROC curve for each class
         plt.figure(figsize=(8, 6))
         for i in range(self.num_labels):
             fpr, tpr, _ = roc_curve(true_labels_one_hot == i, predicted_probs[:, i])
             roc_auc = auc(fpr, tpr)
             plt.plot(fpr, tpr, lw=2, label=f'Class {self.label_encoder.classes_[i]} (AUC = {roc_auc:.2f})')
-
+    
         plt.plot([0, 1], [0, 1], linestyle='--', lw=2)
         plt.title('Receiver Operating Characteristic (ROC) Curve')
         plt.xlabel('False Positive Rate')
