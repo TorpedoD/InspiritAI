@@ -234,4 +234,4 @@ if __name__ == "__main__":
     classifier.prepare_datasets()
     classifier.train()
     classifier.evaluate()
-    classifier.save_model('./results')
+    classifier.save_model('./saved_data')
