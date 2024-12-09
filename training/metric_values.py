@@ -1,4 +1,5 @@
 import pickle
+import torch
 from train_llama import TextClassifier  # Make sure this imports your original class
 
 def evaluate_model(model_path, data_path):
