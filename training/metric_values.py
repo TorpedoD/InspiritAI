@@ -1,6 +1,6 @@
 import pickle
-import torch
-from train_llama import TextClassifier  # Make sure this imports your original class
+import torch  # Ensure torch is imported
+from train_llama import TextClassifier  # Ensure this is importing the correct class from your original script
 
 def evaluate_model(model_path, data_path):
     # Load the data
@@ -13,8 +13,8 @@ def evaluate_model(model_path, data_path):
     classifier.encode_labels()
     classifier.prepare_datasets()
 
-    # Load the trained model
-    classifier.model.load_state_dict(torch.load(f"{model_path}/pytorch_model.bin"))
+    # Load the trained model directly from the saved directory
+    classifier.model = TextClassifier.LlamaForSequenceClassification.from_pretrained(model_path)
     classifier.model.eval()
 
     # Evaluate the model and print metrics
