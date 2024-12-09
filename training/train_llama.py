@@ -127,16 +127,28 @@ class TextClassifier:
         print("Evaluating the model...")
         eval_results = self.trainer.evaluate()
         print(f"\nEvaluation results:\n{eval_results}")
-
+    
+        # Get predictions
         predictions = self.trainer.predict(self.tokenized_test_dataset)
         preds = predictions.predictions.argmax(-1)
-
+    
         true_labels = self.label_encoder.inverse_transform(self.y_test_encoded)
         predicted_labels = self.label_encoder.inverse_transform(preds)
-
+    
+        # Classification Report
         print("\nClassification Report:")
         print(classification_report(true_labels, predicted_labels, labels=self.label_encoder.classes_))
-
+    
+        # Accuracy calculation
+        accuracy = accuracy_score(true_labels, predicted_labels)
+        print(f"Accuracy: {accuracy:.4f}")
+    
+        # Additional metrics calculation
+        precision, recall, f1, _ = precision_recall_fscore_support(true_labels, predicted_labels, average='weighted', zero_division=0)
+        print(f"Precision: {precision:.4f}")
+        print(f"Recall: {recall:.4f}")
+        print(f"F1 Score: {f1:.4f}")
+    
         # Generate confusion matrix and ROC curve
         self.generate_visualizations(true_labels, predicted_labels)
 
@@ -176,33 +188,33 @@ class TextClassifier:
         predicted_labels = self.label_encoder.inverse_transform(preds)
         return predicted_labels
 
-def generate_visualizations(self, true_labels, predicted_labels):
-    # Confusion Matrix
-    cm = confusion_matrix(true_labels, predicted_labels)
-    plt.figure(figsize=(8, 6))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=self.label_encoder.classes_, yticklabels=self.label_encoder.classes_)
-    plt.title('Confusion Matrix')
-    plt.xlabel('Predicted')
-    plt.ylabel('True')
-    plt.show()
+    def generate_visualizations(self, true_labels, predicted_labels):
+        # Confusion Matrix
+        cm = confusion_matrix(true_labels, predicted_labels)
+        plt.figure(figsize=(8, 6))
+        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=self.label_encoder.classes_, yticklabels=self.label_encoder.classes_)
+        plt.title('Confusion Matrix')
+        plt.xlabel('Predicted')
+        plt.ylabel('True')
+        plt.show()
 
-    # Compute ROC curve for each class (multi-class ROC curve)
-    true_labels_one_hot = np.array([self.label_encoder.transform([label])[0] for label in true_labels])
-    predicted_probs = torch.softmax(torch.tensor(predicted_labels), dim=-1).numpy()  # Apply softmax to get probabilities
+        # Compute ROC curve for each class (multi-class ROC curve)
+        true_labels_one_hot = np.array([self.label_encoder.transform([label])[0] for label in true_labels])
+        predicted_probs = torch.softmax(torch.tensor(predicted_labels), dim=-1).numpy()  # Apply softmax to get probabilities
 
-    # Plot ROC curve for each class
-    plt.figure(figsize=(8, 6))
-    for i in range(self.num_labels):
-        fpr, tpr, _ = roc_curve(true_labels_one_hot == i, predicted_probs[:, i])
-        roc_auc = auc(fpr, tpr)
-        plt.plot(fpr, tpr, lw=2, label=f'Class {self.label_encoder.classes_[i]} (AUC = {roc_auc:.2f})')
+        # Plot ROC curve for each class
+        plt.figure(figsize=(8, 6))
+        for i in range(self.num_labels):
+            fpr, tpr, _ = roc_curve(true_labels_one_hot == i, predicted_probs[:, i])
+            roc_auc = auc(fpr, tpr)
+            plt.plot(fpr, tpr, lw=2, label=f'Class {self.label_encoder.classes_[i]} (AUC = {roc_auc:.2f})')
 
-    plt.plot([0, 1], [0, 1], linestyle='--', lw=2)
-    plt.title('Receiver Operating Characteristic (ROC) Curve')
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.legend(loc='lower right')
-    plt.show()
+        plt.plot([0, 1], [0, 1], linestyle='--', lw=2)
+        plt.title('Receiver Operating Characteristic (ROC) Curve')
+        plt.xlabel('False Positive Rate')
+        plt.ylabel('True Positive Rate')
+        plt.legend(loc='lower right')
+        plt.show()
 
 # Usage example
 if __name__ == "__main__":
