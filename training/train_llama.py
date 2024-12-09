@@ -176,29 +176,33 @@ class TextClassifier:
         predicted_labels = self.label_encoder.inverse_transform(preds)
         return predicted_labels
 
-    def generate_visualizations(self, true_labels, predicted_labels):
-        # Confusion Matrix
-        cm = confusion_matrix(true_labels, predicted_labels, labels=self.label_encoder.classes_)
-        plt.figure(figsize=(10, 7))
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=self.label_encoder.classes_, yticklabels=self.label_encoder.classes_)
-        plt.title("Confusion Matrix")
-        plt.xlabel("Predicted")
-        plt.ylabel("True")
-        plt.show()
+def generate_visualizations(self, true_labels, predicted_labels):
+    # Confusion Matrix
+    cm = confusion_matrix(true_labels, predicted_labels)
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=self.label_encoder.classes_, yticklabels=self.label_encoder.classes_)
+    plt.title('Confusion Matrix')
+    plt.xlabel('Predicted')
+    plt.ylabel('True')
+    plt.show()
 
-        # ROC Curve
-        fpr, tpr, thresholds = roc_curve(true_labels, predicted_labels, pos_label=1)
+    # Compute ROC curve for each class (multi-class ROC curve)
+    true_labels_one_hot = np.array([self.label_encoder.transform([label])[0] for label in true_labels])
+    predicted_probs = torch.softmax(torch.tensor(predicted_labels), dim=-1).numpy()  # Apply softmax to get probabilities
+
+    # Plot ROC curve for each class
+    plt.figure(figsize=(8, 6))
+    for i in range(self.num_labels):
+        fpr, tpr, _ = roc_curve(true_labels_one_hot == i, predicted_probs[:, i])
         roc_auc = auc(fpr, tpr)
-        plt.figure(figsize=(10, 7))
-        plt.plot(fpr, tpr, color='blue', lw=2, label=f'ROC curve (area = {roc_auc:.2f})')
-        plt.plot([0, 1], [0, 1], color='gray', lw=2, linestyle='--')
-        plt.xlim([0.0, 1.0])
-        plt.ylim([0.0, 1.05])
-        plt.xlabel('False Positive Rate')
-        plt.ylabel('True Positive Rate')
-        plt.title('Receiver Operating Characteristic')
-        plt.legend(loc="lower right")
-        plt.show()
+        plt.plot(fpr, tpr, lw=2, label=f'Class {self.label_encoder.classes_[i]} (AUC = {roc_auc:.2f})')
+
+    plt.plot([0, 1], [0, 1], linestyle='--', lw=2)
+    plt.title('Receiver Operating Characteristic (ROC) Curve')
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.legend(loc='lower right')
+    plt.show()
 
 # Usage example
 if __name__ == "__main__":
