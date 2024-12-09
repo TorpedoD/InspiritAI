@@ -8,6 +8,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
 import torch.nn.functional as F
+from torch.utils.data import DataLoader
 
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -53,30 +54,32 @@ def tokenize_function(examples):
 tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 tokenized_test_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'labels'])
 
-# Function to compute predictions in batches
-def compute_predictions(model, dataset, batch_size=16):
+# Create a DataLoader for batch processing
+batch_size = 8  # Reduce batch size if memory issues persist
+dataloader = DataLoader(tokenized_test_dataset, batch_size=batch_size)
+
+# Function to compute predictions
+def compute_predictions(model, dataloader):
     model.eval()
     all_predictions = []
     all_labels = []
 
-    for i in range(0, len(dataset), batch_size):
-        batch = dataset[i:i + batch_size]
-        input_ids = batch['input_ids'].to(device)
-        attention_mask = batch['attention_mask'].to(device)
-        labels = batch['labels']
+    with torch.no_grad():
+        for batch in dataloader:
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+            labels = batch['labels'].to(device)
 
-        with torch.no_grad():
             logits = model(input_ids=input_ids, attention_mask=attention_mask).logits
-        predictions = F.softmax(logits, dim=-1).cpu().numpy()
+            predictions = F.softmax(logits, dim=-1).cpu().numpy()
 
-        all_predictions.append(predictions)
-        all_labels.extend(labels.numpy())
+            all_predictions.append(predictions)
+            all_labels.extend(labels.cpu().numpy())
 
     return np.vstack(all_predictions), np.array(all_labels)
 
 # Compute predictions
-batch_size = 16  # Adjust based on available GPU memory
-predicted_probs, true_labels = compute_predictions(model, tokenized_test_dataset, batch_size=batch_size)
+predicted_probs, true_labels = compute_predictions(model, dataloader)
 predicted_labels = np.argmax(predicted_probs, axis=1)
 
 # Confusion Matrix
