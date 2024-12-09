@@ -15,7 +15,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Paths to your saved model and tokenizer
 model_name = "meta-llama/Llama-3.2-1B-Instruct"  # Change to your model name
 model_dir = "llama_model"  # Directory where model is saved
-saved_model_dir = './saved_model'  # Directory where the fine-tuned model is saved
+saved_model_dir = './save_model'  # Directory where the fine-tuned model is saved
 data_path = 'processed_data.pkl'  # Path to the pickle file with your data
 
 # Load the tokenizer and model
