@@ -9,24 +9,31 @@ import seaborn as sns
 from sklearn.metrics import roc_curve, auc, confusion_matrix
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer
+import os
 
 class OptimizedTextClassifier:
-    def __init__(self, model_name, model_dir, num_labels):
+    def __init__(self, model_name=None, model_dir=None, num_labels=None, model_path=None):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         if torch.cuda.is_available():
             print(f"Using GPU: {torch.cuda.get_device_name(self.device)}")
         else:
             print("CUDA not available, using CPU.")
         
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=model_dir)
-        if self.tokenizer.pad_token is None:
-            self.tokenizer.pad_token = self.tokenizer.eos_token
-        self.tokenizer.padding_side = 'left'
+        if model_path:
+            # Load saved model and tokenizer
+            self.model = AutoModelForCausalLM.from_pretrained(model_path)
+            self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+            self.model.to(self.device)
+        else:
+            # Load model and tokenizer from pretrained
+            self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=model_dir)
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
+            self.tokenizer.padding_side = 'left'
 
-        # Model with classification head
-        self.model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir=model_dir)
-        self.num_labels = num_labels
-        self.model.to(self.device)
+            self.model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir=model_dir)
+            self.num_labels = num_labels
+            self.model.to(self.device)
 
     def prepare_datasets(self, X_train, y_train, X_test, y_test):
         def tokenize_function(examples):
@@ -81,7 +88,23 @@ class OptimizedTextClassifier:
         self.model.save_pretrained(output_dir)
         self.tokenizer.save_pretrained(output_dir)
         print(f"Model saved to {output_dir}")
-    def plot_roc_curve(self, pred):
+
+    
+    def plot_roc_curve(self, model_path, test_dataset, output_dir='./plots'):
+        # Ensure the output directory exists
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Load saved model and tokenizer
+        model = AutoModelForCausalLM.from_pretrained(model_path).to(self.device)
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+    
+        # Get predictions from the model
+        trainer = Trainer(
+            model=model,
+            tokenizer=tokenizer
+        )
+        pred = trainer.predict(test_dataset)
+    
         # Get true labels and predictions
         labels = pred.label_ids
         preds = pred.predictions.argmax(-1)
@@ -91,11 +114,11 @@ class OptimizedTextClassifier:
         lb.fit(labels)
         y_true_bin = lb.transform(labels)
         y_pred_bin = lb.transform(preds)
-
+    
         # Compute ROC curve and AUC for each class
         fpr, tpr, _ = roc_curve(y_true_bin.ravel(), y_pred_bin.ravel())
         roc_auc = auc(fpr, tpr)
-
+    
         # Plot ROC curve
         plt.figure(figsize=(8, 6))
         plt.plot(fpr, tpr, color='blue', lw=2, label=f'ROC curve (area = {roc_auc:.2f})')
@@ -104,23 +127,47 @@ class OptimizedTextClassifier:
         plt.ylabel('True Positive Rate')
         plt.title('Receiver Operating Characteristic (ROC) Curve')
         plt.legend(loc='lower right')
-        plt.show()
+    
+        # Save the plot to a file
+        output_path = os.path.join(output_dir, 'roc_curve.png')
+        plt.savefig(output_path)
+        print(f"ROC curve saved to {output_path}")
+        plt.close()  # Close the plot to avoid overlapping with future plots
 
-    def plot_confusion_matrix(self, pred):
+    def plot_confusion_matrix(self, model_path, test_dataset, output_dir='./plots'):
+        # Ensure the output directory exists
+        os.makedirs(output_dir, exist_ok=True)
+    
+        # Load saved model and tokenizer
+        model = AutoModelForCausalLM.from_pretrained(model_path).to(self.device)
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+    
+        # Get predictions from the model
+        trainer = Trainer(
+            model=model,
+            tokenizer=tokenizer
+        )
+        pred = trainer.predict(test_dataset)
+    
         # Get true labels and predictions
         labels = pred.label_ids
         preds = pred.predictions.argmax(-1)
-
+    
         # Compute confusion matrix
         cm = confusion_matrix(labels, preds)
-
+    
         # Plot confusion matrix as heatmap
         plt.figure(figsize=(8, 6))
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(labels), yticklabels=np.unique(labels))
         plt.xlabel('Predicted Label')
         plt.ylabel('True Label')
         plt.title('Confusion Matrix')
-        plt.show()
+    
+        # Save the plot to a file
+        output_path = os.path.join(output_dir, 'confusion_matrix.png')
+        plt.savefig(output_path)
+        print(f"Confusion matrix saved to {output_path}")
+        plt.close()  # Close the plot to avoid overlapping with future plots
 
 # Usage
 if __name__ == "__main__":
