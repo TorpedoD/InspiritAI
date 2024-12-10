@@ -6,6 +6,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import pickle
+from sklearn.preprocessing import LabelEncoder
+from transformers import AutoTokenizer
 
 # Download required NLTK resources (only needed once)
 nltk.download('punkt')  # Ensure punkt tokenizer is available
@@ -39,7 +41,7 @@ def read_txt_files_from_folder(folder_path):
     return data, labels, file_names
 
 # Step 2: Preprocess the text data (tokenization, stopword removal, lemmatization)
-def preprocess_text(data):
+def preprocess_text(data, tokenizer):
     stop_words = set(stopwords.words('english'))
     lemmatizer = WordNetLemmatizer()
     processed_data = []
@@ -51,7 +53,10 @@ def preprocess_text(data):
             if word.isalpha() and word.lower() not in stop_words
         ]
         processed_data.append(" ".join(filtered_tokens))
-    return processed_data
+    
+    # Tokenize with padding and truncation
+    encodings = tokenizer(processed_data, padding=True, truncation=True, return_tensors="pt")
+    return encodings
 
 # Unzip the dataset
 def unzip_file(zip_path, extract_to):
@@ -79,12 +84,19 @@ if __name__ == "__main__":
     print(f"Total number of samples in the dataset: {len(data)}")
     print(f"Total number of unique labels: {len(set(labels))}")
     
+    # Initialize the tokenizer (adjust the model as needed)
+    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
+    
     # Preprocess the data
-    processed_data = preprocess_text(data)
+    encodings = preprocess_text(data, tokenizer)
+
+    # Encode the labels
+    label_encoder = LabelEncoder()
+    encoded_labels = label_encoder.fit_transform(labels)
 
     # Split the data into training and testing sets
     from sklearn.model_selection import train_test_split
-    X_train, X_test, y_train, y_test = train_test_split(processed_data, labels, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(encodings['input_ids'], encoded_labels, test_size=0.2, random_state=42)
     print(f"Training Dataset Samples: {len(X_train)}")
     print(f"Testing Dataset Samples: {len(X_test)}")
 
