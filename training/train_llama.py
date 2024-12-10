@@ -38,11 +38,16 @@ class OptimizedTextClassifier:
 
     def prepare_datasets(self, X_train, y_train, X_test, y_test):
         def tokenize_function(examples):
+            # Debugging line to ensure 'text' field contains list of strings
+            print(f"Examples: {examples['text'][:5]}")  # Print first 5 examples for debugging
             return self.tokenizer(examples['text'], padding='max_length', truncation=True, max_length=512)
         
+        # Ensure that X_train and X_test are lists of strings
         train_data = Dataset.from_dict({'text': X_train, 'labels': y_train})
         test_data = Dataset.from_dict({'text': X_test, 'labels': y_test})
         
+        # Ensure input format is correct before mapping
+        print(f"Train data first 5 texts: {X_train[:5]}")  # Check format of X_train
         self.train_dataset = train_data.map(tokenize_function, batched=True)
         self.test_dataset = test_data.map(tokenize_function, batched=True)
         
