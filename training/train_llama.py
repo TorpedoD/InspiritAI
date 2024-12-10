@@ -174,10 +174,17 @@ class TextClassifier:
     def load_trained_model(self, model_dir):
         """Load a trained model, tokenizer, and label encoder from a saved directory."""
         print("Loading trained model...")
-        self.model = self.LlamaForSequenceClassification.from_pretrained(model_dir).to(self.device)
+    
+        # Load the model architecture and the pre-trained weights
+        self.model = self.LlamaForSequenceClassification.from_pretrained(self.model_name, num_labels=self.num_labels).to(self.device)
+        
+        # Load the trained weights saved in the directory
+        self.model.load_state_dict(torch.load(f"{model_dir}/pytorch_model.bin"))
+    
         self.tokenizer = AutoTokenizer.from_pretrained(model_dir)
         with open(f"{model_dir}/label_encoder.pkl", "rb") as f:
             self.label_encoder = pickle.load(f)
+    
         print(f"Trained model loaded from {model_dir}")
 
     def evaluate(self):
