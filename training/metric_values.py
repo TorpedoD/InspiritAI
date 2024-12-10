@@ -1,5 +1,5 @@
 import pickle
-from text_classifier import TextClassifier  # Assuming the class is saved in a file named 'text_classifier.py'
+from train_llama import TextClassifier  # Assuming the class is saved in a file named 'text_classifier.py'
 
 def main():
     # Define the necessary paths
