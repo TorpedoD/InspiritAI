@@ -4,6 +4,11 @@ from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, Trainer, TrainingArguments
 from datasets import Dataset
 from torch.cuda.amp import GradScaler, autocast
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import roc_curve, auc, confusion_matrix
+import numpy as np
+from sklearn.preprocessing import LabelBinarizer
 
 class OptimizedTextClassifier:
     def __init__(self, model_name, model_dir, num_labels):
@@ -76,6 +81,46 @@ class OptimizedTextClassifier:
         self.model.save_pretrained(output_dir)
         self.tokenizer.save_pretrained(output_dir)
         print(f"Model saved to {output_dir}")
+    def plot_roc_curve(self, pred):
+        # Get true labels and predictions
+        labels = pred.label_ids
+        preds = pred.predictions.argmax(-1)
+        
+        # Binarize the labels for multi-class ROC curve
+        lb = LabelBinarizer()
+        lb.fit(labels)
+        y_true_bin = lb.transform(labels)
+        y_pred_bin = lb.transform(preds)
+
+        # Compute ROC curve and AUC for each class
+        fpr, tpr, _ = roc_curve(y_true_bin.ravel(), y_pred_bin.ravel())
+        roc_auc = auc(fpr, tpr)
+
+        # Plot ROC curve
+        plt.figure(figsize=(8, 6))
+        plt.plot(fpr, tpr, color='blue', lw=2, label=f'ROC curve (area = {roc_auc:.2f})')
+        plt.plot([0, 1], [0, 1], color='gray', linestyle='--')
+        plt.xlabel('False Positive Rate')
+        plt.ylabel('True Positive Rate')
+        plt.title('Receiver Operating Characteristic (ROC) Curve')
+        plt.legend(loc='lower right')
+        plt.show()
+
+    def plot_confusion_matrix(self, pred):
+        # Get true labels and predictions
+        labels = pred.label_ids
+        preds = pred.predictions.argmax(-1)
+
+        # Compute confusion matrix
+        cm = confusion_matrix(labels, preds)
+
+        # Plot confusion matrix as heatmap
+        plt.figure(figsize=(8, 6))
+        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(labels), yticklabels=np.unique(labels))
+        plt.xlabel('Predicted Label')
+        plt.ylabel('True Label')
+        plt.title('Confusion Matrix')
+        plt.show()
 
 # Usage
 if __name__ == "__main__":
