@@ -87,6 +87,12 @@ if __name__ == "__main__":
     # Initialize the tokenizer (adjust the model as needed)
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
     
+    # If tokenizer doesn't have a pad token, set it to eos_token or add a custom one
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token  # Use eos_token as pad_token
+        # Alternatively, you could add a custom pad token if needed:
+        # tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+
     # Preprocess the data
     encodings = preprocess_text(data, tokenizer)
 
@@ -105,3 +111,4 @@ if __name__ == "__main__":
         pickle.dump((X_train, X_test, y_train, y_test, labels), f)
 
     print("Preprocessing and data saving complete.")
+
