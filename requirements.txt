@@ -11,3 +11,5 @@ numpy==1.24.3
 accelerate
 seaborn
 tf-keras
+pipx
+python3-venv
