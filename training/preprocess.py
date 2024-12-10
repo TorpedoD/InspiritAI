@@ -6,8 +6,6 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import pickle
-from sklearn.preprocessing import LabelEncoder
-from transformers import AutoTokenizer
 
 # Download required NLTK resources (only needed once)
 nltk.download('punkt')  # Ensure punkt tokenizer is available
@@ -41,7 +39,7 @@ def read_txt_files_from_folder(folder_path):
     return data, labels, file_names
 
 # Step 2: Preprocess the text data (tokenization, stopword removal, lemmatization)
-def preprocess_text(data, tokenizer):
+def preprocess_text(data):
     stop_words = set(stopwords.words('english'))
     lemmatizer = WordNetLemmatizer()
     processed_data = []
@@ -53,10 +51,7 @@ def preprocess_text(data, tokenizer):
             if word.isalpha() and word.lower() not in stop_words
         ]
         processed_data.append(" ".join(filtered_tokens))
-    
-    # Tokenize with padding and truncation
-    encodings = tokenizer(processed_data, padding=True, truncation=True, return_tensors="pt")
-    return encodings
+    return processed_data
 
 # Unzip the dataset
 def unzip_file(zip_path, extract_to):
@@ -84,25 +79,12 @@ if __name__ == "__main__":
     print(f"Total number of samples in the dataset: {len(data)}")
     print(f"Total number of unique labels: {len(set(labels))}")
     
-    # Initialize the tokenizer (adjust the model as needed)
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
-    
-    # If tokenizer doesn't have a pad token, set it to eos_token or add a custom one
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token  # Use eos_token as pad_token
-        # Alternatively, you could add a custom pad token if needed:
-        # tokenizer.add_special_tokens({'pad_token': '[PAD]'})
-
     # Preprocess the data
-    encodings = preprocess_text(data, tokenizer)
-
-    # Encode the labels
-    label_encoder = LabelEncoder()
-    encoded_labels = label_encoder.fit_transform(labels)
+    processed_data = preprocess_text(data)
 
     # Split the data into training and testing sets
     from sklearn.model_selection import train_test_split
-    X_train, X_test, y_train, y_test = train_test_split(encodings['input_ids'], encoded_labels, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(processed_data, labels, test_size=0.2, random_state=42)
     print(f"Training Dataset Samples: {len(X_train)}")
     print(f"Testing Dataset Samples: {len(X_test)}")
 
@@ -111,4 +93,3 @@ if __name__ == "__main__":
         pickle.dump((X_train, X_test, y_train, y_test, labels), f)
 
     print("Preprocessing and data saving complete.")
-
