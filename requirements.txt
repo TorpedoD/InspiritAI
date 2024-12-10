@@ -13,3 +13,4 @@ seaborn
 tf-keras
 pipx
 python3-venv
+torchvision
