@@ -10,6 +10,7 @@ from sklearn.metrics import roc_curve, auc, confusion_matrix
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer
 import os
+from transformers import AutoModelForCausalLM
 
 class OptimizedTextClassifier:
     def __init__(self, model_name=None, model_dir=None, num_labels=None, model_path=None):
