@@ -17,6 +17,13 @@ This project includes scripts and dependencies required for training and deployi
      apt-get update
      apt-get install -y libnvinfer8 libnvinfer-dev libnvinfer-plugin8
      ```
+   - Enviorment Setup:
+      ```
+      python3 -m venv llama
+      source llama/bin/activate
+      python3 -m pip install --upgrade pip
+      pip install --upgrade pip
+     ```
    - Python packages:
      ```
      pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
