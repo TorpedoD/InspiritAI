@@ -6,7 +6,7 @@ from datasets import Dataset
 from torch.cuda.amp import GradScaler, autocast
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import roc_curve, auc, confusion_matrix
+from sklearn.metrics import roc_curve, auc, confusion_matrix, precision_recall_fscore_support, accuracy_score
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer
 import os
