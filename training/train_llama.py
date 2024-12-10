@@ -276,4 +276,3 @@ if __name__ == "__main__":
     classifier.prepare_datasets()
     classifier.train()
     classifier.save_model()  # This will save everything in './save_model'
-
