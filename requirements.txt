@@ -7,7 +7,7 @@ datasets
 nltk
 pandas
 huggingface_hub
-numpy
+numpy<2
 accelerate
 seaborn
 tf-keras
