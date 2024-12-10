@@ -14,6 +14,7 @@ from transformers import AutoModelForSequenceClassification  # Changed model typ
 
 class OptimizedTextClassifier:
     def __init__(self, model_name=None, model_dir=None, num_labels=None, model_path=None):
+        # Check if CUDA is available
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         if torch.cuda.is_available():
             print(f"Using GPU: {torch.cuda.get_device_name(self.device)}")
