@@ -251,7 +251,7 @@ class TextClassifier:
 # Usage example
 if __name__ == "__main__":
     model_name = "meta-llama/Llama-3.2-1B-Instruct"
-    model_dir = "llama_model"
+    model_dir = "./save_model"
     data_path = 'processed_data.pkl'
 
     classifier = TextClassifier(model_name, model_dir, num_labels=10)  # Assuming you have 10 classes for your dataset
