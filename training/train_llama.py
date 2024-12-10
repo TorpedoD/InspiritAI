@@ -188,13 +188,36 @@ class TextClassifier:
         print(f"Trained model loaded from {model_dir}")
 
     def evaluate(self):
-        # Check if model is loaded
-        if self.model is None:
-            raise ValueError("Model is not loaded. Please load a trained model first.")
-        
+        # Check if datasets are prepared
+        if not hasattr(self, 'tokenized_test_dataset') or self.tokenized_test_dataset is None:
+            raise ValueError("Test dataset is not prepared. Please prepare datasets before evaluation.")
+    
+        # Check if model and tokenizer are loaded
+        if self.model is None or self.tokenizer is None:
+            raise ValueError("Model or tokenizer is not loaded. Please load a trained model first.")
+    
+        # Initialize the Trainer if not already done
+        if self.trainer is None:
+            print("Initializing Trainer for evaluation...")
+            training_args = TrainingArguments(
+                output_dir='./results',
+                per_device_eval_batch_size=16,
+                evaluation_strategy="epoch",
+                logging_dir='./logs',
+                logging_steps=10,
+                save_strategy='no',
+            )
+            self.trainer = Trainer(
+                model=self.model,
+                args=training_args,
+                eval_dataset=self.tokenized_test_dataset,
+                tokenizer=self.tokenizer,
+                compute_metrics=self.compute_metrics,
+            )
+    
         print("Evaluating the model...")
-        # Prepare the dataset for evaluation
-        eval_results = self.trainer.evaluate(self.tokenized_test_dataset)
+        # Perform evaluation
+        eval_results = self.trainer.evaluate()
         print(f"\nEvaluation results:\n{eval_results}")
     
         # Get predictions
@@ -220,6 +243,7 @@ class TextClassifier:
     
         # Generate confusion matrix and ROC curve
         self.generate_visualizations(true_labels, predicted_labels)
+
 
     def generate_visualizations(self, true_labels, predicted_labels):
         # Confusion Matrix
