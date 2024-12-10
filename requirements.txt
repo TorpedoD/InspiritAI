@@ -1,5 +1,5 @@
 python-docx
-torch
+torch==2.5.0
 tensorflow
 transformers
 scikit-learn
