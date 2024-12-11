@@ -45,6 +45,10 @@ This project includes scripts and dependencies required for training and deployi
      ```
      python3 training/train_llama.py
      ```
+   - Evaluatoing the LLaMA model:
+     ```
+     python3 training/metric_values.py
+     ```
 
 ## Dependencies
 
