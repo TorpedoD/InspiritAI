@@ -7,10 +7,10 @@ datasets
 nltk
 pandas
 huggingface_hub
-numpy<2
 accelerate
 seaborn
 tf-keras
 pipx
 python3-venv
 torchvision
+numpy==1.23.0
