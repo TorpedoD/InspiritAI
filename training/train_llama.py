@@ -50,17 +50,36 @@ class TextClassifier:
             self.classifier = nn.Linear(base_model.config.hidden_size, num_labels)
 
         def forward(self, input_ids=None, attention_mask=None, labels=None):
-            outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask, output_hidden_states=True)
-            hidden_states = outputs.hidden_states if hasattr(outputs, 'hidden_states') else outputs.last_hidden_state
-            last_hidden_state = hidden_states[-1]
-            pooled_output = last_hidden_state[:, -1, :]
+            # Ensure the base model outputs hidden states
+            outputs = self.base_model(
+                input_ids=input_ids, 
+                attention_mask=attention_mask, 
+                output_hidden_states=True
+            )
+            
+            # Get the last hidden state
+            hidden_states = outputs.hidden_states[-1]
+            
+            # Use attention mask to get the last valid token for each sequence
+            if attention_mask is not None:
+                # Get the last valid token index for each sequence
+                last_token_indices = attention_mask.sum(dim=1) - 1
+                # Use gather to select the last valid token's hidden state for each sequence
+                batch_indices = torch.arange(input_ids.size(0)).to(input_ids.device)
+                pooled_output = hidden_states[batch_indices, last_token_indices, :]
+            else:
+                # If no attention mask, use the last token's hidden state
+                pooled_output = hidden_states[:, -1, :]
+            
+            # Apply dropout and classification
             pooled_output = self.dropout(pooled_output)
             logits = self.classifier(pooled_output)
 
+            # Compute loss if labels are provided
             loss = None
             if labels is not None:
                 loss_fct = nn.CrossEntropyLoss()
-                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+                loss = loss_fct(logits, labels)
 
             return {'loss': loss, 'logits': logits}
 
@@ -174,17 +193,20 @@ class TextClassifier:
     def load_trained_model(self, model_dir):
         """Load a trained model, tokenizer, and label encoder from a saved directory."""
         print("Loading trained model...")
-    
+
         # Load the base model (Llama) architecture
-        self.model = AutoModelForCausalLM.from_pretrained(model_dir, cache_dir=model_dir)
-    
+        base_model = AutoModelForCausalLM.from_pretrained(model_dir, cache_dir=model_dir)
+
+        # Recreate the custom classification model
+        self.model = self.LlamaForSequenceClassification(base_model, self.num_labels).to(self.device)
+
         # Load the tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(model_dir)
-    
+
         # Load the label encoder
         with open(f"{model_dir}/label_encoder.pkl", "rb") as f:
             self.label_encoder = pickle.load(f)
-    
+
         print(f"Trained model loaded from {model_dir}")
 
     def evaluate(self):
