@@ -10,7 +10,6 @@ huggingface_hub
 accelerate
 seaborn
 tf-keras
-pipx
 python3-venv
 torchvision
 numpy==1.23.0
