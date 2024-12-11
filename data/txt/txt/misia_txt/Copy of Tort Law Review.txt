@@ -1,0 +1,186 @@
+12.2: Negligence
+
+Negligence is a tort
+A TORT is a wrong the defendant commits that gives the plaintiff the right to civil remedies
+Other TORTS include assault, battery, trespass, defamation, and nuisance
+TORT LAW was concerned with victim compensation, rather than societal protection
+
+Elements of Negligence
+
+To succeed on a claim of negligence, the victim must prove these elements on a balance of probabilities (51% Chance the victim is correct)
+INJURY
+DUTY
+BREACH
+CAUSATION
+Question: Why is the Standard different compared to criminal law (beyond a reasonable doubt, )
+Because in tort, the only charge is money. There is no difference between overcharging the defendant or underpaying the plaintiff. While in Crime, the system would rather let a guilty man go than put an innocent man in jail
+
+
+INJURY
+Plaintiff must prove they were PHYSICALLY injured (with some exceptions that require further legal research)
+DUTY
+Generally, tort law DOES NOT require you to act
+However, if you do, you have to do it carefully
+You are required to prevent injuries that are a FORESEEABLE RESULT of your actions
+In some cases, tort law puts an affirmative duty of rescue or protection. These cases involve a place of business or special relationships such as doctor-patient, business-customer, teacher-student
+BREACH
+How far must you go to prevent possible injuries?
+You are expected to exert the standard of care of “A REASONABLE PERSON”
+The reasonable person is thoughtful, careful, and considerate, but not necessarily perfect
+CAUSATION
+The “but for” test
+The defendant injured the plaintiff if the plaintiff’s injury wouldn’t have occurred but for the defendant
+12.3: Defenses to Negligence
+
+Contributory Negligence
+If both the plaintiff and defendant were negligent to some degree, the DAMAGES ARE DIVIDED BETWEEN THEM
+ How the damages are divided is up to the court depending on the evidence
+
+Assumption of Risk
+A negligent defendant can escape liability if they show that the plaintiff VOLUNTARILY ASSUMED THE RISK OF INJURY
+Because of this, many vendors require participants to sign a liability waiver before participating in dangerous activities 
+
+12.4: Special Negligence
+
+Vicarious Liability
+
+Vicarious liability is liability on behalf of another person
+Two most important vicarious liability rules are:
+An employer is vicariously liable for the torts committed by employees within the scope of their employment
+A vehicle owner is vicariously liable for the negligence of anyone using the vehicle with owner’s implied or express permission
+
+Premises Liability
+
+The owner of a premises, whether residential or commercial, must take reasonable measures to protect entrants from foreseeable harms
+
+Host Liability
+
+Courts are also recognizing an affirmative (positive) duty for commercial servers of alcohol to monitor their customers (servers must take care of customers if they’re drunk)
+
+Malpractice
+
+Malpractice (e.g. medical malpractice) is negligence by professionals. Doctors, lawyers, pharmacists, engineers, etc., are required to exercise the standard of care of a reasonable professional in the same field. 
+
+
+12.5 Intentional Torts
+
+Battery
+
+The tort of battery protects a person’s bodily integrity. A battery is defined as an intentional harmful or offensive touch. 
+Two component elements of battery:
+An intent to cause an objectively harmful or offensive touch
+Contact resulting in actual harm or offense to the plaintiff
+
+Assault
+
+Tort of assault protects a person’s right to be FREE OF FEAR
+Assault is defined as intentional creation of a REASONABLE APPREHENSION OF IMMINENT HARM
+Assault means different things in tort and criminal law
+
+Defenses:
+
+Most common affirmative defenses to assault and battery are
+Consent
+Defense of person (real threat, defensive purpose, rsble force)
+Defense of property
+Reasonable but mistaken belief on part of the plaintiff is also valid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Practice Questions
+
+
+​​Ian and Jack are 16 year old boys in grade 12. They are friends and frequently play practical jokes on one another. In class one day, thinking it would be funny, Ian pulls out Jack's chair as Jack is sitting down. Jack loses his balance and falls. As he falls, the back of Jack's head hits the desk behind him. The impact is hard enough to give Jack a concussion. During a medical assessment, the doctors say that Jack's concussion symptoms should improve with a few days of rest. However, as the weeks and months go by, Jack's focus and memory remain impaired. His grades take a dramatic turn for the worse, and Jack's mental health and postsecondary admission prospects suffer accordingly. Fully analyze Ian's liability. Consider his liability under both negligence and battery theories. Also consider whether Ian has any available defenses.
+
+To have a successful negligence claim, the plaintiff must prove that there was a physical injury, that their injuries were a foreseeable result of the defendant’s actions, that the defendant was not living up to the standard of care of a reasonable person, and that the injury would have not happened but for the defendant. 
+
+
+To analyze whether Ian is liable for negligence, we need to apply the IDBC test. The first step is to analyze injury. More specifically, is there a physical injury? While the long-lasting effects on Jack were more mental compared to physical, the mental injuries were a direct result of the physical injury, which was the concussion. Therefore, Injury does exist
+
+. The next step is duty, which analyzes whether the injury is a foreseeable result of Ian’s actions. This next step is debatable, as when pulling out a chair and having Jack fall can definitely result in injury. Whether this will usually result in an injury as serious as a concussion is debatable, however.  Even the doctors believe that Jack should be able to recover within a few days. Ian probably didn’t know that his little prank would end up with Jack losing a lot of his academic and cognitive skills. 
+
+The next step is to analyze breach, which asks the question whether a reasonable person would do something like pull out a chair. I think a reasonable person would not, as this action is neither thoughtful, careful, nor considerate. While school pranks are normal, students in grade 12 would probably know not to pull out a chair and allow their classmates or friends to fall. Therefore, Ian breached his duty of care
+
+The final step is Causation, which asks whether Jack’s injury would have not happened but for the actions of Ian. Since Ian did pull out the chair, and he did it on purpose as a prank, causation is there. 
+
+
+Next, I will analyze whether Ian committed battery through this crime. Battery is defined as intentional harm or physical touch that results in the the plaintiff being injured. There are two components ot a battery charge. The first one is that there was an intent to cause actual harm and offense towards the plaintiff. The second component is that the action caused physical harm to the plaintiff. In this case, since Ian purposely pulled out the chair, there was an intent to cause actual harm, albeit not as serious as resulted. The second component is that the action caused physical harm or offense to the plaintiff. This does exist, as Jack got a concussion, which is physical harm. Ian, however, has some possible defenses. Contributory negligence isn’t a factor, but this can also be debated as Jack did not contribute to him getting his chair pulled and with a concussion. Assumption of risk also doesn’t exist, as sitting down in a classroom should not be considered a dangerous activity. Ian is the one who made it dangerous for Jack. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Abbey is a popular bar and public house in midtown Toronto featuring exclusive Trappist beers from Europe. To encourage business in the afternoons, the bar runs different Happy Hour specials on each day of the week. Their most popular special is on Thursdays, where they offer half-priced 3L pitchers of beer from 3-6 pm. Around noon, on Thursday 17 December, it began to snow. By early afternoon, the snow had turned to freezing rain. Patches of black ice began to form on the sidewalks and roads. Visibility was also poor. Undeterred, busy midtown professionals came to The Abbey in droves to warm-up and have drinks after work before returning home. The Abbey employs a doorman, Morrow, whose duties include greeting customers and maintaining security and orderliness at the pub entrance. Morrow had spread salt around the pub entrance at noon, when the snow had begun. However, as the afternoon crowds began to form, he became too busy to reapply any salt. In addition, as the pub interior filled up, patrons forced to wait outside in the freezing rain became increasingly anxious to come inside. At 5:45 pm, Alvarez, a patron, tired of waiting outside, attempted to push past Morrow and force his way into the pub. In response, Morrow shoved Alvarez out of the customer line. Alvarez slipped on a nearby patch of ice, fell, and broke his wrist. Meanwhile, two other customers, Chung and Shah, were inside the pub. Because of the special, they ordered and shared a 3L pitcher. After finishing their drinks, the pair quietly paid and left. Garner, their server, noticed no obvious signs of intoxication from either customer. On his commute home, because of the drinks and the slippery road conditions, Shah could not come to a complete stop in time. As a result, Cole, a pedestrian crossing the street, was severely injured. As a result of the day's events, Alvarez sued Morrow and The Abbey for negligence and battery. Cole's family sued The Abbey for negligence. Fully analyze each claim, including any applicable defenses.
+
+
+Alvarez (Negligence): To analyze whether The Abbey was liable for negligence in Alvarez’s case, I will apply the IDBC rule. To have a successful negligence claim, Alvarez must prove that he was injured, that the defendant did not prevent any foreseeable injuries, that the defendant did not give the standard of care of a reasonable person, and that he wouldn’t be injured but for the actions of the defendant.
+
+Injury: To analyze injury, we have to see whether Alvarez was PHYSICALLY injured. Because he was shoved, which caused him to slip and break his wrist, injury does exist in this case. 
+Duty: To analyze duty, we have to see whether the defendant prevented any foreseeable injuries. Alvarez was trying to do his job, but shoving someone, especially when there is clearly ice on the ground, will almost certainly result in some kind of injury. Injuries while slipping on ice is very foreseeable, so therefore, Duty does exist
+
+Breach: To analyze breach, we have to ask whether the defendant exerted the amount of care of a reasonable person. In this case, a reasonable person would probably not shove someone on ice ground, especially because a slip can easily injure someone. Also, Morrow did not salt the ground enough, giving it more reason why the shovel and slip could have been dangerous, and Morrow did not exert the amount of care of a reasonable person. The Abbey also did not exert the amount of care of a reasonable person, as they made their customers wait outside even though it was very slippery and there was freezing rain. 
+
+Causation: To analyze causation, we have to think about this question, “Would the plaintiff be unharmed but for the actions of the defendant?” So in this case, would Alvarez be fine now if not for the actions of Morrow? Since Morrow shoved Alvarez out of the line, 
+
+Therefore, since Injury, duty, breach, and causation all exist, Morrow and The Abbey are both liable for negligence. But, since Morrow was only an employee of The Abbey, the Abbey will take responsibility (vicarious liability). However, one can also argue that Alvarez was contributorily negligent, as when he tried to push his way into The Abbey, it is expected for Morrow to stop him in some way or another, as Morrow may see this as defense of property
+
+Next, since Alvarez also sued for battery, I will analyze whether the Abbey or Morrow is liable for battery. The tort of battery is to protect a person’s bodily integrity. To sue someone for battery, there must be an intent to commit a harmful or offensive touch, and the act has resulted in injury. In this case, Morrow has intended to commit a harmful or offensive touch by pushing Alvarez back. Even though Morrow was trying to prevent Alvarez to enter The Abbey as one of his duties, the act intentional, and was harmful and offensive (shoving), and resulted in Alvarez slipping and breaking his wrist (injury). 
+
+
+Cole (Negligence)
+
+To analyze negligence, I will apply the IDBC test. The four components are injury, meaning a physical injury must be present, duty, did the defendant prevent any foreseeable injury, breach, did the defendant exercise the amount of care of a reasonable person, and causation, if not for the actions of the defendant, would the plaintiff be uninjured?
+
+For injury, Cole was hit by a car and severely injured physically, therefore we can conclude that injury does exist.
+
+For duty, according to the server, Chung and Shah showed no obvious signs of intoxication, so he probably thought that there was no need to take action or do anything for them, even though they had consumed alcohol. There is no way they would know that two seemingly sober-looking people would lose control of their car and severely injury someone. And plus, the road was slippery due to the freezing rain, so it was already difficult to control a car to begin with. Also, serving the 3L pitcher is not an act of allowing foreseeable injury to happen, as The Abbey is just trying to do business with the special. And besides, if the patrons want to drink, they should understand some risks they are taking. 
+
+For breach, I believe The Abbey did exercise the car of a reasonable person, because since the two people looked completely fine when they left, they probably didn’t feel the need to check up on them or call them a taxi. However, we can also argue that a reasonable person would not just let two people leave after drinking 3L of alcohol, as we eventually found out that alcohol was part of the reason why Cole was hit. Also, regarding the Shah and Chung, they did not show the amount of care of a reasonable person, as it is common knowledge that driving right after drinking alcohol, on a very slippery road, is probably not the smartest thing to do. A reasonable person would have been safer or called a taxi. 
+
+Finally, for Causation, we can say that if Shah and Chung did not go drinking that day because of the special, Cole would have not been injured. However, since according to their server they looked fine when they left, it is arguable that while the alcohol had some influence on their driving, the accident was probably mostly due to two factors: the bad weather, with some alcohol to blame. 
+
+No defenses are present in the case. Contributory negligence does not exist as Cole had no fault in the accident. And assumption of risk does not exist either because when Cole was walking outside, he obviously did not assume he was going to be hit by a car. 
+

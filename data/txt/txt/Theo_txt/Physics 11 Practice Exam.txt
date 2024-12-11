@@ -1,0 +1,57 @@
+SPH3U Practice Exam 								Name:
+											Date:
+
+Part 1 (MC)
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Can an object still be accelerating even if its speed is not increasing or decreasing?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Part 2 (Drawings):
+
+Draw the relationship between a distance-time, velocity-time, and acceleration-time graph. 
+
+Part 3 (Questions):
+
+On a windy day, the position of a balloon changes as it is blown 82m [N] away from a child in 15 seconds. What is the average velocity of the balloon?
+A race horse takes 2.70 seconds to accelerate from a trot to a gallop. If the horse's initial velocity is 3.61 m/s [W] and it experiences an acceleration of 2.77 m/s2 [W]. what is the race horse’s velocity when it gallops?
+A skier is going 8.2 m/s when she falls and starts sliding down the ski run. After 3.0 s, her velocity is 3.1 m/s. How long after she fell did she finally come to a stop? (acceleration is constant)
+A child on a sled sits at rest on top of a tobogganing hill. If the child travels 70.0 m [downhill] in 5.3 seconds while accelerating uniformly, what acceleration does the child experience? 
+A tennis ball is thrown straight up in the air, leaving the person’s hand with an initial velocity of 3.0 m/s. 
+How high from where it wawa thrown does the ball go?
+How long will it take the ball to reach its maximum height?

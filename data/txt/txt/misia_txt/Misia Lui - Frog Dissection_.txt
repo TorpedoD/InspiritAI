@@ -1,0 +1,167 @@
+Frog Dissection Procedure Lab Report 
+
+[Research Question]
+How does the arrangement of a frog’s organ systems facilitate their interactions?
+
+[Materials]
+Gloves, goggles, and lab apron 
+Preserved frog 
+Water
+Dissection tray
+Pins
+Scissors
+Forceps
+Scalpel
+Probe
+Paper towels for clean up
+
+[Safety Precautions]
+
+Clothing protection safety: 
+A lab apron should be worn. 
+
+Eye safety: 
+There is danger to the eyes, where safety goggles.
+
+Sharp object safety: 
+There is a danger of cuts and punctures caused by the use of sharp objects existing. 
+
+Disposal alert: 
+Care must be taken to dispose of material properly 
+
+Extreme care must be taken when using dissecting instruments, particularly scalpels. As much as possible, make cuts away from your body. 
+The frogs are preserved in  chemical solution. Wear plastic gloves, goggles, and an apron at all times, and work in a well-ventilated area. If some of the chemical comes into contact with your skin, wash it off immediately. 
+
+
+
+
+[Procedure]  
+Refer to ON Science 10 
+Additional step: take pictures of required organs and label them accordingly.
+
+[Results Part 1: Labeling]
+Digestive: Mouth, esophagus, stomach, small intestine, large intestine, anus
+
+
+Accessory Organs: Liver, pancreas, gallbladder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Respiratory: Right lung and left Lung
+
+
+
+Circulatory: Right Atrium, left atrium, ventricle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Results Part 2: 5 Detailed Observations During Dissection]
+
+The frog’s outer skin and tissues in the inner walls are very strong unlike a human’s skin, making it more difficult to cut through using the scalpel, having to put a lot of pressure. 
+On the diagram given to us in the textbook, it visibly shows us where the lungs of the frog are, when in reality the lungs were much smaller and were hiding behind the liver, making it harder to find. 
+The frog that we had specifically did not have an air sac, meaning it was a female frog. You can tell this because male frogs have air sacs which expand like a balloon when they breathe, in order to attract females and make them stand out. 
+Small kidneys were found under/near the stomach lining, which looked like small yellow balls. 
+While examining the stomach and small/large intestines, we could feel crab-like legs residing within; and during further investigation after cutting both organs, shrimp and crab were found inside the frog’s digestive system. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Discussion: Frog Dissection Post Lab Analysis]
+
+1. a) Describe how the frog’s circulatory and digestive systems are connected. (2 marks) 
+
+Though the liver is an accessory organ, it is also considered part of the digestive system, since it produces bile which is brought to the stomach as acids in order to break down fat. Not only this, but for frogs, the digestive system can also transport waste to be disposed of by the use of veins called a ‘hepatic portal system’, which is a type of vein that is connected between the liver of the main digestive system (stomach, then to small intestine, etc.). This is how the blood is processed which is then transferred to the heart, meaning that the circulatory and digestive systems are actually physically connected through the lungs (the blood is oxygenated there), then to the heart. (NCI)
+
+b) How do the locations of the heart and lungs affect interactions between the frogs’ respiratory
+and circulatory systems? Be specific. (2 marks) 
+
+The locations of the heart and lungs affect interactions between the frogs’ respiratory and circulatory systems in the sense it is known that the lungs are very close to the heart. Due to this, there would be little to no muscle around the heart that is required to pump the blood towards the lungs. This saves a lot of energy, nutrients, glucose, etc., meaning that the frog would have more energy left over from the fact that little activity was used to pump blood throughout the respiratory and circulatory systems. (Slater)
+
+2.  Frog lungs may seem small compared to its other organs. Why might the frog not require a large
+set of lungs? (Conduct your own research; be sure to cite/reference) (2 marks)
+
+A frog might not require a large set of lungs because unlike a human’s lungs, their lungs do not have a diaphragm in order to keep track of the lungs expanding when breathing, meaning it is possible that a frog can take in air much easier than a person. Another main reason as to why frogs do not need to have a large set of lungs is because they can actually breathe through their skin as well, not just relying on the lungs. Since a frog is usually around water surrounded areas, their moist skin allows gas to pass through, which greatly helps them breathe. So the reason why a frog’s actual lungs are so small is because its skin also serves as a second set of lungs, so it can help out the lungs do less work. (AMNH)
+
+3. How many atria and ventricles does the frog have? How does a three chambered heart (i.e. in
+frogs) function differently than a four chambered one (i.e. in humans)? (2 marks)
+
+A frog has two atria and one ventricle in the heart. A three chambered heart functions differently than a four chambered heart in humans because it only has one ventricle. Therefore a frog’s heart has deoxygenated and oxygenated blood mixed together when both meet in the heart ; this is certainly not as properly structured/efficient as a human heart, where both blood types do not mix. A human’s blood after being processed through the heart is much more concentrated than a frog’s blood after being processed due to the fact that the human heart has two ventricles instead of one. (vedantu)
+
+[Citations] 
+References
+Definition of hepatic portal vein - NCI Dictionary of Cancer Terms - NCI. (n.d.). National Cancer Institute. Retrieved April 5, 2023, from https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hepatic-portal-vein 
+Slater, T. (2022, October 26). How does the frog's circulatory and digestive system connect? Arew. Retrieved April 5, 2023, from https://arew.org/how-does-the-frogs-circulatory-and-digestive-system-connect/ 
+Thin Skin | AMNH. (n.d.). American Museum of Natural History. Retrieved April 5, 2023, from https://www.amnh.org/exhibitions/frogs-a-chorus-of-colors/a-frog-s-life/thin-skin 
+Three chambered heart of frog is not as efficient as four chambered human heart because-A. Oxygenated and deoxygenated bloods mix upB. Ventricle does not pump blood properlyC. It does not hold enough bloodD. Heart mussels are not strong. (n.d.). Vedantu. Retrieved April 5, 2023, from https://www.vedantu.com/question-answer/three-chambered-heart-of-frog-is-not-as-class-12-biology-cbse-5f84b75e52cf860687cfa0d8 

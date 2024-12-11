@@ -1,0 +1,157 @@
+Freddy Q - 24/5/24
+What is the cell theory (3 items)?
+All cells arise from pre-existing cells by cell division.
+All living things are composed of one or more cells.
+Cells are the smallest unit of living organisms.
+
+DNA is made of __nucleotides__ that have a  ___phosphate_________ group, a _sugar________ group, and a _base________.
+How many pairs of chromosomes does a human somatic cell have? How many pairs are autosomes? 
+Human somatic cells have 23 pairs of chromosomes, 22 pairs are autosomes.
+A red and blue alien mate. What would their offspring look like if one was codominance and one was incomplete dominance?
+The one codominance will have red and blue patches, the incomplete dominance one will have purple skin color.
+Does the number of chromosomes determine the complexity of an organism?
+No
+Errors can occur during meiosis, such as changes in the chromosome structure. There are 4 ways in which this can happen. What are they?
+They are deletion of a chromosome, duplication of a chromosome, inversion of a chromosome, and translocation of a chromosome.
+Give an example of a non-invasive and invasive prenatal genetic test.
+An example of invasive prenatal test is amniocentesis, and an example of non-invasive prenatal test is ultrasounds.
+What does a ‘test cross’ mean?
+A test cross means breeding a pure dominant-trait individual and a recessive trait individual.
+What are bioinformatics? Who founded it?
+	Bioinformatics is a branch of biology that uses databases of information and computer technology to better understand biological process; it is founded by Margaret Dayhoff.
+What are the 4 bases that make up DNA?
+The 4 bases that make up our DNA are adenine, guanine, thymine, cytosine.
+What are proteomics?
+Proteomics is the study of proteins in organisms, including the 3D structure of proteins.
+What are epigenetics? 
+Epigenetics is the study of how changes in the inheritance of certain traits and phenotypes affect changes to gene function that are not in DNA sequences.
+Discuss some of the pros and cons of genetic profiles?
+Pros:
+Better medical advice
+more accurate risk assessments
+enhancing research
+          Cons:
+Lack of privacy
+Discrimination can occur based on genotypes (denying insurance from companies)
+Compare and contrast therapeutic and reproductive cloning. 
+Both therapeutic and reproductive cloning clone cells, however therapeutic cloning clones genetically identical cells to treat disease, whereas reproductive cloning produces genetically identical organisms with gene cloning. Therapeutic cloning is about cells and has a higher rate of success than reproductive cloning, which is more about organisms and has a lower chance of success.
+What are barr bodies?
+	Barr bodies are inactive X-chromosomes.
+	
+What is a monosaccharide? Give an example. 
+A monosaccharide is 3-7 carbon atoms. An example of it is glucose.
+Polysaccharides are large molecules made up of many linked monosaccharide molecules. Give an example of a polysaccharide that is made up of glucose units and is found in animals.
+An example of a polysaccharide is glycogen, which is found in animals and made up of glucose units.
+Proteins are made of many amino acids that are held together by what?
+Amino acids are held together by peptide bonds. 
+How many different amino acids exist?
+20 different amino acids exist. 
+What is the difference between minerals and vitamins? Which one works with enzymes to carry out reactions? 
+Minerals are inorganic, whereas vitamins are organic and work with enzymes to carry out reactions.
+Name 3 disadvantages of the bag system. 
+The bag system can only allow the organism to eat one meal at a time, has no specialized parts for digestion, and has decreased surface area for nutrient absorption.
+What is the long tube from the mouth to the anus called? 
+	The long tube is called the alimentary canal.
+
+What are prezygotic isolating mechanisms?
+Prezygotic isolating mechanisms are barriers that stop the mating between species or prevent the fertilization of the eggs when different species try to mate with each other.
+What are the 3 types of postzygotic isolating mechanisms?
+The 3 types of postzygotic isolating mechanisms are hybrid inviability, hybrid sterility, and hybrid breakdown.
+What is mimicry? Give an example. 
+A mimicry is a survival technique used by harmless organisms to pretend to be harmful organisms by changing their structure and their color. 
+What is the Christian/Creationist response to evidence from DNA as a source of evidence for evolution?
+The creationist response to evidence from DNA as a source of evidence for evolution is that using DNA as an evidence to suggest that there was evolution from common ancestors is circular reasoning, as if there are common ancestors to the animals, there will be similarity in DNA, and vice versa.
+What are the 5 mechanisms for evolution? Explain 1 in detail. 
+The 5 mechanisms for evolution are natural selection, non-random mating, genetic drift, mutation, and migration. Non-random mating is when organisms choose their mating partner due to their desirable phenotypes and traits. For example, humans mostly use this form of mechanism.
+Explain the conclusions Darwin and Wallace came to regarding evolution by natural selection. 
+	The conclusions Darwin and Wallace came to is that the environment has limited resources, and that the organisms need to fight for resources and survival through competition. The organisms with selective advantages (genes that are favored from the selective pressure of the environment) will thrive by surviving and reproducing to produce fertile offspring. As a result, certain phenotypes and traits are preserved after the competition between species happens.
+
+
+
+
+
+
+
+What is incomplete dominance? What is codominance?
+Incomplete dominance is when an intermediate expression of the trait is produced. Codominance is when both alleles for a trait are fully expressed in the heterozygote. 
+What is the purpose of the Human Genome Project?
+The purpose of the Human Genome project was to determine DNA sequence of the entire human genome to apply it to health, agriculture, and the environment.
+What is a genetic profile?
+A genetic profile is the complete genotype of an individual, including various mutations. 
+What is the purpose of the interphase in cells?
+The purpose of interphase in cells is for the cell to grow and perform their regular activity. It prepares the cell for mitosis/ cell division by replicating the DNA. Chromatids are unwound/uncondensed. 
+What forms during cytokinesis in plant cells?
+In animal cells, during cytokinesis microfilaments help split the cytoplasm evenly. However, in a plant cell, a cell plate forms between the 2 daughter nuclei and the cell wall forms on either side of the cell plate. 
+What is the similarity and difference between selective breeding and embryo transfer?
+Both selective breeding and embryo transfer are reproductive strategies in agriculture. Selective breeding involves breeding plants and animals for a desirable trait. On the other hand, embryo transfer involves artificially fertilized eggs which are transferred into a female’s uterus.
+
+How many different alleles are there for blood types, and what are they?
+A, B, AB, O
+
+
+Gametophyte produces ___gamete_____ using ___mitosis___ , sporophyte produces ___spores____ using ___meiosis___.
+
+Describe the mitosis of two cells, and mention whether the cell is haploid or diploid. 
+Prophase: nuclear membrane and nucleolus start to disappear. Chromatids condense to form chromosomes. Spindle fibers form from centrioles (which moved to the poles)
+Metaphase: sister chromatids stay attached at the centromere. Chromosomes line up in the middle. Spindle fibres come from centrioles and attach to centromere. 
+Anaphase: sister chromatids pull apart to opposite side of cell. Now each pole has one copy. 
+Telophase: cellular division takes place. Nuclear membrane and nucleolus return. Spindle fibers break down. Chromosomes unwind. 
+ What are the three functions of macromolecules?
+
+Macromolecules are large organic molecules made of smaller molecules that are linked together. The provide energy,, regulate cell activity, and build/repair tissue. 
+
+ How many fatty acid chains do lipids contain?
+
+Lipids contain glyceral (backbone) and 3 fatty acid chains. 
+
+ Compare and contrast saturated fats and unsaturated fats.
+
+
+
+
+ What are 4 purposes of water for humans?
+Purpose of water:
+Transports dissolved nutrients
+Flushes toxins from cells
+Lubricates tissues and joints
+Found in body fluids
+Regular body temperature
+Eliminate waste materials
+
+ What are the four stages of food processing?
+
+The 4 stages of food processing are ingestion, digestion, absorption, and elimination. 
+
+
+ Name 2 feeding mechanisms and examples of animals that use them.
+
+Filter feeding: siphon water through the mouth and filter it to obtain small organisms to digest (eg. sponge and clams)
+Substrate feeding: live on/in food source and eat though it (eg. caterpillars and earthworms).
+ Explain the conclusions Charles Darwin and Alfred Wallace came to about natural selection.
+
+Organisms have certain phenotypes that differ from other organisms in the same species. The environment will favor a certain phenotype, causing the organisms without that certain phenotype to die off more easily and the organism with the certain phenotype to thrive, reproduce, and pass on that certain phenotype/characteristic to their offspring. 
+
+The environment has limited resources, and certain traits of a species are more favorable to that environment. Competition in the local environment would select for these favorable traits. Species with these favorable traits would be more likely to survive and have offspring. Therefore, they would be more likely to be passed onto future generations. 
+
+ Explain the theory of Uniformitarianism.
+
+This is a theory from Lyell. In order to explain the many strata of fossils, he gave the theory that there were many disasters (eg. floods and droughts) that happened over time. There was not a singular, large catastrophe. With this theory, he came to the evidence that the earth has to be greater than 6000 years old. 
+
+Geological processes operated at the same rates in the past as they do now (everything happened slowly)
+
+What are fossil records?
+
+Fossil records are are records of dead organisms that have passed and been buried in the earth in different stratum. 
+
+Fossil records are the remains and traces of past life that are found in sedimentary rock (also amber, permafrost, dry caves)
+
+ How does the concept of selective pressure come into play in the case of the English Peppered Moths?
+Selective pressure is when the environment puts pressure/ selects for certain phenotypes and characteristics over others. In the case of the English Peppered Moth, due to the increase of pollution and soot, it caused the bark to become black. This caused grayish-white moths to become easily spotted by prey, causing the black-coloured moths to become more present than the grayish-white ones. 
+
+ Compare and contrast bottleneck and founder effect. Give a similarity and a difference.
+
+They are both forms of genetic drift, a mechanism for evolution. Bottleneck occurs when a natural disaster wipes out a large amount of the population, leaving only a few individuals to carry on the population, resulting in a loss of genetic variation. On the other hand, founder effect is when a few individuals leave a population and start their own population. This, too, leads to a loss of genetic variation. 
+
+ What is the most significant factor that affects the frequency of alleles within populations of humans? Explain your answer.
+
+The most significant factor that affects the frequency of alleles within populations of humanis migration – when there is a net shift of alleles due to geographical shift of humans. It could also be argued that non-random mating is the most significant factor because ultimately since humans have freewill and can choose between good and evil, they can choose who they want to mate with. 

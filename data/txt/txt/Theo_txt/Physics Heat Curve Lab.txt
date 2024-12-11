@@ -1,0 +1,31 @@
+Theodore Chiu
+SPH3U
+Mrs. Byon
+April 25, 2024
+
+Heat Curve Lab
+
+Observations: 
+
+
+
+
+Analysis:
+
+Explain what is happening to the water molecules in the flat areas of your graph during the phase changes from solid to liquid and liquid to gas.
+
+In the flat areas of the graph, during the phase changes from solid to liquid and liquid to gas, the temperature does not change because the thermal energy is being transformed into potential energy. The thermal energy does not result in kinetic energy, meaning the particles do not move faster, and therefore the temperature does not increase. Instead, the thermal energy is being used to break the bonds of the water molecules and to change the state of water. Heat in this scenario is called latent heat. This occurred when the ice changed state to liquid water, which started with the melting point, and when the liquid water changed state into steam, which started with the boiling point. This was represented by the flat areas of the graph. 
+
+Explain what is happening to the water molecules in the sloped area of your graph.
+
+Temperature change occurs when only one state is present. In accordance with the Kinetic Molecular Theory of Heat, in the sloped areas, the temperature is increasing, which also means that the particles of the substance increase in motion. The water molecules move faster and further apart due to the kinetic energy. This is known as thermal expansion. The angled sections of the graph represent these temperature changes. 
+
+When the water was boiling, was it releasing energy or absorbing energy? Explain your answer.
+
+When the water was boiling, it was absorbing energy because the particles were moving faster and further apart. The energy needs to be absorbed so that it can break the bonds of the particles to achieve phase change. 
+
+If you put liquid water into the freezer and recorded its temperature as it froze, would the water be absorbing heat or releasing heat? Explain your answer. 
+
+Throughout the process of freezing water, the water releases heat. Heat is the transfer of thermal energy from a warmer substance to a colder substance. Putting liquid water in the freezer releases energy, which allows the particles to move in closer proximity to each other, as well as form an organized structure. Therefore, when water is put into the freezer, it releases heat, and its temperature decreases. 
+
+

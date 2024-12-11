@@ -1,0 +1,50 @@
+Grade 12 Law Notes
+Theodore Chiu
+
+Unit 1: Introduction to Law
+
+Criminal vs. Civil Law
+
+
+Statutory vs. Case Law
+
+Statutory: passed by fed/prov legislature. 								
+
+Case: past decisions made by judges.
+
+Administrative Law: regulation made by bureaucrats for a specific purpose.
+Charter
+
+ss. 1: Charter rights are subject to reasonable limits.
+ss. 24: (1) courts can grant appropriate remedy.
+	(2) illegally obtained evidence excluded if it would harm the court's reputation.
+ss. 32: Charter only applied to fed/prov government (territories, municipalities)
+ss. 33: allows the government to ignore (ss. 2, 7-15). 
+	Safeguards: expressed declaration, must be renewed every 5 years. 
+ss. 52: (1) unconstitutional laws are void (even if HOC passes a law that goes against constitution, it can be erased). 
+
+R. v. Oakes: Reasonable Limits Prescribed by Law
+
+Government can limit Charter rights if “prescribed by law” and “reasonable.”
+
+Does the limit serve a pressing and substantial purpose?
+Is the limit rationally connected to its purpose?
+Is the limit minimally invasive of constitutional rights? 
+Is every part of the limit necessary?
+Must the limit be absolute to serve its purpose?
+Less invasive alternatives?
+Do the benefits of the limit outweigh its harms?
+
+Issue
+Rule
+Application
+Conclusion
+
+The first step for testing the reasonableness of the limit is assessing the purpose. The relevant inquiry is whether the purpose is pressing and substantial. The purpose is to prevent drug trafficking. Therefore, the purpose element is satisfied. 
+
+The second element is connection. In order to pass this test, the limit must have a rational connection to its purpose. A possession of a small quantity of drugs does not necessitate that one is a drug dealer. Thus, the limit is not rationally connected to the purpose. 
+
+The third issue to analyze is whether the limit is invasive. The limit must be minimally invasive, meaning that every part of the limit should be necessary and serve the purpose. Less invasive alternatives that fit the purpose should be employed. It is not minimally invasive of Oakes constitutional rights. It covers too much land. It impairs Oakes rights more than necessary. Less invasive alternatives would be to assume guilt for a period of 48 hours. If evidence proving he is guilty is not submitted within 48 hours, he can then be free. Assuming that section 18 passed, it encounters various problems. It is likely that only a small minority of defendants caught with small amounts of drugs are traffickers. That means the target population is only a small population. Others are casual drug users who bear the burden of proof. To decrease drug trafficking, Oakes’ Charter rights are unreasonably intrusive and not on a minimal scale. Thus, the invasiveness element is not satisfied. 
+
+The fourth element is proportionality. The relevant issue is whether the benefits of the limit outweigh the harms. Oakes, in this case, would have to be charged for drug trafficking without evidence, harming the reputation and justice of the court as well as the well being of a citizen. Charging Oakes and others with drug possession for drug trafficking will only result in a very low percentage of drug traffickers being caught. Many people holding small quantities of drugs are not trying to sell it. Thus, the harms outweigh the benefits. 
+

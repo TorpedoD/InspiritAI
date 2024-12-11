@@ -1,0 +1,45 @@
+Name: Date: SNC2D 
+Cell Physiology: Transport and Energy 
+Learning Goal: We will be investigating how cells transports materials and resources across its  membrane.  
+Success Criteria: We will be able to identify and describe various forms of passive and active  transport and the types of molecules they move across the cell membrane.  
+We will be able to explain the importance of the cell membrane in regulating cell resources and  waste.  
+Key Terms: 
+Metabolism: the sum of all the processes a cell may use to store or obtain energy or utilize  structural or functional materials. 
+Homeostasis: the tendency of living organisms to maintain a stable internal environment  even though conditions in the external environment may vary. 
+Types of Transport in the Cell: 
+1) Passive Transport: the natural movement of molecules across a cell membrane;  no energy from the cell is required (eg: diffusion, osmosis) 
+a) Diffusion: the movement of gas or liquid molecules from a region of high concentration to a  region of low concentration 
+-diffusion occurs only until a system reaches equilibrium (no net movement) -many molecules can be moving by diffusion at the same time 
+Concentration Gradient: the difference in concentration between a region of greater  concentration and a region of lesser concentration 
+-affects the rate of diffusion as does temperature  
+Membrane Permeability: cell membranes regulate the type and the amount of  substances that are able to enter or exit a cell. 
+permeablility: the degree to which molecules can move freely across a  membrane is determined by the properties of the cell membrane and the size and  characteristics of the molecules involved 
+Impermeable no molecules 
+Permeable all molecules 
+Semi-Permeable some molecules
+Name: Date: SNC2D 
+
+
+b) Facilitated Diffusion - no energy
+type of diffusion 
+-molecules moving into and out of cells at a faster rate than can be accounted for by diffusion  alone are helped or facilitated in some way 
+-works only in the direction of the concentration gradient  
+-channels (proteins) open to facilitate diffusion 
+Figure 1: Comparing Simple Diffusion & Facilitated Diffusion 
+
+ c) Osmosis 
+-a special kind of diffusion 
+-the movement of water molecules from an area of high concentration to an area of low  concentration across a semi-permeable membrane
+Name: Date: SNC2D 
+2) Active Transport - need energy: the movement of molecules from regions of low concentration across a  membrane to regions of high concentration; 
+requires energy from the cell 
+-used to maintain concentration gradients to take advantage of “free” processes like diffusion -used to establish high concentration of certain substances 
+-cells using active transport contain more mitochondria  
+Figure 2 - Active Transport Requires Energy
+
+Name: Date: SNC2D 
+Examples of Active Transport: 
+(i) Exocytosis: a form of waste disposal  
+for the cell (left figure). 
+(ii) Endocytosis: brings large molecules in, parts of  
+cells, and even whole cells into a cell (right figure). 

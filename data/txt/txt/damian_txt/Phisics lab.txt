@@ -1,0 +1,28 @@
+Heat Curve Lab
+
+Observations:
+
+Graph: Refer to the Heat Curve Graph at the back:
+
+
+
+
+
+Analysis:
+
+Explain what is happening  to the water molecules in the flat areas of your graph during the phase change from solid to liquid to gas.
+
+During the parts of the graph where the phase changes occur from solid to liquid and from liquid to gas, the water molecules go through transitions between states without any temperature change. When heat is applied to the substance, most of the energy is used to break the bonds between the molecules. This allows them to move from a packed state to a more loosely arranged liquid state and eventually into free moving gas molecules. This breaking and forming of bonds process enables the molecules to shift their state while maintaining a temperature since the energy is focused on overcoming forces rather than increasing the temperature.
+
+Explain what is happening to the water molecules in the sloped area of your graph.
+
+In the sloped part of the graph, following the segments that represent changes in phase, the temperature starts to rise. In this phase, the extra energy is not mainly used for breaking bonds between water molecules like it was during the phase changes. Instead, the rising temperature signifies that the additional energy is now boosting the energy of the molecules, causing them to move faster and vibrate more vigorously within their respective states. As the average kinetic energy of the molecules increases with added heat, the temperature goes up. Unlike in the regions where energy was focused on altering the state in the area, there is a clear link between added heat and temperature increases due, to heightened molecular kinetic energy. Therefore, this slope represents a phase where energy primarily enhances motion rather than breaking molecular bonds.
+
+When the water was boiling, was it releasing energy or absorbing energy? Explain your answer.
+
+When water reaches the boiling point, it starts to absorb energy. The boiling process involves the need for energy to separate the bonds, between water molecules, causing them to shift from one form to another. This absorption of energy is essential in overcoming the forces that hold the molecules together in their state. As water molecules take in this energy, they acquire the kinetic energy to escape from the liquid and convert it into water vapour (gas). Thus, when boiling occurs, water draws in energy from its surroundings to support the transition from liquid, to gas.
+
+If you put liquid water into the freezer and recorded its temperature as it froze. Would the water be absorbing or releasing heat? Explain your answer.
+
+When water changes from a liquid to a solid by freezing, it gives off energy because the molecules are organizing themselves into a structured form. In its form, water molecules move freely. Lack of organization is seen in the solid state. As the water cools and turns into ice, the molecules slow down. Start to create an ice structure. This process of rearranging molecules and forming bonds in the solid phase results, in energy being released. The energy released helps to strengthen the formed structure, making it energetically beneficial for water to be in this state. Therefore, when transitioning from liquid to solid water, molecules release energy to attain a structured arrangement, in the solid form.
+

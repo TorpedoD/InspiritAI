@@ -1,0 +1,54 @@
+Theodore Chiu 11B
+December 13, 2023
+
+Motion Down an Inclined Plane Lab Report
+
+Purpose: 
+
+To determine which type of motion (constant velocity, uniform acceleration, non uniform acceleration) a cart will undergo when it rolls down an inclined plane.
+
+Apparatus:
+
+Refer to “Motion Down an Inclined Plane Lab” handout.
+
+Procedure: 
+
+Refer to “Motion Down an Inclined Plane Lab” handout.
+
+Observations:
+
+
+
+
+
+Analysis:
+
+Calculations:
+
+Calculating slope from position-time graph:
+
+
+
+
+
+
+
+
+Calculating slope from velocity-time graph:
+
+
+
+
+
+
+
+
+	
+
+	The position-time graph is an increasing curved graph. The velocity-time graph is an increasing straight line with a positive slope. The acceleration-time graph is a horizontal line. The type of motion from the position-time graph is increasing velocity. The type of motion shown in the velocity-time graph is increasing velocity, but at a constant rate. Lastly, the acceleration-time graph displays uniform acceleration due to the single horizontal line from 0.0 s to 1.60 s. The position-time graph has a y-intercept of (0, 0). The velocity time graph has a non-zero y-intercept of approximately (0, 10.00). The acceleration time graph has a non-zero y-intercept of (0, 30.6).
+ 
+
+Conclusion:
+
+The type of motion the cart underwent is uniform acceleration. From recognizing that the position-time graph shows increasing velocity and the velocity-time graph shows increasing velocity at a constant rate, a horizontal line from 0.0 s to 1.60 s could be graphed. The horizontal line at y = 30.6, found from the velocity-time calculations, shows that there is constant acceleration because the line begins from when the cart started to when the cart stopped. If the acceleration-graph had a horizontal line at two different y-values, the acceleration would not be uniform. This experiment can be further studied by incorporating friction into the calculations or by using different vehicles such as a boat on a slippery inclined surface.
+	Sources of uncertainty include a lack of trials. Only one trial was done. Performing at least three trials can increase the accuracy of the results. An old ticker timer was also used. This may have affected the accuracy of the points punched into the ticker tape. Lastly, old carts were used. This could have affected the evenness of the motion and thus, affected the velocity and acceleration values. A new cart could be used to reduce this uncertainty. 

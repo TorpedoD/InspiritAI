@@ -1,0 +1,152 @@
+Stock Market Research
+
+
+Damian Wong
+BBI2O
+Mr. Peter Choi
+5/26/2023
+CURRENT NEWS
+
+Constellation Software Inc.
+https://www.fool.ca/2023/05/01/up-by-almost-50-is-constellation-software-stock-a-buy-right-now/
+
+The S&P/TSX Composite Index has fallen, indicating potential problems for the broader market. Constellation Software Inc. (TSX:CSU) on the other hand has outperformed the Canadian stock market, indicating potential opportunities. The stock is up 24.9% year to date, owing to the IT sector's revival. Constellation Software is a technology holding company that purchases and grows small technology companies. Its purchases have resulted in excellent financial achievements, including a 34% increase in revenue and huge cash flow. Although the stock is very costly in comparison to the market, it provides stability and less uncertainty than other tech firms. While large profits should not be expected right once, it can be a helpful addition to a long-term investing portfolio.
+
+Coca-Cola
+https://www.cnbc.com/2023/04/24/coca-cola-ko-q1-2023-earnings.html
+
+Coca-Cola’s first quarter  earnings and revenue were greater than projected, mainly to price increases and increased demand for its beverages. The company's adjusted profits per share were 68 cents, up from the projected 64 cents, and sales was $10.96 billion, up from the expected $10.8 billion. Higher Coke beverage prices were mostly responsible for the increase, which helped offset the impact of inflation. Despite price hikes, Coca-Cola beverage demand remained strong, with unit case volume increasing by 3%. While demand in North America was flat and declined in Europe, the Middle East, and Africa, it was high in Latin America and the Asia-Pacific area. Coke's sparkling soft drinks volume growth was 3% and 8%, respectively, for its namesake soda and Coke Zero Sugar. The company's projection for 2023 remains unchanged, with 7% to 8% organic sales growth and 4% to 5% comparable earnings per share growth. Coca-Cola expects commodity inflation to raise its cost of goods sold in 2023 by the mid-single digits.
+
+Mitsubishi Corp
+https://www.forbes.com/sites/gurufocus/2023/04/14/warren-buffett-buys-more-shares-of-japans-top-5-trading-houses/?sh=f32d7e26e708
+
+Warren Buffett's Berkshire Hathaway has increased its stake in Japan's top five trading houses, including Mitsubishi, Mitsui & Co, Itochu, Marubeni, and Sumitomo, up to 7.4%. Buffett revealed in an interview with Nikkei that he may further raise his stakes in these companies. The conglomerates' steady dividends and value characteristics were key factors in Buffett's decision to invest, along with their resemblance to Berkshire's business structure. He also expressed interest in Japanese companies beyond the trading houses. Berkshire's yen-denominated bonds worth $5.93 billion reflect its broader economic bet on Japan. Buffett also mentioned the possibility of providing funding for a future deal, as Berkshire has the capacity for large-scale investments. Regarding the reduction of Berkshire's stake in Taiwan Semiconductor, Buffett cited geopolitical tensions and a desire to deploy capital in more lucrative opportunities as reasons for the move.
+
+Sony Group Corp
+https://www.nasdaq.com/articles/sony-expands-its-global-reach-with-proactiv-majority-stake
+
+Sony Music Masterworks, a division of Sony Group Corporation, has made a significant investment in Proactiv Entertainment, a Barcelona-based producer of live music and immersive events, in a bid to strengthen its position in the global entertainment industry. The collaboration aims to expand the business by offering a wider range of events and immersive experiences to audiences. Nicolas Renna, the managing director of Proactiv Entertainment, will continue overseeing the company's operations in conjunction with the presidents of Sony Music Masterworks and Sony Music Spain & Portugal. This partnership aligns with Sony Music Masterworks' strategy to diversify and become a renowned entertainment enterprise. In the fiscal fourth quarter, Sony's Music segment sales increased 18.6% year over year. However, the outlook for fiscal 2023 indicates a 0.3% year-over-year decline in sales. Sony's overall performance will be influenced by various segments, with the Music segment expecting an improvement in sales. The article concludes by mentioning that Sony currently holds a Zacks Rank #3 (Hold) and its shares have seen a 9.7% gain in the past year.
+
+Cameco Corp
+https://www.nasdaq.com/articles/unusual-call-option-trade-in-cameco-ccj-worth-$285.60k
+
+On May 22, 2023, an unusually large block of call contracts in Cameco (CCJ) was purchased, indicating bullish sentiment. The options trade had a strike price of $31.00 per share and an expiration date of September 15, 2023. The premium spent on the trade was 1.69 sigmas above the mean, placing it in the 95.45th percentile of recent large trades in CCJ options, as tracked by Fintel. The fund sentiment towards Cameco shows an increase in the number of funds reporting positions, with a 5.99% rise in the last quarter. The average portfolio weight dedicated to CCJ has increased by 13.34%. Institutional ownership has also increased, with total shares owned rising by 5.26% to 325,794K shares. The put/call ratio of CCJ is 0.52, indicating a bullish outlook. Analyst price forecasts suggest a potential upside of 37.80% for Cameco. Major shareholders, such as URA - Global X Uranium ETF, Capital World Investors, Mirae Asset Global Investments Co., William Blair Investment Management, and CWGIX - CAPITAL WORLD GROWTH & INCOME FUND, have made adjustments to their positions in CCJ over the last quarter. 
+
+THE RATIONALE
+
+Ideaya Biosciences Inc
+The company focuses on tailored therapies for genetically specialized patient populations in the fast emerging field of oncology precision medicine. This puts them at the forefront of cancer therapy innovation and potential breakthroughs. Their strategic alliances with top pharmaceutical companies reflect recognition and support from established industry players. They have excellent financial performance metrics such as revenue growth and a healthy pipeline of medication candidates, added to Ideaya Biosciences Inc.'s investment potential.
+
+Zoetis Inc
+Zoetis Inc has a strong position in the animal health business and has a track record of consistent financial performance. Zoetis, a global leader in animal health, has a diverse portfolio of products and services to meet the needs of both livestock and companion animals. Its emphasis on R&D, combined with technology advances in areas like genetics, diagnostics, and therapies, positions them well for long-term success. Furthermore, positive market trends such as rising pet ownership and increased demand for protein-rich diets boost the potential for future revenue growth in the animal health sector.
+
+Sigma Lithium Corp
+The company has established itself as a prominent source of high-quality lithium concentrate, which is in high demand for electric vehicle batteries. Additionally, Sigma Lithium's mining operations are concentrated in a prolific lithium-rich region of Brazil, offering access to plentiful resources. The company has also demonstrated strong scientific ability in the production of battery-grade lithium products using an advanced and ecologically friendly approach. With the expanding market for lithium-ion batteries, Sigma Lithium is an appealing investment prospect in the evolving electric car industry.
+
+UWM Holdings Corp
+As a prominent wholesale mortgage lender, the company has exhibited sustained revenue growth and a sound financial position, backed up by a strong technical infrastructure. UWMC's fast loan origination process, powered by modern automation and digital platforms, prepares it to capitalize on the digital era's expanding demand for mortgage services. With favourable market sentiment toward the mortgage business and UWMC's capacity to capitalize on technological improvements, it makes for an appealing investment option.
+
+
+
+
+
+
+Sony Group Corp
+Sony Group Corp has a significant presence in the technology sector and a history of developing innovative product offerings. The company has a diversified portfolio that includes consumer goods, gaming, entertainment, and financial services, which allows it to generate different revenue streams. Sony's dedication to R&D, as indicated by its substantial patent portfolio and developments in cutting-edge technologies. Sony presents a great investment opportunity in the dynamic and competitive tech industry due to its technological knowledge and capacity to respond to changing consumer expectations. Its stock price has also been substantially rising since last year. 
+
+Wheaton Precious Metals Corp
+Wheaton Precious Metals Corp is an appealing investment due to its solid technical fundamentals and long-term growth potential. The company is a market leader in precious metals streaming, with a diverse portfolio of mining assets and a track record of successful agreements. Its sustainable business approach generates consistent cash flow, while its low-cost production structure and strong industry connections provide it a competitive advantage in the market. WPM's dedication to innovation and technological breakthroughs positions it well to capitalize on the expanding demand for precious metals in a variety of industries.
+
+Endeavour Silver Corp
+The company's track record of silver production, together with its diverse portfolio of high-grade silver-gold mines, positions it well in the precious metals market. EXK's efficient and cost-effective mining operations, aided by new technology and optimized procedures, contribute to the company's capacity to generate constant profitability and cash flow. The company's commitment to continued exploration and resource expansion, which includes the use of modern geological modelling and targeting techniques, increases the potential for future growth and value generation. 
+
+Mitsubishi Corp
+The company's wide portfolio, which includes areas such as energy, infrastructure, and machinery, demonstrates its capacity to react to shifting market circumstances. Mitsubishi Corp's dedication to exploiting emerging technologies, such as artificial intelligence and robotics, positions it favourably for future growth, while its global presence and large network provide access to a diverse variety of markets, limiting possible risks. It is also one of Warren Buffet's more essential stocks.
+
+
+
+
+
+
+
+
+Coca-Cola Femsa SAB de CV
+With a strong track record of revenue growth, the company has shown its ability to adapt to changing consumer demands and maintain a competitive edge in the beverage market. KOF's strong financial performance, backed up by efficient cost management and steady cash flows, adds to its investment appeal. The stock's positive technical signals, which include rising price trends, strong support and resistance levels, and favourable moving averages, imply potential future price gain, making it an appealing alternative for investors looking for market possibilities.
+
+New York Times Co
+The New York Times Company has an excellent web platform, and its mobile applications offer a smooth user experience, drawing a big and devoted client base. This has piqued the interest of many individuals, and the company's technology infrastructure, which includes powerful data analytics and AI-driven content personalisation, would benefit on the expanding demand for high-quality digital news content. It is also a program that I use a lot, therefore I wish to support it.
+
+HDFC Bank Limited
+HDFC Bank, one of India's largest banks, has continually proved its dedication to innovation by aggressively investing in technology-driven solutions. This has enabled the bank to simplify its processes, improve client service, and preserve a competitive advantage in the continually expanding financial services business. With a strong online banking infrastructure, intuitive mobile apps, and an emphasis on digital transformation. The trend of growth on google finance is also greater then other banks that i have seen. 
+
+Franchise Group, Inc.
+Advanced data analytics capabilities provide effective market research and targeted customer acquisition, while simplified digital platforms and mobile applications maximize operational efficiency for franchisees. The artificial intelligence and blockchain capabilities of Franchise Group place it at the forefront of exploiting cutting-edge technologies for increased customer experience and scalable development possibilities.
+
+Cadence Design Systems Inc
+The company's wide product range, which includes industry-leading semiconductor design and verification software tools. Cadence's significant expertise in sophisticated technologies such as artificial intelligence and machine learning positions it well to capitalize on expanding market trends and upcoming applications like self-driving cars. With the popularity of Chat GPT, artificial intelligence has been a major hit, and I believe it will continue to expand in the future.
+
+
+
+
+
+Cameco Corp
+The firm has a good track record of manufacturing and a solid portfolio of long-term supply contracts, ensuring revenue stability and predictability. Cameco benefits from the expanding worldwide demand for clean energy and the increased emphasis on nuclear power as a stable and sustainable source of electricity in the long run. Its great technical competence, proven operational efficiency, and strategic placement in the uranium market make it a secure long-term investment.
+
+A and W Revenue Royalties Income Fund
+The company has shown continuous revenue growth, indicating a robust and stable business plan. It is more stable than other businesses since it is a larger food group. It has a competitive edge and the potential for future growth and market share. It is also a food firm that I would choose to support over larger food companies in Canada.
+
+PGIM Jennison Focused Growth ETF
+The PGIM Jennison Focused Growth ETF is an investing strategy-focused ETF. The fund is managed by PGIM Investments, a well-established asset management firm. The ETF invests largely in high-growth firms with great future prospects, utilizing innovative quantitative models and in-depth fundamental analysis. Although it is a smaller company with the methods and price range it provides, it has lots of potential to grow.
+
+Canadian National Railway
+CN is a North American transportation and logistics firm with a vast rail network spanning Canada and the United States. Its emphasis on operational efficiency positions businesses for long-term development and profit. With a proven record of providing continuous financial performance, a dedication to innovation, and a positive outlook for the transportation sector. Especially as a Canadian company, I really appreciate that they are willing to spread out across North America to provide transportation for everyone instead of focusing on Canada like some other companies.
+Constellation Software Inc.
+The company has a proven track record of acquiring and integrating software businesses, utilizing their expertise to create long-term development and profitability. Constellation Software provides a solid and robust investment opportunity in the ever-changing technology sector, with a wide portfolio of vertical market software solutions and a strong focus on recurring revenue models. Even though this stock is expensive, every fluctuation has been in the hundreds. Despite the fact that it is high risk. Long-term growth has always been favourable, so I would consider this a secure investment.
+
+
+
+
+
+Canadian Natural Resources Ltd
+The firm has a wide portfolio of high-quality assets, including conventional and unconventional oil and gas reserves, putting it in a good position to take advantage of favourable market circumstances. Canadian Natural Resources Inc also has a good track record of operational efficiency, generating exceptional production and cost savings on a continuous basis. The conservative financial management of the organization, together with its dedication to sustainable practices, improves its long-term growth chances.
+
+Stella-Jones Inc
+Stella-Jones Inc is a wood products company that focuses on capitalizing on the increased demand for treated wood products. The company's strong technological skills, including cutting-edge wood treatment facilities and comprehensive quality control systems, position it as a market leader. Stella-Jones' strategic ties with major suppliers, as well as its large distribution network, contribute to the company's competitive edge, enabling for efficient and cost-effective operations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BEST AND WORST STOCKS
+
+Best stock ($) - Mitsubishi Corp
+
+Mitsubishi's stock price has increased by 26% since the start of the year. Its growth can be triggered by a multitude of factors. Mitsubishi's new $1 billion startup decarbonization fund could have been a game changer in the transition to a low-carbon economy. Mitsubishi is positioning itself as a key actor in the worldwide transition to a low-carbon economy by investing in these new enterprises. The rising need for clean energy solutions and sustainable technologies has aided the company's success. Mitsubishi's superb financials have risen by 26% since the start of the year, a surprising but expected increase from a company with a very good linear trend since its beginnings.
+
+Worst Stock ($) - HDFC Bank Limited
+
+Interest rate fluctuations and regulatory changes, I believe, are two important factors contributing to the drop in HDFC stocks and the larger slump in the banking industry. For starters, changes in interest rates have a direct impact on banking stocks; when rates rise, it becomes more expensive for borrowers to take out loans, thus reducing demand for banking services. As a major player in the home finance market, HDFC is particularly exposed to interest rate swings. Second, regulatory changes in the banking industry can have a substantial impact on the operations and profitability of banks. If HDFC has difficulty responding to new regulations governing lending practices or capital adequacy criteria, this can have a detrimental impact on investor confidence and the stock's performance. With most of the other banks' stocks dropping too, it is hard not to see a pattern that the entire banking industry has dropped. This may have been the largest contributing factor to the drop in stock price. 
+

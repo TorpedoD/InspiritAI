@@ -1,0 +1,443 @@
+Baccarat:
+//This program allows the user to play baccarat on a text-based interface.
+public class Baccarat extends ConsoleProgram
+{
+    //These are constants that are assigned an integer value
+    //and can be used to index theSuits array.
+    private static final int DIAMONDS = 0;
+    private static final int HEARTS = 1;
+    private static final int CLUBS = 2;
+    private static final int SPADES = 3;
+    //These constants represent the rank of face cards and ACE
+    //that allow for indexing into theRanks array. 
+    private static final int JACK = 11;
+    private static final int QUEEN = 12;
+    private static final int KING = 13;
+    private static final int ACE = 1;
+    
+    public void run()
+    {
+        nineteen();
+        while (true)
+        {
+            play();
+            endGame();
+        }
+    }
+
+    /**
+     * 
+     * This method allows the user to play again or end game.
+     * 
+     */
+    public void endGame()
+    {
+        String end = readLine ("Would you like to end the game?");
+        if (end.equalsIgnoreCase("yes"))
+        {
+            System.exit(0);
+        }
+    }
+    
+    /**
+     * This method ensure the user is above 19.
+     *  
+     * 
+     */
+     public void nineteen()
+     {
+         int legal = readInt("What is your age? ");
+         if (legal<19)
+         {
+            System.out.println  ("This is not legal. Do not play.");
+            System.exit(0);
+         }
+     }
+    
+    /**
+     * 
+     * This method holds the main parts of a round of baccarat.
+     * It is a large method because values that are intialized/used in the beginning
+     * are also used at the end.
+     * Allows user to place bet amount and who they want to be on (player or banker).
+     * 
+     * 
+     * Compares the two hands.
+     * Whichever is closer to 9 or is 9 wins. 
+     * 
+     */
+    public void play()
+    {
+        double total = 200;
+        boolean betOnWho = true;
+        int bet1 = 0;
+        
+        //asking user how much they want to bet.
+        int bet = readInt ("You have $" + total + " How much would you like to bet? $");
+        if (bet>total)
+        {
+            System.out.println ("You don't have that much money.");
+            bet = readInt ("You have $" + total + " How much would you like to bet? $");
+        }
+        total-=bet;
+        bet1 = bet;
+        System.out.println ("You have $" + total + " left");
+        
+        //asking user who they want to bet on.
+        String playerOrBanker = readLine("Who would you like to bet on? Player or Banker? ");
+        String lowercase = playerOrBanker.toLowerCase();
+        if (lowercase.equals("player"))
+        {
+            System.out.println ("You have bet $" + bet + " on the player");
+        }
+        else
+        {                
+            System.out.println  ("You have bet $" + bet + " on the banker");
+            betOnWho=false;
+        }
+        
+        System.out.println ("=================================");
+        System.out.println ("The game will now begin.");
+        System.out.println ("Deck is being shuffled.");
+        System.out.println ("The cards are being dealt");
+      
+        //initiallize deck.
+        Deck deck = new Deck();
+        deck.shuffle();
+        
+        //initilize hands.
+        Hand player = new Hand();
+        Hand banker = new Hand();
+        
+        //dealing cards.
+        player.addCard(deck.deal());
+        banker.addCard(deck.deal());
+        player.addCard(deck.deal());
+        banker.addCard(deck.deal());
+        
+        
+        //printing cards and value of player and banker.
+        System.out.println ("Player has: " + player);
+        System.out.println ("Banker has: " + banker);
+        
+        if (player.win())
+        {
+            System.out.println ("Player wins.");
+            if (betOnWho)
+            {
+                total =  total + (bet1*1.95);
+            }
+            System.out.println ("Total: " + total);
+            System.exit(0);
+        }
+        else if (banker.win())
+        {
+            System.out.println ("Banker wins.");
+            if (!betOnWho)
+            {
+                total =  total + (bet1*1.95);
+            }
+            System.out.println ("Total: " + total);
+            System.exit(0);
+        }
+        //if neither player or banker have 9, they can add a card.
+        else 
+        {
+            String add = readLine("Player, would you like to add a card? ");
+            if (add.equalsIgnoreCase ("yes"))
+            {
+                player.addCard(deck.deal());
+                
+            }
+            String add1 = readLine ("Banker, would you like to add a card? ");
+        
+            if (add1.equalsIgnoreCase("yes"))
+            {
+                banker.addCard(deck.deal());
+            }
+            
+            System.out.println ("Player has: " + player);
+            System.out.println ("Banker has: " + banker);
+            
+        }
+        //2nd test to see who is closer to 9 to determine winner.
+        int closeP = 9-Math.abs(player.getValue());
+        int closeB = 9-Math.abs(banker.getValue());
+        
+        //if banker is closer to nine.
+        if (closeP>closeB)
+        {
+            System.out.println("Banker wins.");
+            if (!betOnWho)
+            {
+                //0.05% goes to dealer as commission.
+                total =  total + (bet1*1.95);
+            }
+            System.out.println ("Total: " + total);
+            
+        }
+        //if both players equal distance from 9.
+        else if (closeP==closeB)
+        {
+            System.out.println ("TIE");
+        }
+        //if player is closer to nine.
+        else 
+        {
+            System.out.println ("Player wins");
+            if (betOnWho)
+            {
+                //0.05% goes to dealer as commission.
+                total =  total + (bet1*1.95); 
+                System.out.println("Total: " + total);
+            }
+            else 
+            {
+                System.out.println("Total: " + total);
+            }
+        }
+        
+    }
+    
+}
+
+Card.
+public class Card
+{
+    //These are constants that are assigned an integer value
+    //and can be used to index theSuits array.
+    private static final int DIAMONDS = 0;
+    private static final int HEARTS = 1;
+    private static final int CLUBS = 2;
+    private static final int SPADES = 3;
+    //These constants represent the rank of face cards and ACE
+    //that allow for indexing into theRanks array. 
+    private static final int JACK = 11;
+    private static final int QUEEN = 12;
+    private static final int KING = 13;
+    private static final int ACE = 1;
+    
+    //Instance Variables
+    //The rank will range from ACE (1) to KING (13).
+    private int rank;
+    // This is the suit of the card, diamonds, hearts, clubs, or spades. 
+    private int suit;
+    //The value of the card is what the card is worth in the game,
+    //Tens and face cards are all worth 0 points, ACE is worth 1 point, rest are their number. 
+    private int value;
+    
+    //This is a String array that allows for easy accessibility to get the rank of the card. 
+    //There is an 'X' at the front because there is no card rank at index [0].
+    private String[] theRank = {"X", "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
+    //This is a String array that allows for easy accessibility of the differnt suits.
+    //It is the same order as the suits above, so index at 0 would be diamonds.
+    private String[] theSuit = {"Diamonds", "Hearts", "Clubs", "Spades"};
+    
+    /**
+     * This is the constructor of what a card entails.
+     * 
+     * @param r The rank of the card (one, two, jack, queen, etc..), int value
+     * @param s The suit of the card, int value.
+     * 
+     */
+    public Card(int r, int s)
+    {
+        rank = r;
+        suit = s;
+    }
+    
+    /**
+     * This method returns the value of the card in baccarat.
+     * ACE is worth 1 point. 
+     * Numbers from 2-9 are the worth the number they are.
+     * Face cards (Jack, Queen, and King) are worth 0 points.
+     * 
+     * @return The value of the card as an integer. 
+     * 
+     */
+    public int getValue()
+    {
+        if (rank > 0&&rank < 10)
+        {
+            value = rank;
+        }
+        else 
+        {
+            value = 0;
+        }
+        return value;
+    }
+    
+    /**
+     * This returns the card with the rank and suit as a String.
+     * 
+     * @return the String/ text version of the card. 
+     * 
+     */
+    public String toString()
+    {
+        String rankString = theRank[rank];
+        String suitString = theSuit[suit];
+        return rankString + " of " + suitString;
+    }
+    
+    
+}
+
+Deck.
+
+//This import allows me to use a list of other classes.
+import java.util.*; 
+
+public class Deck
+{
+        //These are constants that are assigned an integer value
+    //and can be used to index theSuits array.
+    private static final int DIAMONDS = 0;
+    private static final int HEARTS = 1;
+    private static final int CLUBS = 2;
+    private static final int SPADES = 3;
+    //These constants represent the rank of face cards and ACE
+    //that allow for indexing into theRanks array. 
+    private static final int JACK = 11;
+    private static final int QUEEN = 12;
+    private static final int KING = 13;
+    private static final int ACE = 1;
+    
+    //Instance Variable
+    //This arraylist will store the values of the deck.
+    public ArrayList <Card> deck;
+    
+    
+    /**
+     * This creates a deck. 
+     * Using a for loop, it loops through the ranks (13)
+     * and then the suits (4), adding a card to the deck. 
+     * 
+     * 
+     */
+    public Deck()
+    {
+        deck = new ArrayList <Card>();
+        for (int rank = ACE; rank <= KING; rank++)
+        {
+            for (int suit = DIAMONDS; suit <= SPADES; suit++)
+            {
+                Card card = new Card (rank, suit);
+                deck.add(card);
+            }
+        }
+        
+        
+    }
+    /**
+     * This method shuffles the deck.
+     * It uses math.random to generate a random number.
+     * The value at index i and the random number are switched. 
+     * 
+     */
+    public void shuffle()
+    {
+        for (int i = 0; i < deck.size(); i++)
+        {
+            int random = (int) (Math.random() * 52);
+            Card j = deck.get(random);
+            Card k = deck.get(i);
+            deck.set(i, j);
+            deck.set(random, k);
+        }
+    }
+    
+    /**
+     * This deals the first card on the deck.
+     * @ return the card at the top of the deck. 
+     * 
+     */
+    public Card deal()
+    {
+        return deck.remove(0);
+    }
+    
+}
+
+Hand.
+
+//This import allows me to use a list of other classes.
+import java.util.*;
+public class Hand
+{
+    //This arraylist will store the cards in the hand.
+    public ArrayList<Card> hand;
+    
+    /**
+     * 
+     * This is the constructor.
+     * Arraylist is intialized. 
+     * 
+     */
+    public Hand()
+    {
+        hand = new ArrayList<Card>();
+    }
+    
+    /**
+     * Adds a card to the hand.
+     * 
+     * @param h the card that is added. 
+     * 
+     */
+    public void addCard (Card h)
+    {
+        hand.add(h);
+    }
+    
+    /**
+     * Returns the value of the hand.
+     * 
+     * @ return the value of the hand (int).
+     * 
+     */
+    public int getValue()
+    {
+        int sum = 0;
+        
+        for(Card h: hand)
+        {
+            sum+=h.getValue();
+        }
+        
+        return sum;
+    }
+    
+    /**
+     * Determines if the player/banker has a value equal to 9.
+     * If they do, they win. 
+     * 
+     * @ return boolean if the player wins.
+     * 
+     */
+    public boolean win()
+    {
+        if (getValue()==9||getValue()==8|| getValue()==18)
+        {
+            return true;
+        }
+        return false;
+    }
+    
+    /**
+     * Returns the cards and value of the cards the player has.
+     * 
+     */
+    public String toString()
+    {
+        String cardHand = "";
+        
+        for (Card h: hand)
+        {
+            cardHand += "" + h + " , ";
+        }
+        cardHand += "(" + getValue() + ")";
+        return cardHand;
+    }
+}

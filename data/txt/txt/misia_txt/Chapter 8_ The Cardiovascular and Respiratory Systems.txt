@@ -1,0 +1,108 @@
+Chapter 8: The Cardiovascular and Respiratory Systems
+The heart is made up of specialized tissue called cardiac muscle (myocardium)
+Heart is divided into 2 sides
+Right heart pumps deoxygenated blood to the lung (pulmonary circulation). Dark red blood
+Left heart pumps oxygenated blood to the rest of the body (systemic circulation). Bright red blood
+Layers of the heart
+Pericardium: Outer layer that is a tough protective sac that fits loosely over the heart
+Epicardium: Sits below the pericardium
+Myocardium: Sits below the epicardium
+Endocardium: Tissue that lines the inside of the heart
+The heart has special valves that prevent blood from flowing from the ventricels to the atria, known as AV valves
+These valves are attached to the ventricle walls by special muscular extensions called papillary muscles and chordae tendineae
+
+Cardiac muscle cells are interconnected and allow electrical signals to pass form cell to cell
+Allows the myocardium to contract all at once so that blood is pumped
+Sinoatrial Node (SA node): “Pacemaker”
+Found in the wall of the right atrium and electrical signals are initiated here
+The rate of contraction is controlled by the autonomic nervous system
+Electrical signals pass through both atria through internodal pathways and cause the atria to contract from the top down to move blood to the ventricles
+Atrioventricular Node (AV node):
+Electrical signals to the AV node to signal the ventricles to contract from the bottom up, forcing the blood into the aorta and pulmonary arteries
+SA node will cause the heart to contract 70-80 beats per minute
+Electrical activity can be measured by an electrocardiogram (ECG), showing a graph representing the electrical events that happen in the heart
+
+Chapter 8: Vascular System and Blood Flow
+
+Blood vessels divided in to 4 categories:
+Arteries:
+Thick walls that carry blood away from the heart
+Very elastic and can stretch and retract back to its original diameter
+Absence of valves due to high pressure
+Blood pressure is measured here
+Systolic Blood Pressure: pressure caused by the contraction of the heart
+Diastolic Blood Pressure: pressure caused by relaxation phase of the heart
+Arterioles
+Smaller than arteries and are important in blood distribution to different tissues in the body
+Surrounded by rings of smooth muscles that constrict the arterioles to reduce blood flow ro relax to increase blood flow
+These rings are controlled by the nervous system and chemical factors released to tissues
+Example: During exercise, constriction (reduced blood flow) may go to the intestines, but relaxation (increased blood flow) would occur at the working muscles
+Autoregulation: chemical factors that are made by skeletal muscles that diffuse to the arterioles and signal to relax so more blood will flow to working muscles. 
+
+Capillaries:
+Thin vessels that only allow 1 RBC through at a time, and are made up of very thin walls to allow diffusion of substances to occur easily
+The smallest vessels in the body that plays the important role of exchanging gasses and nutrients with tissues
+Venules and Veins: 
+Venules are extensions of capillaries which form larger veins as they return to the heart; eventually forming the superior and inferior vena cava
+Veins have valves that prevent back flow because pressure in veins is low compared to arteries.
+
+Chapter 8: Returning Blood in Veins Back to the Heart
+
+3 Main tools/Systmes:
+Skeletal Muscle Pump: Skeletal muscles surrounding the veins contract to push/massage the blood back to the heart
+Thoracic Pump: When a breath is taken, the pressure in the chest cavity is low, while the abdominal cavity is high. The pressure in the veins in the chest cavity drops, and the vein pressure in the abdominal cavity rises. The difference in pressure between the veins and the two cavities pushes the blood to the heart.
+Nervous System: During exercise when cardiac output increases, the nervous system signals to the veins to slightly constrict which helps to return more blood back to the heart. 
+
+Chapter 8: Blood and its Components
+
+Blood is a specialized fluid that functions mainly as a transport medium for oxygen, carbon dioxide, and nutrients
+Blood is made up of 2 components
+Plasma: 55% of blood
+Mostly water with dissolved nutrients, proteins, ions, and gases
+Blood Cells: 45% of blood
+Red blood cells (erythrocytes) make up the most which ransport oxygen and carbon dioxide through the protein hemoglobin
+White blood cells (leucocytes) make up less than 1% and play an key role in the immune system
+Platelets (thrombocytes) are cell fragments that help control blood clotting
+
+Chapter 8: Cardiovascular Dynamics
+
+Deals with how the cardiovascular system adapts to demands and changing conditions
+Factors that are considered when looking at cardiovascular dynamics
+Cardiac Output (Q)
+Blood Pressure
+Distribution of Blood Flow
+
+
+Chapter 8: Cardiac Output (Q)
+The volume of blood the left ventricle pumps in 1 min. Measured in L/min
+3 Factors that effect cardiac output
+Activity:
+Rest: 5-6 L/min, Heavy Exercise: >30L/min
+Stroke Volume (SV): The amount of blood ejected from the left ventricle in a single contraction
+Rest: 50%-60%, Max Exercise: 85%
+Heart Rate (HR): The number of times the heart beats per minute
+
+Chapter 8: Blood Pressure
+
+Cardiac Cycle: The series of events that occurs through one heart beat
+Relaxation (Diastole): The ventricle fills with blood
+Contraction (Systole): The ventricle contracts and ejects the blood
+Blood pressure is measured in milimetres of mercury (mmHg) and measures the force the blood exerts on the walls of the arteries and other blood vessels
+Humans range from 90/60 mmHg to 120/80 mmHg
+The changing pressure during the cardiac cycle is how blood is circulated throughout the body
+Blood pressure is effected by the type, duration, and intensity of the exercise
+Systolic blood pressure is often proportional to exercise intensity; the greater the intensity the higher the pressure (ex. Endurance exercises)
+Resistance Training causes short, but large increases to both systolic and diastolic pressure
+After exercise, there is a period where blood pressure drops below normal resting values (post-exercise hypotension); even with low intensity exercises
+Hypertension is when blood pressure is consistently elevated (>140/90 mmHg)
+Considered modifiable since it can return back to normal with lifestyle changes
+Risk Factors: obesity, smoking, aging, kidney diseases, and genetics
+
+Chapter 8: Distribution of Blood Flow
+
+During exercise, the dean for oxygen increases; especially in skeletal muscles
+The cardiovascular system tries to meet these demands by increasing cardiac output and redistribution of blood flow
+Less active organs will have reduced blood flow in order to supply more blood to the working/active organs
+Increase: Active skeletal muscles
+Decrease: Stomach, Intestine, and Kidneys
+The only organ that is unaltered regardless of the intensity of exercise is the brain

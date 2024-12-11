@@ -1,0 +1,218 @@
+
+Analysis of Uno
+
+Deck of Cards:
+108 cards
+ divided into four colors: red, yellow, green, and blue
+
+ Each color has cards numbered from 0 to 9 (19 of each colour) 
+Special action cards: 8x Skip, 8x Reverse, and 8x Draw Two (2 of each colour)
+4x Black Wild cards and 4x Black Wild Draw Four cards
+
+How to Play Uno:
+1. Players take turns in a clockwise direction.
+2. A player can play a card if it matches the top card of the discard pile in either color or number.
+Special action card abilities:
+   Skip: Skips the next player's turn.
+    Reverse: Reverses the direction of play.
+    Draw Two: Forces the next player to draw two cards and forfeit their turn.
+    Wild Draw: Allow the player to declare the next color to be matched.
+    Wild Draw Four: Allow the player to choose the next color and also force the next player to draw four cards and skip their turn.
+
+Note: 
+The player who plays all their cards needs to shout "UNO" as soon as possible.  If this player forgets and another player notices, the forgetful player must draw two cards.
+A player wins the round when they have played their last card
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scenario 1: 
+Concept: Permutations 
+
+In a game of UNO, Clarisse has 7 cards in your hand. How many different permutations of these 7 cards are possible if your hand must contain:
+Exactly 2 red cards
+At least 1 action card
+Exactly 1 Wild card
+The remaining 3 cards can be any color except red
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connections: 
+
+Clarisse understanding the permutations of her UNO hand composition notifies her to make more strategic decisions throughout the game. This knowledge allows them to recognize the rarity of their hand, use their Wild and action cards more effectively, and make better predictions about opponents' hands. Clarisse can also develop a more complex color strategy, focusing on non-red cards while managing the players’ reds carefully. This mathematical insight transforms UNO from a game of chance into one of calculated risk and strategic planning, potentially giving Clarisse a big advantage in understanding the game flow, and an easier upper hand to manipulate other players.
+
+Scenario 2: 
+Concept: Combinations
+
+Julian, Grace, Kimmy, and Jovi are playing a game of UNO. Each player is dealt 10 cards. After the initial deal, how many different combinations of cards are possible in the remaining deck?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connections: 
+
+This knowledge allows for better assessment of card probabilities, informed color choices, and smarter management of action and Wild cards. Specifically wild cards, knowing how many wild cards remain, the player can better assess the value of holding onto their own wild cards or playing them earlier. Understanding the number of action cards (Skip, Reverse, Draw Two) left in the deck also helps the player decide when to use their own action cards and when to expect them from opponents. This approach enables these players to make dynamic adjustments to their strategy, potentially gaining a significant advantage over those who rely solely on luck or intuition.
+Scenario 3: 
+Concept: Odds
+
+Alex is in the final stages of an UNO game with Daibik. 
+You have 5 cards in your hand: a red 9, a blue 4, a yellow Reverse, a Wild card, and a Wild Draw Four card. The top card on the discard pile is a green 6. There are 31 cards in the discard pile, and Daibik has 3 cards left in his hand. 3 of the 4 Wild Draw Four cards have already been played and are in the discard pile. Alex decides to play the Wild Draw Four card. Dabik can avoid drawing four cards and stay in the game if they have the last Wild Draw Four card.
+Calculate the odds against Daibik having the last Wild Draw Four card in his hand.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connections: 
+
+Knowing the exact probability of their Daibik having the last Wild Draw Four card allows Alex to make a more informed next move. If the odds against Daibik having the card are high, Alex might feel more confident in playing their own Wild Draw Four, potentially forcing Daibik to draw four cards and giving himself a strong advantage. However, if the odds are more favorable for Daibik , Alex might consider a different strategy, such as playing a less aggressive card or trying to deduce the opponent's hand through other means. 
+
+Scenario 4: 
+Concept: Permutation
+
+Nathan is organizing a large Uno Tournament at your school. To make the game more interesting, he decides to implement a special rule for the initial deal:
+Each player must receive a unique sequence of colors for their first four cards (in a standard UNO deck, there are four colors: red, blue, green, and yellow). If there are 5 players, how many different arrangements of color sequences can be formed for the initial four cards of each player given that the order of the colors matters (e.g., red-blue-green-yellow is different from blue-red-green-yellow).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connections: 
+
+
+Understanding the permutations of color sequences in this Uno tournament scenario can significantly influence a player's strategy and decision-making. Knowing that each player has a unique color sequence for their first four cards provides valuable information about the initial distribution of colors in the game. One of the players could use this knowledge to make educated guesses about the colors other players are likely to need or play, allowing for better planned card plays and color choices when using wildcards. A player may also decide to hold onto certain colors, anticipating that they might be lacking better cards among other players' hands.
+
+Scenario 5: 
+Concept: Odds
+
+Raquel is playing a game of Uno with Ava. What are the odds of drawing a "Draw Two" card? In addition, Lydia is a spectator and looks at both hands. Lydia says that Raquel has a 60% chance of winning this round. Based on this assumption, what are the odds against Raquel winning this round of Uno? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connections: 
+
+Knowing the odds of if Raquel will win or not, she can deduct that the reason why Lydia said she has a 60% chance of winning is because she either has a better hand than Queenie, or Lydia knows that Raquel would have a better strategic thinking. Using this knowledge, Raquel can exploit her cards to the best of her ability. 

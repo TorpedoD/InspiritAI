@@ -1,0 +1,39 @@
+Errors to avoid when composing a thesis
+
+
+1. A thesis cannot be a fragment; it must be expressed in a sentence.
+
+Poor: How driving in winter can be dangerous.
+
+Better: During the winter, driving can be very dangerous due to the amount of snow on the road. 
+
+2. A thesis must not be in the form of a question. (Usually the answer to that question 
+    could be the thesis).
+
+Poor: Should eighteen year olds have the right to vote?
+
+Better: Eighteen years olds should have access to a right to vote. 
+
+3. A thesis must not contain phrases as I think. (They merely weaken the statement)
+Poor: I think forest fires are the biggest danger facing our natural resources.
+Better: Forest fires have big potential to be a danger facing our natural resources. 
+
+4. A thesis must not contain elements that are not clearly related.
+Poor: All novelists seek the truth; therefore some novelists are good psychologists.
+Better: Psychologists and novelists are similar, because they both seek the truth.
+
+5. A thesis must not be expressed in vague language.
+Poor: Power and privilege affect an individual’s maturity.
+Better: If a human possesses both power and privilege, it can majorly affect their maturity level and human decency. 
+
+6. A thesis must not be expressed in muddled or incoherent language.
+Poor: All students should not think that university is for everyone, because for many people they 
+         have a career that high school was all they needed. 
+
+Better: Students shouldn’t have the mindset that university is the only solution to a successful life, because for many people, graduating highschool was more than enough to succeed. 
+
+7. A thesis should not be written in figurative language.
+
+Poor: Love is the rose in the garden of our existence.
+
+Better: Love in our lives can be represented like a single rose in a garden. 

@@ -1,0 +1,523 @@
+https://quizlet.com/notes/social-issues-and-research-methods-2d771cbb-67e9-4696-b555-e7c649d46311?i=5ma1qt&x=13qt
+Unit one: 
+Social issues:
+Have consequences for many people in society
+Be widely recognized as an issue that needs solving 
+Go against common beliefs and values
+Be solved through community action, regulation, or resources
+
+interdisciplinary approach: gives a more complete picture of the object of study as it combines various perspectives (Psy, Anthro, socio). Example: The Blind Men and the Elephant
+
+How to ask questions
+Factual: Who is the Homeless Man?
+Predictive: Where would he stay when it is cold outside?
+Analytical: How did he become homeless?
+Application: How should we address the issue of homelessness?
+
+Anthropologists: Could cultural factors around have influenced people’s homelessness like in the culture they’re in?
+Sociologist: Were these individuals left out because of the social behavior of the community?
+Psychologist: How might the behavior of a society influence people’s experience in homelessness?
+
+Quantitative Research methods
+Experiments: There’s an independent variable(observes effects). It is applied only to the experimental group and not the control group.
+Surveys: Researchers asks sample group questions, record answers. (very large sample groups)
+Content Analysis:  Researcher examines and classifies the ideas presented in a sample group of communications, such as books, letters, movies (difficult to obtain a reliable sample)
+Secondary Analysis: Researcher analyzes data that has been gathered for another purpose
+
+Qualitative Research Methods
+Observations: In observation, the researcher watches and records the subjects behavior. (subjects are unaware that they are being observed)
+Participant Observation: Researcher is a participant in the group and the subjects are aware that they are being observed.
+Interviews: In qualitative interviews, the researchers ask the subject to describe and explain his or her behavior. (determining the motivation; smaller sample groups)
+
+How we learn 
+Formal/Intended - direct teaching of values/behavior
+Informal/Unintended - indirect learning - often observation
+
+7 Steps of Inquiry method:
+Isolate & define problem
+Formulate a hypothesis
+Establish a Procedure
+Gather information
+Compile & Analyze data
+Draw conclusions
+Questions for further research
+
+Hypothesis: Formed before any applicable research has been done
+Theory: Formed after enough research has been done
+
+Primary vs Secondary Sources 
+Secondary research
+Topic area ➩ Research question ➩ Literature Review
+Primary research
+Research question/ hypothesis ➩ Questionnaire interviews experiment observations ➩ Data collection
+
+Social Science Research Methods
+
+Sample Survey
+Ask a set number of questions to a small group of people (chosen to represent a larger group of people)
+Open Questions: cannot be answered using yes or no
+Closed questions: can be answered using yes or no
+Advantages: information gathered quickly and cost-effectively, easy to analyze, can get information on a wide variety of topics and opinions
+Disadvantages: information gathered  is limited to what questions ask, misunderstanding, honesty or untruthfulness
+
+Interview
+Advantage: Can get large amounts of in-depth information
+Disadvantage: Costly, time consuming, need to have well-trained interviewers
+
+Experiment
+Independent Variable: the variable whose effect is being studied
+Dependent variable: what is being measured and may change in response to manipulation of the independent variable
+Control group: a comparison group to the group under study
+Advantages can determine cause and effect
+Disadvantages question of ethics 
+
+Case study
+Research in which detailed information is recorded over a period of time
+Advantages: detailed information 
+Disadvantages: difficult to draw conclusions
+
+Observation
+Observe behaviour in normal situations 
+
+Content analysis
+Examine the content of texts, media, conversations, ets
+
+Ethics - moral principles that govern a person’s behavior or the conducting of an activity
+Explicit cultural knowledge- information about a culture that is easily explained and described
+Tacit cultural knowledge- information about a culture that the people within the culture or organization know but have difficulty explaining
+
+Common ethics in SAP: Informed Consent, Confidentiality and Anonymity, Respect for Persons, Do not harm the participants physically or mentally, Transparency, do not exploit relationship with participant 
+
+
+
+Psychology:
+Psychology: Scientific study of the human mind, mental states, and human behavior
+
+What they study:
+how we think, feel, and behave 
+help people predict, describe, and control their behavior and mental processes
+Subfields:
+cause of some developmental delays in children
+why groups of people tend to conform
+what are the major influencers of personality 
+
+Empirical approach (Aristotle): the idea that to study the mind, we must use observations and reasoning to gather more information about the mind
+Cartesian Dualism: the belief that the mind and body are NOT connected, body is material, mind is immaterial
+Defense mechanism: the egos way of distorting reality to deal with anxiety
+denial, repression, compensation, acting out, projection etc.
+Free association: a method used in which a patient relaxes and is told to say whatever comes to mind.
+Psychoanalysis therapy: designed to “release repressed emotions and experiences (i.e. make the unconscious  conscious) and…treat depression and anxiety disorders” 
+Double Blind Experiment: Standard in psychological research, neither the experiments nor participants know who is receiving particular treatment, created to reduce bias due to demand characteristics
+Demand Characteristics: A subtle hint or clue that the experimenter gives that makes participants aware of what the experimenter expects to find or how participants are expected to behave (The Placebo Effect)
+
+Psychological Approaches
+Clinical Psychology (: Concerned with assessment and treatment of Mental Illness, Abnormal Behavior, and Psychiatric Problems
+Psychoanalytic Approach (Freud): Psychologists who utilize this perspective may use techniques such as free association to investigate a client’s underlying, unconscious motivation
+Humanistic Perspective (Bandura): Looks at the client more holistically and is focused on such things as self-actualization and helping people realize their full potential and helping people realize their full potential
+Developmental Psychology: Interested in how and why human beings develop over the course of their life, focuses on the stages of human development, 
+Experimental Psychology: Area of psychology that uses scientific method to research mind and behavior
+
+Motivation: the need or desire to do something 
+Biological Explanation:	
+Instinct theory: instincts are involuntary and unlearned processes that direct behavior, failed to explain human motive
+Drive-reduction theory: physiological (bodily) needs create drives that have to be reduced, motivating us to satisfy those needs. But, our drives do not run our lives and this theory does not explain complex behavior
+An example of drive-reduction theory is feeling hungry (drive) and eating food (behavior) to eliminate the hunger and achieve a state of satiety (drive reduction)
+Cognitive Explanations:
+Intrinsic motivation: desire to perform a task for its own sake
+Extrinsic motivation: desire to perform a task due to external factors, such as a reward or the threat of a punishment
+Achievement Motivation:
+the need for success or the attainment of excellence. Individuals are driven to succeed for varying reasons both internal and external
+
+Attitude: the way you think and feel about something or someone
+Implicit Attitude: Unconscious attitude that are expressed automatically and unconsciously
+Explicit Attitude: attitudes based on conscious thoughts/beliefs
+Cognitive dissonance: people are motivated to reduce the discomfort they feel when their behavior doesn’t match their attitude
+
+Phineas Gage: American Crowbar Case
+Accident: Set off an explosive which propelled a yod through his left cheek and out of his skull. Survived. 
+No longer gage. Before the accident he was an efficient, capable, well balanced mind, and a smart businessman. After the accident he was erratic, showed little respect for his coworkers, and impatient. Shows that the brain plays a part in personality. (frontal lobes )
+
+Changing Behavior:
+Pre-Comtemplation: have not yet acknowledged problem behavior
+Contemplation: acknowledges problem but does not know what to do
+Preparation: Commits to change and gets plan of action
+Action: Changes behavior
+Maintenance: Keeps new behavior
+Relapse or Transcendance: Reverts back or transcend old habits
+
+Conformity: the process by which one changes one’s thoughts, feelings, and behavior to meet the expectations of a group or authority figure
+Large Groups size, group unanimity (when everyone appear to agree), public response, lower self esteem, status of member, 
+
+Bystander Effect: a concept used to explain why the larger amount of people in a group, the less likely it is that individuals will stop to help someone in need
+self-awareness, social cues, blocking mechanisms, diffusion of responsibility
+
+
+
+Anthropology:
+Anthropology: Scientific study of humans, including their origins; behavior; and physical, social, and cultural development.
+
+What they study:
+Observe human behavior (how they live, think, communicate, produce, and interact) in their social and physical environments.
+Study of cultural factors (arts, beliefs, habits, institutions, etc.)
+to understand what makes us human
+Subfields:
+Cultural anthropologists: observe behavior within a society in its natural setting. 
+research both past and present cultures
+Difficulties: Culture is difficult to define
+Ethnocentrism: people use their own cultural norms to make generalizations
+Linguistic Anthropology: The study of human languages and how language affects and expresses culture
+Historical linguistics: anthropologists compare similarities and differences of language structures so they can understand languages are related and how people migrated
+Structural Linguistics: study of how sounds are put together to create meaning
+Sociolinguistics: study of how people use language within their culture to express status and culture
+Archaeologists: study ancient human societies 
+primatologist: who studied chimpanzees connection with humans
+
+Culture: system of ideas, values, behaviors, and attitudes of a society that is commonly shared
+
+Participant Observation:
+The careful watching of a group, in some cases living with its members and participating in their culture
+Many difficulties with trying to fit in, and being accepted
+Research tools
+Informants: a knowledgeable and reliable person who provides specific information to an anthropologist studying his or her community, good informants are difficult to find
+Unstructured Interviews: between an anthropologist and informant to gather initial ideas about the community. Interviewer should have some background knowledge but no set questions (interview is free flowing). Can be done over a period of time
+Semi Structured Interviews: used for shorter-term stays in a community and designed to gather more specific knowledge quickly
+Structured Interviews: no relationship is required between interviewer and interviewee. Predetermined questions should be asked that are designed by a knowledgeable interviewer. 
+Photographs, Counting, and Mapping: taking photos and recording information to show how a group uses physical space and the relationships between people in the society
+
+Factors influencing human behavior
+Environmental Determinism (proven not true)
+The belief that the environment determines the patterns of human culture and societal development 
+Replaced by Environmental possibilism
+Environmental possibilism
+Belief that the environment puts limits on people but that it doesn’t determine how they will behave
+Pandemic
+Impact shaped by demographic crisis, armed conflicts, natural disasters, famine, and poverty (Ex: Aids)
+Globalization 
+The process by which economies, societies and cultures become integrated through a worldwide network driven by international trade and investment and aided by information technology 
+Food
+Restaurants and grocery stores now carry a variety of ethnic foods and ingredients
+Technology 
+Can help those living under oppressive regimes communicate and spread information 
+Technological diffusion 
+Adoption of technology by one culture invented by another culture 
+Economic systems
+Foraging societies 
+Hunter gathering societies 
+Work is divided by gender (woman more authority cause more important)
+Reciprocity 
+Economic system of formal and informal sharing among members of a society to distribute resources fairly 
+Personal accomplishments are devalued as all members of society contribute to the survival of the group (few status divisions)
+
+Horticultural societies 
+Practice agriculture without cultivation. Land is used for a few years them they move on 
+Redistribution 
+Resources are collected centrally and handed out among members of society 
+
+Agricultural societies
+Move less, store food, share less, divided into social classes
+Merchant and craft classes also created
+
+Industrial societies 
+Few people involved with food production 
+People working wage labor, people sell their labor 
+
+Postindustrial societies
+Information is the product that is bought and sold
+Buying albums on iTunes (paying for information) when before you buy a record (paying for the physical object)
+
+Rite of passage: 3 stage process
+Segregation: separated from society 
+transition: becoming new self, learning new societal role
+Reintegration: rejoining society in new role
+
+Sociology: 
+Sociology: Scientific study of human social behavior, including individuals, groups, and societies.
+
+What they study:
+how groups of people function together
+determine patterns of behavior
+Subfields:
+Gerontologists may be concerned with problems the aging population may face in the face of population collapse.
+Political scientists may be concerned with developing policy to encourage couples to have children.
+Economists may be concerned with the outcomes from inflation.
+Social influence, Demographics, Social Trends, Social Groups, Cooperation and Conflict, Social Structures, Roles in society
+
+A social group consists of Dyads(2), Triads(3), Tetrads(4), or Society (a large group of people)
+
+Longitudinal Study: to gather information from the same group over time
+Cross sectional study: makes comparisons based on a number of factors at a single point in time
+
+Socialization: The continuing process where an individual learns the appropriate behavior patterns, skills, and values for his or her social world. 
+Primary Socialization: the process of learning the basic skills needed to survive in society. 
+Secondary socialization: The process of learning how to behave appropriately in group situations.
+Anticipatory socialization: the process of learning how to plan the way to behave in new students.
+Resocialization: the process by which negative behavior is transformed into socially acceptable behavior. 
+
+Social Identity: The beliefs and values of a given society are learned through the socialization process. By internalizing these values according to the group a person belongs, individuals develop a social identity or self concept of themselves. Influenced by (Age, gender, Culture, Social Class)
+
+Types of Sociology
+Scientific Sociology (i.e. Positivism): Stresses the accurate and unbiased collection and analysis of social data,
+Limits
+Human behavior is too complex to predict.
+People being studied behave differently when the researcher is present
+Social patterns change: what is true now may not be true later.
+Being value-free is impossible: The sociologist is part of the world he/she is studying
+Interpretive Sociology: study of the importance of meaning and action when studying social trends and action when studying social trends and problems. 
+Critical Sociology: Instead of asking “how does society work” it asks “should society exist in its present form?” (critical thinking)
+
+Theories about causes of Discrimination
+Learned Theory- discrimination is learned through socialization based on the observation and imitation of others
+Competition Theory- discrimination against a particular group is due to the belief that this group is in direct competition with them 
+Frustration-Aggression Theory - Shortcomings of a certain group results in frustration at the success or prosperity of another group (the scapegoat). May result in aggressive tendencies toward successful group
+Ignorance Theory- Lack of personal and/or social experience leading to incorrect assumptions and hurtful behavior.
+
+
+
+
+
+
+
+
+Scientist:
+Psychology:
+Wundt
+Opened first experimental laboratory in 1879, established psychology as an academic discipline, first to call himself a “psychologist, used scientific method to study mind
+
+Freud
+Founder of psychoanalysis and introduced ideas such as consciousness, unconsciousness, id, ego, superego, dream interpretation, and psychosexual development
+
+Jung
+Freud’s student, founded analytical psychology,
+
+Horney
+a neo-Freudian, founded feminine psychology
+
+Pavlov
+A Nobel Prize-winning Russian scientist who started his career studying the digestive system. He is known for classical conditioning.
+
+Skinner
+He is known for his research involving rewards and punishment to influence behavior, known as operant conditioning.
+Skinners box
+
+Maslow
+one of the founders of humanist psychology, interested in studying well instead of sick people, developed hierarchy of needs
+
+Frankl
+A holocaust and concentration camp survivor who developed his theories from his experiences in Auschwitz, developed Logotherapy
+
+Rogers
+One of the founders of humanist psychology, developed client-centered therapy, nominated for a Nobel Prize for his work
+
+bandura
+Canadian, he was part of the “cognitive revolution” of psychologists moving away from purely behaviorist thought. He is known for social-cognitive theory. Known for the bobo doll experiment.
+
+Piaget
+French psychologist who was highly influential in developmental psychology and cognitive psychology. Created the stages of cognitive development
+
+Erikson
+A neo-Freudian who believed that humans continue to develop over their lifetime rather than just in childhood, and that development depends on society and not just personal experiences. Developed the 8 stages of psychosocial development
+
+
+Anthropology:
+Goodall 
+is a famous primatologist who studied chimpanzees in Tanzania.
+
+Darwin:
+He contributed a lot to evolutionary biology. Introduced the concept of natural selection.
+
+Boas:
+“Father of American Anthropology”, associated with the movements known as historical particularism and cultural relativism
+
+Harris:
+American Anthropologist who was influential in the development of cultural materialism and environmental determ
+inism
+
+Lee 
+One of Canada’s most distinguished ethnographers. Lived and worked with Dobe Ju/’hoansi, a group of people of South Africa researching evolution and human behavior and investigating how hunting and gathering societies may have behaved. 
+
+Malinowski 
+Pioneered participant observation in his 1915 study of the Trobriand Islanders in the South Pacific. Immersed himself in their culture, learned their language and participated in their society.
+
+Mead
+Best known for her study of samoan adolescent girls examining whether stresses during adolescence were caused by adolescence itself or by society in the 1920s.
+
+Sapir
+One of Canada’s early anthropologists, studied the Aboriginal peoples of Canada and recorded their languages. 
+
+Chomsky
+Known as the father of modern structural linguistics. 
+
+Sociology: 
+Comte 
+first to coin the term “Sociology”. 
+He contributed the idea of positivism (scientific sociology): the application of the scientific method to obtain quantifiable data in order to understand society. 
+
+Durkheim 
+influenced by Comte, established sociology as an academic discipline. 
+provided the foundation for structural functionalism. 
+Called this functional differentiation.
+
+Marx
+Focused on conflict between 2 distinct social classes. 
+Bourgeoisie: the middle/upper class, also known as the oppressors
+Proletariat: the working class, also known as the oppressed
+Creator of conflict theory
+
+Weber
+Thought that society could be liberated through bureaucracy, not revolution.
+Bureaucracy: a large administration with a hierarchy of specialized roles that is designed to help solve social issues.
+Creator of Symbolic Interactionism
+
+Smit 
+Feminism
+
+Parsons 
+developed the structural functionalist school of thought 
+
+Cooley
+Looking-glass self: The process wherein individuals base their sense of self on how they believe others view them. Using social interaction as a type of “mirror,” people use the judgments they receive from others to measure their own worth, values, and behavior.
+
+Experiments: 
+
+Psychology:
+Cognitive Psychology
+Bobo Doll Experiment: The children watch a video of an adult beating a bobo doll, finding out children who observe violence are more attracted and prone to violence
+Lost in the Mall Experiment: A fake journal gives the idea that they were lost in the mall, created a fake memory
+
+Theories of Attachment
+Surrogate Mother Experiment: An orphan monkey is left with two mothers, one made of cloth and the other of wire. The cloth mother provides comfort and warmth, while the wire provides food. They found that the monkey spends most of its time with the cloth mother, and runs to it when threatened. 
+
+Strange Situation Experiment: Mary Ainsworth investigated how attachment varies between children by having a mother and infant in an unfamiliar room, having the mother leave, observing how the infant reacts when the mother leaves and when she returns. 
+Secure: explores using mom as safe base, distressed when mom leaves, soothed by mom
+Insecure avoidant: independent, may not cry when mom leaves, may not seek mom when she is back
+Insecure resistant: clingy and rejecting mom, extremely distressed when mom leaves, seek contact but reject mom when she is back
+
+Heredity and Environment and Personality
+Twins raised apart: Jim Twins, Jim Lewis and Jim Springer, were identical twins separated at 4 months and reunited at 39 years. Both had the same interests, drove the same car, their dogs’ names were the same, smoked the same brand of cigars, got married and divorced and remarried to women of the same first name, and vacationed at the same beach house in Florida. This means there is a genetic component to personality and behavior
+
+Motivations, Attitudes, and Mental Health
+Google’s motivation in the workplace
+
+Sociology: 
+
+ Henri Tajfel and the Art Experiment: A group of 14-15 year old boys were initially divided into 3 groups of 16 boys each, and were shown slides with a different painting on each one. In the end, the boys split into two new groups, depending on which type of painting they liked. 
+Sherif Robbers Cave Experiment: Studied intergroup conflict. Sherif had 22 boys split into two groups. The boys initially conflicted over the limited resources, but began to work together to achieve a uniting purpose
+
+
+
+
+
+
+
+
+
+Schools of thought: 
+Psychology:
+Psychodynamic theory: an approach to therapy that focuses on resolving a patient's conflicted conscious and unconscious feelings. Derived from Freud’s psychoanalytic theory
+Conscious: information that we are always aware of
+Unconscious: Information processing in our mind that we are not aware of
+Id: The instinctual part of the mind, which operated on the pleasure principle
+Ego: The rational part of the mind, which operates on the reality principle
+Superego: Moral center of the mind
+
+Behavioral Psychology: an approach that suggests that behavior is shaped by the environment
+Classical conditioning: a type of learning where a once neutral stimulus comes to produce a particular response after pairings with a conditioned stimulus (Dog Experiment) - needs human intervention 
+Operant Conditioning: a type of learning involving rewards and punishment to influence behavior (Skinner Box) - natural development
+Positive Reinforcement: favorable events or outcomes that are presented after the behavior. (praise or a direct reward)
+Negative reinforcement: removal of unfavorable events or outcomes after a display of behavior. (removal of homework)
+Punishment: involves applying a negative consequence or unfavorable event in order to decrease the frequency of a certain behavior (taking away the phone)
+
+Humanistic Psychology: an approach that emphasizes looking at the whole individual and stresses concepts such as free will, self-efficacy, and self-actualization.
+Maslow's Hierarchy of Needs: Maslow's hierarchy of needs explains that basic needs need to be met before higher order needs become important.
+Basic needs: Psychological needs and Safety needs
+Growth Needs: Love and belonging needs, esteem, and self actualization
+Please Stop Liking Every Story.
+Self actualization: reaching one’s full potential; occurs only after basic physical and psychological needs are met.
+Logotherapy: Logotherapy suggests that humans are motivated by a need for meaning.
+Client centered therapy: a humanist therapy in which the client plays an active role. This approach focuses on the potential of each person to realize his or her own growth in self-awareness
+Non-directive: client is encouraged to control the direction and tone of the therapy session in order for the therapist to avoid influencing their thoughts/ideas. 
+Unconditional positive regard: therapist shows complete acceptance and support for their client in order not to facilitate the healing process. All forms of emotional expression are encouraged.
+Empathetic understanding: therapists must act as an emotional ‘mirror’ for their client in order that they may become more self aware of their thoughts, emotions and feelings. It’s believed that the client will feel safe from judgment and more able to self direct the healing process.
+
+Too subjective: the value placed on individual experience makes it difficult to objectively study and measure. 
+Unquantifiable: based heavily on data that is largely unobservable and unmeasurable. Difficult to draw conclusions based on this information.
+
+Cognitive Psychology: an approach dedicated to the study and application of how the brain learns
+Cognition: the mental processes in the brain associated with thinking, knowing, and remembering
+Social Cognitive Theory: theory emphasizing that learning occurs within a social context (Albert Bandura)
+
+Developmental Psychology: the study of how humans grow, change, and adapt across the course of their lives
+Piaget’s Stages of cognitive development:  Piaget believed that children were not less intelligent, but thought differently. Each stage is marked by shifts in how children see and understand the world
+Sensorimotor Stage: 0-2 years
+Pre-Operational Stage: 2-6 years
+Concrete operational stage: 7-11 years
+Formal Operational: 12-adulthood
+Erikson’s Stages of psychological development: Eight stages from childhood to adulthood in which identity emerges and matures. By resolving each dilemma, the individual acquires the basic strength needed to meet the challenges of the next stage
+
+Theories of Attachment: an enduring emotional bond between an infant and its caregiver
+Erikson’s 8 Stages of Psychosocial Development Trust vs. Mistrust: 
+Infants whose needs are not met develop mistrust and see the world negatively, the quality of the bond between caregiver and child is the foundation for personality growth and determines how well the child adjusts later in life
+Learning/Behaviourist Theory of Attachment
+Attachment is a set of learned attachment. The basis for the learning of attachments is the provision of food. An infant will initially form an attachment to whoever feeds it
+The infant learns to associate the feeder with the comfort of being fed and through the process of classical conditioning, finds contact comforting
+Evolutionary Theory of Attachment
+Children come into the world biologically pre-programmed to form attachments with others, because this helps them survive
+The determinant of attachment is not food, but care and responsiveness
+
+Heredity: physical characteristics and aspects of personality and behavior that are passed down genetically from your relatives
+
+
+
+Anthropology:
+Cultural Evolutionism
+In the 19th century, many anthropologists believed that some cultures had evolved or advanced ahead of other more primitive cultures 
+Others have argued that this view is ethnocentric (believing one culture is superior to another)
+
+Cultural Relativism
+No culture is superior to any other culture when comparing systems of morality, law, politics, etc.
+
+Functionalism
+Functional theory - the idea that every belief, action, or relationship in a culture functions to meet the needs of individuals
+Anthropologists seek out and provide an objective explanation for the function and purpose of behavior within a given society
+Ex: The Kula exchange
+
+Cultural Materialism
+Cultural ideology - the idea that materials or conditions within the environment influences how a culture develops, creating the ideas and ideology of a culture
+Anthropologists seek out the root causes of behavior by analyzing society’s decisions regarding things such as technology and economics
+Trial and Error: Belief that if something is not of value to a society’s ability to grow or survive then it will disappear from that society all together
+Develop in 3 stages
+Infrastructure: a society’s material resources: technology, population, available land
+Structure: society’s familial, political, economic and social systems
+Superstructure: A society’s ideas, values, and religion
+Examples: Cows in Hindu culture
+
+Feminist Anthropology
+sub-discipline of anthropology that adopts a feminist perspective, aiming to make women’s social and cultural contributions visible
+A type of conflict theory - power imablance - favours men 
+
+Postmodernism
+a belief that it is impossible to have any “true” knowledge about the world.
+Rejects the idea of an objective truth
+
+Sociology:
+Structural Functionalism
+Purpose: to study how social structures function to serve the needs of a society
+Analyzes large scale patterns of society and the relationships among parts of society
+Example (Analogy): A cell, each organelle performs a unique yet important function that allows the cell to function
+Criticisms: too much emphasis on stability and not change, downplay divisive forces (poverty, crime)
+
+Conflict Theory
+Purpose: to study how competition for power forms the basis of the relationships between different groups and creates social conflict
+Also can be applied to other power imbalances
+Focus:
+Power Struggles: Society is made up of groups with different interests who compete for resources and power. This leads to conflicts between the groups.
+Inequality: Conflict Theory highlights how wealth, power, and status are unevenly distributed, creating social inequalities.
+Social Change: Change occurs when oppressed groups push back against those in power, often resulting in social upheaval and reform.
+
+Symbolic Interactionism
+Purpose: to study the individual’s role and place within the wider society and how people create their world through social interactions
+Assumptions: the individual is central to understanding society since social roles and values are formed by individual interpretatio
+Focus: how individuals interpret social interactions and symbols and how this gives meaning to social interactions
+
+Feminist Theory (under conflict theory)
+Purpose: to analyze reasons for differences in the status of women and men in society with the purpose of using that knowledge to better women’s lives

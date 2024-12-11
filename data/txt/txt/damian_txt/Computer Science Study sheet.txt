@@ -1,0 +1,59 @@
+Unit 1:
+
+The ENIAC: electronic numerical integrator and computer.
+First fully electronic digital computer. Made of vacuum tubes, resistors, capacitors, and hand-soldered joints. 
+Weighed 30 tonnes. 
+By comparison, today a silicon chip holds the same power as the ENIAC. 
+
+4 common things to call computers: 
+Input → processing and storage → output. 
+
+Hardware vs. Software:
+Hardware: consists of the physical devices that you see and touch on your desktop. User interface, auxiliary input and output devices, CPU, internal memory, auxiliary storage devices, network connection. 
+User interface: the input and output devices that support the moment-to moment communication between the user and the computer such as keyboard, mouse, and monitor. 
+Auxiliary I/O Devices: secondary input and output devices such as printers and scanners. 
+Auxiliary Storage Devices: used for the long-term storage of data and programs (information is not lost when the computer is turned off). Examples: hard drive, CD-RW, DVD, external hard drive, USB flash memory. 
+Network Connection: to connect to other computer, the Internet, and the rest of the world. 
+Internal Memory:
+RAM: random access memory, volatile (changes), stores data and programs. 
+ROM: read only memory, permanent, contains system information and is set during manufacturing. 
+CPU: central processing unit, does the work of the computer, the computer’s brain. Contains millions of transistors (microscopic electronic switches that can be either ON or OFF). 
+Also contains on-ship memory: Registers (hold data being processed), instruction cache (holds instructions until they are executed). 
+Software: consists of the programs that give the hardware instructions to do useful things. Application software, operating systems, programming languages. 
+System Software: supports the basic operations of a computer and allows human users to transfer information to and from the computer. (Windows, Linux, Mac OS). 
+Applications Software: allows humans users to accomplish specialized tasks (Word, Spreadsheet, messenger). 
+Programming Tools: a software that takes instructions written in programming language and either interprets and runs the code, or compiles the code into an executable form. 
+Interpreter: text file → interprets the program line by line and tells the hardware what to do (Turing). 
+Compiler: text file → program is converted from form into a .exe file, this is machine language (0s and 1s). 
+
+Programming Language Generations
+Generation 1: Machine Languages: programmers entered programs and data directly into RAM using 1s and 0s.  Was error prone, tedious and slow. Hard to modify. Not portable. Hard to decipher. 
+Generation 2: Assembly Languages: uses mnemonic symbols to represent instructions and data. More programmer friendly. Tedious to use and difficult to modify. No portable because each computer has its own unique assembly language. 
+Generation 3: High-Level Languages: Designed to be human friendly, easy to read, write, and understand. Each instruction correspond to many instructions in machine language. Translation to machine language occurs through a program called a compiler. Examples include Turing, C, Python, Java. 
+There may be so many languages because there a variety of tasks that specific language can be applied to. 
+
+Bits and Bytes:
+1 bit = 0 or 1.
+1 byte = 8 bits (1 character).
+1 KB = 1024 bytes. 
+1 MB  = 1024 KB.
+1 GB = 1024 MB.
+1 TB = 1024 GB (1 trillion bytes). 
+
+Software Development Process:
+Software development life cycle. 
+Waterfall Method: a mistake made in one phase often requires the developer to back up and redo some of the work in previous phases. 
+Analysis (verify)→ Design (verify) → Implementation (test) → Integration (test) → Maintenance. 
+Development Costs: Maintenance is majority. 
+
+Networking Concepts, Setup, and Management
+
+Network: made to connect computer to other computers. 
+
+Packet: has source and destination. The details of a packet are contained in packet header/network layer. The srcip and dstip are in the network layer. 
+Ping: a diagnostic tool that operates using the ICMP protocol, on the transport layer. 
+
+Routing: routers decide which direction to send packets by looking at the destination of a packet and choosing the route closest to the destination computer. 
+
+Modems: the modem takes outgoing packets from all the machines connected to it and sets source address to a single value. 
+

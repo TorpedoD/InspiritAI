@@ -1,0 +1,127 @@
+Elements of Criminal Offense
+
+Actus Reus: Voluntary Action that comprises the physical elements of a crime
+
+Mens Rea: Criminal Intent, differs for each type of crime 
+
+Reasonable Doubt: Insufficient evidence that prevents a judge or jury from convicting someone of a crime
+
+
+Homicide
+
+Causation: But for the defendant’s actions, the victim would have lived
+
+Culpable Homicide: Causing death with the either knowledge that the action would cause death, or recklessness that could cause death to cause death
+
+Non-culpable homicide: A homicide of which the there is no criminal responsibility
+
+First Degree Murder: Murder that is planned and deliberate, or results in the death of a police officer, or occurs during a crime of domination ( sexual assault, hostage taking, kidnapping, forced confinement, stalking, terrorism, gang activities, or juror intimidation)
+
+Second Degree Murder: The killing was deliberate, and the defendant neither intended death would result or knew that death would result 
+
+Manslaughter: Reckless killing, performance of a dangerous action (a marked departure from the standards of a reasonable person that carries a foreseeable risk of substantial bodily harm) leads to death
+
+Infanticide: A mother, whose mind is disturbed by child birth or lactation, kills her own child
+Transferred Intent: The intent to murder can be transferred when another person is unintentionally killed
+
+Recklessness: A marked departure from what a reasonable person would do, and a dangerous act that a reasonable person would foresee causing significant bodily harm to other people
+
+
+Issues in Homicide
+
+Defense of Person (Self Defense): The modern rule for defending people and yourself is that there were reasonable grounds to believe the attacker is using or threatening force, that your actions were for defending yourself and/or another person, and that your actions have to be reasonable (S. 34)
+
+Automatism: Performance of actions without conscious thought or intention, destroys actus reus and mens rea
+
+Assisted Suicide: Assisting/Encouraging someone to kill themselves is an illegal act, and is punishable by law. However, medical assistance in dying is an exception, and medical practitioners and nurses are exempt from culpable homicide charges if they provide a person with medical assistance in dying according to section 241.2. However, there is a long list of regulations. 
+
+
+
+Property Crimes:
+
+Theft: Taking someone’s property without their permission
+
+Robbery: Theft but using or threatening to use weapons
+
+Burglary: Also known as breaking and entering, entering one’s property where one has no right to be in
+
+Inchoate Crimes:
+
+Attempt: The first step toward committing the crime has been taken. Mere preparation is not yet an attempt. Could be a complicated matter as it is difficult to pinpoint when the first step has been taken
+
+Conspiracy: An agreement between two or more people to commit a crime
+
+Accessory: If you encourage or help a person commit a crime, you are also liable and can be prosecuted and charged. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Differences in the Homicides
+
+
+Manslaughter:
+
+Mens Rea: Reckless (intent to commit dangerous act)
+Actus Reus: Killing (but for)
+Dangerous act: MARKED DEPARTURE, reasonably foreseeable risk of substantial bodily harm
+
+Murder (2nd degree):
+
+Intentionally (intending to cause death) /knowingly (knowing your actions can lead to death) (mens rea) killing (actus reus)
+
+Murder (1st degree)
+
+Intentionally/knowingly killing
+
+Planned and deliberate
+
+
+
+IRAC Test:
+
+Issue: Introduction of your paragraph, what happened? Does the law apply?
+
+Rule: Summarize the general rule, and what does the law say about this case?
+
+Application: Apply the general rule to the specific case facts
+
+Conclusion: Conclude your paragraph
+
+
+
+
+
+
+
+
+
+
+
+Practice:
+
+The actus reus (guilty act) for murder is the act of killing. For this, we use the if not test. If the defendant was not there, would the victim have lived? If yes, then actus reus is present. 
+The mens rea (guilty mind) for murder is the intent. If the defendant intentionally (meaning the defendant intended to) or knowingly (the defendant knew their actions could kill someone), then mens rea is present. 
+First degree murder is murder that is planned and deliberate
+Second degree murder, is an ordinary murder, has the same mens rea and actus reus as first degree murder, but it was not planned, and is spontaneous. 
+The actus reus for manslaughter is the same as murder. If the defendant’s actions are a marked departure from what a reasonable person would do, and causes foreseeable risk of significant bodily harm, then actus reus is present. The mens rea for manslaughter is the intent to perform a dangerous action.
+
+
+To analyze the strength of Khill’s self defense arguement, there are three elements that must be proven. Self defense is defined as defending yourself or another person from harm’s way. The three elements that ensure the defendant’s actions are self defense is to determine if there was a real threat, a reasonable purpose for defending yourself or another person, and whether the defendant’s actions were reasonable.
+
+Here, there is a reasonable grounds to believe the attacker could have used force against Khill. Khill approached the robber in his pajamas and a shotgun loaded with two shells. The robber was in Khill’s car and when Khill ordered for the robber to put his hands up, he instead made a motion as if reaching for a weapon. This action the robber made could have suggested that he was going to use or theaten Khill with force. Therefore, there is a real threat in this case.
+
+The next element to analyze is whether Khill pursued his actions for the purpose of defending himself. Because the robber did not put his hands up when asked, but rather made a motion to suggest that he was carrying a weapon, Khill actions are rational as he was defending himself for whatever danger the robber would have insinuated. He was only trying to protect himself, therefore the purpose of his actions were reasonable.
+
+The last element to analyze is if Khill’s actions were reasonable. Once the robber made the suspicious hand gesture, Khill shot him twice in the heart and shoulder, causing immediate death. After searching the robber, Khill only found a folding knife in his pocket. Here, Khills actions are not justified nor reasonable as his used force past the extent and there were better alternatives to resolve the situation. Furthermore, Khill was the one to cause this situation in the first place. He approached the robber in a hostile manner, brought a loaded weapon, and fired at him all before the robber even threatened to use any force. For all these reasons, Khill’s actions were unreasonable and his self defence argument is not strong at all. He would likely lose the self defence argument and get charged with second degree murder.
+

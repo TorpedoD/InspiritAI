@@ -1,0 +1,99 @@
+Damian Wong
+October 11, 2024
+Scenario #1: 
+	You are currently in jail, you will need to roll doubles to get out of jail within 3 turns. Otherwise you will need to pay 50$. Should you pay 50$ early and leave jail? Or hope to roll doubles and get out within 3 turns?
+
+Concept: Odds
+
+Math analysis: There for the odds against rolling doubles are 5 : 1
+
+Total outcomes when rolling two dice:
+n(all combinations) = 6 x 6
+
+Favorable outcomes for rolling doubles:
+The combinations that yield doubles are: (1,1), (2,2), (3,3), (4,4), (5,5), (6,6).
+6 favorable outcomes.
+
+Odds against rolling doubles = (unfavorable outcomes) / (favorable outcomes)
+(36 - 6) / 6 = 30 : 6 = 5 : 1
+every 1 time you roll doubles, there are 5 times you do not.
+
+Connections: Given that the odds against rolling doubles are 5:1, it indicates that you are much more likely to fail in rolling doubles than to succeed. Therefore, considering the potential to waste 3 turns waiting for an unlikely outcome, it would be strategically wise to pay the $50 to get out of jail early. 
+
+Scenario #2: 
+	Your opponent is going to enter your area of land covering a span of 3 spots. He is 6 spots away from the first plot of land, 7 away from the second, and 9 away from the third plot of land. It is now your turn, you are hoping to buy a house on one of the plots of land so the opponent will pay you more. Which plot of land should you buy a house on? 
+
+Concept: probability
+
+Math analysis: 
+First Plot (6 spaces away):
+Possible combinations to roll a total of 6: (1,5), (2,4), (3,3), (4,2), (5,1) → 5 combinations
+P(landing on 1st plot) = 5/36
+
+Second Plot (7 spaces away):
+Possible combinations to roll a total of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 combinations
+P(landing on 2nd plot) = 6/36 = 1/6 
+
+Third Plot (9 spaces away):
+Possible combinations to roll a total of 9: (3,6), (4,5), (5,4), (6,3) → 4 combinations
+P(landing on 3rd plot) = 4/36 = 1/9
+
+Connections: 
+First Plot: 5/36 = 13.9%
+Second Plot: 1/6 = 16.7%
+Third Plot: 1/9 = 11.1%
+The second plot has the highest probability of being landed on by your opponent, at 16.7%. Therefore, it would be wise to invest in a house on the second plot, as it maximizes the likelihood of your opponent landing there and paying you rent. 
+
+Senario #3: 
+You are currently on the chance card location. There are only 10 cards left in the deck of chance cards and you know that there is 1 pass go card, and 2 get out of jail free cards with the rest being bad cards such as tax collection. In the new game of monopoly you are allowed to choose if you want to take a chance card or leave it and do nothing. Should you grab the chance card? 
+
+Concept: Permutations, probability 
+
+Math analysis: 
+Total number of arrangements: Since the order in which the cards are placed matters, the total number of different ways the 10 cards can be arranged 
+Total Permutations = 10! = 3628800
+
+Favorable outcomes: The top card of the deck must be one of the three favorable cards. We care only about the first card drawn, so we only need to look at the permutations of the remaining 9 cards after drawing one of the favorable cards first
+
+Favorable Permutations = 3 x 9! = 1088640
+
+P(favorable permutations) = 1088640 / 3628800 = 3 / 10 = 0.3 = 30%
+
+Connections: With a 30% chance of drawing a favorable card (one of the 3 good ones), This would not be worth the risk of drawing depending on the position of the player. It is wise to not draw from the chance card deck if the good cards are not of dire need.
+
+
+Senario #4: 
+	You want to buy a house on your set of properties as houses are running out. However, you have the opportunity to land on the last 2 properties needed to complete your color set. If you buy the house now, you won't have enough money to purchase either of these two properties if you land on them. Should you buy the house or bet your chances of completing another set? You are currently 7 spaces away from the first property and 9 away from the second. 
+
+Concept: probability 
+
+Math analysis:
+Probability of landing on the first property (7 spaces away):
+The combinations that yield a sum of 7 are: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1).
+6 favorable outcomes.
+
+Probability of landing on the second property (9 spaces away):
+The combinations that yield a sum of 9 are: (3,6), (4,5), (5,4), (6,3).
+4 favorable outcomes.
+
+Total probability of landing on either property:
+P(7 and 9) = 6/36 + 4/36 = 10/36 = 5/18 = 0.278 = 27.8%
+
+Connection: 
+The probability of getting both properties is 27.8%. Given the low chance of landing on the properties and the risk of running out of houses if you don’t invest, it is wise to purchase the house on your current properties. 
+
+Scenario #5:
+You are approaching an area with multiple opponents' properties, each with a hotel built on it. You have the chance to draw a "Get Out of Jail Free" card by landing on a "Community Chest" or "Chance" space, and you are currently 4 spaces away from the nearest one. Landing on that space could save you from paying expensive rent if you get sent to jail later. Should you gamble on rolling the dice and trying to land on the "Community Chest" or "Chance" space, or avoid the risk and save your cash for rent?
+
+Concept: Probability
+
+Math Analysis:
+You are 4 spaces away from a "Community Chest" or "Chance" space.
+The probability of rolling a 4 with two dice is determined by the number of combinations that sum to 4: (1, 3), (2, 2), and (3, 1). This gives 3 favorable outcomes.
+The total number of combinations for rolling two dice is 36.
+Therefore, the probability of landing exactly 4 spaces away is:
+
+P(4) = 3/36 = 1/12
+
+Connections:
+Since the probability of rolling a 4 is 1/12 (or 8.33%), it is relatively low. Therefore, it is not a good strategy to rely on landing on the "Community Chest" or "Chance" space. Instead, you should save your cash for potential rent payments, especially if you are approaching multiple expensive properties with hotels. This will allow you to avoid falling into a cash shortage situation, which could lead to losing the game.

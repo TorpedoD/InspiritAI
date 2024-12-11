@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Relative Reactivity of Copper, Magnesium, and Zinc in Single Displacement Reactions in Varying Solutions
+Activity Series Lab
+Study of Single Displacement Reactions
+Investigating Activity Series of Metals in Single Displacement Reactions
+
+
+
+
+Theodore Chiu
+Lab Partners: 
+Ethan Lee
+Nathan Lin
+Issac Ly
+Lab Performed on: October 11, 2023
+SCH3U
+Ms. Cho
+
+INTRODUCTION:
+What single displacements are.
+History.
+Activity series background. 
+Why they are important or relevant.
+Elements. 
+Applications in daily life. 
+At the end of intro, pivot towards your experiment (brief, to confirm what we have previously known on the activity series, we chose to investigate copper, magnesium, and zinc). Might be active voice, Predict results (hypothesis), 
+How it will further science.  
+
+PURPOSE:
+The purpose of this experiment was to discover the order of reactivity of the metals copper, magnesium, and zinc in single displacement reactions. 
+
+MATERIAL:
+Cu(s)
+Mg(s)
+Zn(s)
+CuSO4(aq)  0.2M
+CaCl2(aq) 1%
+MgCl2(aq) 1%
+FeCl3(aq) 0.2M
+ZnSO4(aq) 0.2M
+HCl(aq) 0.1N
+H2O(l) 100%
+24-well plate
+Tweezers
+White paper
+Paper towel 
+
+PROCEDURE: 
+Refer to class handout. 
+*Used 4 drops of each solution instead of 5. 
+
+OBSERVATIONS and RESULTS:
+The observations begin with qualitative observations of the metals. Table 2 includes the qualitative observations of the solutions. The third table records whether the reaction occurred. Lastly, initial observations and observations after about 3 minutes were recorded. 
+
+Table 1: Qualitative Observations of Metals
+
+In Table 1, + means that signs of luster, indication of corrosiveness, or malleability occurred. A - symbol indicates that the certain qualitative observation was not observed. 
+
+In Table 1, Qualitative Observations of Metals, all of the metals showed signs of luster. Copper had a brown color, and magnesium and zinc had a silver color. Zinc showed signs of corrosiveness, which included a rougher appearance with darker spots on the metal. Malleability was only observed in copper. 
+
+Table 2: Qualitative Observations of Aqueous Solutions
+
+In Table 2, Qualitative Observations of Aqueous Solutions, -+ means minor signs of the certain quality was shown, and a - symbol indicates that signs of the certain quality was not shown. 
+
+In this table, the majority of the solutions were colorless, with an exception of copper (II) sulfate and iron (III) chloride. The copper (II) sulfate was a green-blue, and the iron (III) chloride was orange. All of the solutions were non-viscous, but the ferrous chloride was a little viscous compared to others. The fourth column of the table records the concentration of the solutions. 
+
+
+Table 3: Initial Observations and Observations After 4 Minutes of Single Displacement Reactions
+
+In Table 3, Initial Observations and Observations After 4 Minutes of Single Displacement Reactions, NR represents no reaction, meaning there were no physical observations that could lead to a conclusion that a reaction occurred. 
+
+Table 3 records the initial observations of the single displacement reactions. After approximately 4 minutes, the reaction was observed again. The observations that occurred approximately 4 minutes after are in the row labeled “Final”. As evident from the table, copper did not react with any of the solutions except for ferric chloride. There were no initial observations between the copper metal and iron (III) chloride; a slight orange precipitate was noticed about 4 minutes after the metal was placed in the solution. Zinc reacted with copper (II) sulfate, iron (III) chloride, and hydrochloric acid. The zinc metal showed signs of breaking apart, dark edges, and a black precipitate when placed in the copper (II) sulfate. With the ferric chloride and zinc reaction, a small amount of bubbles and an orange precipitate appeared. No initial observations were seen between the hydrochloric acid and zinc; only a small amount of bubbling was observed a few minutes after. Magnesium reacted with the cupric sulfate, ferric chloride, zinc sulfate, and hydrochloric acid. With the cupric sulfate and magnesium reaction, the falling apart of the magnesium, a small amount of bubbling, and a black precipitate were initially observed. A few minutes later, it was recorded that the magnesium wa breaking apart and darkening more. When magnesium was placed in the iron (III) chloride, initially, bubbling was observed. A few minutes later, an orange precipitate was observed at the bottom of the well. In the magnesium and zinc sulfate reaction, bubbling was present in both the initial and final observations. A small amount of bubbling was recorded in the hydrochloric and magnesium reaction in both the initial and final observation. 
+ 
+DISCUSSION AND CONCLUSION:
+
+Error analysis:
+Because the same pair of tweezers were used, the tweezers could have been contaminated. This may have slightly affected the reactions. In the future, while conducting this experiment, 3 separate pairs of tweezers could be used for each metal. 
+
+Use analyze and interpret and conclude and communicate questions on pg. 189. 
+In conclusion, the copper, zinc, and magnesium metal were placed in a different solutions, and the reactions – both initial and final – were observed. This was done to make an activity series of metals. The balanced equations of the single displacement reactions that occurred are shown below. 
+3Cu(s) + 2FeCl3 (aq) → 2Fe(s) + 3CuCl2 (aq)
+Zn(s) + CuSO4 (aq)→ Cu(s) + ZnSO4 (aq)
+3Zn(s) + 2FeCl3 (aq) → 2Fe(s) + 3ZnCl2 (aq)
+Zn(s) + 2HCl (aq) → H2 (g) + ZnCl2 (aq)
+Mg(s) + CuSO4 (aq) → Cu(s) + MgSO4 (aq)
+3Mg(s) + 2FeCl3 (aq) → 2Fe(s) + 3MgCl2 (aq)
+Mg(s) + ZnSO4 (aq)→ Zn(s) + MgSO4 (aq)
+Mg(s) + 2HCl (aq) → H2 (g) + MgCl2 (aq)
+As evident from the balanced equations as well as Table 3, the metals ranked in order of most reactive to least reactive are magnesium, zinc, and copper. If lithium were included in this experiment, it is probable that it would rank as the most reactive based off of the activity series. It is important to note the difference between how hydrogen reacts differently in water than it does in hydrochloric acid. The hydrogen was able to be displaced in the hydrochloric acid but not in the water, inferring that a metal’s ability to displace a hydrogen atom is not just based on the present of a hydrogen atom but whether the hydrogen is an acid or water. If lithium were used in this experiment, it is most likely that it would be able to displace hydrogen from HCl and water based off of the activity series. Magnesium can only displace hydrogen from the acid, meaning that lithium is more reactive than magnesium. The balanced equation of the reaction of lithium with water is shown below:
+2Li(s) + H2O(l) → H2 (g) + Li2O(aq)
+Therefore, an updated activity series, including lithium, from most reactive to least reactive would be: lithium, magnesium, zinc, and copper. An activity series of metals can be used for many reasons. An example of single displacement reactions is in thermite reactions. By using an activity series, scientists were able to discover and predict these reactions. An activity series can also be used to extract certain metals. By placing a metal in a certain solution, scientists and researchers can determine what metal can displace the metal in the solution. 
+Because of the fact that magnesium can only react with hydrochloric acid but not water and the fact that lithium can react with water, it is most probable to infer that lithium is more reactive than magnesium because it can displace something magnesium cannot displace. The balanced equation of lithium and hydrochloric acid is shown below:
+2Li(s) + 2HCl(aq) → H2 (g) + 2LiCl(aq)
+
+
+Intro
+1. For each single displacement. 
+3. Rank the metals you tested. 
+6. What evidence shows that hydrogen
+2. Lithium metal reacts with water. Present as hypothetical or background knowledge. It is know that lithium reacts with water. 
+Redo activity series and include lithium in your ranking. 
+4. Explain how an activity series of metals can be used
+5. GIven that lithium reacts with water
+
+
+

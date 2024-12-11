@@ -1,0 +1,79 @@
+Assignment Unit 3: A Simple Budget AOL						Name:
+GLC2O
+
+Description:
+Imagine that you are working part-time and going to school (college or university).   You own everything in your room, and nothing else.   So if you want a couch, a table, or anything else that isn’t in your room, you’ll have to figure out what it costs and how you will pay for it.   You’ve only got so much money to spend in a month, and you need to take care of your basic needs, as well as have a little fun.  Build a budget of your monthly expenses and make a plan for what you will do with any extra income you have.
+
+Instructions:
+
+You need to try to earn more or the same amount as you spend over the 10 months you are at school.
+
+Figure out how much money you make each month:
+Your current job pays you $15.50/hour 
+You are able to work on average about 20 hours/week since you are still a full-time student
+Your tax bracket is 20% (you pay 20% of what you make in taxes)
+You have a student loan that has covered your tuition, and leaves you with $250 for living expenses each month
+You have a side hustle, which earns you $96 / month (use this random number generator to figure out how much you make)
+EACH MONTH YOU MAKE: 
+Fill out your income section of the budget table
+
+Decide if you want to have a roommate
+They can share the cost of living with you, but you’ve got to share your living space with them.   Don’t forget to do the math for multiple people if you have roommates!
+
+Figure out how much you have to spend each month and add your expenses to the budget table:
+Choose your apartment (for each bedroom, you can have a roommate share costs with you):
+A one bedroom apartment a 5 minute walk to school $995/mo. + utilities
+A two bedroom apartment a 30 minute walk to school $1,300/mo. + utilities
+A two bedroom apartment in bussing distance to school $800/mo. + utilities
+A three bedroom apartment driving distance to school $1,375/mo. + utilities
+
+Choose your transportation method:
+Walking: Lose 5 hours of work each week, $0/mo.
+Bus pass: Lose 1 hour of work each week, -$82/mo.
+Car: Gain 2 hours of work each week, +$720/mo.
+
+Choose your utilities:
+Internet
+Slow internet: No streaming/gaming services $30/mo. (a roommate will not accept this)
+Moderate internet: Enough for one person to stream/game $55/mo.
+Fast internet: Enough for multiple people to do anything they want $90/mo.
+Television
+Basic package:	$35/mo.
+Top tier package: $50/mo.
+Phones
+Landline: $20/mo.
+Basic cellphone $35/mo.
+Cellphone w/ data $60/mo.
+Electricity
+Electricity for one person: $30/mo.
+Electricity for two people: $50/mo.
+Electricity for three people: $80/mo.
+Water
+Water for one person: $30/mo.
+Water for two people: $50/mo.
+Water for three people: $80/mo.
+
+Research the following expenses
+Use the following sites to help you out:
+Expatisan.com
+Numbeo.com
+Eating out at a restaurant once per week:
+Groceries for one person:
+Clothing for one person (monthly average):
+Personal care (toiletries, healthcare, medication, etc.) for one person:
+
+Decide how much you will save each month (consider how much you will need to save to reach your savings goals)
+
+Choose three things you would like to buy (for yourself/apartment)
+Include a hyperlink to each product
+List the total cost (including taxes)
+List the time it will take you to save enough money to buy it, based on your budget
+ 
+YOUR BUDGET:
+
+
+/40
+
+EXAMPLE:
+
+*If you want to assume that tuition has been covered by your loan, you can exclude it from your sheet and just add in the extra $250 from your student loan under income. 

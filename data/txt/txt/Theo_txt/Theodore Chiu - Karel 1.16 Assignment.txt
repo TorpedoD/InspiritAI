@@ -1,0 +1,415 @@
+Question #1:
+public class FetchKarel extends SuperKarel
+{
+    public void run()
+    {
+        fetchBall();
+        returnBack();
+    }
+    /*This method allows SuperKarel to fetch the ball
+    *Precondition: Karel is at the bottom left corner, facing east.
+    *Postcondition: Karel takes the ball and is facing east.
+    */
+    private void fetchBall()
+    {
+        turnLeft();
+        move();
+        move();
+        move();
+        move();
+        turnRight();
+        move();
+        move();
+        takeBall();
+    }
+    /*This method allows SuperKarel to return back.
+    *Precondition: Karel is where the ball was.
+    *Postcondition: Karel is at the bottom left corner and puts down a ball.
+    */
+    private void returnBack()
+    {
+        turnAround();
+        move();
+        move();
+        turnLeft();
+        move();
+        move();
+        move();
+        move();
+        turnLeft();
+        putBall();
+    }
+}
+
+Question #2:
+/*This program allows SuperKarel to run around a race track 8 times
+* and put a ball in each corner
+*/
+public class RacingKarel extends SuperKarel
+{
+    /*This method is the main entry point of the program. 
+    *It has SuperKarel run around the track 8 times, placing a ball in each corner. 
+    *Precondition: Karel is in the bottom left corner, facing east.  
+    *Postcondition: Karel is in the bottom left corner, facing east with 8 balls in each corner. 
+    */
+    public void run()
+    {
+        for (int i = 0; i < 32; i++) // this for loop has Karel go from corner to corner 32x.
+        {
+            cornerToCorner();
+        }
+    }
+    /*This method allows Karel to put a ball and then turn left. 
+    *Precondition: Karel is facing the front and front is blocked. 
+    *Postcondition: Karel turns left and is no longer blocked by the wall. 
+    */
+    private void placeBallCorner ()
+    {
+        turnLeft();
+        putBall();
+    }
+     /*This method allows Karel to go from corner.
+    *Precondition: Karel must be facing east in the bottom left corner. 
+    *Postcondition: Karel is in the bottom left corner, facing east. 
+    */
+    private void cornerToCorner()
+    {
+        while (frontIsClear())
+        {
+            move();
+        }
+        while (frontIsBlocked())
+        {
+            placeBallCorner();
+        }
+    }
+    
+    
+   
+    
+}
+
+Question #3:
+/*This program allows SuperKarel to build a tower of three tennis balls
+* in every odd row. 
+*/
+public class TowerBuilderKarel extends SuperKarel
+{   
+    /*This method is the main entry point of the program. 
+    *Precondition: Karel is in the bottom left corner, facing east. 
+    *Postcondition: Karel has built a tower of three tennis balls
+    *in every odd row of the grid. 
+    */
+    public void run()
+    {
+        if (frontIsClear())
+        {
+            buildTower();
+            comeDown();
+        }
+        else 
+        {
+            buildTower();
+            comeDown();
+        }
+        while (frontIsClear())
+        {
+        
+            move();
+        
+            if (frontIsClear())
+            {
+                move();
+                buildTower();
+                comeDown();
+            }
+            
+        }
+          
+    }
+        
+    /*This method allows Karel to build a tower of tennis balls. 
+    *Precondition: Karel is facing east in the bottom row. 
+    *Postcondition: Karel is facing south in the third row. 
+    */ 
+    
+    private void buildTower()
+    {
+        turnLeft();
+        putBall();
+        move();
+        putBall();
+        move();
+        putBall();
+        turnAround();
+    }
+    /*This method allows Karel to come down from his stack of tennis balls. 
+    * Precondition: Karel is facing south in the third row. 
+    * Poscondition: Karel is facing east in the bottom row in the same column he was in. 
+    */
+    
+    private void comeDown()
+    {
+        move();
+        move();
+        turnLeft();
+    }
+}
+
+Question #4:
+/*This program allows Karel to clean up tennis balls randomly placed
+*in a grid. 
+*/
+public class SuperCleanupKarel extends SuperKarel
+{
+    /*This method is the main entry point of the program
+    *going across and then up the next row and then going across. 
+    *Precondition: N/A 
+    *Postcondition: There are no tennis balls left on the grid. 
+    */
+    public void run()
+    {
+        /* Karel turns left if blocked, so that he can complete the code
+        * while the front is clear
+        */
+        if (frontIsBlocked()) 
+        {
+            turnLeft();
+        }
+        while (frontIsClear())
+        {
+            while (frontIsClear())
+            {
+                cleanUp();
+            }
+            if (facingEast()) // allows Karel to move up one row on the right. 
+            {
+                turnLeft();
+                
+               if (frontIsClear()) 
+                {
+                    move();
+                    turnLeft();
+                }
+            }
+            else // allos Karel to move up one row on the left. 
+            {
+                turnRight();
+                
+                if (frontIsClear())
+                {
+                    move();
+                    turnRight();
+                }
+            }
+            
+            
+        }
+    }
+    /*This method allows Karel to clean up balls on the grid. 
+    * Precondition: N/A
+    * Postcondition: Karel takes ball if there are balls. 
+    * If no balls are present, Karel moves.
+    */
+    private void cleanUp()
+    {
+        if (ballsPresent())
+        {
+            takeBall();
+        }
+        if (noBallsPresent())
+        {
+            move();
+        }
+        if (ballsPresent())
+        {
+            takeBall();
+        }
+        
+    }
+
+    
+}
+
+Question #5:
+/*This program allows Karel to double the number of tennis balls
+* in the pile in front of him.
+*/
+public class DoubleTennisBallsKarel extends SuperKarel
+{
+    /*This method is the main entry point of the program. 
+    *It allows Karelt to double the pile of tennis balls in front of him. 
+    *Precondition: Karel must be facing east in the bottom left corner. 
+    *Postcondition: Karel is in the bottom left corner
+    *The pile of tennis balls has been doubled.
+    */
+    public void run()
+    {
+        move();
+        countBall();
+        move();
+        duplicateBalls();
+        turnAround();
+        moveTwo();
+        turnAround();
+    }
+    /* This method allows Karel to move the pile of balls one spot.
+    *Precondition: Karel must be in the bottom left corner facing east. 
+    *Postcondition: Karel is in the second column facing east
+    *and the pile of balls move one spot right. 
+    */
+    private void countBall()
+    {
+        while (ballsPresent())
+        {
+            if (ballsPresent())
+            {
+                takeBall();
+                move();
+                putBall();
+                turnAround();
+                move();
+                turnAround();
+            }
+            
+        }
+    }
+    /*This method allows Karel to duplicate the number of balls in the pile
+    *by taking a ball, and for every ball, putting down two balls. 
+    *Precondition:Karel is facing east on the pile of balls. 
+    *Postcondition: Karel is in the bottom left corner, facing east. 
+    *The pile of tennis ball has been doubled. 
+    */
+    private void duplicateBalls ()
+    {
+        while (ballsPresent())
+        {
+            if (ballsPresent())
+            {
+                takeBall();
+                turnAround();
+                move();
+                putBall();
+                putBall();
+                turnAround();
+                move();
+            }
+        }
+    }
+    /*This method allows Karel to move twice. 
+    *Precondition: There are two spaces in front of Karel. 
+    *Postcondition: Karel has moved twice. 
+    */
+    private void moveTwo ()
+    {
+        move();
+        move();
+    }
+}
+
+Question #6:
+/*This program allows Karel to go to the center of the bottom row
+* of the grid and place a ball. 
+* If the grid is even, he will put the ball on the left side of the center.
+*/
+public class MidpointKarel extends SuperKarel
+{
+    /*This method is the main entry point of the program.
+    * It allows Karel to find the center column and then put
+    * down a ball on the bottom row in the center. 
+    *Precondition: Karel is facing east in the bottom left corner of
+    * of the grid. 
+    *Postcondition: Karel is in the center of the bottom row of the grid
+    * and there is a ball where he is standing. 
+    */
+    public void run()
+    {
+        if (frontIsBlocked()) // This statement is for grid 1. 
+        {
+            actOneSquare();
+        }
+        else
+        {
+            moveUp();
+        }
+        turnLeft();
+    }
+    /*This method allows Karel to move up the grid to find the center line.
+    *Precondition: N/A
+    *Postcondition:Karel has moved up the grid to find the center column.
+    *Karel has placed a ball in the center of the grid on the bottom row
+    * and is facing east. 
+    */
+    private void moveUp()
+    {
+        while (frontIsClear())
+        {
+            if (facingEast())
+            {
+                turnLeft();
+                move();
+                
+                if (frontIsClear())
+                {
+                    move();
+                    turnRight();
+                    move();
+                }
+            }
+            if (leftIsBlocked())
+            {
+                turnRight();
+                moveDown();
+            }
+            
+        }
+        if (frontIsBlocked())// if front is blocked at the top, used only for even grids. 
+        {
+            if (facingNorth())
+            {
+                turnAround();
+                moveDown();
+            }
+            else 
+            {
+                //puts a stop to Karel's motion only for odd number grids. 
+            }
+        }
+     
+      
+    }
+    /*This method allows Karel to move down from the top row to the bottom 
+    *row while the front is clear and then put down a ball. 
+    *Precondition: Karel is facing east. 
+    *Postcondition: Karel is at the bottom of the row in the center. 
+    *There is a ball where he is standing. 
+    */
+    private void moveDown()
+    {
+        if (frontIsBlocked())
+        {
+            turnAround();
+        }
+        while (frontIsClear())
+        {
+            move();
+        }
+        
+        putBall();
+        
+    }
+    /*This method allows Karel to put down a ball in a one grid square. 
+    *Precondition: N/A
+    *Postcondition: Karel has put down a ball if the front is blocked.
+    *Karel is facing north. 
+    */
+    private void actOneSquare ()
+    {
+        if (frontIsBlocked())
+        {
+            putBall();
+            turnRight();
+            
+        }
+    }
+}

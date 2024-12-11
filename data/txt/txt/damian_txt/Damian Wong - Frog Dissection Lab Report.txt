@@ -1,0 +1,88 @@
+Frog Dissection
+
+Research question:
+How does the arrangement of a frog’s organ systems facilitate their interactions?
+
+Materials:
+Gloves, goggles, and lab apron 
+Preserved frog
+Water
+Dissection tray 
+Pins
+Scissors 
+Forceps 
+Scalpel 
+Probe 
+Paper towels for clean up
+
+Safety Precautions:
+
+Clothing protection safety: 
+A lab apron should be worn
+
+Eye safety: 
+There is a danger to the eyes, wear safety goggles
+
+Sharp object safety: 
+There is a danger of cuts and punctures caused by the use of sharp objects  
+
+Disposal alert: 
+Care must be taken to dispose of materials properly 
+
+Extreme care must be taken when using dissecting instruments, particularly scalpels. As much as possible, make cuts away from your body.
+The frogs are preserved in a chemical solution. Wear plastic gloves, goggles, and an apron at all times, and work in a well-ventilated area. If some of the chemical comes into contact with your skin, wash it off immediately.
+
+
+Procedures: 
+
+Refer to ON Science 10
+Take pictures of the required organs and label them 
+
+Pictures:
+
+
+Results / observations: 
+Once you remove the layer of skin and start piercing the muscle layer, puncturing too deep will cause damage to the organs. Instead after gently piercing the muscle use the scissors to cut open the muscle layer while peeling back to have a clear sight on where you are cutting. This makes sure that all the organs are preserved.
+The liver is surprisingly big as it covers most of the upper chest area. It is unclear why it is larger than most other organs. It looks like old ground beef when broken, and to the touch it is rough. Surprisingly brittle though; when moved around it easily breaks off when held in unstable positions. 
+The lungs are unexpectedly small, looking like small wet raisins. They are really hard to find, as they are located behind all the organs at the very back of the frog. Due to its small size and location it is very difficult to locate it where it is. Therefore before moving the organs around it is recommended to be located first. 
+The small intestines are interestingly long and thin, taking up most of the space in the lower back. Located behind the stomach and large intestine it whindes up like wet instant noodles to fill in as much space as possible. 
+The heart is very small compared to the rest of the organs. Connected only using 2 main branches of the artery, it doesn’t seem that the heart is connected as other arteries that connect directly to the lower half of the body. It is also noted that the heart only has one ventricle that circulates the blood. Making it very different from our own heart. 
+
+Questions; 
+Describe how the frog’s circulatory and digestive systems are connected. 
+
+When food is ingested by a frog, the digestive process begins as enzymes and acids in the gastric system break down the food into smaller particles. These particles are then diffused into the bloodstream via the lining of the small intestine. The circulatory system of a frog comprises of a three-chambered heart that propels blood to the lungs and the rest of the body. The mesenteric veins and arteries that serve the digestive tract are the blood vessels responsible for conveying blood to and from the digestive organs, such as the liver, intestines, and stomach. As the blood journeys through the digestive organs, it collects nutrients and oxygen from the food, distributing them to the cells throughout the body. Additionally, the blood eliminates waste products from the digestive process, including water and carbon dioxide, which are then expelled from the body. (Slater, 2022)
+
+How do the locations of the heart and lungs affect interactions between the frogs’ respiratory and circulatory systems? Be specific. 
+
+The location of the heart and lungs in a frog has a significant influence on how its respiratory and circulatory systems interact. The heart of a frog has three chambers and is positioned in such a way that it pumps blood to the lungs for oxygenation and then returns it to the heart for distribution to the rest of the body. The lungs are the main respiratory organs in a frog, and they are responsible for exchanging gases such as oxygen and carbon dioxide with the environment. (Circulatory System - Embryonic Development of the Circulatory System, n.d.)
+
+
+
+
+
+
+
+
+
+Frog lungs may seem small compared to its other organs. Why might the frog not require a large set of lungs?
+
+Frogs have a special respiratory system that enables them to exchange gases through their skin, so their lungs are comparatively tiny in comparison to the lungs of other animals of comparable size. While a frog's lungs are still useful and essential for breathing, they are not the only pulmonary system. Frogs can directly take oxygen from their surroundings thanks to their thin, moist skin, which is particularly useful when they are submerged. The frog's permeability and its tiny organs make it possible for it to perform cutaneous breathing. Additionally, the frog's small lungs may contribute to a reduction in body weight, making it easier for it to travel both on land and in water. (Circulatory System - Embryonic Development of the Circulatory System, n.d.)
+
+How many atria and ventricles does the frog have? How does a three chambered heart function differently than a four chambered one?
+
+A frog's heart has three chambers, two atria, and one ventricle. The top compartments of the heart, known as the atria, are responsible for receiving blood from the body and the lungs, while the lower chamber, known as the ventricle, is responsible for pumping blood from the heart to the rest of the body. The ventricle of a three-chambered heart pumps both oxygenated and deoxygenated blood, which may combine the two kinds of blood. Lower oxygen levels in the blood that is transported to the bodily cells as a result of this mixing are possible. 
+Two distinct ventricles in a four-chambered heart, like those in humans and birds, keep oxygenated and deoxygenated blood apart. As a result, oxygen can be delivered to the body's cells more effectively, which makes it a good adaptation for more active and physically taxing lives. A three-chambered heart is less effective at supplying the body with oxygen, but it is still effective for amphibians because they lead a less energetically demanding lifestyle than mammals or animals do. (Circulatory System - Embryonic Development of the Circulatory System, n.d.)
+
+
+
+
+
+
+
+
+
+
+References
+Circulatory system - Embryonic development of the circulatory system. (n.d.). Encyclopedia Britannica. Retrieved March 29, 2023, from https://www.britannica.com/science/circulatory-system/Embryonic-development-of-the-circulatory-system
+Slater, T. (2022, October 26). How does the frog's circulatory and digestive system connect? Arew. Retrieved March 29, 2023, from https://arew.org/how-does-the-frogs-circulatory-and-digestive-system-connect/

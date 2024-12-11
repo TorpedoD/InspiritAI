@@ -1,0 +1,93 @@
+Theodore Chiu
+Apr 14, 2024
+
+
+Giant Panda (Ailuropoda melanoleuca)
+K: Animalia
+P: Chordata
+Class: Mammalia
+Order: Carnivora
+Family: Ursidae
+Genus: Ailuropoda
+Species: Melanoleuca
+
+‘Akeke’e (Loxops Caeruleirostris
+K: Animalia
+P: Chordata
+C: Aves
+O: Passeriformes
+F: Fringillidae
+Genus: Loxops
+Species: caeruleirostris
+
+Sea Otter (Enhydra lutris)
+K: Animalia
+P: Chordata
+C: Mammalia
+O: Carnivora
+F: Mustelidae
+G: Enhyrda
+S: Lutris
+
+Pygmy Hippos (Choeropsis liberiensis)
+K: Animalia
+P: Chordata
+C: Mammalia
+O: Artiodactyla
+F: Hippopotamidae
+G: Choeropsis
+S: Liberiensis
+
+Amur Leopard (Panthera pardus orientalis)
+K: Animalia
+P: Chordata
+C: Mammalia
+O: Carnivora
+F: Felidae
+G: Panthera
+S: Pardus
+
+Yangtze Finless Porpoise (Neophocaena asiaeoritentalis)
+K: Animalia
+P: Chordata
+C: Mammalia
+O: Artiodactyla
+F: Phocoenidae
+G: Neophocaena
+S: Asiaorientalis
+
+Riverine Rabbit (Bunolagus monticularis)
+K: Animalia
+P: Chordata
+C: Mammalia
+O: Lagomorpha
+F: Leporidae
+G: Bunolagus
+S: Monticularis
+
+Vaquita (Phocoena sinus)
+K: Animalia
+P: Chordata
+C: Mammalia
+O: Artiodactyla
+F: Phocoenidae
+G: Phocoena
+S: Sinus
+
+Hawksbill Sea Turtle (Eretmochelys imbricata)
+K: Animalia
+P: Chordata
+C: Reptilia
+O: Testudines
+F: Cheloniidae
+G: Eretmochelys
+S: Imbricata
+
+Monarch Butterfly (Danaus plexippus)
+K: Animalia
+P: Arthropoda
+C: Insecta
+O: Lepidoptera
+F: Nymphalidae
+G: Danaus
+S: Plexippus

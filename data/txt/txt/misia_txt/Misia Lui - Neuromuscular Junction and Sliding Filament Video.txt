@@ -1,0 +1,31 @@
+[Zoom in on a skeletal muscle]
+
+Ever wonder how your muscles move? Let's break down the fascinating process of muscle contraction.
+
+[Picture of a nerve ending meeting a muscle fiber]
+It all starts at the neuromuscular junction, where a nerve meets a muscle fiber. When your brain decides to move, it sends an electrical signal down a motor neuron. It is called the neuromuscular junction. In neuromuscular junction, this signal triggers the release of a chemical called acetylcholine. Acetylcholine binds to receptors on the muscle fiber, causing sodium channels to open. This creates an electrical signal that spreads across the muscle fiber. SOOO, inside the muscle fiber
+[Zoom into the muscle fiber, showing sarcomeres]
+Now, let's dive deeper into the muscle fiber.
+Muscle fibers contain smaller units called sarcomeres. Each sarcomere is composed of two key proteins: actin (thin filaments) and myosin (thick filaments).
+There are these little zig zag areas which are called Z lines where a sarcomere ends and also where the thin filaments (actin) attach. The myosin are held by accessory filaments called the M line right in the middle.  
+
+[Drawing of actin and myosin filaments sliding]
+Now, putting all that in mind, let’s move on to the sliding filament theory explains how muscles actually contract:
+
+Before we keep going, a disclaimer should be made: muscle action isn't always straightforward. There are actually three distinct types of muscle contractions, each occurring under different circumstances. First, when a muscle overcomes a manageable resistance, it shortens while contracting. This is known as a concentric contraction. Second, when a muscle lengthens while under tension, such as when lowering a weight, it's called an eccentric contraction. Lastly, there's the isometric contraction. This occurs when a muscle exerts force but doesn't change length, like when pushing against an immovable object or attempting to lift an impossibly heavy weight. In this case, the muscle is working hard, but no visible movement occurs. Understanding these different types of contractions is key to grasping the full range of muscle functionality.
+
+Enough formality! Moving on! 
+The electrical signal triggers the release of calcium ions inside the muscle fiber.
+Calcium ions expose binding sites on the actin filaments.
+Myosin heads attach to these binding sites, forming cross-bridges.
+The myosin heads pull the actin filaments, causing them to slide past each other.
+This sliding motion shortens the sarcomere, and thus, the entire muscle. BUT it is important to note that the myosin and actin filaments themselves DO NOT  shorten. When this motion occurs, the sarcomere contracts and the actin will be pulled by the myosin closer to the center which is the M line. Z lines tend to get moved closer together during this. 
+
+[Draw ATP molecules]
+Energy for this process comes from ATP (Adenosine Triphosphate):
+ATP allows myosin to detach from actin. It also recharges the myosin heads for the next contraction cycle.
+[Drawing of muscle returning to resting state]
+When the signal stops: Calcium is pumped back into storage, myosin detaches from actin, and the muscle returns to its relaxed state.
+.
+[Draw a zoomed out version to show the entire muscle contracting]
+And there you have it – from nerve signals to movement, all in a fraction of a second explained in 3 minutes :)

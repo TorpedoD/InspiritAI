@@ -1,0 +1,1000 @@
+
+Biology
+
+Plants and Animal Cells (Pg textbook pages 10-19, answer questions at end of handout)
+													
+The Cell Theory:
+All living things are made up of one or more cells and their products
+The cell is the simplest unit that can carry out all life processes
+All cells come from other cells, they do not come from non-living matter
+
+All living things are made up of cells, but some very simple and some very complex
+Prokaryote: always single celled organisms that do not contain a nucleus or other membrane-bound organelles (e.g. E. Coli)
+Eukaryotes: a cell that contains a nucleus and other organelles, each surrounded by a thin membrane (Includes all protists, fungi, animals, and plants).
+Both contain genetic information
+
+
+Cell Division & The Cell Cycle
+
+What is Cell Division?
+The process by which a parent cell gives to two daughter cells
+Involves the division of the nucleus (nuclear division) and cytokinesis (division of the cytoplasm)
+
+Why do Cells Need to Divide?
+Allows organisms to reproduce, repair damage, and grow
+
+Reproduction
+
+Asexual Reproduction
+Parent cell division results in two new organisms
+Each new cell must (ideally) have a complete set of genes
+Involves only one parent
+Can either produce two equal cells (symmetric cell division) or two unequal cells (asymmetric cell division)
+Asymmetrical division can lead to several issues
+
+Sexual Reproduction
+A cell from one parent joins with a cell from another parent
+Gametes: these cells contain only half of the DNA usually found in a body cell
+When two gametes combine, the offspring inherits characteristics from both parents 
+Repair
+Every day, your body sheds millions of dead skin cells. Replaced by new ones
+Your body replaces each red blood cell every 120 days 
+If you break a bone, cells divide to heal the bone 
+As cells die, are damaged, wear out or are lost, new cells must replace them 
+All organisms need to repair themselves to stay alive
+
+Growth
+One of the basic processes of all life is GROWTH. All cells grow, but they eventually reach a size limit.
+We know that the larger the volume the greater number of reactions that can occur in cytoplasm
+All nutrients required for metabolism can only enter the cell through its membrane (dependent on surface area).
+As surface area increases, so does the cells’ ability to transport materials through its membrane. 
+
+Growth: Diffusion & Osmosis
+
+Chemicals used cells enter the cell and across the membrane by the process called diffusion
+From area of high concentration to an area of low concentration
+Water enters and leaves cells by a process called osmosis
+Water always moves toward their the solution more concentrate
+Diffusion and osmosis take time. If a cell gets too large, chemicals and water cannot move fast enough
+
+Growth
+Therefore, a cell with a certain volume needs an appropriate surface area to acth it
+As a cell grows the surface area to volume ratio decreases
+At some point in cell growth this ratio becomes so small that its surface area is too small to supply its raw materials to its volume
+The cell must either divide or die
+Therefore, as organisms grow the number of cells in that organism must increase
+
+
+Cell Physiology: Transport and energy
+
+Metabolism: the sum of all the processes a cell may use to store or obtain energy or utilise structural or functional materials
+Homeostasis: the tendency of living organisms to maintain a stable internal environment even though conditions in the external environment may vary
+
+Types of Transport in the cell
+Passive Transport: the natural movement of molecules across a cell membrane; no energy from the cell is required (eg: diffusion, osmosis)
+Diffusion: the movement of gas or liquid molecules from a region of high concentration to a region of low concentration
+Diffusion occurs only until a system reaches equilibrium (no net movement: molecules are always in motion, but don’t do anything) 
+Many molecules can be moving by diffusion at the same time
+
+Concentration Gradient
+The difference in concentration between a region of greater (high) concentration and a region of lesser (low) concentration
+Affects the rate of diffusion as does temperature
+
+Membrane Permeability
+Cell membranes regulate the type and the amount of substances that are able to enter or exit a cell
+Permeability: the degree to which molecules can move freely across a membrane is determined by the properties of the cell membrane and the size and characteristics of the molecules involved
+
+
+		
+
+
+The Cell Cycle: Mitosis & Cell Division
+
+Cell Division
+All cells divide, but some vary in how long it takes 
+Some bacteria can divide in 20 minutes
+Some body cells take 30 hours
+Some cells stop dividing completely – like adult nerve cells
+
+The Cell Cycle
+Cytokinesis → Cycle Begins → Cell Grows → Cell receives instructions regarding division → DNA replicates → Cell prepares to divide → Mitosis
+As eukaryotic cells grow and divide, they move through different stages
+These stages are: Interphase, Mitosis, Cytokinesis
+
+Interphase: Getting Ready for Mitosis
+The cell spends most of its time in interphase
+During interphase the cell carries out all life activities except for cell division
+When the cell prepares for division in interphase, the DNA (every chromosome) is duplicated and more organelles are formed. This is called DNA replication
+Until the cell is ready to divide chromosomes are long and loose (rather than condensed and organised)
+DNA replication is usually very precise and errors are fixed by ‘proofreading’ and repair proteins
+When cells are not actively dividing they are doing the jobs they are designed to do
+Ex. a muscle cell creates proteins that allow muscles to contract
+The cell also grow and prepares for mitosis by replicating its DNA and organelles
+
+Act 1: Mitosis
+Mitosis was discovered by German scientist Walther Flemming
+Mitosis is greek word for “thread” (due to the jumble of chromatin in the nucleus)
+Mitosis has four stages: Prophase, Metaphase, Anaphase, Telophase
+Mitosis occur throughout your entire body over your entire life around 10,000000,000,000,000 (quadrillion) times
+
+Prophase
+Pro is latin for ‘before’
+Long strands of DNA condense into chromosomes
+Each chromosome is made up of two identical copies of DNA (chromatid)
+Held together by a centromere
+The nuclear membrane breaks down
+Centrosome (part of the cytoskeleton) begin moving to opposite ends of the cell
+
+
+
+Metaphase
+Meta is Latin for ‘middle’
+Chromosomes line up in the middle of the cell
+Centrosomes reach the opposite ends of the cell
+Spindle fibres appear from the centrioles and attach to the centromeres
+Anaphase
+Ana is Latin for ‘back’
+Up to this point the spindle fibres are stretched like elastic bands
+They being pulling chromatids apart to opposite ends of the cell
+Once the chromatids separate they are considered chromosomes again
+Exactly how the chromatids align in the centre of the cell was only discovered in 2012 (complex process)
+
+Telophase
+Spindle fibres start to disappear
+Nuclear membranes form around two new daughter nuclei
+Nucleolus appears in each nucleus
+Chromatids unwind to become long strands of DNA
+
+The End of Mitosis
+This marks the end of mitosis (i.e. the division of one nucleus into two identical ones)
+Now the rest of the cell is ready to divide
+Even though we learned the 4 stages of mitosis, the actual process is continuous – there are no breaks in between phases
+
+Act 2: Cytokinesis
+Final stage of cell division where the cytoplasm (organelles and cytosol) divides producing two identical daughter cells
+Animal Cells: the cell membrane pinches to produce two cells
+Plant Cells: a cell plate develops between the two nuclei and forms  cell wall
+Cell division allows organisms (like you and me) to grow from a single cell into a multicellular foetus and then into a full sized human
+During division, DNA replication ensures that all body cells have identical genes
+However, different body cells have different structures and functions (they are specialised)
+This occurs due to some genes being activated and others not … only 10% activated usually!
+
+You Shall Not Pass!!
+Cells are not always dividing – there are control mechanisms to make sure the cell doesn’t divide uncontrollably
+There are four important cell cycle checkpoints. Cell division will not occur if: 
+Signals from surrounding cells tell the cell not to divide
+There are not enough nutrients for growth
+DNA did not replicate (cell is repaired or destroyed)
+DNA is damaged (cell is destroyed)
+Leaving the Cell Cycle
+Cells aren’t in the cell cycle forever
+Cells leave the cycle to die
+This can be due to damage beyond repair (i.e. exposure to chemicals or physical force)
+Cells leave the cycle to commit ‘suicide’
+Cell breaks down in an organised way, recycling its contents for use by other cells (i.e. DNA damage)
+
+Human Embryo: An example of Cell ‘Suicide’
+In some birds and animals the hands and feet of the embryo are solid at first
+Separate fingers and toes are produced through the programmed death of the cells in between the digits
+
+
+Mutations: Causes, Consequences, and Safeguards
+
+A mutation is an alteration, or change, in the genetic code of an organism. A mutation can be either at the DNA level or at the Chromosomal level. A DNA mutation occurs when one or more set of bases(ATCG) do not match up. Examples include cancers, cystic fibrosis, albinism and progeria (a disease where people grow old very quickly, and typically die in their early teens). A chromosome mutation occurs when the number of chromosomes is different than the number that there should be. Humans should have 46 chromosomes (23 different pairs), but sometimes they have an extra chromosome or they are missing one. Examples include Down’s syndrome (an extra copy of C21) and Crie du Chat (missing part of C5).
+
+Mutations can occur naturally, but they can also be caused by Mutagens. Mutagens can
+be chemical or physical. Many of the chemicals that humans emit that are
+responsible for GCC and environmental damage are also mutagens. Examples include
+smog (low level ozone), smoke and dioxins. Physical mutagens include radiation from X-
+rays and the sun. As the ozone layer is depleted, more solar radiation reaches the
+earth’s surface. This has been correlated to increased levels of skin cancers.
+
+Mutations can be of three types: neutral, beneficial or harmful. Neutral mutations may have no outward effect on the organism or their effects neither help nor harm the organism. An example would include a new hair colour. Beneficial mutations are mutations that would help the organism. An example would be a more efficient oxygen carrier molecule or a bacterium that develops antibiotic resistance. Harmful mutations are mutations that hurt the organism, such as cancers and cystic fibrosis.
+
+The mutation type can also vary based on the environment in which an organism lives.
+A neutral mutation may become harmful or beneficial in a different
+environment or vice versa. An example of this is sickle cell anaemia. It can prevent malaria, a
+dangerous parasite, but it can also result in a decreased ability to carry oxygen in the blood.
+w
+The cell has safeguards to prevent most mutations from getting out of control. As
+cells move between the different stages of interphase, checks are performed to see if
+the DNA is correct. Cells whose DNA is damaged are either repaired or destroyed.
+Cells can be signalled to commit suicide in a process called apoptosis.
+
+Cancer is a particularly pernicious mutation as it functions by preventing cell death and
+allowing for uncontrolled division. Cancerous cells can separate from the tumour and
+move throughout the body to grow in other locations.
+Cancer & the Cell Cycle
+
+Background Info
+Abby has been having abdominal pain
+She has gone to see an oncologist (a doctor who studies and treats cancer) Dr. Allen
+An ultrasound has indicated a mass on her right ovary
+She is preparing to have the mass and ovary removed surgically
+
+What is Cancer anyway?
+From American Cancer Society: “Cancer is a group of diseases characterised by uncontrolled growth and spread of abnormal cells. If the spread is not controlled, it can result in death.”
+There are two types of tumour:
+Benign (non cancerous): Rarely cause serious problems or threaten life unless they occur in a vital organ or grow very large and press on nearby tissues. Tends to grow slowly and stay in one place. Usually stays non-cancerous
+Malignant (cancerous): Cancer cells have a  larger nucleus and behave, grow and function quite differently from normal cells. Vary in size and shape and grow uncontrolled, abnormal and interferes with functions of nearby cells, tissues and organs. Can return after removal
+
+Cell Specialisation
+
+From General to Specialised
+The cell theory states that every cell comes from a previously existing cell
+You started your life as a single fertilised egg. Now, your body is made up of cells (between 75-100 trillion cells) with different structures and different functions. How is this possible???
+Cell Specialisation: involves a change in form and in function
+
+Unspecialised to Specialised
+Stem Cell: An animal cell that can differentiate (turn) into many different types of specialised cells
+Can develop into different types of cells, based on DNA instructions
+One combination of active and inactive genes will produce a specific type of cell (specialised)
+Stem cells generally occur in clumps that differentiate together into tissues
+
+
+Types of Stem Cells
+Embryonic Stem Cells: can differentiate into any kind of cell (totipotent)
+Are taken from human embryos
+Tissue (Adult) Stem cells: only able to differentiate into certain types of cells (pluripotent)
+Are taken from brain, bone marrow, blood vessels, skeletal muscle, skin, teeth, heart, gut, liver, etc.
+
+
+
+
+
+Factors Influencing Cell Specialisation
+
+Contents of Cell Cytoplasm
+Mitosis results in daughter cells that have identical DNA, but the cells can have different cytoplasmic contents due to heredity
+Contents of the cytoplasm in the daughter cells allows some cells to be specialised for certain tasks
+Example: A cell with more vacuoles will be able to use more energy as it grows
+Hormones may also influence specialisation
+
+Influence of Neighbouring Cells
+One of the biggest influences on what a cell will become
+If cells are close together, a substance produced by one cell can diffuse into the neighbouring cell and change how the DNA is expressed
+Example: in the developing embryo of a chick, neighbouring cells influence the eye development in a specific location
+
+Other External Factors
+Temperature, light, pH, available nutrients are examples of factors that influence how cells with identical DNA will develop
+In Siamese cats, the dark spots of hair (on feet, tail and face) are a result of cells developing in cooler temperatures (as opposed to the rest of the body)
+90% of issues in developing embryos are a result of environmental factors such as air quality, altitude exposure to heavy metals etc.
+
+Cell Differentiation
+Cell differentiation: a stage of development of a living organism during which specialised cells form
+Genes are responsible for the proteins that are produced
+When certain genes are turned ‘on’, the cell will produce a certain protein.. Therefore, the proteins that are produced determine the eventual function of the cell
+Different combos of active and inactive genes will result in a unique types of cells (i.e. nerve or muscle cell)
+
+Similar Experiences Produce similar Results
+Cells that experience similar conditions as they grow will normally result in similar specialised cells
+When groups of cell specialise the same way, tissues are formed
+At a point in cells life, so many genes will be switched off that it will stop dividing (leaving the cell cycle) and live out it’s life as a mature specialised cell
+
+
+Specialised Cells in Plants
+Meristematic Cells: an unspecialised plant cell that gives rise to a specific specialised cell
+Meristematic cells are always producing more cells
+Are found in the meristem of the roots (apical bud), shoots (terminal bud) and stem (lateral bud)
+
+Green Thumb Tip #1
+Cells in actively growing areas give off a chemical called auxin (hormone) that stops the growth of cells around them
+i.e the terminal bud’s auxin will limit the growth of the lateral buds
+If a deer eats the terminal bud of a plant, the auxin stops being produced and the lateral bud is not inhibited to grow
+If you enjoy gardening and you want to stop your plants/trees from growing too tall, but want them to grow bushier, what can you do?
+
+Specialised Cells in Plants
+In animals, while some cells and tissues can be replaced when they become old or damaged, organs must last a lifetime
+However, in plants, organs are often replaced over time (i.e. leaves & roots)
+
+
+
+
+
+Tissues Working Together
+
+Photosynthesis is performed by chlorophyll molecules embedded in the thylakoid membranes
+of the chloroplasts in the cells of leaves. Leaves are efficient at absorbing light
+due to their thin, wide structure.
+
+Light energy + carbon dioxide + water = glucose + oxygen   CO2 + H2O = C6H12O6 + O2
+
+Glucose is transported and stored as other carbohydrates, such as starch. Plants
+use these carbohydrates for cellular respiration.
+Stomata Opening in leaf surface that allows gas exchange. Open and close to allow
+Carbon dioxide in and oxygen out. Guard cells pair of cells on surface to control stomata opening and closing. Open and close stomata to ensure proper gas exchange and reduce water loss. Water is moved to the leaves from the roots via the xylem.
+
+
+
+            
+
+Animal Tissues: The Fabric of Your Body
+
+From Cells to Tissues
+Tissues: a group of cells similar in shape that work together to perform a specialised function
+The human body is made up of four primary types of tissue: 1. Epithelial 2. Connective 3. Muscle 4. Nervous
+
+Epithelial Tissues
+Thing covering that protects organs, lines body cavities, and covers the surface of the body
+Examples:
+Outer layer of the skin
+Inside of the mouth and stomach
+Tissue surrounding the body’s organs
+
+Connective Tissues
+Connective tissue provides support and holds various parts of the body together
+Examples: Inner layers of skin, tendons, ligaments, cartilage, bone, and fat tissue 
+Interesting fact: Blood is also considered a form of connective tissue
+
+Muscle Tissues
+Muscle tissues contract to produce different types of movement. There are 3 types of muscle tissue:
+Cardiac muscles: heart muscle that circulates the blood throughout your body (involuntary)
+Skeletal Muscles: muscles around bone (i.e. leg and arm) which allow you to walk (voluntary)
+Smooth muscle: on walls of the digestive tract, uterus, bladder, blood vessels, other internal organs (involuntary)
+Nervous Tissues
+Allows for communication between all parts of the body
+Cells/tissues generate and conduct electrical impulses
+Controlled by the brain
+Transported to the body by the spinal cord
+
+
+
+Circulatory System
+
+Parts of the Circulatory System
+Blood
+Veins and arteries
+Heart
+
+The Function of the Circulatory System
+Moves nutrients from intestines to body cells
+Moves oxygen from the lungs to body cells
+Carries waste from cells to colon for disposal
+Carries carbon dioxide from cells back to lungs for disposal
+
+Function continued
+Carries waste to the kidneys where the substances are filtered out and excreted
+Regulates body temperature
+Transports disease-fighting white blood cells to areas infected by bacteria or viruses
+
+Blood is a type of connective tissue and consists of four components
+Red blood cells make up half of the volume of blood and contain haemoglobin
+Haemoglobin is a protein containing iron that transports oxygen throughout the body and makes the cells appear red
+The bi-concave shape allows RBCs to bend and flow smoothly through the narrowest blood vessels
+Red blood cells are considered cells, but they lack a nucleus, DNA, and organelles
+White blood cells are infection fighting cells in the blood. They make up less than 1% of the volume of blood and they are the only blood cells to have a nucleus
+Platelets are tiny cells that help clotting and compose less than 1% of the blood
+A lack or absence of clotting factors that work with platelets is called haemophilia
+Plasma is a protein rich liquid that carries the blood cells, chemical messengers, and nutrients along
+Plasma makes up over half of the volume of blood
+
+How the Heart functions
+Four chambers: Right atrium, right ventricle, left atrium, and left ventricle
+The cardiac tissue in each part of the heart contracts at the same time and this makes the heart contract and move the blood around the body
+
+Following the Flow of Blood
+The atria receive blood and move it into the ventricles; the ventricles pump blood out of the heart
+The right side of the heart receives oxygen-poor blood (deoxygenated) from the body; the left side of the heart receives oxygen-rich blood (oxygenated) from the lungs
+
+Blood vessels: Arteries, Veins, and Capillaries
+Arteries carry blood away from the heart and have thicker walls than other blood vessels
+More elastic and are under more pressure as they vary pumped blood away from the heart
+Veins carry blood towards the heart at a lower pressure so the walls of the veins are not as thick and they contain valves to prevent blood from pooling
+Varicose veins result in the pooling of blood and can be caused by pregnancy
+Capillary beds: tiny vessels with thin walls
+Allow oxygen & nutrients to diffuse from the bloodstream
+Allow carbon dioxide and waste to diffuse from the cells
+These vessels are so small that red blood cells must pass one at a time
+
+Diseases of the Circulatory System: Coronary Artery Disease
+Coronary arteries supply oxygen and nutrients to the heart muscles
+Arteries can become narrowed by a deposit of fat, cholesterol, and calcium called plaque
+Can be caused by genetics, high fat diet, smoking and lack of exercise
+
+Diseases of the Circulatory System: HEART ATTACK!!!!!
+Occurs when arteries become completely blocked by plaque or a blood clot. The muscle cells no longer receive oxygen and nutrients and die. The heart can also stop pumping
+A blood test or an electrocardiogram can detect a heart attack.
+
+Signs and symptoms of a Heart Attack
+Chest pain or pressure radiating down the arm, shortness of breath
+Nausea, anxiety, upper body pain, stomach pain, dizziness, fatigue
+Signs can differ for females as more of an upset stomach or abdominal pain and aren’t treated rapidly enough so there is a greater chance of death or disability in females from lack of or delayed treatment
+
+
+Respiratory System
+
+Diffusion – Remember me? 
+Gas exchange is made possible due to DIFFUSION (movement of particles from high → lower concentration)
+What do you need to make this possible in the body? 
+Permeable or semipermeable membrane (i.e. Cell Wall)
+
+Structure for Function
+Structure promotes efficiency of system
+Tight capillary/alveoli network
+Only TWO thin membranes to pass through
+Two way movement
+Surface area is critical
+
+Capillary Function
+Bring oxygen into the blood (red blood cells) – via diffusion
+Remove carbon dioxide from the blood – via diffusion
+
+Just Breathe
+Breathing is controlled by a set of muscles around the rib cage and the diaphragm (large sheet of muscle under lungs).
+These two muscle ‘groups’ work together to increase/decrease the volume of the lungs
+Change in volume = change in pressure = movement of gases 
+
+
+
+Digestive System
+
+The Mouth
+Ingestion is the 1st stage of digestion
+Digestion begins in the mouth
+Activity: Digesting Bread
+Chemical Digestion
+Salivary amylase (enzyme mixed with water) initiates carbohydrate digestion
+Saliva lubricates food so it can be swallowed
+Physical Digestion
+Chewing & dissolving of food particles
+Incisors → cutting
+Canine → tearing 
+Premolars → grinding
+
+The Esophagus
+Muscular tube connecting mouth to stomach
+Made up of special smooth muscle tissue
+Does food move down the esophagus because of gravity or by another mechanism? 
+HINT: Can food be swallowed even when a person stands on his or her head?
+Peristalsis: Rhythmic muscle contractions in esophagus that move food along gastrointestinal tract to the stomach
+Like toothpaste being squeezed out of a tube
+Where else in the body might peristalsis be found? Intestines
+
+What is the Stomach???
+Site of food storage & initial protein digestion 
+J-shaped organ that has numerous ridges allowing it to expand
+Layers of muscle that contract to help digestion
+
+Stomach
+Can hold ~ 1.5 L of food
+Stomach lining contains cells that produce gastric fluids 
+Mucus acts as protective coating
+HCl(aq) kills harmful substances that are ingested with food
+Stomach has many nerves that signal when we have had enough to eat 
+Q: What happens when you eat too fast? It forces you to throw up
+Sphincters regulate food in/out of stomach
+Sphincters → work like strings on a bag
+Cardiac Sphincter: Located near the heart
+Pyloric Sphincter: Regulates movement of food & stomach acid to small intestine 
+
+The Intestine
+Small Intestine
+3 parts (duodenum, jejunum and ileum)
+Most digestion takes place in duodenum (first 25cm)
+Up to 6m long (2.5cm diameter)
+Cells release mucus and nutrients diffuse through wall of small intestine into bloodstream
+Large Intestine (aka: Colon)
+1.5m long and 7.6cm diameter
+Lining absorbs water from indigestible food 
+Remaining solid matter is excreted as feces from anus
+
+Rectum and Anus
+Last 20cm of large intestine
+Waste eliminated through the anus
+Indigestible components of food (cellulose and other fibres)
+Controlled by two anal sphincters 
+Absorption of water in large intestine changes liquid material in colon into solid called feces
+Too much water absorbed into bloodstream – feces hard (constipation)
+
+Colitis and Crohn’s disease
+Colitis is inflammation of the mucous membrane or inner lining of the colon and rectum
+Can be caused by viruses, bacteria or narrowed blood vessels
+Crohn’s disease is inflammation of the full thickness of the bowel wall rather than just the lining
+Crohn’s disease may affect any part of the digestive tract from the mouth to the anus
+Symptoms: diarrhea, cramping, abdominal pain, blood in stool, ulcers, reduced appetite and weight loss
+
+Accessory Organs
+Liver produces bile, helps breakdown fats
+Pancreas produces insulin, regulates glucose in blood
+Note: diabetes occurs when pancreas produces too much or too little insulin
+Releases bicarbonate ions (HCO3-) to intestine to neutralise HCI
+Gallbladder stores excess bile
+
+
+
+Chemistry
+
+Grade 9 Chemistry Review
+
+Particle Theory 
+
+Matter is made up of tiny particles (Atoms & Molecules)
+Particles of Matter are in constant motion
+Particles of Matter are held together by very strong electric forces
+There are empty spaces between the particles of matter that are very large compared to the particles themselves
+Each substance has unique particles that are different from the particles of other substances
+Temperature affects the speed of the particles. The higher the temperature, the faster the speed of the particles
+
+Describing Matter: Physical characteristics
+
+State: solid, liquid, gas.
+Colour: green, blue, yellow, black, reddish-brown, etc.
+Odour: odourless, flowery, spicy, nauseating, etc.
+Clarity: clear, cloudy, opaque.
+Lustre: shiny, dull.
+Texture: how does it feel? fine, coarse, smooth, waxy, etc.)
+Brittleness: can it break apart or shatter easily? brittle or flexible
+Malleability: can it be bent and folded into different shapes? malleable or
+non-malleable
+Ductility: can it be stretched out into a long wire? ductile or non-ductile
+
+Describing Matter: Chemical characteristics
+
+*A chemical characteristic is something that allows us to identify how a
+substance reacts or behaves with others. For example:
+ Reactivity: A substance can be very reactive (like fireworks) or unreactive
+(like gold).
+Toxicity: A substance can be poisonous (like arsenic) or harmless (like
+water, or sugar)
+Flammability: A substance can be flammable (like gasoline) or not burn
+(like salt)
+
+
+
+
+Physical and Chemical Changes
+
+*Matter can undergo both physical and chemical changes.
+*A physical change usually involves a change in a physical characteristic only.
+*A chemical change results in the formation of a new substance. Because the
+new substance is different, it can have very different physical characteristics
+from the starting substance. So a chemical change usually will result in a
+change in the physical characteristics as well.
+
+
+
+
+
+
+
+
+Indicators of Chemical Change
+
+Production of a gas
+
+Formation of a precipitate → formation of a solid
+
+If two or more solutions of substances are mixed and a solid is formed, then
+such a solid is called a precipitate and indicates that a chemical reaction has occurred.
+
+Change in colour or odour
+
+If when two substances are mixed and a new colour is formed or a new
+odour is detected, then it is an indication that a new substance was formed
+which can only occur with a chemical reaction. Note that the colour formed must be different from the original colours.
+
+Change in energy of System
+
+If two substances are mixed and the mixture either releases
+or absorbs then a chemical change is occurring. A reaction
+that releases heat is called exothermic. A reaction can also absorb heat from the surroundings and such a chemical change would be called endothermic.
+
+Introduction to Chemistry
+
+Chemistry is the study of matter. 
+Matter is anything that takes up space and has mass. 
+All matter is made up of small particles called atoms.
+ Atoms and elements are synonyms.
+
+Atoms
+The atom is the basic unit of matter. Atoms are made of protons, electrons and neutrons. Atoms of different elements have different numbers of protons, neutrons and electrons.
+
+Elements
+There are currently 121 known elements. 4 new elements discovered in 2016
+Atoms of all of these 117 elements are chemically combined to make every known substance.
+At room temperature most elements are solid, a few are gases and only mercury and bromine are liquids
+All known types of atoms are found on the periodic table of the elements
+
+
+Data about an element
+A periodic table usually shows the elements’ name, symbol, atomic number and atomic mass. Rules for naming chemical symbols: 
+Symbol always starts with a capital
+The second letter must be lowercase
+The symbol must be printed (no handwriting)
+
+Why group elements?
+So that an element can be identified easily.
+Ex: metals on the left, non-metals at the right
+There are six major groups to learn
+
+Metals
+All are solids except mercury 
+Generally shiny and malleable
+Good conductors of heat & electricity
+Alkali metals
+Low melting and boiling points compared to most other metals
+They are very soft and can be cut easily with a knife
+They have low densities (lithium, sodium and potassium will float on water)
+They react quickly with water
+Their hydroxides and oxides dissolve in water to form alkaline solutions
+
+Non-metals
+Poor conductors of heat & electricity
+Many are gases at room temperature
+
+Metalloids
+Are elements that possess both metallic & non-metallic properties
+Are found along the step line of the periodic table
+
+Halogens
+Occupy the 17th column
+Most reactive of non-metals and are usually found bonded to other atoms
+React with metals to form salts
+
+Noble Gases
+Occupy the 18th (far right) column
+All are gases at room temperature
+Extremely stable, un-reactive
+
+
+Multiple groups
+Elements can be in more than one group. 
+Ex #1: Sodium is both a metal and an alkali metal
+Ex #2: Neon is both a noble gas and a nonmetal
+
+Bohr Diagram
+
+In 1913 Danish scientist Niels Bohr began representing atoms visually through diagrams. He
+called them Bohr diagrams and he believed they were useful for (i) better understanding the
+properties of an element, and for (ii) predicting how an atom can combine with others to form
+compounds. In this model of the atom, the electrons travel around the nucleus in well-defined
+circular paths known as shells or orbitals.
+
+Before we learn how to draw Bohr Diagrams, we must understand 4 important principles:
+Each electron in an atom has a definite amount of energy.
+The farther away the electron is from the nucleus, the greater the energy.
+      (c) Electrons cannot exist between levels, but can only move up and down orbitals.
+      (d) The electrons in the outermost shell are called valence electrons.
+
+Steps for Drawing Bohr Diagrams (for use only with the first 20 elements):
+Determine the number of electrons to be drawn: # electrons = atomic #(for a
+neutral atom)
+Draw a circle for the nucleus and write the element symbol inside
+Draw levels (circles) around the nucleus. The periods of the element in the periodic table is the number of orbitals.
+Fill the levels with electrons according to the following pattern:
+1st orbital (nearest to the nucleus): filled first, with a maximum of 2 electrons; don’t pair
+2nd orbital: filled with a maximum of 8 electrons; draw electrons in pair in this orbital
+3rd orbital: filled with a maximum of 8 electrons; draw electrons in pair in this orbital
+4th orbital: filled with a maximum of 2 electrons; don’t pair
+
+
+
+
+ 
+ 
+
+
+
+
+
+Lewis Dot Diagrams
+
+“What is a Lewis Diagram??”
+It is a short-hand of a Bohr-Rutherford Diagram in which only the valence electrons are written as dots.
+
+“How do I do it?”
+Find the total number of valence electrons for the atoms you are working with. (i.e. sodium, Na, has 2 valence electrons)
+This can be done by looking at the columns (i.e. groups) in the periodic table. For example, group 1 elements all have 1 valence electron; group 2 elements all have 2; group 13 have 3, group 14 have 4 etc.)
+
+Practice: Write the Lewis diagrams of the following elements, representative of the groups. Note that every member of the group will have the same Lewis diagram.
+
+
+Representing Ionic Compounds – Part 1
+
+Success Criteria: At the end of this lesson, you will be able to:
+Explain the differences between elements and compounds.
+Explain what ionic compounds are, how they are formed and understand
+some of their unique properties.
+Represent ionic compounds as Lewis structures.
+ 
+Element: 
+A substance that cannot be broken down into simpler substances by chemical means. elements are composed of atoms that have the same atomic number.
+
+Compounds
+A compound is a pure substance made up of two or more elements, in which the elements are chemically combined. The connection between the elements is known as a bond.
+A small change in the way the atoms combine can make a big difference in the chemical and physical properties of compounds.
+
+
+The Formation of Compounds
+Although millions of compounds have been discovered, almost all of them
+can be classified as one of two types: Ionic(take) and molecular (covalent [share]).
+The key to understanding the formation of compounds is understanding the arrangement of the electrons around the nucleus.
+The farther away an electron is from the nucleus, the greater is its energy and the more likely it is to be involved in a chemical change.
+Thus, the electrons in the outer orbit (i.e. the valence electrons) are the electrons involved in bonding.
+Therefore, knowing the number of valence electrons helps you to know how a compound will form.
+Elements in the same group (vertical column) have the same number of valence electrons.
+
+Atoms
+most stable when valence shell is full (2 or 8 e’s) eg. He, Ne, ...
+get a stable valence shell by:
+Loses e- (becomes +ve ion: a cation) ionic bonds
+Gain e-(becomes –ve ion: an anion) ionic bonds
+Share e- covalent bond covalent bond
+
+In either case the ionic/molecular compound formed is Electrically neutral.
+
+Ionic Compounds
+
+In ionic compounds, electrons are transferred from one atom to another (or to several others) so that the atoms can have the stable electron arrangements of the closest noble gases. Salt (NaCl) is an example of an ionic compound made up of ions of opposite charges that attract each other. The attraction between the ions is called an ionic bond.
+Lewis diagrams can be used to show the transfer of electrons.
+Ionic compounds have a number of properties in common including
+hardness, melting points, solubility (ability to dissolve), and conductivity.
+
+Properties of Ionic Compounds
+
+are solid at room temperature
+have high melting points (i.e. strong force of attraction
+between charged ions)
+are electrolytes (i.e. form solutions that conduct electricity)
+
+
+Bonding in Ionic Compounds
+
+Ionic Compounds
+Electrostatic attraction between a metal and non-metal
+Metal lose electrons and nonmetal gain electrons
+Ions are attracted to the opposite charge
+Overall, compound is neutral
+Formation of ions
+E.g. Ca + Cl
+
+Number of electrons lost by the metal must equal the number of electrons gained by non-metal.
+Cations and anions form a regular repeating pattern producing a crystal lattice in which the ions are in a specific arrangement.
+Attraction between oppositely charged particles is strong
+High melting points because of strong forces of attraction
+Conduct electricity when they are molten or dissolved in water as this allows the ions to move freely - move
+
+
+
+	
+
+
+
+
+
+
+
+
+
+Ionic Compounds – Name and Formulae
+
+Counting Atoms:
+A molecule’s chemical formula specifies the types of atoms (elements) that make up the
+molecule, as well as the number of atoms of each element.
+
+
+
+
+
+Writing Formulae
+
+There are basic steps to follow when writing the formula for an ionic compound. First determine if it is an ionic compound? In other words, does it contain a metal  and a nonmetal
+
+Once you have determined that it is an ionic compound then:
+
+
+Example 1:
+
+Calcium Phosphide
+Write the symbols of the elements with the metal first, then the non-metal.
+Ca	P
+
+Write the ionic charge of each element, above and to the right, for each element.
+Ca2+	P3-
+
+Criss-cross the numbers down to become subscripts on the opposite element.
+Ca3	P2	
+
+Cancel to the lowest ratio by dividing by the largest common factor.
+	Ca3P2
+
+Example 2:
+
+Beryllium Oxide
+
+Is it ionic?
+Be	O
+Be2+	O2-
+Be2	O2
+BeO
+
+Example 3:
+
+Sodium Nitrogen
+
+Na1+	N3-
+Na2Se
+
+Example 4:
+
+Silver Nitride
+
+Ag3N
+
+
+Writing Names
+
+When naming an ionic compound, the metal cation is first then the nonmetal anion. The first element's name does not change. The second element ends in ide.
+
+Example 1:
+
+Al2S3
+
+Aluminium Sulfide
+
+
+Representing Ionic Compounds - Part 2
+
+Multivalent Elements
+
+Transition Metals have more than 1 ionic charge and are able to form more than one kind of ion. These compounds are named in the same way as other ionic compounds, except that the charge on the metal is written, in brackets, as a Roman Numerals after the name of the metal.
+
+
+
+
+You ONLY use the Roman numeral system when naming the ions of metals that can have more than one ionic charge.
+
+Names and Formulas involving Multivalent Elements
+
+Compounds that contain a multivalent element are named in the same way as other
+ionic compounds, except that the charge on the metal is written, in brackets, as a Roman Numeral after the name of the metal (i.e. Iron (II) oxide).
+
+Formulas for compounds that contain a multivalent element are written in the same
+way as other ionic compounds. The charge on the metal ion is indicated by the Roman
+numeral located in the set of brackets after the name of the metal.
+
+Representing Ionic Compounds - Part 3
+(Refer to pgs 148 - 150) 
+
+Polyatomic Ions
+
+Polyatomic ions are groups of atoms that tend to stay together and carry an overall charge.
+There is only one common positive polyatomic ion: Ammonium (NH4+).
+
+Compounds Containing Polyatomic Ions
+
+Processed foods contain a lot of sodium, mostly from Sodium Chloride.
+Sodium chloride enhances the flavour and extends the shelf-life of food. Other additives processed foods also contribute to your daily sodium intake. 
+Preserved meats, such as hot dogs, stay red due to the addition of Potassium Nitrate K+NO3- and Sodium Nitrite.
+Polyatomic compounds are pure substances that involve combinations of metals with polyatomic ions.
+
+
+
+There are many types of polyatomic ions, but one special group should be mentioned.
+oxyacids are compounds formed when hydrogen combines with
+polyatomic ions that contain oxygen.
+
+
+
+
+
+
+
+Note: The hydrogen has an ionic charge of 1+ in these compounds.
+When a compound containing a polyatomic ion, such as sodium phosphate (Na3PO4) dissolves, the four ions separate. However, the phosphate ion remains intact.
+
+Names and Formulas involving Polyatomic Ions
+
+The name for compounds that contain a polyatomic ion are simply a combination of
+the name of the metal and the name of the polyatomic ion.
+Formulas for compounds that contain a polyatomic ion are written in the same way as
+other ionic compounds except brackets are necessary when more than one polyatomic 
+ion is needed.
+
+Note: If a formula uses the ammonium ion NH4+ it will go first in the formula (since the positive ion goes first).
+
+
+
+Representing Molecular Compounds
+
+Molecular Compounds (non-metal +  non-metal)
+
+The atoms in molecular compounds (also called covalent compounds) Share electrons to form stable arrangements of the closest noble gas. As a result, the molecules they form are neutral. Ice (H2O) is an example of a molecular compound made up of neutral molecules. The bond between shared pairs of electrons is called a covalent/molecular bond.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q: There is a less structured arrangement of the molecules within a molecular compound
+in comparison to those within an ionic compound. Why?
+
+
+Lewis diagrams can also be used to show the sharing of electrons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Properties of Molecular Compounds
+
+Molecular compounds have properties that distinguish them from ionic compounds.
+Solubility in water: some are soluble in water, but most are not.
+Melting and boiling point: the forces holding the molecules together are quite weak. They have low melting and boiling points.
+Conductivity: Molecular compounds do not form ions. Therefore they do not conduct electricity when dissolved in water. (Exception: acids)
+While the force of attraction between the molecules is weak (since the molecules are neutral), it is important to remember that the bonds between the atoms in the molecule itself are strong.
+
+Diatomic Molecules
+
+H2 and N2 are examples of diatomic molecules – a molecule that is made from two atoms of the same element. Since they form the shape of a “7” in the periodic table, they are sometimes referred to as the “magnificent seven.” NOTE: Diatomic molecules can also be a combination of two atoms of different elements (i.e. CO, NO, MgO).
+ The seven are:
+HOFBrINCl the Clown: H2 O2 F2 Br2 I2 N2 Cl2
+
+
+
+Conservation of Mass and Chemical Equations - Part 1
+
+Chemical Reactions
+
+Chemical reactions may involve sophisticated chemicals, as in the explosive reaction of dynamite, or simple household materials, as in the reaction of a bathroom cleaner with a stain. They may occur constantly, as in the growth of your body, or occasionally, as in the changing colour of leaves in the fall. In a chemical reaction, one or more substances change to produce new substances. Each starting substance in the reaction is called a reactants; each new substance formed is called a products. Because there are so many chemical reactions, it is important to have a clear and consistent way of describing them. For example, carbon + oxygen = carbon dioxide.
+                               Reactant             Product                     
+
+For convenience, chemists use two types of equations to describe chemical reactions.
+In a word equation, names are used to represent each chemical.
+In a chemical equation, chemical formulas are used to represent each chemical. For example, when carbon (C) burns, it reacts with oxygen (O2) to form carbon dioxide (CO2). The equations for this reaction are: 
+word equation: Carbon + oxygen → Carbon Dioxide
+chemical equation: C + O2  → CO2
+Note:
+
+Word and chemical equations are always read from left to right, with the reactants located on the left and the products on the right
+The arrow describes the direction of the reaction and is read “produces”
+A plus sign between chemical symbols is read as “and”• the state of each substance is indicated by placing the appropriate symbol in brackets after the formula – (s) for solid, (l) for liquid, (g) for gas, and (aq) for solutions
+
+For example, when pop is bottled, pressurized carbon dioxide is pumped into the
+pop. Some carbon dioxide reacts with water to produce carbonic acid. The (aq) state
+symbol tells you that carbonic acid is dissolved in water. Dissolved acids give pop its tart
+taste.
+word equation: Carbon Dioxide + Water → Carbonic Acid 
+chemical equation: CO2 + H2O → H2CO3
+
+And when you open a bottle of pop, you release the pressure inside the bottle. This causes some carbonic acid molecules to break apart, releasing bubbles of carbon dioxide. The chemical reaction for this is the reverse of the one just discussed.
+word equation: Carbonic Acid → Carbon Dioxide + Water
+chemical equation: H2CO3 → C + O2
+
+Combustion reactions 
+
+A combustion reaction is a chemical reaction in which a substance rapidly combines with oxygen gas to produce oxides. 
+
+We often call this process burning. One way to represent combustion is using the following word equation: 
+Fuel +oxygen -> oxides + energy 
+
+The most important fuels that we burn are hydrocarbons. Gasoline in our automobiles, natural gas in our home furnaces, kerosene in jet airplanes, and even the candles on a birthday cake re all made of hydrocarbons. The complete combustion of a hydrocarbon can be represented as 
+Hydrocarbon + oxygen -> carbon dioxide + water +energy 
+
+However, when there is not enough oxygen, hydrocarbons undergo incomplete combustion. 
+
+Hydrocarbon + oxygen -> carbon dioxide + water +energy + carbon + carbon monoxide. 
+
+
+
+
+
+
+

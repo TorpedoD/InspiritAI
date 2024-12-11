@@ -1,0 +1,24 @@
+1. Describe a negative effect of computer use on the environment.
+Groundwater, radiation, animal
+a. Give a detailed summary of the problem and who it affects (eg. creation of e-waste, excessive use of
+paper from unnecessary printing, heavy power consumption etc.)
+b. Provide detailed measures that help reduce this impact. These can be measures that have already been
+put into place or ones that are being considered or should be put into place (eg. lab regulations, school
+policies, corporate and government policies promoting paperless workplaces and computer recycling
+and reuse)
+c. Identify government agencies and community partners that provide resources and guidance for
+environmental stewardship (eg. local community recycling centres, private companies that refurbish
+computers, printer cartridge recycling program)
+
+2. Describe, in detail, a negative effect of computer use on human health
+Posture 
+a. Give a detailed summary of the problem and who it affects (eg. exposure to radiation, musculoskeletal
+disorders, eye strain, mental health problems resulting from social isolation, various health
+consequences of reduced activity levels, sleep issues etc.)
+b. Provide detailed measures that help reduce this impact. These can be measures that have already been
+put into place or ones that are being considered or should be put into place (eg. ergonomic standards)
+
+3. Identify and describe an emerging area of research in Computer Science
+Folding phones
+(eg. cryptography, parallel processing, distributed computing, data mining, artificial intelligence, robotics,
+computer vision, image processing, human-computer interaction, security, geographic information systems etc.)

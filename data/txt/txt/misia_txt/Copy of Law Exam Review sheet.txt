@@ -1,0 +1,113 @@
+
+General Process for Analyzing Charter Claims
+
+Government Actor: Plaintiff must prove they were harmed by the government. (s.32) (was the gov)
+Infringement: The plaintiff must prove that the government infringed on their rights (ss. 2,7,8,15) (what the gov did)
+Reasonable limits: If the plaintiff is successful at steps 1 and 2, the burden of proof is switched (why were the rights infringed upon?)
+Remedies: If the defendant fails step 3, the court must decide on an appropriate remedy (ss. 24, 52)
+
+Oakes Test (Reasonable Limits)
+
+Pressing and Substantial Purpose (Is there a good reason for the infringement?)
+Rational Connection (Is the limit rationally connected to the objective?)
+Minimal Impairment(Is it infringing on too many parts?)
+Proportional harms+benefits(Are there more benefits than harms?)
+
+Religion Charter Claims
+
+Government Actor
+Infringement (Established by the Case Amselem v. Syndicat Northwest)
+Sincere Belief
+Non Trivial Interference
+Reasonable Limits: Oakes Test
+Remedy
+
+Freedom of Expression
+
+ Government Actor
+Infringement
+
+Non-violent Expression
+Oakes Test/Reasonable Limits
+Pressing/Substantial Purpose
+Rational Connection
+Minimal Impairment
+Harms vs. Benefits
+Remedy
+
+
+
+
+Exceptions:
+Hate speech
+Obscenity (child porn)
+Harmful advertising (smoking ads)
+
+Definition of hate speech (Whatcott Case)
+
+Reasonable Person: What would a reasonable observer think of this?
+Likely to expose: Regardless of the speaker’s intent, what will the results be of this expression?
+Detestation and vilification: Is what is being said really merely offensive? Or will it cause delegitimization?
+
+
+Life, Liberty, and Security
+
+Government Actor
+Infringement
+Life, Liberty, and Security
+Principles of Fundamental Justice
+Reasonable Limits: Oakes Test
+Remedy
+
+Life Liberty and security of a person: Everyone has the right and can’t be deprived of life, liberty and security
+
+Notwithstanding Clause- provision in the charter that allows provinces and territories to create laws that violate certain parts of the constitution
+
+Human Rights Law
+
+Application: Is the complaint in the areas of goods and services, accommodations, contracts, or employment?
+
+Discrimination: stopping you from getting benefits because of your characteristics (e.g., sex, creed, race etc.)?
+
+Exceptions: 
+Bona fide
+Affirmative action
+Disability
+Cultural/religious association
+
+Remedies:
+
+
+Actus reus: “guilty act” voluntary
+Mens rea: “guilty mind” criminal intent
+
+
+Actus Reus (Homicide)
+
+The first issue to to analyze whether actus reus for homicide exists. Actus reus is Latin for "guilty act". This means we have to determine whether the defendant's actions were criminal. To do this, we have to do the "but for" test. This test is basically asking that if the defendant wasn't there, would the victim still be alive but for the defendant's actions.  In this case, if Pistorius wasn't there to shoot Steenkamp, Steenkamp would still be alive. In other words, Steenkamp would be alive but for Pistorius being there. Therefore, actus reus is present in this case.
+
+Murder (Mens Rea)
+
+The second issue is to analyze whether mens rea for murder is present in this case. Mens rea is Latin for "guilty mind". In murder cases, if the defendant intentionally and knowingly caused the victim's death, then mens rea is present. Intentionally means that the defendant intended for his victim to die.  In this case, mens rea is not present because we can see that Pistorius had no intention to shoot and kill Steenkamp. Pistorius had no idea that Steenkamp was in the bathroom, and mourned her after realizing what he had done. Therefore, mens rea is not present in this case. 
+
+However, one could also argue that mens rea does exist, because seeing that Pistorius fired his weapon 4 times, he probably intended to kill whoever was behind the door, because he assumed that it was an intruder. Also, seeing that he fired 4 times, the prosecution could also argue that Pistorius used excessive force. 
+
+Defense of person
+
+According to the Criminal Code  you cannot use deadly force to protect your property. And while the defense can also argue that defense of person exists according to Criminal Code s.34, seeing that Pistorius believed there was a real threat to his and his partner's safety, we can use defense of person. However, for defense of person to be a valid argument,  Pistorius must believe on reasonable grounds that force is being used against them, which he doesn't really because noises heard in the bathroom are not reasonable grounds for self-defense and the killing of another. Secondly, his actions also have to be intended to protect himself and his partner, which he did intend.  Pistorius fails at the last requirement, which is the reasonable use of force. Pistorius fails in this last requirement because he fired 4 times into a closed door, which would be considered excessive force.  Therefore, defense of person is not applicable to this case. 
+
+
+Murder (Degree)
+While Actus Reus is present in this case, mens rea is not present. Therefore, we cannot charge Pistorius for the murder of Steenkamp. So, we would have to determine whether Pistorius is guilty of manslaughter. 
+
+Alternatively, if the court decides that mens rea is present, they would charge Pistorius with 2nd degree murder. This is if the court rules that Pistorius intended to kill whoever was behind the door, and he used excessive force to defend himself without a reasonable threat. 
+
+If the court decides the mens rea is not present, they would charge Pistorius of manslaughter.  
+
+Manslaughter (Mens Rea)
+
+Manslaughter means "reckless killing". This means that the defendant committed a dangerous act, that led to the death of another person. A dangerous act is defined as an action that is a marked departure from what a reasonable person would do, and the action also possesses reasonably foreseeable severe bodily harm if carried out. In this case, when Pistorius fired his pistol 4 times into the closed door, this was a dangerous act, because a reasonable person would not fire a deadly weapon before looking at his target. Pistorius did not appreciate the risk of someone possibly dying on the other side if he fired his weapon. A reasonable person would probably use other alternative, such as giving a warning through the door, or kicking the door down and looking at the target before firing his weapon. However, we also should consider that Pistorius was scared, it was the middle of the night, so obviously he wasn't in a very clear state of mind. However, this act is still considered reckless as he didn't bother checking to see if there was a robber at all, before firing his weapon 4 times into a closed door, with no idea what was actually behind it. Therefore, Mens rea for manslaughter exists. 
+
+In conclusion, this is still a borderline case. If the judge believes that mens rea exists, and that while Pistorius attempted to defend his home because there wasn't a reasonable belief of threat and that he used excessive force, it would be 2nd degree murder. But, if the judge believes that Pistorius was just foolish in his actions by shooting through a closed door, which is a dangerous act, then it would manslaughter. 
+
+

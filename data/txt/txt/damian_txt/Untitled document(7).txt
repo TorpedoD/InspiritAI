@@ -1,0 +1,34 @@
+Cell division and genetic processes (4.1)
+
+Genetics 
+Genetics 
+The field of biology that involves the study of how genetic information is passed from one generation to the next 
+Cell theory (mid-1800)
+All living things are composed of one or more cells
+Cells are the smallest units of living organisms
+New cells come only from pre-existing cells cells by cell division 
+Information is passed from the parent cell to the daughter cell through DNA (deoxyribonucleic acid) 
+
+The cell cycle 
+Somatic cells (body cells) go through the cell cycle (takes minutes to a year, depending on the cell) 
+Each cycle ends with the production of a new cell
+Different phases (pg 161) 
+There are checkpoints per phase 
+Cell cycle checkpoints monitor and help regulate the cycle 
+Cancer is a result of uncontrolled, rapid cell division where these checkpoints are not functioning properly
+Interphase
+Cell carry out normal functions and grows
+Ends with duplicating its genetic material 
+G1 - growth 1
+S - synthesis
+G2 - growth 2
+Cytokinesis
+Cytoplasm is divided
+Two new daughter cells are created
+Cells enters G1 phase
+Animal cells
+The cell membrane is indented along the equator of the cells, and microfilaments help split the cytoplasm evenly 
+Plant cells
+A cell plate forms between two daughter nuclei and cell walls from on either side of this plate
+Prokaryotic cells
+Because there is no nucleus, duplicated DNA attraches to cell membrane and is pulled apart as the membrane grows through binary fission 

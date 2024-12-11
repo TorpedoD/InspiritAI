@@ -1,0 +1,139 @@
+Judges Reasoning:
+
+Amicus states that s.293 violates equality guarantee on the basis of both religion and marital status. (1229)
+Violates Mormons, Muslims, and Wiccans by criminalizing a sincerely-held religious practice, ridiculing their belief that it can be a link to the divine (1230).
+Demeans religious minorities by treating their religious practice of polygamy in a manner inconsistent with the accommodations afforded mainstream religion (1231). 	
+For example: ppl. criticize Mormons for patriarchal beliefs, suggesting that such patriarchy is an inherent wrong of polygamy. Those same criticisms are not leveled at the Catholic Church, which is also deeply rooted in patriarchy (1232). 
+Attorney general says: there is nothing about polygamy that is inherently religious in nature. It is practiced throughout the world in customary, traditional, and purely secular contexts. Therefore, not based on religion and therefore equal. (1235)
+Amicus: polygamy is a form of marital status and constitutes an analogous ground for the purpose of s.15. (1236) s.293 discriminates on the basis of conjugal relationship in a similar fashion by distinguishing between the # of partener in a relationship. (1238)
+McLachlin J. 3 markers that concluded marital status is an analogous ground: (1239)
+Touches upon essential dignity and worth of an individual. 
+Persons involved in unmarried relationships constitute historically disadvantaged
+Marital status often lies beyond an individual's effective control. 
+Amicus says polygamy bears each of these markers (1240)
+Therefore discrimination on polygamy = discrimination on marriage
+New characteristic as an analogous ground = characteristics that we cannot change. Therefore, # of spouses cannot constitute an analogous ground. Polygamy has a choice, not like being gay, which is more a personal characteristic. (1243). Polygamy is not immutable characteristic (1258)
+Court: section 293 is based on the prevention of harm to individuals and society, not based on impermissible stereotypes. (1247)
+Amicus: criminalization of polygamy amounts to substantive discrimination against polygamists.  (1248)
+Polygamists are historically disadvantaged. (1249)
+Court: no, because polygamy usually reserved for privileged and powerful men (1253)
+Criminalization of polygamy is inconsistent with Canada’s treatment of other intimate and conjugal relations as a matter of privacy and individual choice. For example, adultery entails enormous costs, but the law generally does not punish those who practice this. (1251-2)
+Court: Just because practice of polygamy has been associated with a set of harms and condemned does not make those who practice it historically disadvantaged. (1254)
+Therefore s.293 not just based on stereotypes and prejudice, but harms associated with it (1256) s.293 was enacted not for discriminatory purpose but for the neutral object of protecting individuals and society more generally from theses perceived harms To that extent, polygamy undermine the quality and dignity of women and children. (1262)
+Argument that parliament has drawn a distinction on the basis of marital status by criminalizing only polygamists even though polyamorists (don’t come under ambit of s.293). In this case, not based on stereotypes but distinction is based on harm, harm to institution of monogamous marriage (1266) [can court decide on harm to institution of monogamous marriage??]
+
+Freedom of Religion: 
+Is the purpose of s.293 to discriminate on the basis of religion?
+Amicus: targets Mormons and aboriginals (1053), mandate Christian marriage (1054)
+BC and Cad. Attorney General: Law has a secular purpose of protecting women, children from harms of polygamy (1056)
+Court: Secular concerns with perceived harms associated with the practice to women. (1088)
+Does s.293 have the effect of discriminating on the basis of religion?
+Sincere belief (1092-1098) →  need section 1
+Equality:
+Distinction does not create a disadvantage by perpetuating prejudice/stereotyping (1260) OK bc. Not based on stereotypes but harms associated with the practice (1262)
+(1263-1264) analogy – not discrim. bc. if there is a reason (harm) not discriminatory [move to s.1 analysis]
+Judge finds no breach of s.15 (1269)
+
+Apply Andrews test. Find a breach. Justify under s.1. 
+
+(1329)**
+
+
+
+
+
+POLYGAMY - Theodore Chiu
+Polygamy
+293 (1) Every person is guilty of an indictable offence and liable to imprisonment for a term of not more than five years or is guilty of an offence punishable on summary conviction who
+(a) practises or enters into or in any manner agrees or consents to practise or enter into any form of polygamy or any kind of conjugal union with more than one person at the same time, whether or not it is by law recognized as a binding form of marriage; or
+(b) celebrates, assists or is a party to a rite, ceremony, contract or consent that purports to sanction a relationship mentioned in paragraph (a).
+
+Factual Summary
+
+History of s. 293: Initially in 1890, s.293 of the Criminal Code of Canada, Parliaments prohibited polygamy. British Columbia asked the Court to declare whether this prohibition is consistent with the freedoms guaranteed in the Charter.
+
+Mormons: From Professor Campbell: Marriage is a key social and religious institution in Mormonism. Essential to realize the promise of resurrection, exaltation, closer to God. (264). 
+
+“ Mormon theology posits that after life on earth, there are three levels of glory or exaltation, each bearing a closer proximity to God. Only the most virtuous will attain the highest level - celestial exaltation - where the spirit becomes a God itself.” (265)
+The Doctrine and Covenants of The Church of Jesus Christ of Latter-Day Saints: 
+62 And if he have ten virgins given unto him by this law, he cannot commit adultery, for they belong to him, and they are given unto him; therefore is he justified.
+Idea of celestial exaltation. For example, while plural marriage was deemed essential to celestial exaltation, only some men could enter into this celestial kingdom. Women were encouraged to marry them, even polygamously, so that they, too, could achieve exaltation. (270)
+Evidence of Harms
+
+Dr. Henrich presents predictable effects of polygyny:
+Creates a pool of unmarried men with attendant increase in crime and anti-social behaviour (507-517).
+Difficult to find a wife because there’s some rich guy out there who’s getting all the wives. 
+Because men do not have wives, they are more prone to commit crime. Study shows that marriage makes men less likely to commit crime by 35%. Study tracked data from a reform school from age 17 to 70. Crime rates were shown to decrease when married and increase when divorced or widowed. 
+When comparing polygamous and non-polygamous communities across countries, polygam is connected to a higher rate of rape and murder. 
+Male-biased sex ratio (lots of unmarried single men): 0.01 increase in sex ratio = 3% increase in violent crimes. 
+Decreased male parental investment → affects children (518-522)
+Data was taken from Mormon and modern African polygynous community, one of which is the Dogon of Mali. 
+Underlying theory is that husbands who are better off will want to spend more money on trying to obtain more wives rather than kids to increase social status. 
+Evidence from a historical Mormon polygynous communities showed that children of poorer men had higher survival rate because poor married men had no choice but to invest in their kids, while the rich invested in more wives. 
+Men reduce investment in wives and offspring as they spread their resources more thinly across larger families and increasingly channel those resources into obtaining more wives (779).
+Age and Gender Equality (523-533)
+Men want more wives, meaning that the pool of women at the general age of getting married (maybe 22-35) will be taken, and men will have to begin to look into pools of younger women for wives. This means that the common age of women getting married decreases, while the age gap of a married couple also increases. 
+In African countries with polygamy, the average age of marriage for women was 19.9, while monogamous communities had the age of 25. 
+Because of this search for wives, women will be viewed as commodities and this will reflect in male control. Competition makes men more controlling 
+Other evidence (some were noted to be more speculative)
+Women in polygynous relationships are at a higher risk of physical and psychological harm (782).
+Fractious co-wife relationships. Wives are all trying to fight for emotional or material gain from their husbands, like those Chinese dramas (782). 
+Young men are forced out of communities because senior men have accumulated many wives. These young men lack education and other skills (785). 
+Girls are less likely to be educated, meaning they cannot achieve sconimica independence or move upward. 
+Impose monogamy is better for the economy because it would likely increase per capita GDP. Fertility rates will go down. People won’t spend so much money on trying to get wives but save and invest their money (535-536). 
+
+Evidence of evolutionary biology that underpins, connects, and provides the rationale behind the evidence: The first is that human mating psychology tilts humans towards a polygynous mating system. (500) Dr. Heinrich - “First, like other animals, human males and females have different mating strategies rooted in the nature of primate sexual reproduction. Females are limited in their direct reproduction to the number offspring they can rear to maturity in their lifetimes, and are necessarily committed to high levels of investment, at least in the form of providing the egg, gestation and lactation. In contrast, with little investment (sperm and a small effort), males can potentially have thousands of offspring that they can decide to invest in, or not, based on the costs of obtaining mates vs. the impact of additional investment in their offspring. Because human offspring benefit from the investment of both parents (at least in ancestral human societies) females seek to form pair-bonds with those males who are best able to invest in their offspring (males possessing high social status, wealth and valued skills). A female does not generally benefit from establishing simultaneous pair-bonds with multiple males because (1) she can only have one pregnancy at a time (so lots of sex with different males does not increase her reproductive success)...”
+Analysis:
+*Disclaimer: the court's reasoning is very complex and technical, so we are going to analyze/ translate the court’s reasoning into the class structure.
+
+Andrews Test
+
+Does it concern the government? 
+The test applies when it is a government body. So, yes, it does apply because s.293 is a government law.
+So the issue is whether the government engaged in direct or indirect discrimination in a substantive sense?
+S. 15 (1) Every individual is equal before and under the law and has the right to the equal protection and equal benefit of the law without discrimination and, in particular without discrimination based on race, national or ethnic origin, color, religious, sex, age or mental or physical disability. 
+Discrimination on the ground of religion (really was against 2a, but we’re going to treat it as discrimination.)
+Andrews Test: Discrimination is the imposition of burdens or the withdrawal of benefits, directly or indirectly, on the basis of a protected personal characteristic. 
+Application: Criminalizes and delegitimize the religious practice of Mormons, Muelsim, and Wiccans, but not others (1092). 
+Prohibits Mormons, Muslims, and Wiccans from practicing their faith. Other faith groups are permitted to practice their beliefs. Distributes the benefit of religious practice unevenly on the basis of religion. (para. 1092)
+Demeans religious minorities by treating their religious practice of polygamy inconsistent with the accommodation afforded mainstream religion (1231). Mormons criticized for patriarchal beliefs, suggesting that this patriarchy is inherent in polygamy. Yet, the Catholic Church does not face this type of criticism though there cleary is patriarchy in its organization (1232)
+
+Oakes Test:
+
+Pressing and Substantial Purpose: The issue is whether s.293 has a substantial purpose. If there is a pressing and substantial purpose, the limit can be justified. Prevention of harm to women, children, and society (1331); prevention of harm to the institution of monogamous marriage.
+Rational Connection (btw. criminalization of polygamy and p+s): Is the purpose connected to discrimination on the basis of religion? If there is a rational connection, it passes the second prong. Criminalizing polygamy makes sense to get rid of harms. 
+S.293 has not been effective over the past 120 years. In R. v. Lucas a similar argument was rejected where the Court stated, “the paucity of prosecutions does not reflect on the seriousness of the problem. Certain things may be given priority by enforcement of the police. For example, high treason (s.46) is rarely invoked. Therefore, infrequency does not equally mean that they are unconstitutional or ineffective (1337). 
+Those who are religiously motivated will still continue to practice. So, therefore ineffective (1338). In Malmo-Levine the Court answered: the effectiveness/ineffectiveness of the law is not relevant to Parliament’s ability to enact it. Some deference must be owed to the Parliament in assessing the utility of how it responds to social issues. “Ineffectiveness” = another way of characterizing the refusal of people to comply with the law. How can this refusal mean that the law is invalid? (1338). 
+How does preventing polygamy address the harms?
+Minimal Impairment: The harms inherently and reasonably believed to be associated with polygamy, Parliament is owed deference (1342). Not just to criminal people like Warren Jeffs, but harms in the institution itself. Therefore, there cannot be a ‘less invasive’ way (1343). Positive objective: protection and preservation of monogamous marriage (1343). “There can be no alternative to the outright prohibition of that which is fundamentally anathema to the institution…no such thing as good polygamy” (1343). 
+Proportionality: 
+Deleterious: fundamentalist Mormon with sincerely held belief (1348). Law seeks to advance the institution of monogamous marriage (1350). 
+
+If criminalize every one in this ‘prohibited union”, overbreadth on young persons’ liberty and does not advance the objectives of s.293 (1356). 
+
+Important to Note: “To be fair, some of these witnesses related positive experiences with polygyny. However, their accounts stand against the overwhelming weight of the evidence that polygyny has harmful consequences for both the individuals involved and the societies of which they are a part.” (792)
+Discussion
+Discrimination on the ground of marital status
+Amicus had 2 options: (1) Since marriage is an analogous ground, if they could prove that polygamy is a form of marriage, then it would be discrimination (1236-7). (2) Or submit that polygamy in itself is its own section and deserves to be an analogous ground (1239).
+The Supreme Court recognized marital status as an analogous ground in Miron v. Trudel (1237). Law distributes a burden, imprisonment, on the basis of a marital status, polygamy (1238).
+Alternatively, polygamy should be recognized as an independently analogous ground. There is a three part test for recognizing a ground as analogous to those in Charter s. 15: essential dignity, historical disadvantage, permanent and immutable.
+Touches upon essential dignity and worth of individuals (1239). Polygamous relationships are central to identity. For a Mormon, it’s part of God’s plan (1241).
+Persons involved in unmarried relationships constitute a historically disadvantaged group (1239). Polygamists are historically and presently a disadvantaged group. Criminalized since 1890; polygamists cannot immigrate into Canada (1242). 
+Marital status often lies beyond an individual’s effective control (1239). Polygamy lies beyond an individual's effective control. People are still practicing it though it is illegal → significance and importance of polygamy to them (1243).
+Court left this question open. 
+
+My view: On first thought, polygamy seems like something that should have no relation to discrimination, but it really does seem to be a form of marriage. If marriage was considered, so should polygamy. I wouldn’t say marriage is an immutable characteristic, but if it is, so is polygamy. Yet, if it was determined to be a form of marriage, then people in a polygamous relationship could gain more benefits?. I think there’s actually a bigger issue in making marriage an analogous ground.
+
+
+Is polygamy a personal characteristic? 
+In R. v. M.S. a father was charged with incest in relation to his adult daughter, and he argued that it was personal characteristic, which has lead to discrimination (1263). The judge responded that the reason for the law is to stop harm that exploits children, harms the well-being of family, etc.. (1264). This reasoning is parallel to s. 293 (1265). S.293 was enacted for the object of protecting individuals and society (1262).
+
+What are your thoughts on this so-called evidence? 
+Because in my opinion, these harms are so miniscule. 
+
+The Amicus urged the court not to count Dr. Henrich’s evidence because first he had neve written on the subject and second he was told to study the harms, so he could have had some sort of predisposition (537). But the court found no issue with Dr. Henrich’s evidence as he had “questions academic rigor to a subject which he has lecture on in the past…and his methodology ensure, in my mind, reliable evidence on this subject.” And he did not have a predisposition to a particular result (538).
+
+I find that the evidence is not strong. Divorce and sex before marriage can have many negative effects on children, but it is not legal. Nor do I think polygamy is the driving force for low-status and single men. There are many other reasons for that. Perhaps it could be an alcohol addiction; yet, alcohol is not illegal. I do not think that polygamy is something that deserves imprisonment. 
+
+Would this reasoning, if extended, harm or benefit the wider society?
+Benefit because it preserves monogamous marriage, which ultimately is pleasing to God. 

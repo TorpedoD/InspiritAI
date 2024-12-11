@@ -1,0 +1,30 @@
+Theodore Chiu 
+September 30, 2024
+Enthalpy of Neutralization Pre-Lab Report
+
+Introduction:
+The reaction of hydrochloric acid with sodium hydroxide solution is a neutralization reaction. A neutralization reaction is a chemical reaction involving an acid and a base which produces a salt and water (Clancy, 2011).
+In a chemical reaction, there is a change of energy (Clancy, 2011). Thermochemistry is “the study of the energy changes involved in chemical and physical processes” (Clancy, 2011, p. 278). According to the first law of thermodynamics, where there is a release of energy, there is also an absorption of energy (Esystem = - Esurroundings) (Clancy, 2011). This is because energy cannot be created or destroyed; it can only be transformed or converted (Clancy, 2011). An endothermic reaction involves heat entering a system, while an exothermic reaction involves heat leaving a system (Clancy, 2011). 
+Enthalpy is defined as “the total energy of the system plus the pressure times the volume” (Clancy, 2011, p.282). When heat – which is the transfer of thermal energy – leaves a system, the enthalpy change is negative, and when heat enters a system, the enthalpy change is positive (Clancy, 2011). Calorimetry measures the heat released or absorbed during a process, and a calorimeter is used to measure this change (Clancy, 2011). This experiment involves using a polystyrene cup as a simple calorimeter. (Clancy, 2011). The polystyrene cups are insulators and are assumed to be an isolated system, which allows the thermal energy to remain inside the system without escaping (Clancy, 2011). Upon determining the change in temperature, which is the average kinetic energy of the particles in a system, in order to find the amount of heat the water absorbs, the equation Q=mcΔT is used (Clancy, 2011). Then, the value of Q (heat in joules) is used to determine the enthalpy of the reaction because the thermal energy released by the system is equal to the amount of thermal energy absorbed by the surrounding (Clancy, 2011). 
+Thus, measuring the temperature of the reaction of hydrochloric acid with sodium hydroxide solution will provide the necessary information to determine the enthalpy of a neutralization reaction.
+
+
+
+Purpose:
+The purpose of the experiment was to determine the heat of neutralization for hydrochloric acid and sodium hydroxide solution. 
+
+Apparatus:
+Refer to Determining the Enthalpy of a Neutralization Reaction handout.
+
+Note the following adjustment:
+It was decided that instead of one 100mL graduated cylinder, two 100mL graduated cylinders would be used in this experiment. 
+
+Procedure:
+Refer to Determining the Enthalpy of a Neutralization Reaction handout.
+
+Note the following adjustments:
+Steps 4 and 5 of Determining the Enthalpy of a Neutralization Reaction required the graduated cylinder to be first rinsed with a small amount of sodium hydroxide solution, then tap water, and then hydrochloric acid. It was decided that these three rinses would not be performed in this experiment. 
+
+Observation Table:
+MSDS Safety Information:
+

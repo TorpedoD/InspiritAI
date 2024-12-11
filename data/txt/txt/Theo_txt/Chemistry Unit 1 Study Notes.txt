@@ -1,0 +1,476 @@
+Intro to Matter, Observing Matter
+
+Chemistry: the study of matter and its composition. 
+Matter: anything that has mass and volume.
+
+Properties: characteristics that help you describe and identify matter. 
+Physical Property: a property observed without changing one kind of matter into something new (qualitative/sensed:: state, color, hardness, ductility) (quantitative/measured: mass, density, melting points). 
+Chemical Properties: a property that can be observed when matter is converted to another kind of mater (flammability, toxicity, pH, and reactivity with other substances). 
+ 
+Accuracy: how close a given quantity is to an accepted/expected value.
+Precision: exactness of measurement, consistent. 
+
+Changes in Matter: 
+Physical Change: changes that affect the physical appearance of matter, but not its composition, reversible (change of state, sublimation: solid to gas). 
+Chemical Change: changes that alter the composition of matter, the breaking and forming of chemical bonds. 
+
+Classifying Matter:
+Mixture: a physical combination of two or more kinds of matter (eg. sand, decomposed leaves).
+Heterogenous: all components are visible. 
+Homogenous: components are blended to look like a single substance. 
+Pure Substances: a substance that has definite composition which stays the same in response to physical changes.
+Element: a pure substance that cannot be separated chemically into any simpler substance (eg. Cu, Sn, H, O).
+Compound: a pure substance that results when two or more elements combine chemically to form a substance (CO2)
+Chart:
+
+
+
+
+
+
+
+
+
+
+
+Scientific Notation, SI, Measurements and Calculations
+Atoms and their Composition, Isotopes and Average Atomic Mass (1.1)
+
+John Dalton (The Atomic Theory of Matter): 
+All matter is made up of tiny particles called atoms. 
+Atoms of one element cannot be converted into the atoms of any other element. Cannot be created, destroyed, or divided into smaller particles. 
+Atoms of the same element are identical in mass and size. 
+Atoms of different elements combine in specific proportions to form compounds. 
+
+J.J. Thompson: 
+Plum pudding model.
+Positively charged sphere with negative charged particles. 
+
+Ernest Rutherford:
+Planetary model.
+Electrons orbit a positive nucleus. 
+Nucleus was the heaviest. 
+
+Niels Bohr: 
+Electrons have specific amounts of energy and stay in certain energy levels/shells. 
+
+Erwin Schrodigner: 
+Electrons move in a cloud of space (the electron cloud). 
+Positively charged nucleus. 
+(s-orbital, x,y, then z, 2 every orbital, then new shell).
+
+Modern View of the Atom: 
+The atom is the smallest particle of an elements that still retains the identity and properties of the element. 
+Approximately 10 to the -10 in diameter. 
+1 atom = 1amu. 
+
+Chemical Notation: 
+
+
+
+
+
+
+
+
+
+Isotopes: atoms of an element that have the same number of protons but different number of neutrons. 
+Similar chemical properties but different mass. 
+Adding neutrons has a stabilizing effect as the number of protons increases. 
+When the neutrons and protons are not properly balanced, the nucleus is unstable and decays. (radioisotopes: isotopes with unstable nuclei that decay into different, often stable, isotopes).
+Eg. Cobalt-60 has 27p+ and 33 neutrons. 
+
+Isotopic Abundance: the relative amount in which each isotope is present in an element. 
+Average Atomic Mass: of an element is the weighted average of the masses of the element’s isotopes. Takes into account the abundance of each isotope. 
+
+Calculation Average Atomic Mass (SIGFIGS):
+
+Example 1: lithium exists as two isotopes: lithium-7 has a 92.58% abundance and has a mass of 7.016u, while lithium-6 has an abundance of 7.42% and a mass of 6.015u. Calculate the average atomic mass of lithium. 
+
+
+
+
+
+
+
+
+
+
+
+Example 2: boron exists as two naturally occurring isotopes: boron-10 (10.01u) and boron-11 (11.01u). Calculate the relative abundance of each isotope of boron. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+1st 20 elements, Lewis Diagrams
+
+Valence Electrons: electrons in the outermost shell of an atom. They are the only electrons involved in the formation of bonds between atoms, and so, are responsible for chemical properties of elements. 
+
+Lewis Diagrams: electron dot diagram, a model of an atom that has the chemical symbal surrounded by dots to represent the valence electrons. 
+
+Eg. Li, Si, Cl, He, Ar. 
+
+
+
+
+
+
+The Periodic Table, Periodic Trends (1.2,1.3)
+
+Dimitri Mendeleev: father of periodic table. Originally organized the P-table by increasing mass and organized those elements with similar properties into columns (groups). 
+The Periodic Law: when elements are arranged by atomic number, their chemical and physical properties recur periodically. 
+
+Period: row, number of electrons shells. 
+Group: column, same number of valence electrons. 
+
+3 Main Categories: metals (lustrous, ductile, malleable, conductive), nonmetals (non-lustrous, not conductive, brittle), and metalloids (properties of both metals and nonmetals). 
+
+Alkali Metals (Group 1): soft, highly reactive. All react to give a M+^1 cation. 
+Alkaline Earth Metals (Group 2): reactive, but as reactive as alkali metals. All react to give a M+^2 cation.
+Transition Metals: very hard, metals with very high melting points, can form more than one ion.
+Other Metals: not as reactive as alkali metals and alkali earth metals. 
+
+Atomic Radius of Ions: lose electrons, smaller radius. Gain electron, larger radius. Less electron = stronger pull to center. 
+
+Ionization Energy: the amount of energy required to remove the outermost electron from an atom or ion in the gaseous state. The closer the electron is to the nucleus, the harder it is to pull off. More protons also make it harder to pull electrons off. 
+
+Electron Affinity: the energy absorbed or released when an electron is added to a neutral atom. When adding electrons, usually becomes more stable. From unstable to stable, releases energy. 
+
+Electronegativity: an indicator of the relative ability of an atom to attract shared electrons. Positively charged nucleus of a small atom can get much closer to the electrons shared with another atom, and thus, exert a stronger attractive force on those electrons. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Formation of Ionic and Covalent Bonds (2.1)
+
+Octet Rule: when bonds form between atoms, the atoms gain, lose, or share electrons in such a way that they create a filled outer shell containing eight electrons. 
+Isoelectronic: same number of electrons in valence. (eg. Na is isoelectronic with Ne).
+
+Ionic Bonds: the attractive electrostatic force between an anion (non-metal) and a cation (metal). 
+
+Examples:
+
+Na and Cl
+
+
+
+Ca and F
+
+
+
+Al and S
+
+
+
+Covalent Bonds: the attraction between atoms that results from the sharing of electrons. A compound held together by covalent bonds is called a molecular compound. 
+
+Diatomic Molecules: always exist in pairs. HOFBrINCl
+
+Examples:
+
+H2 
+
+
+Br2
+
+
+O2
+
+
+N2
+
+
+CO2
+
+
+CH4
+
+Electronegativity in Bond Formation
+
+Electronegativity: an indicator of the relative ability of an atom of a given element to attract shared electrons. 
+Polar Covalent Bond: uneven distribution of electrons, making one side slightly positively charged and the other slightly negatively charged. 
+Non-Polar Covalent Bond: equal sharing of electrons (both atoms have the same electronegativity. Most common in diatomic gases. 
+
+Higher EN means it is better at drawing electrons. 
+
+Examples: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Drawing Lewis Dot Diagrams for compounds
+
+Ionic Examples: 
+
+
+
+
+
+
+
+Covalent Examples: 
+
+
+
+
+
+
+
+Polyatomic Examples:
+
+
+
+
+
+
+
+Compounds Examples:
+
+
+
+
+
+
+
+Memorize ***:
+
+
+
+
+
+
+
+
+
+Nomenclature: Binary Ionic compounds (polyatomic, bases) (2.2)
+
+Old System (uses Latin): -ous (less), -ic (more). 
+
+
+Prefixes and Suffixes
+
+
+
+Nomenclature: Acids, Oxyacids
+
+Acids that do not contain Oxygen:
+
+
+
+Practice:
+
+
+
+
+
+
+Oxyacids:
+
+
+
+
+
+
+
+Practice for Oxyacids:
+
+
+
+
+
+
+
+
+
+
+
+
+Nomenclature: Molecular compounds
+
+
+
+Practice:
+
+
+
+
+
+
+
+
+Properties of Ionic and Molecular Compounds
+
+Melting Point: temperature which a compound changes from solid to liquid. 
+Boiling Point: temperature at which a compound changes from liquid to gas. 
+Low melting point mean that forces between particles are weak.
+High melting point means that forces between particles are strong. 
+
+Ionic: high melting points. This is because of strong bonds due to the attractive electrostatic forces between oppositely charged particles. 
+
+Polar Molecular Compounds: intermediate melting points. This is because of the attractive force called dipole-dipole force that acts between polar molecules. Dipole-dipole forces are weaker than electrostatic forces. 
+
+Molecules with polar covalent bonds can be polar or nonpolar molecules. 
+Eg. carbon dioxide has polar covalent bonds, but is not a polar molecule because the polarities of the bonds cancel each other out (symmetry). 
+
+Dipole: molecule with a slightly positively charred end and slightly negatively charged end. Positive ends of polar molecules attract the negative ends of other polar molecules. This attractive force is called a dipole-dipole forces. 
+
+Water has its own kind of dipole-dipole interaction called hydrogen bonding. 
+
+Non-polar Molecules: low melting point. Even with no separation of charge, there are some attractive forces between the molecules called intermolecular forces (positive nuclei of atoms in one molecule attracted to electrons in neighboring molecule). London dispersion: weak force but occurs in everything, when moving electrons form a clump of negative charge. 
+
+Solubility in Water: for a substance to dissolve in water, the water molecules must be more strongly attracted to particles of that substance than to other water molecules. 
+
+Since water is a polar molecule, its positive end will attract negative ions and negative ends of other molecules and its negative end will attract positive ions. Thus, water is likely to dissolve ionic compounds and polar compounds. 
+
+Water molecules are much mores strongly attracted to each other than to nonpolar molecules. Thus, oil (nonpolar) does not dissolve in water. 
+
+Electrical Conductivity: the ability of a substance or an object to allow an electric current to exist within it. A substance can conduct electricity if electrons or ions can move independently of one another. 
+
+Pure metals and ionic compounds in a liquid or aqueous state can conduct electricity. Molecular compounds cannot conduct electricity. Ionic compounds in solid form cannot conduct electricity. Ionis can move freely when in water. They can also conduct electricity in aqueous form because the ions are free of other ions because they are surrounded by water molecules. 
+
+Molecular compounds cannot conduct electricity even when dissolved in water because the electrons are shared and not transferred. Acids are the only exception because they come apart when dissolved in water to form ions. Thus, aqueous acids can conduct electricity.
+
+Summary of Properties of Ionic and Covalent Compounds Summary:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Distinguish physical and chemical properties and changes.
+
+
+
+
+
+
+Classify types of matter.
+
+
+
+
+
+Express numbers in scientific notation and follow significant digits rules with calculations.
+
+
+
+
+
+Explain how atomic theory has changed since being introduced by Dalton.
+
+
+
+
+
+
+
+Explain how isotopes of an element are similar/different, and calculate average atomic mass.
+
+
+
+
+
+
+
+Use some combination of name/symbol, atomic/proton number, neutron number, mass number, electron number, and charge to find the missing information. 
+
+
+
+
+Use the P-table to extract additional information such as the category of element, group number, number of shells, number of valence electrons, and prediction of ion formation. 
+
+
+
+
+
+
+Explain periodic trends relating to atomic radius, ionic radius, ionization energy, electron affinity, and electronegativity; apply the trends to compare and rank atoms of different elements. 
+
+
+
+
+
+
+
+Calculate deltaEN to predict bond types, indicate diples and net dipoles, determine polar/nonpolar bonds, determine polar/non[polar compounds. 
+
+
+
+
+
+
+Draw Lewis structures for elements, ions, and compounds. 
+
+
+
+
+
+
+Write names and formulas for ionic and molecular compounds. 
+
+
+
+
+
+Explain and compare properties of molecular and ionic compounds; identify compounds based on these properties. 

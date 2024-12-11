@@ -1,0 +1,59 @@
+Intro 
+
+Sickle cell disease was first mentioned by James B. Herrick in 1910. But it took more than four decades before biologist concluded that sickle cell disease was caused by a genetic disorder. 
+
+Past research shows that the mutation causing sickle cell disease arose in Africa thousands of years ago to help protect against malaria. If the body contains sickle cells it creates low oxygen levels in the body, which is what malaria parasites need to grow and survive. 
+
+The sickled cells was found to be an effective evolution in creating resistance agains malaria, but when most of the blood cells are replaced with sickled blood cells, it creates too many problems that out weigh the benefits
+
+
+What is it?
+
+The sickle cell disease (SCD) is a mutation on the gene encoding beta hemoglobin on human chromosome 11. Because this allele is co-dominant and recessive it does not affect and individual much if they only have one allele, but it is fatal when you have two. This situation is called balanced polymorphism, where two different versions of gene remains in a population because having both versions increases survivability 
+
+Hemoglobin consists of four protein subunits: usually two subunits of beta-globin from HBB gene and two subunits of a protein called alpha-globin from the HBA gene, 
+
+Using the method of SNP, they found out that the mutation in the HBB gene yields an abnormal beta-globin chain. The resultant protein that produces hemoglobin changes to a valine instead of a glutamic acid residue at position 6 on that chromosomal sequence. This small change, changes the properties of hemoglobin
+
+Cells with sickle cell hemoglobin are stiff and sticky, creating stiff rods in the cells, making them unable to bond to oxygen easily. they also form into the shape of a sickle or crescent. These cells stick together and can’t easily move through the blood vessels. 
+
+Tissue oxygen saturation of 90–100% in healthy individuals is considered to be within the normal range, but individuals with sickle cell disease recorded lower than 78%.
+
+
+
+How it affects you.
+
+The symptoms would include sharp pain in random areas due to blood clots, 
+Sickle cells only live for about 10 to 20 days. While normal red blood cells can live up to 120 days, sickle cells may also be destroyed by the spleen when the blood is filtered for infections. Causing breathing problems and tiredness. Sickled cells also get stuck in this filter and die, damaging the spleen in the process. This puts you at greater risk for infections causing yellowing of the skin. This can cause permanent anemia in more severe cases. 
+
+This sickle shape makes it harder to move through the veins and capillaries, usually getting stuck and forming blood clots. This creates immense, sharp pain pain in the areas of the blockage, possibly creating heart attacks, strokes and pneumonia if the clots form in the heart, brain, or lungs 
+
+Treatment
+
+It is easily found at a very young age through blood screening and other procedures done when you were born. It can even be found before you are born, through amniotic fluid testing and inveto fertilization. 
+
+The medication for this disease is usually aimed at avoiding pain episodes, relieving symptoms, and preventing complications. Such as Voxelotor, to improve blood flow; Hydroxyurea, used to reduce the frequency of sharp pain in the body; and many others. Doctors also would recommend ways to care for the body.
+
+The only ways to cure a patient with this disease are stem cell transplants or bone marrow transplants. These procedures can only be done at a young age, as the body can still adapt and accept new changes. 
+
+A bone marrow transplant is the only procedure that is currently used, it involves the transplantation of healthy stem cells into the bone using an IV. the risk involved is the rejection of the new stem cells and the high risk of infection; therefore, it is only recommended for people who have significant symptoms and complications of sickle cell anemia.
+
+This video here will show the newly researched way of using genetic modification and Crisper to cure SCD. 
+
+Conclusion 
+
+Although life expectancy is 20 years shorter than that of a normal person, with the estimated life expectancy being 54 years, 95% of children live to adulthood. And with more modern research like with crisper the life expectancy of people with sickle cell disease has gone up by a significant amount 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

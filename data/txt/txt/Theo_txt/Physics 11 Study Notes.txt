@@ -1,0 +1,30 @@
+Unit 1
+
+1.1
+Scalar: quantity with only magnitude (15 km)
+Vector: quantity that has magnitude and direction (15 km [S])
+Vector scale diagrams (arrow = direction, length = magnitude)
+
+Distance (  ): the total length of the path traveled by an object.
+Position (  ): the distance and direction of an object from a particular reference point. 
+Displacement (   ): the change in position of an object, or a vector quantity that points from an initial position to final position. 
+
+1.3
+Acceleration: a vector quantity that describes the rate of change of velocity; either a change in speed or a change in direction. 
+You can have -ve acceleration when the object is speeding up. 
+
+1.3 (II)
+Displacement in a V(t) graph is the area in a V(t) graph. 
+Average vs. instantaneous velocity. 
+Can determine average velocity by calculating the slope of a secant line on a displacement-time graph. 
+
+1.4
+The area under an acceleration-time graph represents the change in velocity. 
+
+Relationships among linear motion graphs:
+
+
+
+
+
+

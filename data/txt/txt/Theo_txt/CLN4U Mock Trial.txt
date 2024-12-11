@@ -1,0 +1,226 @@
+CLN4U Mock Trial
+T. Chiu & W. Liao
+Apr 19, 2024
+
+Deprivation - W
+Overbroad - T 
+Gross Disproportionality - W
+Remedy - T
+
+
+
+
+1. Objectives of ss. 25 (8) and (9)
+Protect children from the consequences of being unable to make their own decision. 
+gives
+
+Why CFSA ss. 25(8) and (9) deprive teenagers of their rights to life, liberty, or security of the person:
+Objectives of ss. 25(8) and (9)
+Bad parents who don’t know what is in the best interest of their child.
+Children who are not fully mature that don’t know the consequences of their actions.
+Protection of life of child.  
+Whether the child’s decision is truly independent of their parents.
+Whether the child’s decision is coerced by the parents. Or is it voluntary?
+
+Is gov allowed to be concerned about “bad parents”
+Parents have the right to raise kids the way they want.
+Why ss. 25 (8) and (9) are arbitrary, overbroad, or grossly disproportionate with respect to the objectives. 
+Arbitrary:
+The principle of fundamental justice that forbids arbitrariness targets the situation where there is no rational connection between the object of the law and the limit it imposes on life, liberty or security of the person.
+
+Overbroad:
+The overbreadth inquiry asks whether a law that takes away rights in a way that generally supports the object of the law, goes too far by denying the rights of some individuals in away that bears no relation to the object. Not focused on broad social impacts.
+Does not consider child’s liberty. Liberty protects the right to make fundamental personal choices free from state interference.
+Security of the person encompasses "a notion of personal autonomy involving . . . control over one's bodily integrity free from state interference" and it is engaged by state interference with an individual’s physical or psychological integrity.
+Grossly disproportionate:
+This principle is infringed if the impact of the restriction on the individual’s life, liberty or security of the person is grossly disproportionate to the object of the measure.
+Even if some element of decision that is dependent, completely taking away her right on a fundamental freedom. Gained her life but lost eternity…? 
+
+Is ss. 25 (8) and (9) unconstitutional?
+State what they think is an appropriate remedy (eg., “ss 25(8) and (9) should be modified to include …”)
+Child’s interest test??
+So what makes you think that this is in the best interest of the child???
+Include steps determining sanity and sound judgment of parents/child. (which AC and parents would pass)
+Test directly for u16
+Interpret 1 (f) as binding (not just think about it) Capable of being misapplied. 
+Create test/step by step procedure to follow in order to prevent bias?
+
+psychological test was passed by Girl proving she acquired the mental capacity to think about the realities of death 
+why was it overridden in court? 
+what was the point of the test?
+Who decides the age? 15 yo vs 16 yo? Strike out age limit? What about an immature 17 yo? He’s still a child. Something needs to change.
+16 is arbitrary 
+the assumption is too general → not all 16 yrs old are mentally independent 
+forces ppl under 16 to prove mental independent 
+independent
+voluntariness
+understanding 
+
+Liberty 
+Security
+Assisted Suicide → If people have the choice to have assisted suicide because its for their best interest, why can’t this girl as well. People have the right to refuse chemo when they’re dying.
+Age issue → her parents (legal guardians) do consent to this treatment as well as agree its to the girl’s best interest 
+relationship with God is more significant than this life on earth 
+
+Teenagers can make fully informed, independent decisions about life or death. How can the judge throw this fully informed decision?
+CFSA s. 2(1):
+In determining the best interests of the child, all relevant matters shall be considered including
+the mental, emotional, physical and educational needs of the child and the appropriate care or treatment, or both, to meet such needs
+the child’s mental, emotional and physical stage of development
+the views and preferences of the child where they can reasonably be ascertained
+the child’s cultural, linguistic, racial, and religious heritage (judge has to respect this, not just think about it).
+
+S. 7 “Everyone has the right to life, liberty, and security of the person and the right not to be deprived thereof except in accordance with the principles of fundamental justice.”
+Best interest test too vague?? Who decides what deserves more weight?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deprivation
+
+
+Issue: Thank you, your honour. The first issue we will present on is how section 25 deprived AC of her rights to liberty and security of the person.
+
+Rule: In Carter v. Canada, the Supreme Court described the liberty interest as “the right to make fundamental personal choices free from state interference.” Similarly, it stated that the security of the person “encompasses a notion of personal autonomy involved control over one’s bodily integrity free from state interference.”
+
+Precedent: In Morgentaler, the court found a deprivation of security of the person when a law prevented a woman from having access to receive an abortion, therefore depriving her of her bodily integrity. It reasoned that the decision to receive an abortion was a fundamental personal choice, related to liberty, as well as a choice about one’s own body, related to the security of the person. Similarly, in Carter, the court recognized that individuals who are suffering painful and incurable conditions may experience profound suffering. This can be alleviated through physician-assisted suicide but by putting a prohibition on assisted suicide, the law forces individuals to endure intolerable suffering against their wishes. Therefore these individuals are being deprived of their security. This prohibition also puts a limitation on an individual to exercise bodily autonomy, thus infringing on their liberty rights. 
+
+Application: Here, the law prevented AC from making a choice about whether to receive medical treatment. Like in Morgentaler, AC’s choice was fundamental: it was an exercise of her religious convictions. Both cases involve deprivation of individual autonomy as AC’s choice, like in Morgentaler, was fundamental. In both cases , there was also deprivation of security as the state disregarded AC’s personal fundamental decisions regarding medical treatment as well has restricted access to safe and legal medical abortion. Likewise in Carter, there was a deprivation of both security and liberty. The State interfered with AC’s decision as it was overridden and placed risks to her spiritual life therefore causing deprivation.
+
+
+Conclusion: Therefore, s. 25 deprived her of rights to liberty and security of the person as she did not have the ability to make a fundamental decisions towards her own medial treatment process and the state of her body as well.
+
+
+Grossly Disproportionate
+
+
+Issue: Thank you. Next we will discuss how there is evident gross disproportionality in CSFA’s section 25. 
+
+Rule: In Carter v. Canada, the Supreme Court described that the inquiry into gross disproportionality is the comparison of the law’s purpose with its negative effects on the rights of the claimant, in this case being AC. Additionally, we are to observe how the law is out of proportion to the objective of the law as well as if there is a better alternative compared to the extremes. 
+
+
+Application: An aspect of section 7 is that any deprivation of LLS must not be grossly disproportionate to the state’s objectives. The state’s objective was to protect the best interests of the child but the actions taken in this case are not proportionate to that objective. It may not be in the best interest of the child to be apprehended and forced to undergo medical procedures that go against their religious views of their own. For the medical professionals, they have saved her life, but for AC, her eternal life and relationship with God were threatened. Additionally to the emotional distress that AC had to be put through, this can be considered battery as the medical professions worked against the patient’s own will. There are much less invasive options compared to battery. How do we expect citizens to put their trust in a system that results to battery? 
+
+Conclusion: Therefore, s. 25 is grossly disproportionate as there is a lack of proportionality to state objectives of having the child’s best interests in mind. 
+
+We are to observe how the law is out of proportion to the objective of the law as well as if there is a better alternative compared to the extremes. 
+
+
+
+Overbroad
+
+Issue: Thank you, your honour. Counsellor Liao has just explained how AC was deprived of her liberty and security. I will not discuss why section 25 of the CFSA is unconstitutional as it is overbroad in relation to its objectives. 
+
+Rule: According to Carter v. Canada, a law is overbroad when “it denies the rights of some individuals in a way that bears no relation to the object.” “The object of the law is to protect vulnerable persons from being induce to commit suicide at a moment of weakness.” It was concluded that the law ‘caught’ people outside of this class. In this case, Ms. Taylor was “competent, fully informed, and free from coercion or duress.” It was concluded that “an absolute prohibition would have been necessary if the evidence showed that physicians were unable to reliably assess competence, voluntariness, and non-ambivalence in patients…” 
+
+Application: In this case, the objective of s. 25 is to prevent children from being harmed by the influence of their parent’s belief [this is very important. State the objective of the law in a way that is favourable to your side]. However, taking away AC’s rights bore no relationship to this. She was fully understanding, independent, and voluntary. Furthermore, she was assessed by 3 psychiatrists. This is similar to Bedford. The purpose was to target pimps and the parasitic/exploitative conduct. However, the law ended up punishing “everyone who lives on the avails of prostitution without distinguishing between those who exploit prostitutes and those who could increase the safety and security of prostitutes.” Section 25 targets exploitative and negatively influential parents, but it is clear that AC’s decision is independent and voluntary. AC is like a prostitute in Bedford that is being harmed because of the law’s overbreadth.
+Hypothetical: let’s say she’s moved out on her own. Converted to Jehovah independently. Formerly emancipated. Pays her own taxes. Are you saying you would ignore her request?
+
+
+Conclusion: Therefore, your honour, we submit that s. 25 is overbroad.
+
+(I) Are ss. 25 (8) and (9) overbroad? YES! 
+AC was deprived of her liberty and security by being forced to get a blood transfusion, which was against her religious convictions. AC had written an advanced medical directive to not receive blood under any circumstances. If AC had just been a little older, she would have been able to make her own decision. Furthermore, it is important to note that she had no desire to die. Court recognized that AC had the ‘capacity to make medical decisions… but that it was irrelevant” (AC, para. 12): “When a child is under 16 year old, there are no legislated restrictions of the authority on the court’s ability to order medical treatment in the child’s best interest under s. 25” (AC, para. 8). 
+
+(R) CFSA ss. 25(8) and (9) state:
+
+(8) Upon completion of a hearing, the court may authorize any medical or dental treatment that it considers to be in the best interest of the child. 
+
+(9) The court shall not make an order under subsection (8) with respect to a child who is 16 years of age or older without the child’s consent unless the court is satisfied that the child is unable 
+To understand the information that is relevant to making a decision to consent or not consent to the medical examination or the medical or dental treatment; or
+To appreciate the reasonably foreseeable consequences of making a decision to consent or not consent to the medical examination or the medical or dental treatment. 
+
+Lesser objectives of ss. 25 (8) and (9) - poor parenting, the life of a child (when a child is too immature to make proper decisions), consequences of uninformed decisions… but
+Primary objectives of ss. 25 (8) and (9) - ensure child’s decision is voluntary, independent, and not coerced by parents/guardians and protect vulnerable children from harm. 
+
+(A) Ovebreadth inquiry: whether a law takes away rights in a way that generally supports the object of the law, but goes too far by denying the rights of some individuals in a way that bears no relation to the object. 
+Hypothetical 1: Let’s say we’re not talking about AC. Let’s say we have a 15 and 11 month old teenager. He has cancer, and it has spread across his body. He has been battling cancer for 3 years. After a years of failure to improve his condition, he has lost the will to live. He no longer wants to fight. He wants to rest. He knows he will die, but then the court decides that despite his understanding, he will be forced to undergo countless surgeries and chemotherapy sessions until there is nothing more doctor’s can do. Is this law not clearly overbroad and denying this child’s right to liberty and security?  In AC’s case, she does want to live!
+Hypothetical 2: Let’s say another 15 year old girl is against vaccines. But then the judge forces her to get a vaccine despite her personal view because he thinks it is for her best interest. Section 25. (8) and (9) would clearly take away this right. It would be a violation. 
+In this case, the AC’s right to liberty (fundamental personal choices free fm. state interference) and security (personal autonomy involving control over one’s bodily integrity) were denied.
+Director of Child and Family Services said AC was “a child in need of protection” (AC, para. 8) Is it from her parent’s potential influence? “Although an individual may refuse any medical procedures upon her own person, it is quite another matter to speak for another separate individual” (Children’s Aid Society, para. 318). However, it is not in this case. Psychological test was done → therefore, overbroad because it is clear that there is no connection between protecting AC and not allowing her to choose her medical decisions. 
+Previous stance on life/death/liberty/security: 
+R. v. Children’s Aid Society
+We recognize that “the liberty protected by s. 7 of the Charter does not mean unconstrained freedom. Freedom of the individual to do what he or she wishes must, in any organized society, be subjected to numerous constraints for the common good” [“Children’s Aid Society of Metropolitan Toronto], 1995, para. 317). Yet, how does forcing AC to get a blood transfusion benefit the common good? It is clear the government is overreaching into the liberty and security of AC. No one else is harmed by AC’s personal choice. How is this constraint connected to this ‘common good?’
+Carter v. Canada
+People can medically assisted suicide, for they believe that it is for their best interest → why can’t AC think of her best interest. Is a cancer patient not allowed to refuse chemotherapy? 
+Prevtable v. non-preventable. But, life with God > life on earth. Wendy’s argument of grossly disproportionate.
+Age limit is overbroad. You may say that maturity is very hard to assess, but your solution is where you draw an arbitrary line → leads to overbreadth (like AC). Though you consider maturity, the child’s view holds no ground.
+There are items where you have to draw a line regarding age for administration reasons. For example, you cannot possibly assess if everyone is ready to vote. However, this is not an administrative issue like voting (AC, para. 176) . AC’s report: “The patient understands the reason why a transfusion may be recommended and the consequences of refusing to have a transfusion” (AC, para. 6).
+Minors Consent to Health Care: “There was quite strong opposition to the use of a fixed age limit; the development of children was seen to be too variable to permit a fixed age to be a practical or workable concept” (AC, para. 168).
+AC does not get to prove she is mature. She is shoveled into this box of prejudice, where they view that all those under 16 are unable to make mature decisions regarding their own body and life. 
+If there was any doubt that AC is immature, negatively influenced by her parents, or not able to grasp the gravity of her decision, the counsel agrees that the court has the right to force the blood transfusion. However, this is not the case. 
+Binnie J: “The Canadian Charter of Rights and Freedoms enshrined in our highest law the liberty and independence of a mature individual to make life’s most important choices free of government intervention, providing there is no countervailing social interest of overriding importance. (para. 162).  AC is a mature minor. Charter is not just about freedom to make what most members of society would regard as wise (para. 163). Failure to respect ‘mature minor.’
+You may say that it was P+S/ time constraint, so make the decision urgently, or even you may say it’s possible for AC to change her belief, but what if she doesn’t? No matter what, her rights are infringed upon. However, these matters were looked into by 3 psychiatrists. She was “with capacity to give or refuse consent to her own medical care” (AC, para. 164). It doesn’t matter if the majority or judge or doctor disagree, it is her decision. The Charter is not about what the majority agrees. It is about being able to make personal decisions. 
+Best interest: merely thought about AC’s view and religious convictions. It seems the judge only thought about physical needs, not the overarching umbrella of best interests.
+(C) Thus, ss.25 (8) and (9) are overbroad. 
+
+
+Second Speaker
+Introduction
+"Thank you, your honour. Counsellor Liao has just explained why .... I will now discuss
+why ...."
+Conclusion
+"In summary, your honour, we believe that ss. 25(8) and (9) are unconstitutional for three
+reasons. First, .... Second, .... Third, .... For these reasons, we submit that your honour is
+Page 3
+
+reasons. First, .... Second, .... Third, .... For these reasons, we submit that your honour is
+bound by the law to .... The counsellors for the plaintiff now rest their case."
+
+
+Remedy
+
+
+Modify to include a separate Voluntary Test for children under the age of 16. Regarding the best interest of the child interpret (f),  “the views and preferences of the child where they can be reasonably ascertained” as abide by. It should not be interpreted to just think about the child’s interest and then ignore it, but give the child’s right to make a decision if they are determined to be understanding, independent, and voluntary. If they do not understand, (c) “mental and emotional stage of development” not quite there, then it is reasonable for the court to make a medical decision for the child's medical decision.
+Carter: “While there are risks, to be sure, a carefully designed and managed system is capable of adequately addressing them.”
+
+(Maybe) Your honour, is this law not unconstitutional because it prevents a person u16 to security and liberty, from showing that they understand the medical condition and consequences of refusal of treatment, and should in turn get to refuse the treatment?
+
+3 Step Assessment:
+Understanding (psychological capacity)
+Independence (medical expert)
+Voluntariness (medical expert)
+
+These steps must be discussed with a uniform agreement of 3 medical professionals privately (without the involvement of parents, guardians, and other influences).
+
+In summary, your honour, we believe that section 25 (8) and (9) are unconditional for these reasons. The law is overbroad as AC is not under the umbrella of protecting the vulnerable, as she was found to be fully understanding. Second, to ruins someone’s relationship with God is grossly disproportionate with their physical life on earth. For these reasons, we submit that your honour is bound by the law to interpret section (f) in CFSA s. 2(1) not as merely an item to think about, apply an understanding child’s decision with the same weight as anyone over 16. The counselors for the plaintiff now rest their case. 
+
+
+
+B. (R.) v. Children's Aid Society of Metropolitan Toronto, 1995 CanLII 115 (SCC), [1995] 1 SCR 31
+
+
+
+Per Cory, Iacobucci and Major JJ.: An exercise of parental liberty which seriously endangers the survival of the child should be viewed as falling outside s. 7 of the Charter. While the right to liberty embedded in s. 7 may encompass the right of parents to have input into the education of their child, and in fact may very well permit parents to choose among equally effective types of medical treatment for their children, it does not include a parents' right to deny a child medical treatment that has been adjudged necessary by a medical professional and for which there is no legitimate alternative. The child's right to life must not be so completely subsumed to the parental liberty to make decisions regarding that child. 
+
+
+
+
+
+State what they think is an appropriate remedy (eg., “ss 25(8) and (9) should be modified to include …”)
+Child’s interest test??
+So what makes you think that this is in the best interest of the child???
+Include steps determining sanity and sound judgment of parents/child. (which AC and parents would pass)
+Test directly for u16
+Interpret 1 (f) as binding (not just think about it) Capable of being misapplied. 
+Create test/step by step procedure to follow in order to prevent bias?

@@ -1,0 +1,67 @@
+E-waste (lead and mercury) and Marine Life:
+
+First, what is e-waste? E-waste consists of when we throw our old or broken devices away and end up in landfills and dumps where they are often in close contact with water due to their being outside. Heavy metals such as lead and mercury have been shown to pollute marine systems by traveling through runoff water.  
+
+Heavy metals have been shown to have major negative impacts on marine ecosystems. Seaside Sustainability says that “In extreme cases, entire river ecosystems have collapsed from uncontrolled e-waste pollution and long term exposure to heavy metals.” Lead has been shown to affect behavioral changes, organ damage, mortality, growth inhibition, and reproductive issues in marine wildlife as well. If the mortality and birth rate of a specific species is affected by lead pollution, their population will dwindle rapidly. If these species is dwindling, it also affects animals higher up on the food chain who rely on a certain species of fish, for example, to live. Furthermore, heavy metals have been shown to bioaccumulate. This means that they remain in the food chain. A shark that eats a fish that ate a certain plant will all be affected by the harms of heavy metal pollution from computers and other devices. Heavy metals have been shown to affect plant growth in aquatic ecosystems. 
+
+Mercury comes from cell phone batteries, crystal displays, and circuit boards. 
+
+Lead comes from batteries and circuit boards and cathode ray tubes. 
+Lead drains from computer parts. Burned. Lead in ash and air. Captured in acid rain. Rainwater in ground. Back into bodies of water. Marine animals.
+
+How to stop this?
+
+It’s a simple but truly impactful way to handle electronics. Reduce, Reuse, Recycle. We do not need the latest and newest technology, and when we buy a new device, do not throw the old device away but give it to someone. Repurpose different parts or sell individual parts. Recycle obsolete electronics. Recycling facilities take smartphones to air conditions and can refurbish them are recycle them like they would plastic and glass. Donate to charity old devices for others who may not have the same privilege. 
+
+Government of Canada: Recycle your cell phone and gives information of where to dispose of e-waste. Government leads people to Environment and Climate Change Canada’s website for locations of recycling programs (type and location).
+
+ERA (Electronic Recycling Association) is charitable organization. They recognize that computers are essential parts of our lives. We need it to do school work and apply for job. They believe that all people should thus have access to these resources. They pick up electronics, or you can drop them off. Furthermore, they ensure your data has been securely erased. In turn, they donate to many charities across Canada from the Salvation Army to Souls Harbour Mission in Halifax. Salteau First Nations is another organization they contribute to. 
+Thoracic Outlet Syndrome:
+
+TOS occurs when blood vessels and nerves are compressed in the thoracic outlet, the area between the neck and shoulder. When this happens, symptoms include:
+
+3 types:
+Neurogenic: most common, nerves called brachial plexus (between collarbone and first rib) are compressed, these nerves allow muscles to move and for people to have feeling in their shoulder, arm, and hand. 
+	Symptoms: pain, numbness and fatigue in neck, shoulder, arm, hand, fingers; weak grip.
+Venous, Arterial. 
+Causes: car injury, pregnancy, sports injury, but also improper posture. When a person uses a computer, they are often in a posture that is vulnerable to thoracic outlet syndrome. Government of Canada states that it occurs when we are “prolonged restricted posture.”
+
+When we drop our shoulders and put our head in a forward position, we are very prone to TOS. The concept of a laptop, where we put the device on our laps, encourages us to have this posture. We look down, put our head forward and droop our shoulders. The same is with phones. We often curve our back and look down, and this compresses the nerves in our brachial plexus. 
+
+Stretching (focusing on neck, chest, and shoulders) and exercising daily can help prevent this. When we use our computers we want to place our computer on our desk, sit with straight backs, and hold our head above our heads. 
+
+Government of Canada has responded to this: strengthen muscles and sit in a good posture. 
+
+Dr. Steven Chiu states that, “Exercise to extend neck, mid back, and shoulders. Moist heat for pectoral area. Laser therapy, ultrasound therapy for pectoral are and side of neck. Magnesium for muscle relaxations.”
+
+CITATION HERE
+
+Lights Out Manufacturing:
+
+Manufacturing that is fully automated with little to no human interactions. 
+This idea is popular to business owners because machines can keep running while humans need a break and go back home. Once the machines are set up, people can go back home and ‘switch the lights off’. This is why it’s known as light’s out manufacturing. 
+
+First attempt in 1980 from IBM in Texas to products keyboards but it was not successful because the systems they made were not adaptable. The machines could not keep up with the changing products and needs of consumers. 
+
+GE set up a lightbulb factory, but it still required humans to finish the products. 
+
+GE Also set up a lightbulb factory in 2010 that only required a few human workers to create the finished products.
+
+Recently, in Netherlands, this has been successful with an electric razor factory; the only role humans play is quality control. 
+
+But why lights out manufacturing?
+Lowers cost, human error, and safety concerns. Improves quality and efficiency. 
+Big upfront cost but don’t have to pay laborers. 
+
+The most successful example is Xpeng Motors in China. On more than 3000 acres,, 264 robots complete the production of vehicles. Xpeng is a Chinese electric vehicle and tech company. The facility is Zhaoqing Xpeng Motors Intelligent Industrial Park in Guangdong Province. Dedicated to vehicle producing. 
+
+Intelligent manufacturing: there are 600 engineers at the facility; however, the vehicle manufacturing is done by 264 industrial robots. The robots weld, paint, assemble, stamp, and battery pack production workshops. The plant has Internet-of-Things, which are physical objects with sensors and software and communication with other devices all through Internet, technology and real-time production monitoring systems. 
+
+For example there is the welding workshop. 210 ABB industrial robots glue, weld and rivet aluminum plates. There is 100% automation rate and can manufacture the body of the vehicle which is made of steel and aluminum. 
+
+Some facts about the painting workshop:  Article from Robotics and Automation: uses “thin film pre-treatment and cathode electrophoretic technology which reduces wastewater discharged, while slag yield is also cut down by 94%, reducing energy consumption by 25% and achieving zero emission of heavy metal pollutants.”
+
+Pack workshop: high precision visual systems and robots to execute tasks. Gluing and assembly is all automatic. Tests are done at the end. 89 battery tests (test for insulating, performance, and protection) and 198 offline tests, which are all done by intelligent testing systems. 
+
+Who benefits? Business owners. But many laborers will lose their jobs. It creates a safer environment, but many of these workers who would originally do the job will not have jobs to support their family. However, better quality products and higher efficiency production will likely lower the cost of the product because in the long run, manual labor is still more expensive. 
+

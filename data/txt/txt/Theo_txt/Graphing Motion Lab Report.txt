@@ -1,0 +1,65 @@
+Theodore Chiu 11B
+October 12, 2023
+Graphing Motion Lab
+Purpose: 
+The purpose of this lab is to examine the relationship between position-time graphs and velocity. 
+Apparatus:
+Refer to Graphing Motion Lab handout. 
+Procedure:
+Refer to Graphing Motion Lab handout. 
+Observations:
+
+
+
+
+Analysis:
+Calculations:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Graph:
+Refer to Graph of Person in Motion and Velocity vs. Total Time graph on separate paper. 
+Questions:
+What interpretation can be made about a moving car if the lines on a distance-time graph for the car have the following characteristics?
+A high or steep slope: a higher or more steep slope represents a higher velocity. 
+A low or less steep slope: a low or less steep slope represents a lower velocity. 
+A zero slope: a zero slope represents zero velocity, meaning that the object is not in motion. 
+Refer to graph on Graphing Motion Lab handout.
+From a qualitative observation of the lines on the graph, which rider has the greatest velocity?
+		Rider 2 has the greatest velocity because the slope is steeper. 
+Calculate the velocity of each rider by determining the slope of each line. Does the quantitative result your answer to (a)?
+Yes, the quantitative result matches the answer in (a) as shown below. 
+
+
+
+
+
+
+
+If one of the bicycle riders suddenly stopped, how would the graph of that rider change?
+If one of the bicycle riders suddenly stopped, the graph of the rider would become a flat, horizontal line for as long as the rider is stopped. 
+
+
+Conclusion:
+The relationship between the slope of a position-time graph and velocity is: the slope of the position-time graph is equal to the velocity, as evident from the Graph of Person in Motion and Velocity vs. Total Time graph. The steeper the slope is, the higher the velocity is. This is because the object is going more meters per second as seen in the Graph of Person in Motion; the steep slope is when the student ran, and the less steep slope is when the student walked. If the slope is less steep, the velocity is lower. When the runner went in the opposite direction and returned back to the original starting point, the slope was negative. The negative slope affects the direction, not the speed. The calculations and applications of this lab can be found in the transportation industry, whether it is calculating and comparing the speeds of trains, cars, or boats. Lastly, this lab can be further studied by including the acceleration of the runner. 
+Uncertainties:
+The uncertainties of this lab include the potential deficiency of the stopwatch on a phone. A professional stopwatch would have been more accurate. Furthermore, people and objects got in the way of the runner, causing the runner to change their speed and go in a crooked line. In the future, performing this lab outdoors or letting each runner go once at a time may eliminate the possibility of obstacles. Lastly, multiple trials can be done, and the average can be taken to produce a more accurate result. 

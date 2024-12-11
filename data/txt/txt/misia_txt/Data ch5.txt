@@ -1,0 +1,49 @@
+Sample
+The group that is studied/ surveyed within the population 
+Groups of individuals who actually have a chance of being selected is called the sampling frame
+400-600: 50% should be chosen
+Larger groups: 20% of total is used 
+
+Sampling Techniques 
+Systematic Sampling
+Simple random sampling 
+Stratified random sampling 
+Cluster random sampling 
+Voluntary- response sample 
+Convenience sample 
+Multi-stage random sample 
+
+Types of Bias
+Response bias
+Sampling bias
+Measurement bias
+Non-response bias 
+
+Types of Graphs
+Histogram
+Frequency Polygons 
+Cumulative Frequency Graph
+Dot plot 
+Scatter plot
+Line graph
+Bar graph
+Pictograph
+Pie charts/ circle graphs 
+ Stem and Leaf plots
+Statistics  
+
+Types of Studies 
+Observational studies
+Experimental studies 
+
+
+Types of Data: 
+Numerical 
+Discrete
+Continuous 
+Categorical 
+Nomical 
+Ordinal
+Raw data
+Summarized data 
+

@@ -1,0 +1,183 @@
+Chapter 6: The Musculoskeletal System
+
+Tissues: Masses of cells that are similar in function and form
+Muscle Tissue: A collection of cells that shorten during contraction which creates tension that causes bodily movement
+Property of Muscle Fibers:
+Irritability: Responds to stimuli
+Contract: Shorten in Length
+Extensibility: Extends in length
+Elasticity: Stretches and retract back to its original position
+Conductivity: Transmits nerve impulses
+Three types of Muscle Tissue
+Smooth Muscles
+Surround internal organs
+Contract more slowly than skeletal muscles but can remain contracted for a longer period of time
+Muscles are made up of spindle-shaped fibres and arranged in dense sheets
+Cardiac Muscles:
+Found in the heart
+Creates the pumping action that moves blood from the heart to the whole body
+Contractions are involuntary
+Muscles are striated
+Skeletal Muscles: 
+Muscles are attached to the bones by tendons and other tissues
+Most common muscle type (30-40% of human body weight)
+Contractions are voluntary 
+Muscles are striated
+Musculoskeletal System:
+The body system that allows us to move
+Comprised of the bones, skeletal muscles, and connective tissues that binds bones and muscles together
+Purposes:
+Support the body and keep it upright
+Allow movement
+Protect body’s vital organs
+Agonist and Antagonist Muscle Pair
+Muscles are usually arranged in pairs called Antagonistic Pairs
+When one muscle contracts the other relaxes
+Ex. Triceps relax while the bicep contracts to lift a weight 
+Agonist: The muscle that is the primary mover of a body part
+Antagonist: The counteracting muscle that lengthens
+Complex movements involve many agonist and antagonist muscles paris as well as stabilizers
+Stabilizer: Muscles that provide support and hold a joint in place while movement can occur at another joint
+
+
+Homework: Choose 2 antagonistic pairs and create 4 exercises (2 pairs, 4 exercises)
+
+Pairs: 
+
+Deltoids/Lats
+
+Lateral Raises, Pull Ups
+
+Quadriceps, Hamstrings
+
+Squats, Hamstring Single Leg Deadlifts
+
+Origin, Insertion, and Function of Major Muscles and Muscle Groups
+Skeletal muscles attach to bones either indirectly (via tendons) or directly (when the outer membrane of the muscle attaches to outer membrane of the bone)
+Attachment via tendons is the more common between the two methods
+When muscles contract, they cause the attached bones to move
+Origin: The point where muscles attach to the more stationary bone that moves the most
+Insertion: The point where muscles that attach to the bone that moves the most
+
+
+Chapter 6: Muscle and Tendon Strains
+
+Muscle Strains and Tears
+Caused by excessive twisting and/or pulling on a muscle or tendon
+Categorized into 3 degrees of severity 
+First: Slight swelling and bruising, and pain is when a muscle is contracting or stretching
+Second: Physiotherapy treatment is needed
+Third: May require surgery and rehabilitation. 6-12 months to fully repair
+Delayed Onset Muscle Soreness (DOMS)
+NOT DUE TO LACTIC ACID
+Microscopic tears within the muscle fibers
+Usually caused when you begin a new workout routine or when you increase the duration or intensity
+Peaks 1-3 days and disappears in 5-7 days
+Tendonitis
+Irritation of tendons due to overuse
+Properly warming up and use of correct technique, and equipment can help avoid tendonitis
+
+Chapter 6: Anatomy of the Skeletal Muscle and Role of the Nervous System
+
+Skeletal muscles are made up of individual skeletal muscle fibers
+These individual fibers are wrapped up in a sheath of connective tissue (perimysium)
+These smaller bundles are further bundled together by a stronger sheath of tissue (epimysium)
+The skeletal muscle will change its properties and become one with the tendon
+The tendon attaches to the bone. This attachment occurs both at the muscle’s origin and insertion
+Sarcolemma: A membrane that is beneath the epimysium that surrounds the muscle fibre and contains sarcoplasm
+Sarcoplasm: The muscle cell’s cytoplasm that contains a higher concentration of calcium and mitochondria
+Running along the length of the muscle fibers are myofibrils and myofibrils are made up of myofilaments
+Within these myofibrils contain “thick” and “thin” filaments known as myosin and actin, respectively
+Myosin and Actin are contained within repeating structural units called “Sarcomeres”
+Myosin has a “head” and a “tail” like a golf club
+The myosin “head” has an attachment site for actin, and actin has a binding site for the “head” of myosin
+Actin has two proteins called: Troponin (binding site for Calcium) and Tropomyosin (covers the binding site on actin)
+
+Chapter 6: Sliding Filament Theory
+
+The myosin head does not attach to actin until calcium is released by the sarcoplasmic reticulum
+Calcium binds with Troponin and Tropomyosin uncovers the binding site on actin so that the myosin head can bind to actin
+ATP (energy molecule) comes and binds to the myosin head
+ATP is broken down into ADP and P, which causes the myosin head to lock in place and bind to actin
+This attach now forms the myosin cross bridges
+ADP and P detach from the myosin “head”, and the myosin “head” slides producing a power stroke
+The power stroke rotates the actin filament which causes the muscle to contract
+The myosin head remains attached to the actin until a new ATP molecule binds to the myosin head
+Contractions continue until the brain (or you) stops sending signals to make this muscle contraction
+After you stop the activation, calcium will be removed from the sarcoplasmic reticulum and Troponin and Tropomyosin will cover the binding sites on the actin filament
+When muscles contract, the actin and myosin filaments overlap to one another to cause the sarcomere to shorten
+Muscles will shorten (contract) and move the object if the load is light
+The muscle will stay the same if the load is equal to the muscle strength
+
+
+Chapter 6: Types of Muscle Contraction
+Concentric Contraction
+Occurs when muscles fibers shorten
+Ex. Biceps shorten when lifting an object
+Eccentric Contraction
+Occurs when the muscle fibers lengthen
+Ex. Biceps lengthen as the object is place on the ground
+Isometric Contraction
+Occurs when the fibers do not change in length
+Ex. Trying to lift an immovable object
+
+
+Chapter 6: Neuromuscular Junction and Motor Unit
+
+Neuromuscular System: Describes the link between the muscular system and nervous system
+Neuromuscular junction
+The point where the nerve cells and muscle cells meet to perform movements
+There is a gap between the neuromuscular junction and the sarcolemma
+The nerve cell releases a neurotransmitter called “acetylcholine”, which binds to the receptors of the muscle
+When acetylcholine binds to the receptors, it causes sodium ions to be released which causes the sarcoplasmic reticulum to release calcium ions
+
+Motor Unit: refers to a neuron, its pathway (axon), and the muscle fibers it stimulates
+Some motor units cause fine motor movements which stimulate a small number of muscle fibers
+Ex. Holding a pencil, moving your eyes, etc.
+Some motor units cause gross motor movements that engage hundreds of muscle fibers to perform large movements
+Ex. Jumping, throwing, catching, etc.
+Motor units comply with the All-or-none principle
+All or None Principle: Motor units will contract to its fullest potential when stimulated
+Ex. if a motor unit has 10 muscle fibers, either all 10 will contract when “turned on” by a stimulus, or none will contract
+
+Chapter 6: Reflexes, Proprioception, and Movement
+
+Reflexes: Automatic and rapid responses to a particular stimulus
+2 Pairs of Reflex Types:
+Cerebral Reflexes: slower compared to spinal cord reflexes because information is relayed to the brain
+Spinal Reflexes: Faster compared to cerebral reflex because information only needs to be relayed to the spinal cord
+Autonomic Reflexes: Reflexes that are controlled by the autonomic division of the nervous system and usually involve smooth muscle, cardiac muscle, and glands
+Ex. Digestion, salvation, sweating
+Ex. Pupillary light reflex. Adjustments of the pupil size in response to changes in the amount of light
+Somatic Reflexes: Reflexes that are controlled by skeletal muscles by the somatic division of the nervous system
+Ex. Knee jerk
+Ex. Withdrawal reflex, Hand on a hot Stove
+
+There are 3 types of neurons in the human body
+Sensory Neurons: Detect information from the outside world (i.e heat, light, sound, touch)
+Motor Neurons: Sends signals away form the CNS and causes a response (i.e. moving a leg or arm)
+Interneurons: Form interconnections between other neurons in CNS
+
+Reflex Arc: A neural pathway in the body that rapidly responds to inputs from sensory neurons
+The stimulus from the sensory neurons sends a signal to the CNS, but there is little or no interpretation of the signal
+The signal is transmitted to the motor neurons which causes a response
+
+5 Components of the Reflex Arc
+
+The Receptor: Receives the stimulus
+Sensory Neuron: Sends an afferent (incoming) impulse to the spinal cord or brain
+Interneuron (Adjuster): Interprets the signal from the sensory neuron and issues a response
+Motor Neuron: Comes an efferent (outgoing) impulse to the muscle or organ through the spinal cord
+The Effector: The muscle or organ that carries out the response
+
+Proprioceptors: Sensory receptors found in muscles, tendons, joints, and the inner ear that detect the motion of position of the entire body or a limb
+Provide sensory information about muscle contraction, body position, posture, and balance
+Proprioceptor system operates using the following two sensory receipts
+A) Muscle Spindles: Help muscle atomically adjust to changing conditions by constantly sending impulse to the spinal cord
+Intramural muscle fibres: specialized muscle fibres that have 2 afferent neurons and 1 efferent neuron connected to it so that when changes occur, signals are relayed from the muscle to the spinal cord and back to initiate a motor response
+Ex. Contraction of weight bearing muscles when sudden weight is added
+B) Golgi tendon organs (GTO): Sensory receptors that attach where tendons join to muscle fibres
+When a muscle stretches the GTOs activate and send an impulse along an afferent neuron to the CNS
+The CNS sends an efferent signal via neurons to the stretched muscle and causes it to relax so that injury can be avoided
+The GTO acgts as a tension detection device for the muscle system to protect muscles from damage
+To develop strength and power, the obstacles presented by the GTO need to be overcome but within reasonable amounts to avoid injury

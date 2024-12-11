@@ -1,0 +1,306 @@
+Chapter 6: The Musculoskeletal System 
+
+Tissue: Masses of cells that are similar in function and form 
+Muscle tissue: a collection of cells that shorten during contraction which creates tension that caused bodily movement
+Property of muscle fibres: 
+Irritability: responds to stimuli  
+Contractility: shortens in length 
+Elasticity: stretches and retracts back to its original position 
+Conductivity: transmits nerve impulses 
+Three types of muscle tissue 
+Smooth muscles: 
+Surround internal organs 
+Contract more slowly than skeletal muscles but can remain contracted for longer period of time
+Contractions are involuntary 
+Muscle are made up of spindle shaped fibres and arranged in dense sheets
+Cardiac muscles: 
+Found in the heart
+Creates the pumping action that moves blood from the heart to the whole body 
+Contractions are involuntary 
+Muscles are striated 
+Skeletal muscles: 
+Muscles are attached to the bones by tendons and other tissues
+Most common muscle type (30%-40% of human body weight)
+Contractions are voluntary
+Muscles are striated
+Musculoskeletal system: 
+The body system that allows us to move 
+Comprised of the bones, skeletal muscles, and connective tissues that binds bones and muscles together 
+Purposes: 
+Support the body and keep it upright
+Allow movement
+Protect body’s vital organs 
+Agonist and antagonist muscle pairs 
+Muscles are usually arranged in pairs called antagonistic pairs 
+When one muscle contracts the other relaxed
+Ex. triceps relax while the bicep contacts to lift a weight (bicep curl)
+Agonist: the muscle that is the primary move of a body part
+Antagonist: the counteracting muscle that lengthens 
+Complex movements involve many agonist and antagonist muscle pairs as well as stabilizers
+Stabilizers: Muscles that provide support and hold a joint in place while movement can occur at another joint 
+
+Origin, insertion, and function of major muscles and muscle groups 
+Skeletal muscles attach to bones either indirectly (via tendons) or directly (when the outer membrane of the muscle attaches to the outer membrane of the bone)
+Attachment via tendons is the more common between the two methods 
+When muscles contract, they cause the attached bones to move 
+Origin: the point where muscles attach to the more stationary bone that remains fixed 
+Insertion: the point where muscles that attach to the bones that moves the most 
+Muscle strains and tears 
+Caused by excessive twisting and/or pulling on a muscle or tendon 
+Categorized into 3 degrees of severity
+First: slight swelling and bruising, and pain is when a muscle is contracting or stretching 
+Second: physiotherapy treatment is needed 
+Third: may require surgery and rehabilitation. 6-12 months to fully repair.
+Delayed onset muscle soreness (DOMS)
+NOT DUE TO LACTIC ACID 
+Microscopic tears within the muscle fibres 
+Usually caused when you begin a new workout routine or when you increase the duration of intensity 
+Peaks 1-3 days and disappears in 5-7 days.
+Tendonitis 
+Irritation of tendons due to overuse 
+Proper warming top and use of correct techniquem and equipment can help avoid tendonitis. 
+
+Anatomy of the skeletal muscle and role of the nervous system 
+
+Skeletal muscles are made up of individual skeletal muscle fibres.
+These individual fibres are wrapped up in a sheath of connective tissue ( perimysium) 
+These smaller bundles are further bundled together by a stronger sheath of tissue (epimysium) 
+The skeletal muscle will change its properties and become one with the tendon 
+The tendon attaches to the bones. This attachment occurs at the muscles origin and insertion. 
+Sarcolemma: a membrane that is beneath the epimysium that surrounds the muscle bire and contains sarcoplasm 
+Sarcoplasm: the muscle” cell cytoma me
+Running along the length of the muscle fibres are myofibrils and myofibrils are made up of myofilaments. 
+Within these myofibrils contain “thick” and “thin: filaments known as myosin and actin, respectively.
+Myosin and actin are contained within repeating structural units call “sarcomeres” 
+Myosin has a “head” and a “tail” life a golf club 
+The myosin “head” has an attachment site for actin, and actin has a binding site for the “head” of myosin, 
+Actin has two proteins called : troponin (binding rate for calcium) and tropomyosin (covers that binding site on actin)
+
+Sliding filament theory of muscle contraction
+
+The myosin head does not attach to actin until calcium is released by the sarcoplasmic reticulum 
+Calcium bind with troponin and tropomyosin uncovers the binding site on actin so that the myosin head can bind to actin 
+ATP comes and binds to the myosin head 
+ATP is broken down into ADP and P, which causes the myosin head to lock in place and bind to actin. 
+This attach now forms the myosin cross bridge 
+ADP and P detach from the myosin“head”, and the myosin “head” slide producing a power stroke
+The power stroke rotates the actin filaments which causes the muscle to contract
+The myosin head remains attached to the actin until a new ATP molecule binds the myosin “head”
+Once the new ATP binds to the myosin “head”, the myosin “head” detaches from actin 
+Contractions continue until the brain (or you) stops sending signals to make this muscle contraction 
+After you stop the activation, calcium will be removed from the sarcoplasmic reticulum and troponin and tropomyosin will cover the binding sites on the actin filament 
+When muscles contract, the actin and myosin filaments overlap to one another to cause the sarcomere to shorten. 
+Muscles will shorten (contract) and move the object if the load is light 
+Them muscle will stay the same if the load is equal to the muscle strength
+
+
+Three key energy nutrients 
+
+Carbohydrates: 4.1 kilocalories per gram
+The most important and plentiful source of energy 
+Easily metabolized in our bodies
+Provide materials to build cell membranes and energy for use by cells
+Short term and long term energy storage, but easily accessible by the body
+Formed by plants (photosynthesis) 
+Glucose is the form of sugar we use, and we store excess as glycogen in our skeletal muscle and liver
+Glycogen can be broken down under conditions of stress or demand of muscular activity 
+Protein: 4.3 kilocalories per gram 
+Unlike carbohydrates and fats, there are no “protein reserves”. All protein are part of existing body tissue or are active components of the metabolic system 
+Protein is made up of 20 different amino acids
+9 are considered “essential amino acids” because they cannot be synthesized by the body but must be consumed as food 
+To use protein as energy it must be broken down into its separate amino acids 
+The amino acid alanine is the main contributor that converts into glycogen which is then transported in the bloodstream as glucose 
+Using protein as energy occurs when glycogen reserves are severely depleted (short-term starvation)
+
+Large amounts of protein intake does not automatically result in an increase of muscle mass, lean body, or increased performance 
+Excessive intake of protein supplements and strain the liver and kidneys.  
+
+Fats: 9.3 kilocalories per gram 
+Contain the most energy 
+Fats are stored in muscle cells an adipose tissue and converted for energy use as “triglycerides” 
+Before fats can enter the energy supply chain, the triglycerides convert to “ Acetyl-CoA” which allows it to enter the krebs cycle
+acetyl-CoA becomes the primary energy source for the making of ATP within the electron transport chain 
+
+ATP the common energy molecule 
+Nutrients need to be converted into a universal form of energy- “free energy” for muscle contractions and other physiological processes in our bodies 
+Adenosine triphosphate (ATP) is the “free energy” 
+ATP contains 3 phosphates and energy is released when a phosphate is broken from the ATP molecule resulting in ADP 
+ATP -> ADP+P+Energy 
+ATP supplies are used up quickly. In order to “reconstruct” ATPm 2 energy systems are used 
+Anaerobic system: occurs quickly in the muscle fibre that uses chemicals and enzymes for powerful by short-lived physical actions (short and high intensity) 
+Aerobic system:  a much more complicated process that occurs in the mitochondria. Leads to complete breakdown of glucose. Fats and protein also enter the cycle at this stage (endurance).
+
+Metabolic pathways
+Within the 2 energy systems (aerobic and anaerobic), there are 3 main metabolic pathways to restore ATP reserves.
+ATP-PC ( Anaerobic alactic): occurs deep in the muscle fibre that causes quick and intense muscle contractions. Lactic acid is not a byproduct of this pathway.
+Glycolysis (anaerobic lactic): partial breakdown of glucose with lactic acid as a byproduct. It doesn't involve oxygen, but it allows longer bursts of energy.
+Cellular respiration (aerobic): main source of ATP during endurance events. Involves oxygen and complete breakdown of glucose to produce a large amount of atp for energy. 
+Depending on the individual athlete, the sport, intensity, and duration, ATP production will vary and the metabolic pathway used will vary and the metabolic pathway used will vary. 
+These pathways do not operate one at a time, but overlap during performances. 
+
+ATP-PC (Anaerobic alactic) 
+This system produces enough ATP for about 10-15 seconds (ex. 100m race) 
+No oxygen is needed to produce the enormouse burst of ATP energy and occurs in the cytoplasm
+Depends on the “phosphocreatine (PC)” compound that is stored in muscle and is readily accessible. 
+PC reservoir is small in muscles so the muscle can sustain the required ATP during the initial phase of short but intense activities. 
+The ATP resynthesis rate is the highest 
+Due to a small supply of PC, most is depleted in the 10-15 sec so an athlete increasingly relies on a second system to resynthesize ATP. 
+Replenishing PC occurs rapidly and requires ATP, usually from supplies during aerobic processes, and happens during the recovery period (2-5 mins)
+Glucose is not metabolized as an energy source and no lactic acid is produced. 
+
+Glycolysis (Anaerobic lactic) 
+
+Allows an athlete to engage in a high level of performance for an additional 1-3 mins. 
+Glucose is partially broken down in the cytoplasm to provide usable energy (ATP). 
+Involve many biochemical steps and yields twice as much ATP compared to ATP-PC
+Rapidly produces ATP without the need for oxygen
+Energy produced is used to rejoin phosphate to ADP 
+C6H12O6 (GLUCOSE) + 2ADP + 2P -> 2C3H6O3 (LACTATE) + 2ATP + 2H2O
+The main byproduct of glycolysis is pyruvate. Under anaerobic conditions, it breaks down to form lactic acid
+Lactic acid inhibits the breakdown of glucose and the muscle fibres’ ability to contract 
+
+Cellular respiration (aerobic) 
+
+For intense activity longer than 90 seconds or so
+Occurs in the mitochondria and fats and protein as well as glucose can be used a energy source at this stage
+36 molecules of ATP/glucose molecule. Produces much more than the other 2 pathways
+The energy helps to sustain endurance type events 
+C6H12O6 (GLUCOSE) + 6O2 + 36 ADP + 36P -> 6CO2 + 36ATP + 6H2O 
+Cellular respiration involves 3 sub-pathways
+Glycosis (2 ATP): pyruvate produces Acetyl-CoA instead of lactic acid 
+Krebs cycle (2 ATP): Acetyl-CoA helps produce new compounds that store (high-energy” electrons 
+Electron transport chain (32 ATP): “High energy” electrons pass through the ETC  and produce water and carbon dioxide as byproducts 
+
+Chapter 8: the cardiovascular and respiratory systems 
+
+The heart is made up specialized muscle tissue called cardiac muscle (myocardium) 
+Heart is divided into 2 sides: 
+Right heart pumps deoxygenated blood into the lunch (pulmonary circulation). Dark red blood. 
+Left heart pumps oxygenated blood to the rest of the body (systemic circulation). Bright red blood. 
+Layers of the heart 
+Pericardium: outer layer that is a tough protective sac that fits loosely over the heart 
+Epicardium: sits below the pericardium
+Myocardium: sits below the epicardium 
+Endocardium: tissue that lines of the heart 
+The heart has special valves that prevent blood from flowing from the ventricles to the atria; known as AV valves 
+These valves are attached to the ventricle walls by special muscular extensions called papillary muscles and chordae tendineae 
+Right av = tricuspid valve
+Left av = bicuspid valve 
+
+Electrical excitation of the heart 
+Cardiac muscle cells are interconnected and allow electrical signals to pass from cell to cell. 
+This allied the myocardium to contract all at once so that blood is pumped 
+Sinoatrial node (SA node): pacemaker
+Found in the wall of the right atrium and electrical signals are initiated here.
+The rate of contraction is controlled by the autonomic nervous system 
+Electrical signals pass through both atria through internodal pathways and cause the atria to contract from the top down to move blood to the ventricles
+Atrioventricular node (AV node):
+Electrical signals to the AV node to signal the ventricles to contract from the bottom up, forcing the blood into the aorta and pulmonary arteries
+If the SA node is damaged, the AV node becomes the pacemaker 
+Electrical activity can be measured by an electrocardiogram (ECG), showing a graph representing the electrical events that happen in the heart 
+
+Vascular system and blood flow
+Blood vessels are divided into 4 categories: 
+Arteries: think walls that carry blood away from the heart
+Very elastic and can stretch and retract back to its original diameter
+Absence of valves due to high pressure 
+Blood pressure is measured here 
+Systolic blood pressure: pressure caused by the contraction of the heart 
+Diastolic blood pressure: pressure caused by the relaxation phase of the heart
+Arterioles: 
+Smaller than arteries and are important in blood distribution to different tissues in the body 
+Surrounded by rings of smooth muscles that constrict the arterioles to reduce blood flow or relax to increase blood flow 
+These rings are controlled by the nervous system and chemical factors released to tissues 
+Example: during exercise, constriction (reduced blood flow) may go to the intestines, but relaxation (increased blood flow) would occur at the working muscles
+Autoregulation: chemical factors that are made by skeletal muscles that diffuse to the arterioles and signal to relax so more blood will flow to working muscles 
+Capillaries: 
+Thin vessels that only allow 1 RBC through at a time, and are made up of very thin walls to allow diffusion of substances to occur easily. 
+The smallest vessel in the body that plays the important role of exchanging games ad nutrients with tissues 
+Venules and veins: 
+Venules are extensions of capillaries which form larger veins as the return to the heart eventually forming the superior and inferior vena cava
+Veins have valves that prevent backflow because pressure in veins is low compared to arteries. 
+
+Respiratory system chapter 8
+
+Composed of stuctures that allow aire to flow form the outside of the body to the lungs and eventually gas exchange
+3 main functions: 
+Sumply oxygen to the blood 
+Remove carbon dioxide from the blood 
+Regulate blood pH
+External respiration: the exchange of ocygen and carbon dioxide in the lungs 
+Internal respiration: the exchange od gases at the tissue level 
+Cellula respiration: when cells use oxygen to makw enervgy through different metabolic pathways. 
+
+Can be split into two main structural zones: 
+Conduction zone: transports filtered air to the lungs 
+Composed of the mouth, the nose, pharynx, larynx, trachea, bronchi, and bronchioles 
+The air is at body tempertature (37C) when it reaches the respiratory zone which helps maintian body temperature and protect sensistive tissues. 
+Hairs in the nasal cavity traps larger foreign substances and helps filter the air.
+Respirazrtory zone: where gas exchange happens 
+Composed of the alveolar ducts nad alveolar sacs 
+The alveolar sacs are grape like structures that provide a large surgace for diffusion of gases into and out of the blood 
+The respiratory organs have a moist surface to make gases easily dissolve and diffuse 
+Capillaries surround the alveolar acs and are so thin that the distance for gas exchange is short 
+Minimal distance and large surface area hel[ps to maximize the rate of gas exchange
+
+Oxygen transport (2ways) 
+Plasma: transpoers 2% of the oxygen is found in blood 
+Red blood cells: through the protein hemoglobin, most of the oxygen is carried 
+
+Carbon dioxide transport (3 ways) 
+Plasma: carries 5-10%
+Red blood cells: (2 ways) 
+Hemoglobin: 
+20% binds to hemoglobin and diffuses out of the blood into the alveoli and then exhaled 
+Bicarbonate system: 
+70-75% diffuses into the red blood cells and undergoes a reaction with water to produce carbonic acid
+Carbonic acid breaks down to hydrogen ion and bicarbonate ion 
+Hydrogen ion binds to hemoglobin and bicarbonate ion diffuses into the plasma 
+When blood arrives at the lungs, the process reverses and carbon dioxide is reformed, which diffuses out of the blood into the alveoli and then exhaled 
+Ventilation and regulation of blood pH
+Blood pH measures how acidic or basic blood is. Blood normally has a pH around 7.4
+During exercise, acids may be produced and released into the blood (decreasing of pH); which means more hydrogen ions are present 
+As ventilation increases, extra carbon dioxide is expelled, which causes more hydrogen ions to combine with bicarbonate ions to form carbonic acid 
+Carbonic acid eventually forms dioxide and water which is exhaled. Thereby, brining the blood pH back to around 7.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ATP-PC (Anaerobic alactic)
+ATP Yield: Not explicitly stated, but produces a burst of ATP energy
+Uses of glucose or not: No (Glucose is not metabolized as an energy source)
+Use of oxygen or not: No (No oxygen is needed)
+Byproducts: Not explicitly stated, but no lactic acid is produced
+Duration of activity: 10-15 seconds
+Energy Source: Phosphocreatine (PC) stored in muscle
+Types of physical activities: Short but intense activities (e.g., 100m dash)
+Limitations or Shortcomings: Small supply of PC, depleted in 10-15 seconds
+Glycolysis (Anaerobic Lactic)
+ATP Yield: Twice as much ATP compared to ATP-PC; 2 ATP per glucose molecule
+Uses of glucose or not: Yes (Glucose is partially broken down)
+Use of oxygen or not: No (Rapidly produces ATP without the need for oxygen)
+Byproducts: Lactic acid (from pyruvate under anaerobic conditions)
+Duration of activity: Additional 1-3 minutes after ATP-PC
+Energy Source: Glucose
+Types of physical activities: High level of performance for 1-3 minutes
+Limitations or Shortcomings: Lactic acid inhibits glucose breakdown and muscle fiber contraction
+Cellular Respiration (Aerobic)
+ATP Yield: 36 molecules of ATP per glucose molecule
+Uses of glucose or not: Yes (Glucose can be used, along with fats and proteins)
+Use of oxygen or not: Yes (Requires oxygen)
+Byproducts: Carbon dioxide and water
+Duration of activity: For intense activities longer than 90 seconds
+Energy Source: Glucose, fats, and proteins
+Types of physical activities: Endurance type events
+Limitations or Shortcomings: Not explicitly stated, but it's slower to produce energy compared to the other systems

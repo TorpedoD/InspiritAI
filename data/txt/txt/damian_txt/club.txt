@@ -1,0 +1,12 @@
+
+
+
+
+
+Test 1
+
+First in the ethical hacking methodology steps is reconnaissance, also known as the footprint or information gathering phase. The goal of this preparatory phase is to collect as much information as possible. Before launching an attack, the attacker collects all the necessary information about the target. The data is likely to contain passwords, essential details of employees, etc. An attacker can collect the information by using tools such as HTTPTrack to download an entire website to gather information about an individual or using search engines such as Maltego to research about an individual through various links, job profile, news, etc. Reconnaissance is an essential phase of ethical hacking. It helps identify which attacks can be launched and how likely the organization’s systems fall vulnerable to those attacks.
+
+
+The first step in the ethical hacking process is reconnaissance, also referred to as the footprinting or information gathering phase. The primary objective of this preparatory stage is to accumulate a comprehensive set of data pertaining to the target. Prior to initiating an attack, it is imperative for the ethical hacker to gather all relevant information about the target entity. The collected data may encompass sensitive information such as passwords, personal details of employees, and other critical information.Ethical hackers can leverage various tools to facilitate the reconnaissance process. For instance, HTTPTrack can be employed to download an entire website, enabling the extraction of information about individuals or organizations. Additionally, search engines like Maltego can be utilized to conduct in-depth research on individuals by analyzing various links, job profiles, news articles, and other relevant sources. Reconnaissance is a crucial phase in ethical hacking as it aids in identifying potential vulnerabilities and determining the most effective attack vectors that an organization's systems may be susceptible to.
+

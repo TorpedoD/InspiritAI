@@ -1,0 +1,27 @@
+ICS3U – Coin Counter name: 
+Software Concept  
+The local bank needs a program to help it count money! 
+Your program should allow the user to input the number of each type of coin they have then output the following: 
+1. The total dollar value of the coins inputted. 
+2. The minimum number of coins that can be combined to make this total value. 
+For example, a user may input 
+Twoonies – 2 
+Loonies – 3 
+Quarters – 2 
+Dimes – 0 
+Nickels – 1 
+Pennies - 6 
+Your program should then output: 
+The total value of the coins inputted is: $7.61 
+The minimum number of coins to return are: 
+Twoonies – 3 
+Loonies – 1 
+Quarters – 2 
+Dimes – 1 
+Nickels – 0 
+Pennies - 1 
+* Take some time to think through what INPUTs need to be made, what PROCESSING needs to occur and what  OUTPUT needs to be returned. 
+Marking Rubric 
+• Program Requirements – Correctness, no errors 0 1 2 3 4  • Program Style 0 1 2 3 4 • Program Design/Efficiency – no redundant code/input error checked 0 1 2 3 4 • System Testing 0 1 2 3 4 • Overall Impression/Organization 0 1 2 3 4  Score /20
+Sample Test Cases: 
+

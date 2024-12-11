@@ -1,0 +1,41 @@
+Motion Down an Inclined Plane Lab
+
+Purpose:
+To determine which type of motion (constant velocity, uniform acceleration, non-uniform acceleration) a cart will undergo when it rolls down an inclined plane
+
+Apparatus:
+Refer to Motion down an inclined plane lab handout
+
+Procedures:
+refer to Motion down and inclined plane lab hand out
+
+Observations:
+Sample calculations:
+Velocity: 							Acceleration:
+
+
+
+
+
+
+
+
+
+
+
+Analysis:
+Refer to the position time graph, velocity time graph, and acceleration time graph at the back.
+
+Position time graph:
+The position time graph is a curved line, signifying an exponential increase and change in position per time interval.
+
+Velocity time graph:
+The velocity time graph is a straight line, signifying a constant increase in velocity
+
+Acceleration time graph:
+The acceleration time graph is a horizontal straight line, signifying a constant acceleration.
+
+Conclustion:
+In this lab, it was determined that the cart undergoes a uniform acceleration when rolling down an inclined plane. As shown by the change in exponential change of position on the position-time graph, the uniform increase in velocity on the velocity-time graph, and the uniform linear horizontal line on the acceleration-time graph. 
+
+This lab may have used a faulty tickertape timer that may not have been running at 60 Hz. There for the displacement of the dots does not accurately correlate to the seconds that have passed. The ledge at the end of the ramp would have also created some uncertainties at the end of the ticker tape. This experiment could be performed more accurately next time by using a new industrial tickertape timer and by using a longer ramp to stop the cart before it falls off the ledge. 

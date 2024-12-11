@@ -1,0 +1,118 @@
+5.1 
+Terms 
+Variable (quantity with set value, ie. height of a person)
+One variable statistic (one quantity or attribute)
+Numerical 
+Discrete (gap, #siblings)
+Continuous (no gap, race finish time)
+Categorical 
+Nominal (not ranked, music type)
+Ordinal (ranked, top 10 movies)
+Data set (collection of data)
+Raw 
+Summarized
+
+Misleading statistics
+Graphs must start at 0 otherwise the growth can be misleading. 
+
+Reasons to study data
+Being and informed “information consumer”
+Understanding and making decisions 
+Evaluate decision that affect you  
+
+Different graphs
+Histograms / Frequency polygons (no gaps)
+Note: select middle value before drawing (ie. midpoint of interval 2-13 = 7.5)
+
+Cumulative frequency graph
+
+
+Dot plot + Scatter plot + Line graph 
+
+
+Bar graph + pictograph + pie charts/circle graph
+
+Stem and leaf plot 
+
+
+
+5.2 Principles of Data Collection
+Terms 
+Population - all individuals who belong to the group being studied 
+Sample - the group that is studied/ surveyed within the population
+(chosen by sampling techniques, carefully selected samples can give accurate information)
+Sampling frame - people that can be selected to be part of a sample
+changes depending on the sampling technique used 
+all of population is selected if the total people in a group is 100 or less
+for other group sizes, 20% of people are selected
+access and availability of the individuals in the representative group
+availability of resource to use in the selection process 
+technical expertise of people involved in the data collection
+
+Sampling Techniques 
+Systematic Sampling 
+A list of the members of the target population is compiled
+A name on the list is chosen as a starting point
+Every kth name is selected (k is randomly selected)
+Simple Random Sampling
+Involves using a random number table
+A list is compiled of the eligible participants in each group
+Each name is assigned a sequential number, beginning with 0
+Beginning with that chosen number, include the participant’s whose number matches the number generated next on the random number table
+Stratified Random Sampling (Used when representation within a particular sample is necessary)
+Proportional random sampling - done by using simple random sampling for each of the each of the subgroups according to their representation proportionately to the entire group (subgroups are a certain scaled down proportion of the main group)
+Equal allocation stratified sampling is used when the same number of group members is selected from each group, using simple random sampling, regardless of the total size of the group.
+Cluster Random Sampling
+Entire groups, not individuals, are selected to participate in the data collection
+Simple random sampling is applied to the representative “clusters” to select the clusters in which all members will participate
+Voluntary-Response Sample
+researcher simply invites any member of the population to participate in the survey
+Results from the responses of such surveys can be skewed (prone to response or non-response bias)
+Convenience sampling 
+Sample selected based on its ease of accessibility
+Multi-Stage Random Sample 
+uses several levels of random sampling 
+uses division within subdivisions  
+
+5.3
+2 types of experiments
+Treatment group
+All participants who receive the specific treatment being measured
+Control group
+Do not receive treatment
+Test placebo effect (person receives treatment with no effect but thinks it has effect)
+assess the effectiveness of treatment 
+
+Good experimental studies 
+Control (variables need to be controlled)
+randomization (minimize bias)
+replication (experiment must be repeatable)
+
+Good survey questions 
+Anonymous, validity, no leading questions, keep it simple
+
+5.4
+Types of sources of data
+Primary source (collected by researcher)
+Secondary source (data taken from researchers)
+Microdata (individual set of data about a single respondent)
+Aggregate data (data that is combined or summarized in a way that the individual microdata can no longer be determined)
+
+5.5 Bias
+Response Bias 
+when participants change their answers to avoid embarrassment, influence the results, or to give the answer they think the questioner wants
+Sampling Bias 
+when the sample does not closely represent the population
+Measurement Bias 
+when the collection method is such that the characteristics are consistently overrepresented or underrepresented
+Non-response bias
+when opinions of respondents differ in meaningful ways from those of non-respondents
+ 
+For questions that ask whether something is a lot:
+Divide numbers to usually find the number of something / person to determine whether it is a lot or just deception 
+
+Evaluating secondary sources
+Credibility (trustworthy source, author’s credentials, evidence of quality control, known or respected authority, organizational supported 
+Accuracy (up to date and detailed, comprehensive, exact)  
+Reasonableness (fair, balanced, objective, reasoned, no conflict of interest, absence of fallacies or slanted tone
+Support (listed sources, contact information, available corroboration, claims supported, documentation supplied)`	

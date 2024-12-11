@@ -1,0 +1,120 @@
+
+
+
+Investigating the Relative Reactivity of Copper, Magnesium, and Zinc in Single Displacement Reactions
+
+
+
+
+Written by:
+ Damian Wong
+Lab Partners: 
+Jovi Lee
+Grace Liu
+Queenie Lin
+October 11, 2023
+Ms. Cho
+SCH3U
+INTRODUCTION
+Single displacement is a reaction where ions are swapped between two compounds. These reactions involve one element taking the place of another in a compound, resulting in the creation of a compound and the release of another element.
+The concept of displacement reactions has been studied since chemistry days. Chemists like Humphry Davy made contributions to our understanding of these reactions during the 19th century. They noticed that under certain conditions, certain elements could substitute for others in compounds, leading to investigations into the reactivity series.
+The reactivity series, also known as the activity series or electrochemical series, is a list that orders elements according to their reactivity levels. Elements at the top of this series demonstrate reactivity compared to those at the bottom. This arrangement plays a role in predicting outcomes in reactions. Understanding these reaction types allows chemists to predict reactions, better develop processes, and gain insights into how elements behave in different environments. The study of displacement reactions holds significance across fields such as metallurgy, electrochemistry, and environmental science.
+In this laboratory experiment, the focus will be on three elements: copper, magnesium, and zinc. These elements have applications in our lives. Copper is crucial for wiring and plumbing systems, as it ensures their functioning within our homes.
+Magnesium is crucial for our well-being, as it’s found in various supplements. It also plays a role in the aerospace industry. On the other hand, zinc has applications in batteries, sunscreens, and anti-corrosion coatings, all of which are essential for society. The reactivity of zinc is particularly important when considering its usefulness in our lives.
+To further validate and enhance the existing knowledge about the activity series, this experiment chose to investigate the reactivity of copper, magnesium, and zinc through reactions. This experiment aims to deepen the comprehension of reactions and expand upon the concept of reactivity series.
+
+
+PURPOSE
+The goal of this experiment was to validate copper, magnesium, and zinc positions in the activity series by observing their behaviour in single displacement reactions. The experiment hopes to determine whether these elements are correctly arranged in terms of reactivity in the activity series by performing these reactions. 
+
+HYPOTHESIS
+This experiment's understanding was based on the element’s positions in the activity series; it was anticipated that copper will display the lowest level of reactivity, followed by zinc, while magnesium will prove to be the most reactive amongst them all.
+
+MATERIALS
+Copper
+Magnesium 
+Zinc 
+Copper sulphate, CuSO4 (0.2M)
+Calcium chloride, CaCl2 (1%)
+Magnesium chloride, MgCl2 (1%) 
+Iron (III) chloride, FeCl3 (0.2M) 
+Zinc sulphate, ZnSO4 (0.2M)
+Hydro-chloric acid, HCl (0.1N)
+Distiled water, dH2O
+
+PROCEDURE 
+Refer to Activity Series Lab Handout 
+Note: 4 drops were used instead of 5
+
+
+
+
+
+OBSERVATIONS 
+Table 1: Qualitative Observation of Metal
+
+Table 2: Qualitative Observation of Solutions
+
+Table 3: Qualitative Observation of Elemetal Reactions 
+Note: NR = no reaction, R = reactive (further description is in Reactive Material Observations) 
+Reactive material observations:
+CuSO4 
+Zn - The bace and corners of the metal touching the solution started to turn black.
+Mg - Bubbles first appeared at the bottom of the metal touching the solution. It started to disintegrate into the solution minutes later, with particles of the metal floating in the solution. 
+FeCl3
+Cu - The metal started to dissolve as particles of the metal started to break off and float around the solution
+Zn - The metal started to dissolve as particles of the metal started to break off and float around the solution
+Mg - The metal started to dissolve, with air bubbles forming at the bottom of the metal. The solution also started to have noticeable amounts of red streaks floating around in it. 
+ZnSO4
+Cu - Bubbles appear at the bottom of of the metal 
+Mg - Air bubbles started to from at the bottom of the metal. After a while the metal started to turn black where it was touching the solution
+HCl
+Zn - tiny bubbles began to gather at the bottom of the metal
+Mg - larger bubble appear at the bottom of of the metal 
+dH2O
+Mg - The solution around the metal started bubbling 
+
+
+DISCUSSION AND CONCLUSION
+	The purpose of this experiment was to examine and confirm the positions of copper, magnesium, and zinc in the activity series. By conducting the series of controlled displacement reactions, the experiment aims to verify their reactivity and assess how well the activity series can predict the outcomes of these reactions. If the predictions based on the activity series align with the visual observations from the experiment, it is reasonable to conclude that the activity series is indeed reliable and accurate.
+	In Table 3, copper is seen to be the least reactive among the three elements, only reacting with substances that are less reactive than itself, such as iron (III) chloride and zinc sulphate. 
+Zn(s) + 2HCl(aq) → ZnCl2​(aq) + H2​(g)
+Cu(s) + ZnSO4 ​(aq) → CuSO4​(aq) + Zn(s)
+In contrast, magnesium, being the most reactive among the three, only displayed unreactivity with calcium chloride and magnesium chloride, both elements that are more reactive than magnesium in the activity series.
+Mg(s) + CuSO4(aq) → MgSO4​(aq) + Cu(s)
+​​Mg(s) + 2FeCl3​(aq) → 2FeCl2​(aq) + MgCl2​(aq)
+Mg(s) + ZnSO4​(aq) → MgSO4​(aq) + Zn(s)
+Mg(s) + 2HCl(aq) → MgCl2​(aq) + H2​(g)
+Mg(s) + 2H2​O(l) → Mg(OH)2​(aq) + H2​(g)
+ Zinc, situated between copper and magnesium in the reactivity series, exhibited reactivity with some compounds but not with others; this made it more reactive than copper yet less reactive than magnesium. These solutions include copper sulphate,     iron (III) chlorate, and hydrochloric acid. 
+Zn(s) + CuSO4​(aq) → ZnSO4​(aq) + Cu(s)
+Zn(s) + 2FeCl3​(aq) → 2FeCl2​(aq) + ZnCl2​(aq)
+Zn(s) + 2HCl(aq) → ZnCl2​(aq) + H2​(g)
+These observations align with the expectations based on the reactivity series and effectively validate the accuracy of the reactivity series.
+	If lithium was a tested element in the experiment, it was expected that lithium would be more reactive than magnesium, as in the reactivity series, lithium is above magnesium. This is evident from the fact that lithium reacts vigorously with water, while magnesium does not.  
+2Li(s) + 2H2​O(l) → 2LiOH(aq) + H2​(g)
+	Given that lithium reacts with water and is more reactive than magnesium, it is expected that lithium will also react with hydrochloric acid.
+2Li(s)+2HCl(aq)→2LiCl(aq)+H2​(g)
+The predicted observations provide evidence that hydrogen behaves differently in water and hydrochloric acid. When lithium reacts with water, it releases hydrogen gas, resulting in the formation of bubbles. Similarly, when lithium reacts with hydrochloric acid, it also produces hydrogen gas, which can be observed through the formation of bubbles. The key difference is that hydrochloric acid creates an environment that leads to a faster and more vigorous release of hydrogen gas compared to water.
+Based on these observations, the metals were ranked from the most reactive to the least reactive, starting with lithium, followed by magnesium, zinc, and copper. This supported the accuracy of the reactivity series, highlighting its importance in predicting displacement reactions. This experiment demonstrated how the activity series helped reasonably predict outcomes involving copper, magnesium, and zinc reactions with a degree of accuracy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BIBLIOGRAPHY 
+Haberer, S., Salciccioli, K., Sanader, M., DiGiuseppe, M., Clark, S., DeCoito, I., & Ricci, R. (2011). Chemistry 11. Nelson Education
+Katz, E. (2021, May 4). Electrochemical contributions: Sir Humphry Davy (1778–1829). https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/elsa.202160004 

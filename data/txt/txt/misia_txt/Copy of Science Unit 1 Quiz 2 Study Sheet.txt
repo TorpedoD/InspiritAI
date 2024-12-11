@@ -1,0 +1,124 @@
+Plant Tissues
+
+Photosynthesis:
+Performed by chlorophyll
+Sunlight is absorbed by the leaves
+Creates oxygen and glucose (carbohydrates)
+Light energy + carbon dioxide + water = glucose + oxygen 
+
+Glucose transported/stored as other carbohydrates like starch, which are used for cellular respiration 
+Stomata allows gas exchange, open/close for carbon dioxide to go in and oxygen to go out 
+Guard cells control stomata opening/closing. Open/closes to ensure proper gas exchange and reduce water loss
+Water is moved to the leaves from roots via the xylem
+
+Palisade layer = closely packed cells containing chloroplasts
+Spongy mesophyll = loosely packed cells containing chloroplasts
+Cuticle (transparent) = wax on upper/lower surfaces blocking water and gas diffusion 
+Dermal tissue = protects plant organs from external environment, regulates gas exchange 
+Ground tissue = some performing photosynthesis, other support plant body 
+Vascular tissue = transporting water, nutrients, sugar throughout plant, also supports body 
+
+Plant Tissue Systems
+
+Root System 
+Consists of all organs below ground 
+Continuously grows outward to absorb more nutrients
+Anchors plant 
+Absorbs water+minerals from soil
+Stores food
+No leaves 
+Usually grows below ground 
+Root hairs protect from insects and increase surface area
+
+Types of roots
+Taproots/Fibrous roots
+
+Shoot system
+Consists of all organs above ground 
+Performs photosynthesis and transports water, nutrients, and sugar
+Structural support
+Produces flowers 
+Usually above ground 
+Consists of leaves, stem, flowers/fruit
+Leaves
+Main Site of Photosynthesis
+Contains chloroplasts, which contain chlorophyll that absorbs sunlight
+Glucose used for cellular respiration, plant growth, and energy storage
+Lower epidermis contain stomata for exchange of gasses
+Opening/closing of stomata controlled by guard cells 
+Stomata open when temperature is warm and there is a lot of water vapor
+
+Mesophyll 
+Middle layers between upper and lower epidermis
+Palisade cells perform most of the photosynthesis in leaf
+Contains many chloroplasts and are tightly packed together
+Spongy mesophyll cells are loosely packed
+Allow movement of gasses within leaf, contains chloroplasts 
+
+Chloroplasts
+Contains thylakoids 
+Arranged in stacks called grana, used to capture light energy 
+
+The Stem
+Supports shoot system
+Transports nutrients and water to leaves
+
+Systems working together
+Vascular bundles connect root and shoot systems together
+Xylem moves water and minerals from roots to all parts of plant (1 direction, up, dead) 
+Phloem moves sugars produced by photosynthesis to all parts of plant (2 directions, up/down, alive) 
+Xylem does not use any of plants stored energy, phloem does
+
+Moving water through the system
+Water is needed to take up nutrients in the soil 
+Nutrients need to be dissolved into water to be absorbed and taken up by the xylem 
+Too much water in soil negatively affects plants
+Soil with too much water leaves no space for oxygen
+
+Moving through the roots
+Root hairs (small extensions of the roots) increase surface area for nutrients/water to be transported into roots by osmosis 
+Endodermis is found in root, helps control passage of water/minerals to xylem 
+Endodermis is a waxy, waterproof substance directing water towards the xylem, preventing it from being trapped in endodermis cells 
+
+Root Pressure
+Root cells bring in minerals into the xylem, mineral concentration increases 
+Higher mineral concentration leads to more water diffusing into xylem 
+As water flows in, root pressure increases, pushes liquid up the xylem 
+
+Transpiration
+When water reaches the end of the xylem, it moves into the leaves 
+Water at the leaves have 2 purposes
+Use in photosynthesis
+Evaporation through stomata when gas exchange occurs 
+Take in carbon dioxide and release oxygen
+As water evaporates, more water moves into spongy parenchyma/ mesophyll cells, pulling more water from xylem into leaves
+
+Transporting water from root to leaves (paragraph)
+Minerals dissolved into water, water is absorbed from soil to roots, then endodermis transports water to xylem. Adhesion, the property in which water sticks to the side of the xylem, prevents it from falling down. Cohesion, the property in which water molecules join together, helps maintain pressure in the water column. Root pressure (push) isn’t enough to move water to leaves. Transpiration (pull) is also needed. Transpiration and root pressure pushes and pulls the water up to the leaves. Due to the space created by water evaporating from the leaf, the water gets pulled to the empty space from the xylem (high concentration to low concentration). 
+
+Photosynthesis (paragraph)
+Photosynthesis is the process of how plants process water, sunlight and carbon dioxide and produce oxygen and sugar (glucose). In order for this to occur the 3 components need to be processed. For light, it must pass through the cuticle before it reaches the leaves of the plant. Once the sunlight passes through the cuticle the highly organized palisade tissue receives the sunlight in the leaves. Within these cells are a high concentration of chloroplasts. Inside the chloroplasts are sacs called thylakoids. These sacs contain chlorophyll which are responsible for trapping the sunlight. To ensure maximum surface area and absorption of sunlight, the thylakoids are stacked upon one another in the chloroplast. These stacked thylakoids are known as grana. In addition to light, water is also needed for photosynthesis to occur. The underside of leaves contain small openings called stomata. They are responsible for allowing water vapor to exit the plant, but also take in carbon dioxide for photosynthesis. In order to regulate the amount of substances entering/exiting the stomata, guard cells surround the stomata and act as gatekeepers to control the amount going in and out of the leaves. Once the carbon dioxide enters the stomata, it passes through the mesophyll (spongy) tissue. The cells in the mesophyll tissue are loosely organized so that the carbon dioxide can flow easily to the chloroplast so that photosynthesis can occur. This also allows the oxygen, produced through photosynthesis, to easily release into the environment. Once photosynthesis occurs, glucose and oxygen are produced. The sugar is sent throughout the plant via phloem to be used by other cells or stored in the roots. Therefore, vascular bundles play an important role in ensuring water and glucose are able to reach all of the cells in the plant. The combination and interworking of all these components allow the plant to conduct all the necessary processes needed to survive. 
+
+Moving nutrients through systems
+Glucose is produced during photosynthesis, and is combined with other molecules to form sucrose and other carbohydrates 
+Sucrose is soluble in water, so it can move through the plant with phloem 
+Extra unused sucrose is stored in roots and converted into starch 
+If plants need to use stored starch, it must be converted back into sucrose because starch is insoluble in water. 
+Starch cannot travel up the stem and reach the cells that need sugar 
+
+Movement of sap
+During spring, sap moves from roots up to buds so they can develop into mature leaves and conduct photosynthesis
+During summer and fall, leaves produce plenty of glucose for cells, extra glucose is stored in roots as starch 
+
+Xylem vs Phloem
+Xylem 
+Water and minerals
+No end walls between cells 
+One way only (up) 
+Outer cells not alive 
+Phloem 
+Organic molecules 
+End walls (sieve plates) 
+Two way movement
+Cells alive, need energy
+

@@ -1,0 +1,159 @@
+Damian Wong
+Determining the Enthalpy of a Neutralization Reaction
+
+Introduction 
+Thermochemistry is a field within chemistry that focuses on examining the heat energy associated with chemical reactions and physical changes in substances or systems. It offers perspectives on the energy change that takes place during chemical processes and assists scientists in comprehending and anticipating the behavior of systems. The foundation of thermochemistry lies in the concept that energy remains constant during reactions. A principle defined by the law of thermodynamics. This foundational principle plays a role in understanding the energetics of reactions.
+
+One of the key concepts in thermochemistry is enthalpy (ΔH), which represents the heat change in a reaction at constant pressure. As defined by the National Institute of Standards and Technology (NIST), "Standard enthalpies of formation are the building blocks of any thermochemical database" (Martinho Simões, 2024). Enthalpy changes can be classified as exothermic (heat is released to the surroundings) or endothermic (heat is absorbed from the surroundings). The enthalpy change for a reaction is calculated using the equation:
+
+ΔHr = nΔHºr
+
+ΔHr = total heat absorbed or released during the reaction
+n = number of moles 
+ΔHºr = standard enthalpy of reaction per mole of the reaction 
+
+When acids and bases mix in an acid base reaction known as neutralization process water and salt are produced as a result of the reaction taking place. This is exothermic and leads to the release of heat, into the surroundings; the enthalpy change that accompanies the neutralization of one mole of an acid by a base, in a dilute solution is referred to as the heat of neutralization. The heat released by the system is absorbed by the water, and this relationship is expressed by the formula:
+
+ΔHsystem = -Qwater
+
+where the heat released by the system is equal in magnitude and opposite in sign to the heat absorbed by the water.
+
+Calorimetry is an experimental technique used to measure the heat transferred in chemical reactions or physical changes. As explained by the University of Hawaiʻi, "Calorimetry is used to measure amounts of heat transferred to or from a substance. To do so, the heat is exchanged with water, which has a high and well-known specific heat capacity" (OpenStaxCollege, 2014). This method is particularly useful for determining the enthalpy change in neutralization reactions. The heat exchanged by a substance can be calculated using the equation: 
+
+Q = mcΔT
+
+q = heat energy (in Joules)
+m = mass of the substance (in grams)
+C = specific heat capacity (in J/g°C)
+ΔT = change in temperature (Tfinal​ − Tinitial​) (in °C)
+
+The connection between neutralization and thermochemistry lies in the energy changes that occur during the reaction. When a strong acid like hydrochloric acid (HCl) reacts with a strong base like sodium hydroxide (NaOH), the formation of water from H+ and OH- ions releases a significant amount of heat. This heat release is quantified through calorimetric measurements, allowing us to determine the enthalpy change of the neutralization reaction. The neutralization equation can be written like so:
+
+HCl(aq)+NaOH(aq)→NaCl(aq)+H2​O(l)
+
+This experiment aims to determine the heat and enthalpy differences for the neutralization of hydrochloric acid with sodium hydroxide solution. By using calorimetry to measure the temperature change during the reaction and applying thermochemical principles, the enthalpy change of the neutralization reaction can be determined. 
+
+Purpose
+The purpose of this experiment is to determine the enthalpy change of the neutralization reaction of hydrochloric acid with sodium hydroxide solution within a closed system.
+
+Materials
+Refer to “Enthalpy of Neutralization Lab” handout.
+2 graduated cylinders will be provided instead of 1
+40.0 mL of Hydrochloric Acid (HCl) will be provided instead of 50.0 mL
+40.0 mL of Sodium hydroxide (NaOH) will be provided instead of 50.0 mL
+
+Procedure
+Refer to “Enthalpy of Neutralization Lab” handout.
+Step 4 - Rinsing the graduated cylinder will be unnecessary as glassware will be properly sanitary before lab begins
+Step 5 - Rinsing the graduated cylinder with tap water will be unnecessary, as two graduated cylinders will be provided for the lab. This setup eliminates the risk of contamination that rinsing would typically address, while also preventing the dilution of the solutions caused by water residue left from rinsing.
+
+MSD safety 
+
+Quantitative Observation table 
+
+Avg of Temperature during neutralization plateau = 30.5
+
+Qualitative observations: 
+HCl: odorless, colorless, transparent
+NaOH:  odorless, colorless, transparent
+Temperature: Sharp jump in temperature as the acid and base mixed during the first 30 seconds of the reaction. Plateaued at a stable 30 degrees after reaction after the first 30 seconds. 
+
+Analysis
+Calculations 
+Heat absorbed by the solution
+Volume of HCl = 40 mL = 0.040 L
+Volume of NaOH = 40 mL = 0.040 L
+C water = 4.18 J/gºC
+m solution = 40 + 40 = 80g
+ΔT = 30.5 - 24.5 = 6.0ºC
+
+Q = mcΔT
+Q = (80g)(4.18J/gºC)(6.0ºC)
+Q = 2006.4J = 2.0064kJ = 2.0kJ
+
+There for the amount of heat that is absorbed by the solution is 20kJ
+
+Heat released by the reaction 
+ΔHsystem = -Qwater
+ΔH = -2.0064kJ
+There for the amount of heat released by the reaction is -2.0kJ
+Number of moles of HCl and NaOH
+Volume of HCl = 40 mL = 0.040 L
+Volume of NaOH = 40 mL = 0.040 L
+Molarity of HCl = 1 mol/L
+Molarity of NaOH = 1 mol/L
+
+n = CV 
+n HCl = (1mol/L)(0.040) = 0.040 mol
+n NaOH = (1mol/L)(0.040) = 0.040 mol
+
+Explaining the neutralization reaction
+In a neutralization reaction, an acid reacts with a base to produce salt and water. Specifically, when hydrochloric acid (HCl) reacts with sodium hydroxide (NaOH), the reaction is as follows:
+HCl(aq)+NaOH(aq)→NaCl(aq)+H2​O(l)
+
+Neutralization:
+HCl is a strong acid, and it dissociates completely in water
+HCl → 
+NaOH is a strong base, and it also dissociates completely in water
+NaOH → 
+During the reaction, the ions from the HCl combine with the  ions from the NaOH to form water (H2O) 
+H2O
+The  and  ions remain in solution as spectator ions and form sodium chloride (NaCl) in aqueous form.
+ NaCl
+
+The observed temperature increase during the neutralization confirms that heat was released, as the temperature change was ΔT = 6.0ºC making the reaction exothermic. From the calculations, the heat absorbed by the water is Q = 2.0kJ and the heat released by the reaction is ΔH = 2.0kJ. This release of energy directly caused the rise in the solution's temperature.
+
+Thermochemical equation 
+Since the total volume of the solution is 80 mL (40 mL HCl + 40 mL NaOH), and the density of water is approximately 1 g/mL. 
+m = 80g
+
+Since both the HCl and NaOH solutions have the same concentration and volume, they contain an equal number of moles of acid and base. As a result, there is no limiting reactant in this reaction, as both substances fully neutralize each other in a 1:1 molar ratio.
+n = cV
+n = (1.00 mol/L)(0.040L)
+n = 0.0400mol
+
+Change in temperature
+ΔT = 30.5 - 24.5 = 6.0ºC
+
+Heat absorbed by water
+Q = mcΔT
+Q = (80g)(4.18J/gºC)(6.0ºC)
+Q = 2006.4J = 2.0064kJ
+
+Heat released by system
+ΔHsystem = -Qwater
+ΔH = -2.0064kJ
+
+Enthalpy change
+ΔHr = nΔHºr
+ΔHºr = ΔHr / n
+ΔHºr = -2.0064kJ / 0.0400mol
+ΔHºr = -50.16 = -5.0 x 10
+
+The heat released during the neutralization reaction is 2.0 kJ, and the enthalpy change per mole of reaction is - 5.0 x 10 kJ/mol. An endothermic reaction. 
+
+HCl(aq) + NaOH(aq) → NaCl(aq) + H2​O(l) + 50kJ
+
+When an acid gets on your skin why must you flush the area with water rather than neutralizing the reaction with a base?
+When an acid comes into contact with skin, it is important to flush the area with water rather than attempting to neutralize the acid with a base. Neutralizing the acid with a base can cause a violent exothermic reaction, releasing heat that can further damage the skin. Water, on the other hand, safely dilutes the acid, reducing its concentration and corrosive effects without causing additional reactions. Additionally, using a base can be risky because it is difficult to control the exact amount needed for neutralization, and too much base can result in alkaline burns, which can be as harmful as acid burns.
+
+Conclusion
+The purpose of this experiment was to determine the enthalpy change of the neutralization reaction between hydrochloric acid (HCl) and sodium hydroxide (NaOH). Based on the data analysis, the enthalpy change of the reaction was calculated to be -50 kJ/mol, confirming that the reaction was exothermic, as evidenced by the observed temperature increase of 6.0ºC. The heat released by the reaction, calculated using the thermochemical equationQ = mcΔT, was 2.0 kJ. This heat directly caused the temperature rise in the solution. This result aligns with the principles of thermochemistry, where neutralization reactions between strong acids and strong bases are typically exothermic.
+
+The evidence backs up the conclusion because the computations demonstrate a connection between the heat absorbed by the water and the heat given off by the reaction that matches the anticipated results in neutralization reactions. Additionally the reaction was verified to lack any limiting reactant since both HCl and NaOH had molar concentrations guaranteeing neutralization. 
+
+In research endeavors the trial could be extended to acid base pairings to explore the heat generated during neutralization of various strong and weak acids and bases. Moreover examining how different concentrations or amounts of reactants impact the energetics involved in neutralization reactions would provide insights. 
+
+There were many factors in the experiments that might have affected the accuracy of the results. One key problem was that the calorimeter used is not completely closed off as a system and probably lost some heat to its surroundings This could mean that the actual heat released by the reaction was underestimated. Another issue was the intervals between taking temperature readings. The temperature plateaued after the first reading was taken which suggests that important data points may not have been captured. Tracking the temperature every 10 seconds as opposed to every 30 seconds would have given a record of how the temperature changed over time. 
+
+In order to enhance the precision of experiments there are a few modifications that could be implemented. Initially opting for an insulated calorimeter would help in minimizing heat dissipation to the surroundings guaranteeing that all heat generated by the reaction is accurately captured. Increasing the frequency of temperature readings from every 30 seconds to every 10 seconds would enable monitoring of temperature variations particularly in the initial stages of the reaction. Another improvement would involve using quantities and concentrated solutions of HCl and NaOH. This would generate more significant heat changes, making the measurements more noticeable and reducing the margin of error. Conducting multiple trials and averaging the results would also significantly improve the reliability of the data, allowing for a more accurate calculation of the enthalpy change. These modifications are expected to yield exact results. 
+
+
+
+References 
+
+Brown, T. (2014, November 18). 5: Thermochemistry. Chemistry LibreTexts. https://chem.libretexts.org/Bookshelves/General_Chemistry/Map:_Chemistry_-_The_Central_Science_(Brown_et_al.)/05:_Thermochemistry
+Martinho Simões, J. A. (2024). Organometallic Thermochemistry Database. Nist.gov; National Institute of Standards and Technology . https://webbook.nist.gov/chemistry/om/
+Mustoe, Frank J.. McGraw-Hill Ryerson chemistry 12. Toronto: McGraw-Hill Ryerson, 2002. Print. 
+OpenStaxCollege. (2014). Calorimetry. Pressbooks-Dev.oer.hawaii.edu. https://pressbooks-dev.oer.hawaii.edu/chemistry/chapter/calorimetry/
+

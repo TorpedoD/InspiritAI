@@ -1,0 +1,378 @@
+Biology Notes
+Damian Wong
+
+Unit 1:  Diversity of Living things
+
+1.1 - 1.3
+Pg 145 1 - 34
+Important:
+Autotroph - makes its own energy (plants)
+Heterotroph - obtains energy by consuming other organisms (animals) 
+
+
+What is life?
+
+Characteristics
+All organisms are highly complex chemical systems
+All organisms are composed of cells
+The unit in life which metabolism (cellular respiration, photosynthesis, ets) occurs is a cell
+All organisms obtain and use energy
+EVERY Organisms needs to Feed, Grow and Reproduce
+All organisms reproduce using the same genetic mechanism (DNA)
+Sextual reproduction is called “Meiosis”. Asxtual reproduction is called “Mitosis”
+All organisms grow and develop 
+Most organisms change form and capabilities as they grow older (seeds to trees, tadpole to frog)
+All organisms respond to their external environment while maintaining homeostasis 
+Examples in mammals 
+Respond to cold by shivering: blood is focused in the core and organs
+Examples in plants
+Thiotrophic: Plants respond to touch (venus fly trap)
+Phototrophic plants respond to light (sunflowers)
+
+
+
+
+
+Organization of life:
+
+Simplest to complex
+Cells, tissue, organs, organ systems, organisms, population, community, ecosystem
+
+Linnaean system of nomenclature
+6 Kingdoms (order of discovery)				
+Animalia				
+Plantae 					
+Protista 
+Bacteria 
+Fungi 
+Archaea 
+
+3 domains
+Eukarya 
+Bacteria 
+Archaea 
+
+ Eukaryotes
+Animalia, plantae, protista, fungi 
+Organized system 
+Have nucleus 
+
+Prokaryotes 
+Bacteria, archaea
+unorganized system
+No nucleus 
+
+Taxonomy:
+Kingdom, phlegm, classes, order, family, genus, species
+(king philip came over for good spaghetti) 
+
+
+
+
+
+
+
+
+Species Classification
+Modern classification of species tend to consider morphology and phylogeny 
+Morphological specie concept
+Based on structural features
+Biological species concept 
+Fertile offspring can be produced (their kids can have kids)
+Phylogenetic species concept 
+Evolutionary history
+
+Evidence of relationship
+Anatomical evidence
+Deals with structure and form, including internal systems
+Physiological evidence
+Deals with physical and chemical functions, including internal process
+Insulin in guinea pig is very different from other rodents 
+DNA evidence
+Deals with the DNA sequence 
+1.4
+Classifying types of biodiversity 
+Species diversity
+Variety and abundance of species in a given area
+Genetic diversity
+A variety of heritable genes within a population of interbreed individuals (difference of genes within a population of same species)
+Importance 
+Allows for greater resistance against diseases 
+Eg. tasmanian devil had a contagious cancer, causing their entire species to be endangered  
+Ecosystem diversity
+The variety of ecosystem in the biosphere
+Includes biotic and abiotic factors
+Ecosystem service 
+Benefits expressed by organisms which are provided by a sustainable ecosystem
+Resistance 
+The ability of an ecosystem to remain functional in the face of disturbances to its parts
+More species 
+An increase in plan coverage 
+A decrease in number of invasive species
+2.1
+Characteristics of a virus 
+Simple organisms 
+Made of 2 parts, never grows larger, no cellular respiration 
+Adapts to environment 
+No organelles of its own 
+Depends on host organelles for all life functions 
+Can't live independently, dormant outside of cells
+
+Mode of infection and viral life cycle (understand the diagram on 2.1 handout) 
+Basic cycle for all viruses
+Virus lands on cell membrane at specific receptor cite
+Lowers itself onto membrane with tail fibers 
+Spikes helps stabilize itself onto cell
+Viral DNA is injected into cell
+Lytic cycle
+Viral DNA takes over cell functions and all organelles are used to make more viral DNA and Capsids
+Once new virus is ready, enzymes are released which Lyce (burst open cell)
+Cell dies, symptoms begin
+Lysogenic or Retrovirus cycle 
+Viral DNA does not immediately take over host cell
+Viral DNA is inserted into the host cell DNA and replicates with the host cell
+Some viruses are produced and released from the cells using budding
+Host cell intact, some minor symptoms as cell is not functioning properly
+Triggers 
+External stimuli triggers the viral DNA to take over host cell
+The cell lyses, symptoms appear
+Eg. herpes can trigger HIV and AIDS symptoms will appear
+4 examples of viral diseases or infections
+Influenza 
+Swelling of the lungs
+Common cold 
+Infects respiratory system through throat and nasal passages
+Warts
+Attacks outer layer of skin
+Rabies
+Attacks central nervous system
+2.2
+Comparing Bacteria and Archaea
+Morphology  
+Similar 
+Forms chains aggregations
+Bacteria 
+Streptococcus 
+Chains of spheres
+Streptobacillus 
+Chains of rods 
+Archaea 
+Changeable shapes
+Nutrition 
+Similar
+Some consume, some obtain energy from inorganic compounds 
+Bacteria 
+Some are photosynthetic
+Archaea 
+Methanogenesis 
+Produce methane as a byproduct 
+Anaerobic (does not need oxygen) 
+Found in digestive tract of animals 
+Habitats
+Similar
+Aerobic (needs oxygen) or anaerobic (no oxygen) environments 
+Bacteria 
+Mesophiles 
+Lives in moderate conditions
+Extremophiles
+Lives in extreme conditions
+Reproductions 
+Binary fission 
+Cell elongate through growth 
+The septum begins to form 
+The Septum and walls formed
+Cell separates 
+Conjugation 
+Transfer of genetic material involving 2 cells (allows for new genetic combinations)
+One links to another, forming a bridge, one transfers all or some of genetic material
+The receiving cell goes into binary fission
+ Plasmids
+Small loops of DNA that separate from main chromosomes
+Combined with others or rejoin their own 
+Bacteria 
+Endospores 
+Hard wall structures protects organism’s DNA during extreme conditions 
+Germinates back to being active when conditions improve
+Gram stains
+Stain that separates between cell walls response.
+Gram positive bacteria = purple -> thick protein layer
+Gram negative bacteria = pink -> thin protein layer
+Human health
+Cause many diseases, some are helpful 
+Botulism (food poisoning) 
+Endospores that are resistant to heat in anaerobic conditions (dangerous on food)
+Archaea 
+Thermophiles = heat lover 
+Acidophile = acid lover
+Halophiles = salt lover
+Biotech 
+Enzymes of Archaea are used for DNA analysis and disease diagnosis as they can withstand extreme conditions
+Their enzymes are helpful to replicate lots of DNA sequences at once
+
+2.3
+Endosymbiotic
+The theory of evolution used to explain how eukaryotic cells evolved from 2 or more prokaryotic cells
+Mitochondria and chloroplast were once small prokaryotes that were engulfed by a larger cell
+Evidence 
+Prokaryotes, mitochondria, and chloroplasts have similar membrane ribosomes, genetic sequences, and reproductive methods 
+
+ 
+
+
+2.4
+Refer to terms in 2.4
+Animal like protists (protozoans)
+Characteristics
+Heterotrophs 
+Examples 
+Cercozoans
+Amoeba 
+The ciliates
+Have cilia for movement 
+Flagellates 
+Have flagella 
+Sporozoans
+Parasites
+Fungus like protists 
+Characteristics
+heterotrophs (nutrients from light)
+Examples
+Plasmodial slime mold 
+Plasmodium (decaying plant material) 
+Cellular slime molds 
+Ingeest tiny bacteria or yeast cells
+Water molds 
+Live on dead organic matter, some are parasites
+Plant like protists 
+Characteristics 
+Chloroplast have pigments
+Examples
+Diatoms 
+Phytoplankton, Rigid cell wall with cilia 
+Dinoflagellates 
+Two flagella, can cause algae bloom (red tide)
+Euglenoids 
+Have flagella, autotrophs in sunlight and heterotrophs at night
+
+
+
+3.1
+
+Algae 
+Uni or multicellular photosynthetic aquatic protist
+Unicellular
+Dinoflagellates 
+Diatoms 
+Euglenoids 
+Multicellular (seaweeds)
+Plant 
+Multicellular photosynthetic eukaryotes with cellulose baced cell wall
+
+Brown algae 
+Largest and most complex protist, up to 60m in height
+Kelp 
+Rockweed in (tidal zones, <kelp)
+Holdfast, stripes (stem like), airblader to float
+
+Red algae
+Green chlorophyll and phycoerythrin (pigment that reflects red light)
+Use in food
+
+Green algae
+Unicellular or multicellular
+Plant like 
+Chlorophyll A and B
+Cell wall contain cellulose
+Food reserve in starch, other groups store as glycogen 
+Similar DNA
+Embryo 
+Simple multicelular plant that is dependent on on parent plant for a while
+
+Alternation of generation (sporic reproduction)
+Gametophyte 
+Haploid plant (1 set of chromosomes)
+Spophyte 
+Diploid plant (2 set of chromosomes)
+
+
+
+
+
+
+Key terms
+Chapter 1
+Binomial nomenclature 
+Classification 
+Genus 
+Hierarchical classification 
+Morphology 
+Phylogeny 
+Rank 
+Species
+Taxon 
+Taxonomy 
+1.2
+Anatomy 
+Ancestor 
+Phylogenetic tree
+Physiology 
+1.3
+Autotroph 
+Dichotomous key 
+Eukaryotic
+Prokaryotic
+Heterotroph 
+Structural diversity 
+1.4
+Ecosystem diversity 
+Gene pool 
+Genetic diversity 
+Population resilience 
+Species diversity
+2.1
+Capsid 
+Lytic cycle 
+Lysogenic cycle 
+Prion 
+virus
+Replication 
+2.2 
+Archaeon 
+Bacillus 
+Bacterium 
+binary fission
+Coccus 
+Conjugation 
+Endospores
+Extremophile
+Gram stains
+Mesophile
+Methanogenesis
+2.3
+Endosymbiont
+Endosymbiosis
+Host cell
+2.4
+Cilium 
+Flagellum
+Parasite
+Protist
+Pseudopod
+Red tide
+
+
+
+Diagrams 
+
+Virus structure
+Binary Fission Pg. 62
+
+
+
+
+
+
+
+
+
+

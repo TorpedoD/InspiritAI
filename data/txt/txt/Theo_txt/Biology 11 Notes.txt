@@ -1,0 +1,1372 @@
+UNIT 1: Genetics
+4.1 - Cell Division and Genetic Processes
+
+Genetics: the field of biology that involves the study of how genetic information is passed from one generation to the next.
+
+Cell Theory:
+All living things are composed of one or more cells.
+Cells are the smallest units of living organisms
+New cells come from preexisting cells by cell division. 
+Info passed from parent cell to daughter cell through DNA (deoxyribonucleic acid). 
+
+The Cell Cycle: 
+Somatic cells (body cells) go through the cell cycle and each cycle results in a new cell
+Cell cycle checkpoints monitor and help regulate the cycle 
+Cancer is a result of uncontrolled, rapid cell division where the checkpoints aren’t working properly 
+
+Interphase:
+Cell carries out normal functions and grows
+Ends with duplicating its genetic material
+G1 - Growth 1, S - Synthesis, G2 - Growth 2 
+
+Mitosis: 
+Purpose of mitosis: Separation of cell’s replicated DNA (genetically identical daughter cells) 
+
+Cytokinesis
+Cytoplasm is divided
+Two new daughter cells are created 
+Cell enters the G1 phase 
+Animal cells: cell membrane is indented along the equator of the cells, microfilaments help split the cytoplasm evenly
+Plant cells: cell plate forms between two daughter nuclei and cell walls form on either side of this plate
+Prokaryotic cells: because there is no nucleus, duplicated DNA attaches to cell membrane and is pulled apart as the membrane grows through binary fission 
+
+
+The Structure of Genetic Material:
+DNA is wrapped in a spiral shape (double helix).
+DNA exists as decondensed chromatin fibers in interphase. 
+DNA is made of nucleotides that have a phosphate group, a sugar group, and a base.
+Sugar and phosphate make up backbone of double helix structure
+Bases protrude inwards and pair with its opposite strand
+Bases: adenine, thymine, guanine, cytosine. (A-T, G-C)
+Mutation: when there is a change in the nucleotide sequence.
+Genome: the complete DNA sequence of an organism. 
+During DNA replication in interphase, the double helix unwinds and each strand is a template for a new strand to be copied on (semi-conservative).
+
+Chromosomes:
+Human somatic (body) cells have 23 pairs of chromosomes, 46 total.
+Within each pair, one from mom, one from dad.
+22 pairs are autosomes (don’t determine sex)
+1 pair is sex chromosomes (determines sex).
+# of chromosomes does not determine complexity. 
+Genes: portion of a chromosome that contains specific DNA sequences for a certain trait.
+Homologous chromosomes contain the same sequence of genes (but the traits expressed in their genes may differ)
+Alleles: different forms of the same gene. (blonde, brunette) 
+Karyotype: set of chromosomes an individual has
+Viewed when chromosomes are stopped during metaphase and they are stained so that they can be seen under a microscope. 
+Haploid: the # of chromosomes in a gamete (sex cell)
+Diploid: twice the # of chromosomes in a gamete. Every cell contains a diploid chromosome number except sex cells. 
+
+4.2 - After Meiosis
+Spermatogonium:  
+In male animals, (usually in the testes) the spermatogonium (2n) cell goes through meiosis to form 4 haploid cells at the beginning of puberty. 
+These develop into mature sperm cells through spermatogenesis (process of forming a sperm). 
+In female animals, (usually in the ovaries) the oogonium (2n) cell goes through oogenesis to produce egg cells 
+Oogonium begins prophase I at birth, but stops there
+Daughter cells produced receive unequal amounts of cytoplasm 
+At puberty, one cell each month will continue through meiosis
+Daughter cell with more cytoplasm continues through meiosis 
+Daughter cell with less cytoplasm (polar body) will degenerate
+Meiosis II is complete when the cell is fertilized by a sperm. 
+
+Genetic Variation in Meiosis: 
+Independent Assortment: During metaphase, chromosomes line up randomly with their homologous pair before they are split up in anaphase 1. 
+Crossing Over: Segments of chromosomes can be exchanged at various points on the chromosome. 
+
+Errors During Meiosis:
+Changes in Chromosome Structure (when crossing over):
+Deletion - A piece of a chromosome is deleted
+Duplication - A chromosome section appears 2+ times in a row
+Inversion - A chromosome section is inverted
+Translocation - A chromosome segment is attached to another chromosome
+Errors in Number of Chromosome:
+Non-disjunction: homologous pairs or sister chromatids don’t properly separate during meiosis. (No treatment for the root of the disorder)
+Monosomy - loss of a chromosome
+Trisomy - extra chromosome gained 
+
+Prenatal Genetic Testing
+Non-invasive
+Ultrasounds
+Maternal blood tests
+Invasive Tests
+Amniocentesis: test sample of amniotic fluid (fluid in womb).
+Chorion Villus Sampling: test sample from chorion cells in uterus. 
+Ethical issues:
+Decisions on pregnancy termination 
+Discrimination against persons with disabilities 
+
+4.3 - Reproductive Strategies and Technologies
+
+A - Reproductive Strategies in Agriculture:
+Selective Breeding: Breeding plants and animals for desirable traits.
+Artificial Insemination: Artificial transfer of semen into a female's reproductive system 
+Embryo Transfer: Artificially fertilized eggs transferred into a female's uterus. 
+
+B - Reproductive Technologies for Humans (ART, Assisted Reproductive Technologies)
+Both involve no intercourse, and involve sex cells being taken out and then put into the women’s uterus.
+Artificial Insemination: Sperm collected and concentrated before being put in the woman's vagina. 
+IVF (in vitro fertilization): Eggs are fertilized outside the female’s body then placed in the uterus. (only for humans, woman w/ blocked fallopian tubes, uses lab glassware)
+
+PGD (Preimplantation Genetic Diagnosis):
+Genetic testing of an embryo before it is implanted in the uterus 
+After genetic analysis, healthy embryos planted in female’s uterus 
+Reduces risk of genetic disorders, can engineer genetic match with a sibling 
+
+C - Cloning: Reproduction of Exact Copies
+Cloning: A process that produces identical copies of genes, cells, or organisms.  
+
+1. Gene Cloning: Manipulating DNA to produce multiple copies of a gene or DNA segment, cloned DNA can be used for study or mass production of the gene’s protein
+Vectors & Plasmids: Isolate selected DNA segment, choose a vector (carriers of DNA to be cloned) for cloning in a foreign cell. Plasmids are pieces of DNA separate from the bacterial chromosome. 
+Recombinant DNA: Insert chromosomal DNA into vectors, using reagents to cut DNA and join pieces together, resulting in recombinant DNA. (mix of genetic material from diff. sources)  
+Transformation: Treat foreign cells to take in recombinant DNA (transformation), then copies of the cloned gene/DNA fragment are made by the host cell. 
+
+2. Therapeutic Cloning and Reproductive Cloning
+Therapeutic cloning: Producing genetically identical cells by using cloned cells to grow tissues/organs. Can help treat diseases. (Uses SCNT to generate cloned cells) 
+Reproductive cloning: Producing genetically identical organisms. (Uses SCN) 
+Somatic Cell Nuclear Transfer: Egg cell nucleus is removed and replaced with a donor’s somatic cell nucleus. 
+
+3. Reproductive Cloning in Animals:
+In animals, not very successful (0.5-6% birth rate), high mortality rate, premature aging, prone to disease. 
+Asian gaur cloned from dead gaur’s skin cell fused with domestic cow’s egg cell, then transplanted in surrogate mother. It gave birth, but the baby died 2 days later. 
+
+D - Therapeutic Cloning and Stem Cells:
+Stem Cells: an undifferentiated cell that can develop and become specialized into different cell types of the body. 
+Embryonic stem cells: obtained from embryos.
+Adult stem cells: somatic cells that retain the ability to differentiate into other cell types.
+Induced pluripotent stem cells: specialized adult stem cells induced to return to a stem-cell like state. 
+
+Benefits: if able to program stem cells to become a certain cell type, you can inject stem cells into the circulatory system to improve function. Can ‘grow’ blood vessels, skin. Regenerative medicine: creation of tissue or organ to replace damaged and lost ones, which genetically match.
+Controversy: come from embryos, can make human clones using SCNT.
+
+E - Transgenic Organisms: 
+Transgenic organisms contain genetic material (DNA) from other species. This is a type of GMO, genetically modified organism. 
+Applications of Transgenic Plants
+Corn and canola modified to resist herbicide, insects, and virus.
+Golden rice: rice engineered to increase iron and vitamin A content
+Safflower plant: human insulin inserted in plant and plant produces insulin as it grows. 
+Applications of Transgenic Animals
+Spider gene inserted into goats, goats have spider silk in their milk, aim to make lightweight and strong-fibred silk for clothing and nets. 
+Scientists are harvesting animal organs to see if they are compatible with humans. Not much success due to tissue rejection. Maybe ethical if from dead animals that will be used for food. 
+Regulating the Use of Transgenic Organisms
+Environmental Threats: use of herbicide resistant plants could encourage use of stronger herbicides, which could leak into water/soil, creating superweeds and superbugs.  
+Health effects: not enough info on long term effects of using transgenic products. 
+Social and Economic issues: Money spent may be greater than overall benefit. Private enterprises could have too much control on the food market. Using other species for human benefit. 
+
+5.1/5.2 - Mendel, Pea Plants, Punnett Squares, Genetic Crossing
+Traits: A specific characteristic or feature exhibited by an organism
+
+Mendel’s True-Breeding (Monohybrid) Crosses 
+P Gen. = Homozygous yellow x homozygous green. (YY x yy) 
+F1 Gen. = All yellow peas (Yy)
+Monohybrid Crosses: Crosses between individuals that differ by only one trait. (YY x yy) 
+
+Mendel’s F1 Crosses 
+F1 Gen x F1 Gen = Heterozygous yellow x heterozygous yellow (Yy x Yy) 
+F2 Gen. = Yellow: Green = 3:1 (Mendelian ratio) 
+
+Law of Segregation: traits are determined by pairs of alleles that segregate during meiosis so that each gamete receives one allele.
+Dominant: ALWAYS appears when an individual has this allele.
+Recessive: ONLY appears when an individual has 2 of this allele.
+
+Genotype: The combination of alleles for any given trait (Yy).
+Phenotype: The physical/physiological traits of an organism (yellow/green).
+
+Dihybrid Crosses: Cross with 2 individuals that differ in 2 traits. Ratio was 9:3:3:1. 
+P Gen. = Yellow, round x green, wrinkled (YYRR x yyrr) 
+F1 Gen. = All yellow, round (YyRr) 
+F2 Gen. = 9 yellow round, 3 yellow wrinkled, 3 green round, 1 green wrinkled 
+
+Law of Independent Assortment: one gene separates independently of another gene during gamete formation. Thus, inheritance of one gene does not affect inheritance of another gene. 
+
+Chromosome Theory of Inheritance (Sutton): geOnes are located on chromosomes, and chromosomes provide the basis for the segregation and independent assortment of alleles.
+
+Pedigree: square (male), circle (female). Oldest on left, youngest on right. Shaded/unshaded
+
+6.1/6.2 - Beyond Mendel and Sex-Linked Inheritance
+Incomplete Dominance: an intermediate expression of the trait. 
+Codominance: both alleles for a trait are fully expressed. 
+Polygenic Inheritance: 
+Continuous Variation: gradual variation between different phenotypes. (height, color) 
+The trait is a result of many genes working together (polygenic trait)
+Intermediate phenotypes more common than extremes 
+Linked Genes: genes on the same chromosome that tend to be inherited together. 
+Genes on the same chromosome are called linkage groups. 
+Chromosome Mapping: how far apart genes are from each other determines how frequently they are separated. Closer, less frequently separated. Further, more often separated. 
+Barr Bodies: in females, the second X-chromosome is inactive and condenses into a Barr body. 
+
+6.3 - The Future of Genetics Research
+
+Human Genome Project: main purpose was to determine the DNA sequence of the human genome (entire set of DNA instructions in humans).
+
+4 surprising discoveries:
+Only about 2% of nucleotides in the human genome make up our genes and code for all the proteins in your body.
+25,000 total number of genes, which was less than expected. (est. 8000-14000)
+Over 50% of our DNA consists of stretches of repeating sequences. 
+There is very little genetic variation in humans. About 99.9% of DNA sequence is nearly identical in all humans. 
+
+Bioinformatics: a field of study that uses computer technology to create and analyze large databases of information. 
+
+Margaret Dayhoff: 
+American chemist, founder of bioinformatics.
+Created a computerized protein and DNA sequence database.
+
+3 technologies that contribute to developing the tools used in bioinformatics:
+Techniques to sequence biological molecules such as DNA and proteins.
+Computer database to sort and store massive amounts of genetic information.
+Communication technology to share information around the world efficiently. 
+
+Genomics: The Study of Genomes
+Human genomes differ about 0.1% from each individual. This percentage represents 3 million nucleotides. 
+Helpful for studying cancer.
+Differences in DNA sequence indicate potential genetic basis for disease
+Scientists look at interactions among genes and how they contribute to phenotypes. 
+
+SNP: (single nucleotide polymorphism) genetic variation in individual nucleotides.
+If SNP is common among people with high blood pressure, it could provide a marker for the location of that gene associated with high blood pressure. 
+Haplotype: region of genetically linked variation (several SNPs together).
+Can be used to identify the influence of genes on health or identify genes that cause disease.
+
+Beyond the Genome Sequence:
+
+Proteomics: The study of proteins in organisms; analyzing 3D shapes of proteins and determining their functions. 
+
+Epigenetics: The study of how changes in the inheritance of certain traits or phenotypes are based on changes to gene function and not changes in DNA sequence. 
+Epigenetic change is not permanent and there is no change to DNA sequence, represents a response to an environmental condition that may be reversed when condition changes. 
+
+Microarrays: allows scientists to see the activity of genes by putting DNA as spots on a glass plate. Each color on the plate will correspond with the activity of a gene. 
+
+Microarray v. Haplotypes: microarrays are more efficient because you can see all of the genes at once and which ones light up (active/not active) in a certain condition.
+
+Genetic Information: Public Benefits and Concerns
+
+Genetic Profile: the complete genotype of an individual, including various mutations. 
+
+
+
+UNIT 2: Animal Organ Systems
+
+10.1 - The Function of Digestion
+
+Purpose: to break down food to small, soluble units that can be absorbed by the circulatory system.
+
+Macromolecules: large organic molecules made up of smaller molecules that are linked together.
+Also known as nutrients.
+Energy released from. macromolecules used to maintain metabolism (all the chemical reactions needed in the body).
+Regulate cell activity.
+Provide energy
+Build and repair tissues. 
+
+Essential Nutrients: a nutrient that cannot be made by the body and must therefore be obtained from food. 
+4 categories
+
+Macromolecules: Carbohydrates
+Immediate energy source
+Made up of C, H, O (organic molecule)
+Used in cellular respiration
+Simple sugars
+Monosaccharides: (3-7 carbon atoms), glucose, fructose
+Disaccharide: (made up of two monosaccharide molecules), sucrose, maltose, lactose
+Complex sugars
+Polysaccharides: a large molecule made up of many linked monosaccharide molecules. 
+Polysaccharides that are made up of glucose units:
+Glycogen: stores energy in animals (muscle, liver)
+Starch: stores energy in plants (bread, potatoes)
+Cellulose: indigestible, fibrous materials of cell walls of plants. 
+
+Macromolecules: Lipids
+An organic compound that does not dissolve in water
+Fats and oils
+Stores a lot of energy
+Contains glycerol (backbone) and 3 fatty acid chains
+Type of fatty acid influences amount of energy available, state (s or l), and flavor of food.
+
+
+Macromolecules: Proteins
+Proteins are made up of many amino acids that are held together by peptide bonds in chains
+20 different amino acids exist
+Theses chains are called polypeptides
+Amino acids are the building blocks of muscles, organs, etc…
+eg. hormones (chemical messengers), enzymes, antibodies
+In starvation, protein can be broken down and used for energy
+
+Macromolecules: Nucleic Acids
+Help direct growth and development
+RNA and DNA
+
+Other Nutrients: Vitamins and Minerals
+Enables chemical reactions to occur for tissue development, growth, ummunity
+Minerals - inorganic
+Vitamins - organic (CHO)
+Work with enzyme to carry out reactions
+
+Other Nutrients: Purposes of Water
+Need to be constantly replenished
+⅔ of the body’s mass
+Transports dissolved nutrients (water is a universal solvent)
+Flushes toxins from cells
+Lubricates tissues and joints
+Found in body fluids
+Regulate body temperature (sweating)
+Eliminate waste materials
+
+Feeding Mechanisms
+Heterotrophs (have to consume food)
+Filter Feeding: siphon water through mouth and filter it to obtain small organism to digest (sponges, clams)
+Substrate Feeding: live on/in food source and eat through it (caterpillar, earthworms)
+Fluid Feeding: Suck/lick nutrient rich fluid from live plants/animals (mosquitoes, butterflies, hummingbirds)
+Bulk Feeding: Ingest large pieces of food with tentacles, pickers, fangs, teeth (humans)
+
+Food Processing
+Ingestion: taking in or eating food
+Digestion: breakdown of food by mechanical and chemical processes into molecules
+Absorption: transport of digested molecules from the digestive system to the circulatory system (then to rest of body)
+Elimination: removal of undigested solid waste matter
+Digestion
+Mechanical: physical breakdown of food from large to small pieces (teeth, beak, stomach churning)
+Chemical: chemical breakdown of nutrient molecules into small molecules (enzymes and chemicals)
+
+Bag System
+One opening (for both food and waste)
+Disadvantages: decrease SA for nutrient absorption, 1 meal at a time, no specialized part for digestion
+Cavity lining secretes enzymes for digestion
+eg. jellyfish
+
+Through-Tube System
+Mouth → Stomach → Intestine → Anus
+One long tube from mouth to anus (Alimentary canal)
+2 openings (mouth and anus)
+Advantages: specialized organs for enzymes/secretions, more SA to absorb nutrients 
+eg. humans, worms, cows, birds
+
+Herbivores:
+Eat constantly
+Longer digestive tract because Vegetation is hard to digest due to cellulose → some have several stomachs
+Regurgitation and rechewing of food
+Reingestion of dung
+Gizzard (rocks to help digest) for birds, worms, mb. animals with no teeth
+Flat teeth on top surface for grinding
+
+Carnivore:
+Diet consists of muscle/ organ tissue (protein)
+Gorge on food and then starve (digest) for long periods of days
+Short digestive track and sharp teeth
+Digestive enzymes and gastric juices for breaking down protein
+E.g. alligator or lion 
+
+Hydrolysis: a chemical reaction in which water breaks apart macromolecules into smaller molecules
+Water + macromolecule → broken down macromolecule
+
+Enzymes
+Catalyst: increase the rate of chemical reactions 
+Rate of reaction depends on availability of enzyme
+Involved in synthesis or deconstruction reactions
+Recycled: never change or get used up during a reaction
+Have factors that control the enzyme
+Stop, activate, slow down, or speed
+pH: can cause protein to denature (fall apart)
+Temp: can cause protein to denature
+Co-factors/Co-enzymes: help enzymes improve efficiency (minerals and vitamins)
+Lock and Key Model (enzyme substrate specificity)
+Shape of the enzyme must match the shape of the substrate
+Deconstruction: substrate + enzyme → enzyme substrate complex → enzyme + products
+Synthesis: substrate + enzyme → enzyme substrate complex → enzyme + product
+4 main digestive enzymes
+Carbohydrase: eg. amylase in the saliva breaks down carbohydrates to get monosaccharides
+Lipase: breaks down lipids to get glycerol and fatty acids
+Protease: eg. pepsin breaks down proteins to get peptides
+Nuclease: breaks down DNA to get nucleotides
+
+10.2 - The Human Digestive System
+
+Mouth:
+Mechanical and saliva (amylase breaks down starches into simpler sugars)
+3 pairs of salivary glands
+
+Esophagus:
+Muscular tube through which food passes from mouth to stomach
+Chewed food is molded into bolus 
+Next to opening of trachea (windpipe)
+Secretes mucus for lubrication
+Epiglottis: the valve which closes the opening of the trachea to prevent food going through the wrong pipe
+Esophageal Sphincter: a ring of muscle that controls what enters the stomach and prevents acid from entering the esophagus.
+
+Stomach:
+Mechanical (churning, 3 layers of muscle fibers) and chemical (gastric juices)
+Chyme: thick liquid, the result of broken down pieces of food and gastric juices being mixed together
+Pepsin: an enzyme in gastric juice that helps break down proteins into polypeptides.
+
+Small Intestine:
+In alimentary canal
+18 - 23 ft long
+Nutrient macromolecules are broken down into their component molecules
+Protein breaks down into amino acids. 
+
+
+Accessory Organs: organs indirectly involved with the process of digesting food
+Pancreas: releases pancreatic fluid that contains many enzymes that chemically digest carbs, proteins, and lipids. 
+Gallbladder: receives bile from liver, which breaks down fat droplets, which are then dispersed through chyme.
+
+Large Intestine (colon):
+Includes rectum
+90% of water absorbed back into blood and extracellular fluids
+Anaerobic bacteria: bacteria that does not live in the presence of oxygen
+Create significant vitamins: folic acid, B, K
+Rectum: short, muscular tube in the large intestine connected to anus, stores feces until released through the anal canal
+
+2 factors that affect enzyme action:
+Temp (+temp, enzymes move faster, 37.5 degrees Celsius ideal for human)
+pH lvl. (best at 6-8)
+
+Absorption in the S. Intestine: Carbs
+Absorbed in the bloodstream through s. intestine → converted into glucose → used by cells as a source of energy → excess converted into glycogen → glycogen is stored in liver and muscles
+
+11.1 - The Function of Respiration
+Purpose: brings oxygen to each cell and removes carbon dioxide from the cells.
+
+4 Stages of Human Respiration
+Breathing
+Moves air in and out of body
+Inspiration: inhale
+Expiration: exhale
+External Respiration
+Exchange of oxygen and carbon dioxide between inhaled air and blood (through lungs)
+Internal Respiration
+Exchange of oxygen and carbon dioxide between the blood and cells
+Cellular Respiration
+Provides energy to cells through chemical reactions
+Formula (opp. of photosynthesis):
+
+Respiratory Surfaces:
+Organisms require ventilation to efficiently respire.
+Move oxygen containing medium (moist environment so oxygen and carbon dioxide can be dissolved) over a respiratory surface.
+Allow gasses to be exchanged quickly w/ the environment
+Types:
+Outer Skin: entire outer skin is respiratory surfaces (worms, frogs), large SA, damp, diffusion occurs through thin capillaries
+Gills: Extensions or folds in body surface that increase SA, oxygen in water diffuses across gills into capillaries (fish, clam)
+Diffusion gradient: a dissolved substance moves high to low concentration
+Tracheal System: Air enters spiracles found outside the animal’s body and travels through tracheae (branching respiratory tubes).
+Oxygen is directly exchanged with cells, does not use circulatory system
+Lungs: allows for more oxygen to be delivered in land animals
+Trachea (windpipe) branches into lungs
+Lungs have a moist epithelium (similar sheets of cells bound together) which oxygen diffuses across to get to capillaries in the circulatory system
+Folds +SA → +oxygen
+Carbon dioxide moves the opposite direction into the external environment.
+
+Gas Exchange on Land:
+Diaphragm: a dome shaped sheet of muscle that separates thoracic cavity from the abdominal cavity
+Thoracic cavity: lungs and other respiratory organs
+Abdominal cavity: stomach and liver
+
+Air Pressure in Lungs: Spirograph
+Tidal Volume: amount of air inhaled and exhaled normally.
+Inspiratory Reserve Volume: additional volume of air that can be taken beyond tidal.
+Inspiratory Capacity: tidal + inspiratory reserve volume.
+Expiratory Reserve Volume: volume expelled beyond regular tidal exhalation.
+Vital Capacity: total max volume of air that can be moved (tidal + irv + erv).
+Residual Volume: volume of air necessary to keep your lungs/not make them collapse.
+Functional: erv + residue
+Total Lung Capacity: everything
+
+11.2 - The Human Respiratory System
+
+Nasal Passages: air is warmed, moistened, and cleansed of small particles
+Turbinate Bones: thin bones that increases SA of the nasal passage
+Mucous Membranes: moistens air and traps particles of dust and bacteria
+Capillaries: warm the air passing through
+
+Pharynx: connects the mouth and nasal cavity to larynx and esophagus
+Opening of the trachea is the glottis, which can be closed by epiglottis
+
+Larynx: voice box, consists of 2 stretched membranes, moves closer to make sounds
+Long cord: low
+Short cord: high
+
+Lower Respiratory Tract
+Pleural membrane: thin, flexible, double layered sac that covers each lung
+
+Gas Exchange
+Oxygen moves from alveoli to capillaries. Carbon dioxide moves from capillaries to alveoli.
+Body tissue: oxygen moves from the capillaries to the cells. Carbon dioxide moves from cells to capillaries.
+
+Blood Transports in Respiratory Gases
+99% of oxygen is carried by hemoglobin, which are found in red blood cells.
+1% transported by blood plasma
+23% of carbon dioxide carried by hemoglobin
+77% of carbon dioxide transported by the blood plasma
+
+12.1 - The Function of Circulation
+
+Purpose: transport gasses from the respiratory system, nutrient/waste, and other chemical substances; regulate body temperature; protect body from disease causing microbes and other toxins.
+
+Heart: muscular organ that continually pumps blood
+Blood Vessels: hollow tube that carries blood
+Blood: fluid containing blood cells, nutrient, and gasses
+
+Two Types:
+Open Circulatory System (insects, crustaceans)
+Common in invertebrates, 90% organisms have this
+Fluids circulate throughout the body and pass through the body cavity (hemocoel).
+Slow transportation of gas
+Fluid (hemolymph) is pumped from the heart through tiny holes in the heart wall (ostia) and is in direct contact with body tissue.
+Used as a delivery system of nutrients and waste of other chemicals
+No special organ for circulation
+
+Closed Circulatory System (mammals)
+Fluids that circulate throughout the body are contained in blood vessels Veins carry blood toward the heart, arteries away from heart. Veins and arteries are the largest blood vessels.
+Capillaries are the smallest blood vessels in the body (1 blood cell thick)
+Every single cell has contact with a capillary
+Cell: house, arteries/veins: streets/highways, capillaries: driveway, RBC: delivery truck, WBC: police cars
+Pathway of Blood: 
+Inferior/Superior Vena Cava
+RIGHT ATRIUM
+Tricuspid valve
+RIGHT VENTRICLE
+Pulmonary semilunar valve
+Pulmonary arteries
+LUNGS
+Pulmonary veins
+LEFT ATRIUM
+Bicuspid/Mitral valve
+LEFT VENTRICLE
+Aortic semilunar valve
+Aorta
+Arteries
+Capillaries
+Veins
+
+Cardiac Circulation: blood flows through heart tissues
+Pulmonary Circulation: blood flows between heart and lungs
+Systemic Circulation: blood flows around the body (body tissues and heart)
+
+Chambers of the Heart:
+2 stages:
+2 atriums contract together when they are full of blood and push blood into relaxed ventricles
+4 valves:
+Found only in veins, prevent blood flowing backwards, liked dbl. doors that only open in 1 direction
+Allows blood to flow forward but when blood tries to flow backward, valves shut close
+Veins below heart are going against gravity.
+Point in direction of blood flow
+2 atrioventricular valves: tricuspid and bicuspid (between ventricle and atrium)
+2 semilunar valves: half-moon shape (between ventricles and arteries)
+4 chambers: 
+Left ventricle has a thicker muscle wall because it is pumping blood to every part of the body
+Aorta largest blood vessel
+Lub (ventricle squeezing), Dub (atria squeezing and reloading)
+
+How Muscles Help Move Blood
+Veins are surrounded by muscles
+Muscle contractions squeeze blood vessels, pushing blood forward
+
+Components of Blood
+F (3.3L), M (5.0L)
+55% plasma (fluid portion), 45% cells/other solids
+Plasma
+Liquid that transports water, dissolved gasses, proteins, sugars, vitamins, minerals, and waste products
+92% water
+7% blood proteins (eg. antibodies)
+1% organic substances and inorganic ions
+
+
+
+Blood cells
+All solid components made in the bone marrow
+Erythrocytes (RBC)
+Transport oxygen
+Hemoglobin contains iron (causes them to be red)
+Last 120 days
+No nucleus
+
+Leucocytes/Leukocytes (WBC)
+Larger than RBC
+Has nucleus
+Lives/stored in lymph nodes all over body - 4 months
+Out in blood - 4 hours
+Produces more when sick (armpits, under chin)
+Platelets
+Small fragments of cells that help clot blood
+Breaks down 7-10 days after formation
+
+Temperature Regulation
+Vasodilation: the widening of blood vessels, to get rid of excessive heat
+Vasoconstriction: the narrowing of blood vessels to conserve heat
+
+12.2 - Monitoring the Human Circulatory System
+Heartbeat
+2 sets of nerves regulating the beating of the heart (lub-dub)
+Sinoatrial (SA) node: the ‘pacemaker’
+In the wall of the right atrium
+Generates an electrical signal over the 2 atria to contract simultaneously
+Triggers next node
+Atrioventricular (AV): 
+Located near junction of the atria and ventricles
+Transmits electrical signal to cause the ventricles to contract
+
+Electrocardiogram (ECG)
+Electrical pulses of heart beat create small voltage changes
+Measures the change in voltage btw. SA and AV node
+P wave: small voltage increase, SA node fires signal and the atria contract
+QRS complex: large voltage increase, AV node stimulates ventricles to contract and atrioventricular valves close (lub)
+T wave: ventricles relax and semilunar valves close (dub)
+Ventricular Fibrillation: rapid, uncoordinated fluttering contraction (due to drug overdose/heart attack), access to defibrillators needed (restart heart w/ large voltage exposure)
+eg. AEDs (automated external defibrillators)
+
+Blood Pressure: force that blood exerts against the walls of blood vessels
+Changes in blood pressure correspond to the phases of the heartbeat
+Systolic pressure: the maximum pressure produced during ventricular contraction, higher pressure because blood is being pushed from heart out the pulmonary arteries and aorta. 
+Diastolic pressure: the lowest pressure produced when ventricles fill with blood, low pressure in pulmonary arteries and aorta
+
+Measuring Blood Pressure: can indicate and tell the condition of the circulatory system
+Measured using a sphygmomanometer (blood pressure cuff)
+Wrapped around arm, inflated to exert pressure on a larger artery to stop blood flow, air is slowly let out of cuff and blood returns, pressure of the blood against the artery wall is measured
+Average blood pressure of healthy person: 120mmHg/80mmHg (systolic/diastolic)
+As heart rate increases, ventricles must pump blood at a greater rate, which increases blood pressure. 
+Blood pressure is affected by genetics, activity, stress, body temp., diet and medication
+Hypertension: continuous high blood pressure
+
+Cardiac Output: volume of blood pumped out by the heart
+Measured in mL/min
+Indicates level of oxygen delivered to body and total level of work that body muscles can perform
+Cardiac output = heart rate (# heartbeats per min) x stroke volume (amount of blood forced out of the heart with each beat).
+
+Cardiovascular Fitness: capacity of heart, lungs, and blood vessels to deliver oxygen to working muscles
+Cardiovascular exercises can strengthen the heart by enlarging the ventricles. 
+More fit = shorter time to go back to resting heart rate after exercise. 
+
+UNIT 3: Diversity of Living Things
+1.1 - What is Life?
+
+Biology: study of living systems. 
+
+Characteristics of the definition of “Life”:
+All organisms are highly complex chemical systems.
+Thousands of interdependent molecular components (eg. DNA, protein, enzymes)
+Simplest life form is far more complex than the most complicated technologies (prosthetics)
+
+All organisms are composed of cells.
+Cells are the unit of life in which metabolism (cellular respiration or synthesis) occurs in a cell. 
+Living things: cells, proteins: amino acids
+All organisms obtain and use energy.
+Every organism needs energy to feed, grow, and reproduce. 
+Autotrophs: obtain energy by making food (plants)
+Heterotrophs: obtain energy by consuming other organism (human and fungi)
+ATP is the ‘battery’ molecule that gives the organism energy. 
+All organisms reproduce using the same genetic mechanism (DNA).
+Sexual or asexual (skin cells duplicating) reproduction is possible (not necessarily both)
+Sexual reproduction undergoes meiosis; asexual reproduction undergoes mitosis and reproduces an exact replication of the original organism. 
+All organisms grow and develop.
+Most organisms change form and capabilities as they get older (seed → tree)
+All organisms respond to their external environment while maintaining a relatively constant internal environment (Homeostasis)
+Mammals: cold (shiver, vasoconstriction, goosebumps), hot (sweat, vasodilation)
+Plants: thigmotropic (plants respond to touch, eg. venus fly trap), phototrophic (plants that respond to light, eg. sunflowers).
+
+Organization of Life:
+Cells → tissue → organ → organ system → organisms → population → community → ecosystem. 
+
+Linnean System of Nomenclature:
+6 Kingdoms: Animalia, Plantae, Fungi, Protista, (first 4 known as eukarya domain) Bacteria, Archaea. 
+Discovery Order: Animalia/Plantae, Protista, Bacteria, Fungi (realized were not plants), Archaea
+3 Domains: Eukarya, Bacteria, Archaea
+Taxonomy (Carolus Linnaeus): follow hierarchical classification where taxonomic categories exist at different ranks/taxonomy. 
+1.8 million of 50 million species have been identified
+K P C O F G S
+All life → 3 Domains → 6 Kingdoms → Phylum → Class → Order → Family → Genus → Species
+
+Binomial nomenclature examples: 
+Genus: Homo
+Species: sapien
+
+1.2 - Determining How Species are Related
+
+Species are classified based on:
+Morphological species concept: based on structural features
+Biological species concept: based on whether fertile offspring can be produced
+Phylogenetic species concept: based on evolutionary history
+Modern classification of species tends to be considered morphology or phylogeny. 
+
+Evidence of Relationships:
+Anatomical: the branch of biology that deals with structure and form, including internal systems
+Physiological: the branch of biology dealing with physical and chemical functions of organisms, including internal processes. 
+Eg. Insulin found in guinea pigs is very different from other rodents. Thus, the guinea pig is outside the order of Rodentia. 
+DNA: gives insight on how similar some species can be. 
+
+Phylogenetic Tree: a branching diagram used to show the evolutionary relationships among species. 
+
+1.3 - Kingdoms and Domains
+Dichotomous Key: an identification tool consisting of a series of two-part choices that lead the user to a correct identification 
+
+1.4 - Classifying Types of Biodiversity 
+Species diversity: variety and abundance of species in a given area
+Genetic diversity: variety of heritable characteristics (genes) within a population of interbreeding individuals. 
+Good to have a large gene pool because it allows for greater resistance to disease for the population (group of same species in specific area and time).
+
+Ecosystem diversity: variety of ecosystems in the biosphere (including biotic and abiotic/non-living factors, like soil).
+Ecosystem services: Benefits expressed by organisms which are provided by sustainable ecosystems. Wetlands are important. 
+Benefits included resilience (ability to remain functional and stable in the presence of disturbances). 
+Also increase plant cover (shade, decreases in # of invasive species, decreases disease severity. 
+
+2.1 - Introduction to Viruses
+
+Characteristics of Viruses:
+Simple organism
+Made of 2 parts: DNA or RNA & protein coat (capsid)
+Very small and never grow larger
+No cellular respiration
+Adapts to environment
+Adapts really well to environment which makes viral infections hard to fight
+Has no organelles of its own
+Depends on the host’s organelles for all life functions
+Very parasitic
+Not capable of living independently outside of cells, dormant outside of cells. 
+
+Mode of Infection and Viral Life Cycle:
+Virus lands on cell membrane at the host’s receptor site
+Virus lowers itself onto the membrane using its tail fibers
+Spikes stabilizer virus onto the membrane
+Viral DNA is injected into the cell
+
+2 POSSIBLE CYCLES
+Lytic
+Viral DNA takes over the cell functions and all organelles are used to make more DNA and the viral capsid. 
+Once the new viruses are ready to be released, enzymes lyse (break/burst open) the cell.
+Host cell dies
+Symptoms occur
+Lysogenic
+Viral DNA does not immediately take over the host cell’s functions, no symptoms, (dormant/latent phase)
+Viral DNA is inserted into the host cell’s DNA and replicated with the host cell's DNA (provirus) (dormant/latent phase)
+Some viruses are produced and released from the cell without lysing (budding)
+Host cell is intact but symptoms may occur because the cell is not functioning properly. 
+External stimuli (stress or cold) triggers the viral DNA to take over the host cell
+Once the cells lyse, symptoms appear. (herpes can trigger HIV and AIDS symptoms)
+
+2.2 - Comparing Bacteria and Archaea
+
+
+Reproduction:
+Binary Fission (cloning): 
+Cell elongates through growth
+Septum beings to form (pinch)
+Septum complete and walls form
+Cells separate
+Conjugation: transfer of genetic material involving two cells which allows for adaptation and new genetic combinations
+One cell links to another forming a bridge and transfers all or part of its chromosomes.
+Receiving cell goes through binary fission. 
+Plasmids: small loops of DNA that separate from the main chromosomes. They can recombine with other cells or rejoin their own cells. 
+
+Bacteria
+Endospores: hard-walled structures that protect and store the organism’s genetic material during extreme conditions like high temperatures, drying out, freezing, radiation, and toxic chemicals.
+Germinates back into active bacteria when conditions improve
+
+Gram stains: a stain that separates bacteria based on their cell wall’s response to the stain. 
+Gram-positive bacteria have a purple stain due to their thick protein layer.
+Gram-negative bacteria have a pink stain due to their thin protein layer. 
+
+Human Health: bacteria can cause many diseases (eg. tetanus, typhoid fever, strep throat)
+Eg. botulism (food poisoning) caused by Clostridium botulinum
+Endospores that are resistant to heat in anaerobic conditions form and they are dangerous when left to grow on food.
+Some can be helpful (probiotic bacteria found in yogurt, Kimchi, kombucha, and cheese)
+Environment: bacteria can decompose organic material - important for the nutrient cycle. 
+Cyanobacteria produce oxygen via photosynthesis. 
+Archaea
+
+Thermophile: heat lover (eg. Methanopyrus, >120oC)
+
+Acidophile: acid lover (eg. Picrophilus, pH 0)
+
+Halophile: salt lover (eg. Halcoccus, > 20% concentration of salt)
+Dead sea has 34% salinity
+
+Biotechnology: enzymes of archaea can be used for DNA analysis, diagnosing diseases because they can withstand extreme conditions like temperature and acidity.
+Their enzymes are helpful to replicate a lot of DNA sequences at once because they replicate so quickly. 
+2.3 - Eukaryotic Evolution and Diversity
+
+
+Endosymbiosis: theory evolutionists use to explain how eukaryotic cells evolved from 2 or more prokaryotic cells. Mitochondria and chloroplasts (like the endosymbiont, which provides energy) were once small, free-living prokaryotes that were engulfed by larger cells (host cell). 
+Evidence: prokaryotes and chloroplasts/mitochondria have similar membranes, ribosomes, genetic sequences, reproduction methods. 
+
+2.4 - Protists: The Unicellular Eukaryotes
+
+Protists: a eukaryotic organism, usually unicellular, that is not a fungus, plant, or animal. 
+
+Parasite: an organism that benefits by living in or on another organism at the expense of the organism.
+Pseudopod (pseudopodia): a temporary cytoplasmic extension that amoebas use for feeding and movement
+Cilium (cilium): a short, hair-like projection that function in cell movement and particle manipulation when coordinated with other cilia
+
+Flagellum (flagella): a long, hair-like projection extending from the cell membrane that propels the cell using a whip-like motion.
+
+Red Tide: a coastal phenomenon in which dinoflagellates that contain red pigments are so concentrated that the seawater has a distinct red color.
+
+
+3.1 - From Algae to Terrestrial Plants
+Algae: a unicellular or multicellular photosynthetic aquatic protist.
+Plant:  a multicellular photosynthetic eukaryote with cellulose-based cell walls.
+Brown Algae: 
+Largest, most complex protist, can grow 60 m in height.
+Kelp: grow to be 60 m in height, creating underwater forest, providing food and shelter to species.
+Rockweed: smaller than kelp, forms an underwater forest-like environment in tidal zones.
+Gas/Air Bladder: allows algae to float
+Red Algae: 
+Contain green chlorophyll and phycoerythrin (pigment that reflects red light)
+Used in food (nori to wrap sushi, carrageenan used to keep ingredients mixed together)
+
+Green Algae: 
+Found in aquatic environments and non-aquatic ecosystems (rainforest or on fur of sloths).
+Unicellular or multicellular
+Same color as most land plants
+Most-plant like
+Contain chlorophylls a and b
+Cell walls contain cellulose
+Food reserves are in the form of starch (other store in glycogen)
+Similar DNA sequences to plants
+
+Introduction to Plants:
+Embryo: small, simple, multicellular plants that are dependent on the parent plant for a time
+
+Alternation of Generation (Sporic reproduction)
+This is sexual reproduction that alternations between a gamete-making individual and spore-making individual
+Gametophytes: the haploid plant in sporic reproduction that produces gamete (egg/sperm cell) by mitosis (1 set of chromosomes)
+Sporophyte: the diploid plant in sporic reproduction that produces spores by meiosis (2 sets of chromosomes)
+
+P generation and F2 generation same
+
+3.2 - The Plant Kingdom
+Seedless Non-vascular (no xylem/phloem) Plants: Bryophytes
+Small non-vascular land plant.
+No vascular tissue
+Depends on diffusion and osmosis to transport nutrients
+Grow tangled and low to the ground so that they can hold water
+No roots but have rhizoids
+Includes:
+Mosses: short, vertical stems with leaf-like structures, very diverse. 
+Liverworts: leafy stems or flattened blades
+Hornworts: 1 chloroplast per cell
+Seedless Vascular Plants
+Vascular tissue allows them to grow tall
+Exhibit alternation of generation, but the sporophyte generation is the larger, more dominant stage in the life cycle
+Found in moist environments
+Includes:
+Whisk ferns
+Horsetails
+Ferns
+Club Mosses
+Fern Life Cycle:
+Sporophyte are usually most visible
+Rhizome is at the base of the plant sending out roots and stems
+Fronds are the largest divide leaf containing many pinnae
+Spores are clustered in a sori
+
+Seed-Producing Vascular Plants: Gymnosperms and Angiosperms
+Seeds allow for sexual reproduction without water and provide protection in harsh conditions.
+Gametophytes are never free-living plants (grow on sporophyte)
+Gymnosperm: a vascular plant with non-enclosed seeds
+Include conifers (cone-bearing trees), cycadophytes, and ginkgophytes
+Cones contain male or female reproductive parts
+Angiosperm: a vascular plant with seeds enclosed in protective tissue
+Reproduce using flowers
+Seeds contained in fruit
+90% of all plants
+
+3.3 - The Fungus Kingdom
+
+Types of Fungal Nutrition:
+Parasitic: in living cells of host organism
+Predatory: mycelia are able to trap prey
+Mutualistic: mycelia cover roots of plant, helping plant to absorb more water as it receives sugars from the plant
+Saprobial: on dead/decaying matter as decomposer
+
+Fungi:
+Contain chitin in cell walls
+DNA more closely related to animals than plants
+All heterotrophs
+Release enzymes into external surroundings then absorb nutrients from food through cell membranes
+
+Structure of Fungi:
+Unicellular include yeast
+Multicellular:
+Hyphae: a thread-like filament found throughout the fungi
+Mycelium: branching network found below the soil, wood, animal bodies
+Fruiting body: reproductive structure found above ground
+
+5 Phylum of Fungi:
+Fungi Imperfecti: reproduce sexually, used to make penicillin, soy sauce, cheese
+Chytrids: unicellular, aquatic
+Zygospore Fungi: multicellular, terrestrial, common molds found on food
+Sac Fungi: unicellular or multicellular, largest group of fungi
+Club Fungi: include mushrooms, release spores called basidiospores from the basidia (club-shaped hyphae), the largest part of the fungus is underground. 
+
+Fungal Reproduction: 
+Sexual or asexual (reproduction includes spore production, budding (yeasts), fragmentation)
+
+Lichen: composite (made up of 2 or more organisms) organisms, exist depending on the relationship of a fungus and a photosynthetic organisms (eg. algae or cyanobacteria)
+
+3.4 - The Animal Kingdom Intro
+
+Animals:
+35 phyla (over half are worms)
+Characteristics:
+Eukaryotic, multicellular, no cell wall
+Heterotrophs
+Sexual reproduction
+Produce embryo that develop through different stages
+Mobile in at least on stage
+
+Ways to Classify Animals
+Presence of Backbone?
+Levels of Organization (how tissues arranged, which organ systems)
+Number of Body Layers
+Most animals develop 3 layers of ells at an early stage in growth of the embryo (except sponges and cnidarians)
+Ectoderm: outer layer (skin, nerve tissue, sensory organs)
+Mesoderm: middle layer (muscles, blood, kidneys, reproductive organs)
+Endoderm: inner layer, (lungs, liver, pancreas, bladder, stomach lining)
+Symmetry and Body Plans
+Asymmetrical, radial symmetry, or bilateral symmetry.
+Body Cavities
+Present of coelom (fluid filled body cavity that provides space for the development and suspension of organs/systems)
+Segmentation
+When the body is broken down into repetitive segments
+Helps in movement and when one section is injured
+Eg. worms, arthropods, vertebrate animals
+Movement
+Sessile (stationary) or not
+Reproduction
+Some animals can reproduce asexually
+Sexual reproduction requires gametes which develop into zygotes. 
+Internal or external fertilization
+
+3.4 - The Animals
+
+Invertebrate Animals:
+Sponges (Phylum Porifera) 
+Marine and freshwater environments
+Asymmetrical, no tissue, 2 layers of cells
+Sessile as adults
+Trap food particles in water as water passes through
+Cnidarians (Phylum Cnidaria) 
+Hydras, jellyfish, sea anemones, corals
+2 layers of cells
+Have tissues (muscles and nerves)
+Swim and capture prey
+Radial body symmetry
+Gastrovascular cavity digests food inside body
+Exist as polyp (sessile, tentacles/mouth point upwards from gastrovascular cavity) and/or medusa (free-swimming, tentacles/mouth below gastrovascular cavity)
+Worms 
+Exist in several phylum
+Some have complex organ system and segmented bodies
+Molluscs (Phylum Mollusca)
+Clams, oysters, mussels, scallops, snails, slugs, octopuses, squids
+Second most diverse animal phylum
+Bilateral symmetry
+3 layers of cells, coelom
+Organ systems: digestive, circulatory, respiratory, excretory, nervous, reproductive
+Mantle surrounds organs
+Muscular foot used for movement
+Echinoderms (Phylum Echinodermata) 
+Sea stars, urchins, cucumbers, sand dollars
+Aquatic, radial symmetry
+Spiny endoskeleton provides support for muscle attachments and protects organ
+Tube feet have suction cups
+Arthropods (Phylum Arthropoda)
+Spiders, crustaceans, insects
+Largest number of species
+Have moveable sections with legs connected by joints
+Have an exoskeleton made of protein and chitin, which shed as animal grows
+Protects organs, protects against water loss and predators, provides support
+Vertebrates:
+Phylum Chordata
+Five major classes
+Except for fish, all are tetrapods (2 pairs of limbs)
+Not all are vertebrates
+Common traits:
+Notochord: rod-shaped structure extending the length of the body used for attachment of muscles (our spine)
+Dorsal nerve cord
+Pharyngeal slits: used for filtering in aquatic animals, disappears later in life for land animals
+Post anal tail (our coccyx bone)
+Fish (Class Pisces?) (Placeholder)
+Belong to several classes
+Half of all vertebrate species
+Aquatic, range in size
+Gills obtain oxygen from water
+Skeleton made of cartilage or bone
+Some contain paired fins, jaws, and a swim bladder with an air sac
+Eg. Lampreys, fighting fish
+Amphibians (Class Amphibia) 
+Most belong to order Anura (frogs and toads) or Urodela (salamanders)
+External fertilization
+Gas exchange occurs through lungs and moist skin
+Very susceptible to human activities (lay eggs without shells in water)
+Reptiles (Class Reptilia) 
+Order Squamata (lizards/snakes), testudines (turtles), Crocodilia (crocodilians) 
+Body scales create a waterproof barrier
+Gas exchange through lungs
+3-chambered heart
+Ectothermic: environmental heat determines body temperature (cold-blooded)
+Internal fertilization
+Live offspring or amniotic is produced (egg that has layers of membrane that develop inside of the shell)
+Incubation required for eggs (may determine sex)
+Birds (Class Aves)
+4-chambered heart
+Endothermic: metabolic heat maintains constant body temperature (warm-blooded)
+Most can fly (feathers, hollow/light bones, toothless skull, compact body)
+Distinct songs
+Mammals (Class Mammalia)
+Females have mammary glands that produce and secrete milk for offspring
+Hair (insulation), camouflage, waterproofing, and communication
+Specialized hairs for defense (eg. quills)
+4-chambered heart
+Endotherms
+Highly developed brains
+Types:
+Monotremes (platypus): egg-laying
+Marsupials (kangaroos): pouched mammals, short gestation period (when offspring is in uterus)
+Placental mammals (humans, whales): developing offspring encased in placenta in mother’s uterus
+
+
+3.5 - The Biodiversity Crisis
+Threat of Climate Change to Biodiversity: Ecologists believe that the current rate at which species are becoming extinct is matching that of mass extinctions in the past, causing a biodiversity crisis. This is based on modeling (looking at old data and predicting future patterns).
+(increase temp., decrease in diversity of different climates/habitats)
+
+Climate Change and Food Sources: decline in caribou populations are suspected to be a result of climate change. Warmer summers favor plant growth over lichen. Lichen is winter food for caribou. When plants grow faster/earlier in warmer weather, migrating caribou reach them later leaving them to eat plants that have already reached their peak growth and have less nutritional value. 
+
+Climate Change and Reproduction: climate change would affect reptiles who have temperature sex determination (eg. Jacky Dragon).
+
+Climate Change, Plants, and Animal Pollinators: each plant has a pollinator(s), like birds or bees, that help move pollen between flowers. Climate change has been found to mismatch the timing of the flowering of the plant and the time of visit for the animal pollinator. 
+
+UNIT 4: Plants
+13.3 - Structure and Function of Plants
+
+Leaves: contain chloroplast; convert light NRG to chemical NRG. 
+Source of food and energy for plants and animals.
+Stems: transport water and nutrients throughout the plant
+Hold up plant
+Roots: absorb water and minerals (eg. metals)
+Anchors plant, holds stem up. 
+
+Leaves
+Cuticle: water resistant, waxy layer that protects the leaf from excess light, absorption, and evaporation. 
+Epidermis: transparent, colorless layer that allows light to pass through
+Palisade Mesophyll: contains chloroplast (gets more sunlight), upper layer of mesophyll cells.
+Spongy Mesophyll: central layer of mesophyll cells, fewer chloroplast, loosely packed
+Stomata/Guard Cells: control size of the stomata. 
+
+Stems
+The function of the stem is to transport water and nutrients to different parts of the plant, like our bodies have veins and arteries. 
+Plants have a vascular system. 
+2 passage ways:
+Xylem: transports water and minerals from the root to the rest of the plant (goes upward)
+Phloem: transports sugar to the rest of the plant (moving downward)
+Xylem and phloem are grouped together to make a vascular bundle.
+
+2 types of stem:
+Woody Stems: hard and rigid, many perennials (trees), no photosynthesis on stem.
+Herbaceous Stems: soft, flexible, green; can photosynthesize, annuals (asparagus, herbs). 
+
+C. Roots
+3 functions:
+Absorb water and minerals
+Anchor the plant (supports against erosion)
+Store nutrients, water, carbohydrates
+
+3 types of roots:
+Tap: dominant, fleshy root and stores food/water, has smaller lateral branching roots (eg. carrots, dandelions)
+Fibrous: have many slender branching roots (eg. green onions, grass, bamboo).
+Modified: large amount of water/food storage (eg. potatoes). 
+
+13.4 - Transport in Vascular Plants
+
+Diffusion: movement of particles from high concentration to low concentration until concentrations are balanced
+When water is the particle, it is called osmosis
+When particles move against diffusion (low to high concentration), it is called active transport. 
+
+Transport in the Xylem:
+Water then moves through cell walls and enters xylem, up the xylem tissue, to the stem, then other tissues of the plant
+Transpiration: 90% is then lost to evaporation through the stomata.
+Transport in the xylem is accomplished by
+Root Pressure (positive pressure or pushing): pushes water/minerals upwards in a plant
+Roots contain a higher concentration of dissolved nutrients than surrounding soil, minerals continue to move into roots (active transport)
+Water moves in to roots (osmosis)
+Capillary Action: the polarity of the capillary walls attracts water molecules to cling to the sides of the capillary (cell walls)
+
+Transpirational pull (negative pressure/pulling): 
+Cohesion: tension model, water evaporates through transpiration , a water molecule rises to replace it. 
+Cohesion exists between water molecules and adhesive forces exist between water molecules and the wall of the vessels. 
+
+Nutrient Transport in the Phloem:
+
+Translocation: the transport of sucrose and other organic molecules through the phloem of a plant (positive pressure/pushing)
+Moves sugars from where it’s made to where they are needed for growth, metabolism and storage
+Storage includes moving carbs back to roots during winter and to branches in spring
+Starts from a source (eg. mesophyll tissue) to sink where the sugars are used/stored (eg.fruit). 
+
+Pressure-Flow Model: sucrose moved to the phloem by active transport
+Water follows sucrose, increasing pressure in the phloem
+Sugar moves along the phloem from high concentration to low concentration towards the sink, where the sucrose is removed from the top. 
+
+14.1 - Reproduction in Vascular Seed-Bearing Plants
+Alternation of generations:
+Spores -> Haploid gametophyte -> male gametes +  female gametes -> (2n) sporophytes 
+
+Seedless plants:
+Sperm with flagella swim to egg in the presence of water
+Have a free-living gametophyte plant independent of sporophyte
+Bryophytes: gametophyte is the dominant generation
+Seedless, vascular plants: sporophytes are the dominant generation.
+
+Sexual Reproduction in Seed Plants
+Gametophytes are not free-living plants.
+Male gametophytes are microspores (develop into pollen grains that produce sperm), female gametophytes are macrospores (produce egg cells)
+Pollination: transfer of the entire male gametophyte (pollen grain) to the female reproductive structure (pistil). 	
+Sexual Reproduction in Gymnosperms:
+After fertilization, a zygote is formed which develops into an embryo. The embryo, stored food, and a hard waterproof coat form a seed. Seed remains in the female gametophyte until they are mature. Seeds released then grow into sporophyte plants. 
+
+Sexual Reproduction in Angiosperms
+Stamen = Anther + Filament
+Carpel/Pistil = Stigma, Style, Ovary 
+Petal, Sepal, Ovule
+
+Variations Among Flowers:
+Structural Differences: 
+
+Complete Flowers			vs. 			Incomplete Flowers
+Have all 4 major organs					Missing 1 or more major organs 
+
+Perfect Flowers			vs. 			Imperfect Flowers
+Both pistil and stamen						Have either pistil or stamen 
+
+Monoecious Plants 			vs. 			Dioecious Plants
+Have both pistil and stamen on same plant 			Either pistil/stamen on one plant
+
+Dicots					 vs. 			Monocots
+Petals/organs in multiples of 4 or 5				Petals/organs in multiples of 3
+
+Pollination Mechanisms
+Self pollination: can lead to a loss of genetic variation
+Cross pollination: increases genetic diversity, which increases resilience. 
+Animal pollination: these plants usually have bright colors, strong aroma, and sweet nectar. Animals move from flower to flower carrying pollen with them.
+Wind pollination: light pollen grains are carried by the wind. Large volume of pollen increases the chance that some may land on another plant (eg. oak trees). 
+
+Seed and Fruit Development
+Cotyledon: structure in the embryo that helps to nourish the plant as it starts to grow. 
+Monocots: 1 cotyledon, endosperm is a major part of the seed.
+Dicots: 2 cotyledon, endosperm is absorbed by the cotyledon as the seed matures. 
+Hard outer layers of the ovule form a protective coat around the seed. 
+As the ovule develops into seeds, fruit forms from the ovary wall or other flower organs. 
+Seed Dispersal
+Dispersal allows for a higher survival rate because plants don’t have to compete for the same resources.
+Water dispersal
+Animal dispersal
+Wind dispersal
+Seed Germination
+As the seed matures, it loses water and becomes dormant (time varies)
+Germination may occur: process by which growth resumes in a seed after a dormant phase.
+Seed absorbs water, swells, and breaks seed coat. 
+Stored food in seed breaks down and are made available to the embryo
+Radicle first appears outside of the seed and starts absorbing water and nutrients eventually developing into the plant’s roots. 
+The hypocotyl (region of the stem closest to the seed) develops. In dicots, it is hook-shaped and eventually emerges above the ground. 
+
+Asexual Reproduction in Flowering Plants
+aka. Vegetative propagation
+Identical offspring are formed
+Artificial Propagation: techniques used to clone a plant from a portion of its roots, stems, or leaves. 
+Types: 
+Division (splitting): plant split into 2 or more pieces, each containing intact shoots and roots. 
+Grafting: portion of the stem/bud.section of the root is cut from one plant and joined to another. 
+Leaf Cutting: leaf is cut then placed in a growth medium.
+Stem Cutting: shoot tip or part of the stem is cut from the parent plant and placed in a growth medium where it develops root. 
+Root Cutting: a small section of a root is cut and placed in a growth medium. 
+Simple Layering: in plants with long vine type stems or low hanging branches, a section of stem touches ground, then cut to prompt growth of roots and then buried in ground.
+Air Layering: strip of outer bark is removed from the woody stem. Moist sphagnum moss is packed around the wounded part, then plastic wrapped around the root system develops and then cut.  
+Cell Culturing (tissue culturing): an individual cell or small piece of plant time is placed in or on  a sterile nutrient medium that contains chemicals that prompt shoot and root growth. 
+
+UNIT 5: Evolution
+7.1-7.2 - Introducing the Theory of Evolution
+
+Macroevolution: the formation of a new species and, hence, a new gene pool. (i.e. speciation) 
+Depends on what people define species as.
+What most people think of when thinking about “evolution” 
+Microevolution: the increase in the frequency of certain phenotypes within a species’ gene pool (population’s gene pool changed).
+Majority of evidence provided.
+
+Adaptation and Survival:
+Adaptation: structure, behavior, or physiological process that helps an organism survive and reproduce in a particular environment (eg. hibernation of squirrels, camouflaging lizards, an owl’s excellent eye-sight).
+They develop as a result of random heritable mutations in genetic material that accumulate over generations. 
+Mimicry:  a structural adaptation in which harmless species resemble harmful species in coloration or structure. 
+eg. The victory butterfly (tastes good) mimics the monarch (tastes bad).
+English Peppered Moth: can be grayish-white with black dots, black, or an intermediary color. In 1848, most were grayish-white. In 1898, most were black. 
+Evolutionists say: grayish white moths with black dots were found to be camouflaged on the tree's bark with light-colored lichen (to hide from predators). The Industrial revolution brought pollution and covered bark with soot. Graryish-white moths were not as camouflaged and decreased in frequency. Individuals did not change but the population’s gene pool changed (microevolution).
+Creationists: Moths stay on the underside of leaves (not on bark), frequency count was in question, and it shows microevolution. 
+
+Mutations Lead to Genetic Variation?
+Mutations: a permanent change in genetic material of an organism
+The only source of new genetic variation
+Primary mechanism for evolution
+Provided new allele and traits for a gene
+Cells may exhibit new characteristics. 
+Selective advantage: a genetic advantage that improves an organism’s chance of survival, usually in a changing environment. 
+Some Daphnia have a mutation (different allele) that allows them to survive in higher temperatures. 
+Mutations commonly lead to a loss in functional systems, not a gained benefit. 
+Bacteria, viruses, insects reproduce rapidly (short generations)
+Can evidence for evolution be found here?
+Antibiotic-Resistant Bacteria: 1 resistant to antibiotic while the rest die except 1 normal and 1 resistant, resistant one becomes more common and multiple, then entire infection becomes resistant strain. 
+
+Natural Selection: the process by which characteristics of a population change over many generations as organisms with heritable traits survive and reproduce, passing their traits to offspring. 
+Requires diversity within species.
+Individuals that possess a helpful variation are more likely to survive and reproduce. 
+Therefore, they are able to pass on variation to their offspring.
+Selective Pressure: the environmental conditions that select for certain characteristics of individuals and select against others. 
+Natural selection is situational.
+Fitness: the relative contribution an individual makes to the next generation by producing offspring that will survive long enough to reproduce. 
+High: organism with many viable offspring
+Low:  organism with few or no viable offspring. 
+
+Artificial Selection: selective pressure exerted by humans on populations in order to improve or modify particular desirable traits. (ie. selective breeding for plant crops or show dogs)
+Food Crops: Many benefits.
+Disadvantage: not enough variation to withstand environmental conditions like pests, disease. 
+Monoculture: extensive plantings of the same varieties of a species overland expanses of land. 
+
+8.1 - 8.2 - Paleontology and Evolution
+
+How a scientific theory is developed: scientific knowledge (questions and observation) → hypothesis (possible explanation) → theory (explanation of phenomena based on observations).
+
+Evidence from Paleontology
+Paleontology: study of ancient life through fossils. 
+Fossil Records: the remains and traces of past life that are found in sedimentary rock (also amber, permafrost, dry caves).
+Georges Cuvier: credited with developing paleontology.
+Each stratum (layer of rock) had a unique group of fossil species.
+Deeper the stratum, older the species
+Catastrophism: the idea that catastrophes (“revolutions”) such as floods, diseases, and droughts periodically destroy species living in a particular region, allowing species from neighboring regions to repopulate the area. 
+Note: he argued against macroevolution, stating that the time between the stratum (1000s of years) was not enough time for a species to evolve. 
+Transitional fossils: fossils that show intermediary links between groups of organisms and share common characteristics common to two now separated groups.
+Archaeopteryx: the link between reptiles and birds.
+Vestigial Structure:  a structure that evolutionists believe to be a reduced version of a structure that was functional in the organism’s ancestors.
+Uniformitarianism: Charles Lyell’s theory that geological processes operated at the same rates in the past as they do now. 
+For example, floods would happen regularly, and that no catastrophic floods would have happened. 
+If this were true, the earth would be > 6000 years old. 
+Around the same time, Jean-Baptiste-Lemark interpreted from fossil records that species progressed from one to the other over time as they became increasingly better adapted to their environments.
+Lemark called this the “Inheritance of Acquired Characteristics”
+The idea that characteristics acquired and used during an organism's lifetime can be passed on to its offspring.
+Unused characteristics would less likely be passed on to the next generation.
+Through this, the controversial idea that species change over time was introduced. 
+
+Charles Darwin
+Born in 1809 in England
+Initially wanted to pursue a medical career, but ended up doing divinity at Cambridge (he’s Anglican).
+When 22, went on a 5-year scientific expedition on the HMS Beagle.
+He studied Lyell and Lamarck’s theories.
+Had issues with how God could allow all the pain and suffering in the world. 
+Visit to Galapagos Islands raised a lot of questions when observing biogeography like:
+Why were there structurally similar (but still different) animals that existed on different continents?
+Why did living and fossilized organisms look similar in the same region?
+Why did animals found on the coastline of S. America look similar to those found on the Galapagos Islands 1000 km away from Ecuador.
+Why did some species differ slightly between islands?
+After many years, he wrote “On the Origin of Species” which was very controversial as it could be inferred from his theories that humans could have progressed from another animal. 
+
+Theory of Evolution by Natural Selection
+Theory explaining how life has changed, and continues to change during Earth’s history. 
+Darwin and Alfred Wallace reached the following conclusions:
+The environment has limited resources
+Certain traits of a species are more favorable and would be most fitting in a species’ local environment. 
+Competition in the locs environment would select for these favorable traits. 
+The species with these favorable traits would be more likely to survive and have offspring.
+Hence, these traits are more likely to be passed on into future generations. 
+Aka Survival of the Fittest or Natural Selection. 
+Descent with Modification: Darwin’s theory that natural selection doesn’t demonstrate progress towards a certain direction, but merely results from a species ability to survive local conditions at a specific time. 
+
+8.2 - Sources of Evidence for Evolution
+Evidence from Anatomy:
+Homologous Structures: structures of organisms that have similar structural elements (eg. # of bones, muscles, ligaments)
+Divergent evolution: evolutionists believe that they were inherited from a common ancestor. 
+Similar structure but may have different function
+Analogous Structures: structures of organisms that have similar structure elements and similar functions. 
+Convergent evolution: not believed to be from the same ancestor. 
+Seems to be circular reasoning between 2 points:
+Structures are homologous
+There must be a common ancestor
+
+Evidence from Embryology:
+Embryology: the study of early pre-birth stages of an organism’s development.
+Embryos between different species (eg. humans, turtles, and chickens) were very similar. But it was thought that the drawings of the embryos were false. 
+
+Evidence from DNA:
+There must be a common ancestor because DNA sequences are very similar (and vice versa). Again, circular reasoning.
+
+9.1 - Mechanisms of Evolution and Their Effect on Population
+Factors affecting the frequency of alleles within a population:
+Microevolution, mutation, migration, non-random mating, genetic drift, and natural selection 
+
+Mutation 
+A mutation occurs at the individual level.
+A beneficial mutation is needed to be passed onto the offspring, and possibly affecting the entire gene pool?
+Has to be in egg cells to be passed on.
+Migration (gene flow)
+The net (overall) movement of alleles from one population to another due to the migration of individuals. 
+Non-random Mating
+This is mating among individuals on the basis of mate selection for a particular phenotype or due to inbreeding 
+Eg. humans, caribou, guppies → sexual selection 
+Also includes inbreeding, which means homozygous genotypes become more common (bad if it is harmful).
+Genetic Drift
+This is the change in frequencies of alleles due to chance events in a breed population
+Happens when some individuals in a population don’t reproduce 
+Affect smaller populations more than larger ones 
+
+Founder effect:
+Occurs when a few individuals start a new population
+The founders may not have all of the allele of the original population
+Diversity in the new gene pool will be limited
+Eg. The Amish community in Philadelphia has a high frequency of a sixth digit. 
+
+Bottleneck effect: 
+Occurs when there is a rapid decrease in population size
+Could be starvation, disease, human activity, or natural disaster. 
+Eg. After a typhoon on Pingelap (in P. Ocean), there were less than 30 survivors from the original 1600. One of the survivors had color vision deficiency, and as a result 10% of the current population have this deficiency. 
+
+Natural Selection
+Eg. lighter colored mice easier to spot on dark floor, get caught more often 
+
+9.2 - Speciation
+The formation of new species from existing species. 
+
+What defines a species? They are classified based on:
+Morphological species concept
+Phylogenetic species concept
+Biological species concept
+If 2 species can mate under natural circumstances and produce fertile offspring, they are considered one species. 
+
+Prezygotic Isolating Mechanisms: barriers that either impedes mating between species or prevents fertilization of the eggs if individuals from different species attempt to mate.
+Aka. pre-fertilization barrier
+Prevention of Mating:
+Behavioral Isolating Mechanisms
+Species that have different behavior or signals.
+Western meadowlark vs. eastern meadowlark.
+Habitat Isolating Mechanisms
+Species that prefer different habitats.
+Eg. northern american garter snakes prefer areas near water, the northwest garter snake prefers open areas like meadows.
+Temporal Isolating Mechanisms
+Species separated by timing barriers.
+Eg. plants that mate at different times of the day, season, or year. 
+Prevention of Fertilization:
+Mechanical Isolating Mechanisms 
+Species that are anatomically incompatible to mate (ie. genital anatomy)
+For flowering plants, this could include having an incompatible pollinator (eg. pollen carried on the backs of bees vs. the wings of the bees).
+Gametic Isolating Mechanisms
+Even when the sperm meets the egg, the egg is unable to be fertilized. 
+
+Postzygotic Isolating Mechanisms: barriers that prevent hybrid zygotes from developing into viable, fertile individuals
+aka. Post-fertilization barrier
+Hybrid Inviability
+Zygote unable to develop and dies
+eg. sheeps and goats (usually)
+Hybrid Sterility
+Sterile offspring are produced
+Female horse + male donkey = mule (cannot have offspring)
+Vice versa = hinny (cannot have offspring)
+Hybrid Breakdown
+Hybrids (F1 gen.) are fertile, but their offspring (F2 gen.) are sterile, weak, or die early. 
+
+Types of Specification
+Sympatric Speciation: speciation in which populations within the same geographical areas diverge and become reproductively isolated.
+This isolation within the species could be due to changes in the number of chromosomes (common in plants) or non-random mating (animals).
+Allopatric Speciation: (aka. Geographical speciation) speciation in which a population is split into 2 or more isolated groups by a geographical barrier. 
+
+
+Confirmed Diagrams:
+Identify or draw meiosis,
+Respiratory system diagram,
+Heart diagram

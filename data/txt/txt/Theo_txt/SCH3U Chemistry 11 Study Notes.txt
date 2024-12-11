@@ -1,0 +1,119 @@
+SCH3U Chemistry 11 Study Notes
+
+Unit 1
+
+Chemistry: the study of matter and its composition. 
+Matter: anything that has mass and volume.
+Physical Properties: a property observed without changing one kind of matter into something new. Qualitative (sensed). Quantitative (measured). 
+Chemical Properties: observed when converted to another kind of matter (eg. pH, flammability, reactivity with other substances).
+Accuracy: how close a given quantity is to an accepted value. Precision: exactness of measurement (consistent). 
+Physical Changes: affect physical appearance of matter but not composition (reversible, eg. sublimation: solid → gas). Chemical Changes: alter composition of matter (breaking/forming of chemical bonds). 
+Classifying Matter: mixture (physical combination): heterogenous (all components visible) and homogenous (look like one substance)  vs. pure substance (definite composition, stays the same in response to physical changes): element (pure substance that cannot be separated chemically anymore and compound (pure substance that results when two or more elements combine chemically to form a substance).
+
+1.1 Atoms and their Composition
+
+John Dalton: all matter made of atoms, atoms cannot be created, destroyed, or divided into smaller particles, atoms of same elements are same mass and size, atoms of different elements combine in specific proportion to form compounds.
+
+J.J. Thompson: ‘plum pudding’ model, positively charged sphere with negatively charged particles. 
+
+Ernest Rutherford: planetary model, electrons orbit a positive nucleus, nucleus is heaviest. 
+
+Niels Bohr: electrons have specific amounts of energy and stay in certain energy levels/shells. 
+
+Erwin Schrodinger: electrons move in a cloud of space, positively charged nucleus. 
+
+Modern View of Atom: smallest particle of an element that still retains the identity and properties of the element, 10-10m diameter, mass of 1 amu (1.66 * 10-24 g).
+
+A = mass number (p+n mass), X = element symbol, Z = atomic number (#p, #e).
+
+Isotopes: atoms of an element that have the same number of protons but different number of neutrons. 
+Similar chemical properties but different mass.
+Added neutrons has a stabilizing effect as the number of protons increases.
+Neutrons are very dense. 
+When neutrons != protons, nucleus is unstable and decays. Radioisotopes: isotopes with unstable nuclei that decay into different, often stable, isotopes.
+eg. Cobalt-60 (27p, 22n).
+
+Isotopes and Average Atomic Mass
+
+Isotopic Abundance: the relative amount in which each isotope is present in an element.
+Average Atomic Mass: of an element is the weighted average of the masses of the element's isotopes. Takes into account the abundance of each isotope in the element.  
+Equation: average atomic mass = [atomic mass A * isotopic abundance (u)] + [atomic mass B * isotopic abundance (u)] ***sigfigs
+
+Lewis Diagrams
+
+Valence Electrons: electronics in the outermost shell of an atom, electrons involved in formation of bonds, thus, responsible for chemical properties of elements. 
+Lewis Diagram/ Electron Dot Diagram: chemical symbol in the middle with dots around (valence electrons). 
+
+1.2 The Periodic Table & 1.3 Explaining Periodic Trends
+
+Dimitri Mendeleev: organized p-table in order of increasing mass, similar properties in columns. The Periodic Law: when elements are arranged by atomic number, their chemical and physical properties recur periodically. Period: row (number of electron shells). Group: column ( elements in a group have the same number of electrons in their valence shell). 
+
+***categories
+
+Alkali Metals (Group 1): Soft, highly reactive (esp. water). React to give a M+1 cation.
+Alkaline Earth Metals (Group 2): not as reactive as alkali, very hard, high melting points, can form more than one ion. React to give a M+2 cation.
+
+Atomic Radius: the distance from the center of an atom of the boundary within which the electrons spend most of their time. ***Protons being added to nucleus increase the positive nuclear charge, further attracting the electrons in and decreasing the size. 
+
+Ionization Energy: the amount of energy required to remove the outermost electron from an atom or ion in the gaseous state. ***Protons being added to the nucleus increases the positive charge, further attracting electrons, making it more difficult to pull electrons off. 
+
+Electron Affinity: the energy absorbed or released when an electron is added to a neutral atom. ***When adding an electron, the atom usually becomes more stable. Energy is released from unstable atom becomes stable. ??? double check with Ms. Cho
+
+Electronegativity: an indicator of the relative ability of an atom to attract shared electrons. ***The positively charged nucleus of a small atom can get much closer to the electrons shared with another atom and thus exert a stronger attractive force on those electrons. 
+
+2.1 The Formation of Ionic and Covalent Bonds & Electronegativity in Bond Formation
+
+Isoelectronic: when some elements form ions that are isoelectronic with noble gasses, it means they have the same number of electrons in the valence shells as the noble gas. 
+
+Ionic Bonds: the attractive electrostatic force between a negative ion and positive ion. 
+
+Electronegativity: an indicator of the relative ability of an atom of a given element to attract shared electrons. 
+Polar Covalent: covalent bond with uneven distribution of electrons.
+Non-Polar Covalent:  a covalent bond with equal sharing of electrons. 
+
+Naming:
+
+Old Latin System:
+*** -ous: for lower ion charge. -ic: for higher ion charge. eg. Cu (I) is cuprous (like 0) & Cu (II) cupric (like 1). 
+
+2.3 Comparing the Properties of Ionic and Molecular Compounds
+
+Melting Point: temp at which compound changes from solid to liquid at standard atmospheric pressure. 
+Boiling Point: the temp at which a compound changes from a liquid to a gas at standard atmospheric pressure.
+Low Melting/Boiling Point: forces between particles are weak. High = strong forces. 
+
+Ionic Compounds: high mp and bp because very strong bonds to the attractive electrostatic forces between oppositely charged particles. 
+
+Polar Molecular Compounds: intermediate mp and bp because attractive force is dipole-dipole force that acts between polar molecules. Dipole-dipole is weaker than electrostatic forces between ions. 
+
+Dipole: molecule with a slightly positively charged end and negatively charged end. Positive end of polar molecule attract the negative ends of other polar molecules. 
+
+Hydrogen Bonding: water’s own kind of dipole-dipole interaction. 
+
+Non-polar Molecules: have low mp and bp. Even with no separation of charge, there are some attractive forces between the molecules called intermolecular forces (positive nuclei of atom in one molecule attracted to electrons in neighboring molecule). Much weaker. 
+
+Solubility in Water: for a substance to dissolve in water, the water molecules must be more strongly attracted to particles of that substance than to other water molecules. Since water is a polar molecule, its positive end will attract negative ions and negative ends of other molecules. Its negative end will attract positive ions and positive ends of other molecules. Thus, water is likely to dissolve ionic compounds and polar compounds. Water molecule are more attracted to each other than non-polar (thus, oil does not dissolve in water). 
+
+Electrical Conductivity: the ability of a substance or an object to allow an electric current to exist within it. Substance can conduct electricity if ion/electron can move freely of one another. Pure metals, ionic compounds in aqueous solution can conduct electricity. Molecular compounds cannot. 
+
+Ionic compounds cannot conduct electricity in solid because ions cannot move freely In aqueous form, ions are free of other ions because they are surrounded by water molecules. 
+
+Molecular compounds cannot conduct electricity because electrons are shared and not transferred. Except ACIDS in aqueous solution (acids come apart when dissolved in water). 
+
+Classifying Chemical Compounds 
+
+
+
+
+
+Unit 2
+
+
+
+
+
+
+
+
+
+

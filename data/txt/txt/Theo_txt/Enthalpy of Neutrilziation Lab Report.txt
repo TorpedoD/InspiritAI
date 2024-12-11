@@ -1,0 +1,157 @@
+
+
+
+
+
+
+
+
+
+
+
+Determining the Enthalpy of a Neutralization Reaction Between Hydrochloric Acid and Sodium Hydroxide Solution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Theodore Chiu
+SCH3U
+Mrs. Byon
+October 17, 2024
+Introduction:
+
+The purpose of this experiment is to determine the heat of neutralization for hydrochloric acid and sodium hydroxide solution. The reaction of hydrochloric acid with sodium hydroxide solution is a neutralization reaction. A neutralization reaction is a chemical reaction involving an acid and a base which produces a salt and water (Clancy, 2011).
+In a chemical reaction, there is a change of energy (Clancy, 2011). Thermochemistry is “the study of the energy changes involved in chemical and physical processes” (Clancy, 2011, p. 278). According to the first law of thermodynamics, where there is a release of energy, there is also an absorption of energy (Esystem = - Esurroundings) (Clancy, 2011). This is because energy cannot be created or destroyed; it can only be transformed or converted (Clancy, 2011). An endothermic reaction involves heat entering a system, while an exothermic reaction involves heat leaving a system (Clancy, 2011). 
+Enthalpy is defined as “the total energy of the system plus the pressure times the volume” (Clancy, 2011, p.282). When heat – which is the transfer of thermal energy – leaves a system, the enthalpy change is negative, and when heat enters a system, the enthalpy change is positive (Clancy, 2011). Calorimetry measures the heat released or absorbed during a process, and a calorimeter is used to measure this change (Clancy, 2011). This experiment involves using a polystyrene cup as a simple calorimeter. (Clancy, 2011). The polystyrene cups are insulators and are assumed to be an isolated system, which allows the thermal energy to remain inside the system without escaping (Clancy, 2011). Upon determining the change in temperature, which is the average kinetic energy of the particles in a system, in order to find the amount of heat the water absorbs, the equation Q=mcΔT is used (Clancy, 2011). Q represents heat (J), m represents mass (g), c represents the specific heat capacity of a substance (J/g*℃), and ΔT represents the change in temperature (℃). Then, the value of Q (heat in joules) is used to determine the enthalpy of the reaction because the thermal energy released by the system is equal to the amount of thermal energy absorbed by the surrounding (Clancy, 2011). 
+Thus, measuring the initial and final temperature of the reaction of hydrochloric acid with sodium hydroxide solution will provide the necessary information to determine the enthalpy of a neutralization reaction.
+
+Purpose:
+
+The purpose of the experiment was to determine the heat of neutralization for hydrochloric acid and sodium hydroxide solution. 
+
+Apparatus:
+
+Refer to Determining the Enthalpy of a Neutralization Reaction handout.
+
+Note the following adjustment:
+It was decided that instead of one 100mL graduated cylinder, two 100mL graduated cylinders would be used in this experiment. Instead of using two styrofoam cups as a part of the simple calorimeter, it was decided that only one styrofoam cup would be used. 
+
+Procedure:
+
+Refer to Determining the Enthalpy of a Neutralization Reaction handout.
+
+Note the following adjustments:
+Steps 4 and 5 of Determining the Enthalpy of a Neutralization Reaction required the graduated cylinder to be first rinsed with a small amount of sodium hydroxide solution, then tap water, and then hydrochloric acid. It was decided that these three rinses would not be performed in this experiment. Instead of using 50.0mL of hydrochloric acid and sodium hydroxide, it was decided that 40.0mL of each solution would be used.
+
+Observations:
+
+Qualitative Observations of Solutions
+
+
+Quantitative Observations of Temperature of Solutions
+
+
+Analysis:
+
+Calculations:
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thermochemical Equation:
+
+
+Analysis Questions:
+
+A neutralization reaction is a reaction between an acid, which consists of H+ ions, and base, which consists of OH- ions, resulting in the formation of a salt and water in its products. During the neutralization reaction of hydrochloric acid and sodium hydroxide, heat was released because the water absorbed the energy and thus increased in temperature. This made sense in accordance with the first law of thermodynamics, represented by the equation Esystem =  -Esurrounding. The amount of heat that was absorbed by the solution was 2010 J as evident from the above calculation. Because ΔHsys = -Q, the energy released was -2010 J.  Therefore, the neutralization reaction between hydrochloric acid and sodium hydroxide was exothermic.
+
+When an acid has come into contact with skin, it is important to flush the skin with water, rather than neutralizing it with a base. Water can dilute an acid, minimizing the damage done to the skin. Also, bases can be harmful. For example, sodium hydroxide is corrosive and can cause skin burns and eye damage. Thus, pouring a base onto skin can damage the skin even more. Furthermore, pouring a base on an acid can cause a chemical reaction to occur, which may also cause burns and damage to the skin. However, spills of acid solutions on the floor, for example, may be neutralized with a base. Therefore, when acid comes into contact with skin, flushing it with water allows the solution of acid to be flushed away, minimizing the damage done to the skin. 
+
+Conclusion: 
+
+In conclusion, the purpose of this experiment was to determine the enthalpy change of a neutralization reaction between hydrochloric acid and sodium hydroxide solution.  By measuring the initial temperature (22.0℃) and final temperature (28.0℃) of the solution, the heat in joules was calculated using the equation Q=mcΔT. The energy released was determined using the equation  ΔHsys = -Q. Lastly, the enthalpy of the reaction was determined using the moles of sodium hydroxide and the ΔHr value (-2.01kJ) through the equation ΔHr = nΔHor . 
+
+As evident from the above calculation, the energy absorbed by the solution in the calorimeter was 2010 J, and the energy released was -2010 J.  This made sense because the first law of thermodynamics states that energy cannot be created or destroyed, only converted. Thus, the energy that was released by a system was absorbed by the surrounding. This is in accordance with the first law of thermodynamics and its corresponding equation, Esystem = -Esurrounding. This is also represented by the equation ΔHsystem = -Q as well. Additionally, a higher final temperature (28.0℃) compared to the initial temperature (22.0℃) meant that the solution released energy, causing the water to increase in temperature. Thus, the reaction was exothermic. This made sense because the change in enthalpy calculated was -50.2 kJ/mol, a negative value, and therefore, the thermochemical equation was HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l) + 50.2 kJ.
+
+This experiment could be further studied by investigating the enthalpy change between other neutralization reactions by using a different base. For example, the enthalpy change could be studied between hydrochloric acid and barium hydroxide or hydrochloric acid and magnesium oxide. Scientists could compare the different enthalpy results found through using different bases. This experiment could be applied to daily life by providing an explanation of why a reaction of any kind may result in a system changing temperature. 
+
+Uncertainties:
+
+	Some sources of uncertainty included the accuracy of the thermometer. Using a digital thermometer could increase the accuracy of the temperature. Secondly, a piece of equipment could be used to secure the lid of the calorimeter to the calorimeter to prevent small amounts of heat from escaping. Residue from the graduated cylinders could have also affected the results. Rinsing the graduated could increase the accuracy of the results. Additionally, multiple trials could be performed to eliminate other sources of uncertainty and increase the accuracy of the data. 
+Works Cited
+Clancy, C., & Nixon-Ewing, B. (2011). Chemistry 12 Student Edition. McGraw-Hill Ryerson, Limited.
+

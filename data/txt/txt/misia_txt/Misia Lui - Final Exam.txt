@@ -1,0 +1,137 @@
+CLU3M Law Final Exam
+Misia Lui
+
+Constitutional and Human Rights Law 
+
+Question #1 
+Analyze the MPT under Charter ss. 1 and 15 and OHRC ss. 5 and 11. Structure your response as a series of IRAC paragraphs. 
+
+Application of the Charter: 
+
+The first issue to analyze whether the plaintiff was harmed by a government actor in this case. In section 32 of the Charter of Rights and Freedoms, it specifies that the Charter only binds government actors, meaning in this case the plaintiff must be harmed by a government actor. It cannot be anyone else outside of this category, as the constitution only protects individuals against government action. The public school system is run by the Ontario government, which indicates that they are the one that established the MPT rule. The Ontario government definitely counts as a government actor. Therefore the Charter applies. 
+
+Infringement (includes s.15):
+
+The next issue to analyze is whether the Ontario government infringed on the Ontario public school teachers’ rights. According to s.15 of the Charter, we must determine whether the government is imposing burdens or withholding benefits, directly or indirectly, on the basis of prohibited personal characteristics such as sex, creed, race, etc. Here, the Ontario Government is not necessarily intending to directly discriminate, as the MPT is used for the purpose of qualifying a teacher in order to receive a teaching certificate. Having said that, indirect discrimination can be considered in this case due to the release of the race based data. The government’s direct intentions may have been reasonable, but the underlying fact is that they are indirectly discriminating based on race, introducing a topic that is not necessary for this case. Indirectly discriminating against Black and Indigenous candidates for having a lower passing rate than White candidates is considered infringement. Therefore, the rights of the teachers have been infringed upon.  
+
+Reasonable Limits includes (s.1)
+
+The third issue is to prove whether the infringement on the plaintiffs’ rights were reasonable. In order to do this, we must apply s.1 of the Charter, The Oakes test. According to the Oakes test, there are four sub-issues to consider when assessing this section. The first question to ask is whether the government is limiting the plaintiff's freedom, as in pressing and substantial purpose. Second, whether the limit of the plaintiff’s freedom is rationally connected to its purpose. Third, questioning if the limit impairs the plaintiff’s rights as little as possible. Finally, if the harms and benefits of the limit are proportional. These are the questions used in analyzing the following paragraphs. 
+
+Pressing and Substantial Purpose
+The purpose of implementing the MPT is to make sure that all teachers are qualified in teaching students as there was a decline in math grades among Ontario elementary students. This solution is understandable to implement as math is an important subject to learn during school, and is essential to an educational future, and an important result to maintain within the Ontario school system. Thus, a pressing and substantial purpose is present. 
+
+Rational Connection 
+The purpose for establishing the MPT was to make sure all teachers were qualified to the standard of the MPT to teach students. Specifically for math classes in the Ontario Public School system, using the MPT can bring in more experienced and knowledgeable teachers to teach math, which can potentially lift the math grades of students. That was the initial purpose, so the limit can be rationally connected to the government’s purpose. On the other hand, the plaintiff may argue that not all teachers are entering teaching to teach math, and it is not necessary to burden those who won't even go into that teaching field, making the limit NOT rationally connected to the purpose. In the event that the court agrees that the limit is indeed rationally connected to the purpose, the burden of proof is now switched to the government of Ontario, and we can move on to the following sub-issues. 
+
+Minimal Impairment 
+Answering the question of whether the limit impairs the plaintiff’s rights as little as possible, there are definitely alternatives so that the teachers’ rights are impaired less. It is probably not necessary to implicate the MPT to all Ontario public school teachers, as some never intended to teach math in their teaching careers and would only serve as an unnecessary hindrance. Having the MPT as the standard for all teachers is just too broad considering other possible alternatives. However, the court may argue that the MPT test questions are not hard at all for candidates to pass, as it specifies that the questions are from the EQAO tests for Grade 3, Grade 6, and
+Grade 9 students. These grades are the most foundational type of math and are understandable to put into the MPT as teachers should atleast have the knowledge of basic math. Though the plaintiff may have stated that those who don’t intend to teach would consider this as an unnecessary hindrance, the court could argue that that is not necessarily true, considering the MPT is a very basic level of math, much below more advanced categories of mathematics. No matter what a teacher thinks their career will take them, there will always be a possibility that they are asked to teach math. Addressing the fact that the teachers are claiming that their rights were violated against s.15, aka discrimination based on race and ethnicity, the court may simply argue that putting the underlying issue aside, all teachers, who have gone through high school themselves and onto university and teacher college, should easily be proficient enough to complete the MPT with ease, also without any major issues. Therefore, minimal impairment may certainly be present or not, all depending on what the judge decides. 
+
+Proportionate Effects
+The final sub-issue to discuss whether the plaintiff’s rights achieve proportional harms and benefits. In this case, the benefits outweigh its benefits. The reason of discrimination of race and ethnicity based on s.15 by the Ontario public school teachers is certainly an acceptable reason for why their rights were violated, nevertheless the reasonable limits simply trump their argument. The reason being that by using the MPT, it would section out all candidates who are simply not competent enough to teach a harder course such as math, classifying their skills much easier. This also benefits the students as they will be assigned with teachers who better fit the standard of teaching math, very potentially affecting their academic performance in a better light. The idea of having candidates understand that being a teacher doesn’t necessarily mean teaching the one subject that you wish to teach. In the education system, there will always be times where teachers are required to teach more than one subject; one of them potentially being math if your skills exceed the standards of the MPT. The passing rate for different ethnic backgrounds may differ, and may be lower than the 97% of White candidates, but it is relatively close to that average, and can still be considered very easy. A passing rate of  93.3% and 72.3% respectively is still much over half, and discriminating based on this fact on behalf of the government was not a direct intention of all of this. Therefore, there are more benefits than harms in implementing the MPT. 
+
+Remedy
+The last issue to consider is what an appropriate remedy would be. The rule of all teachers taking the MPT may be changed to only have candidates who plan to teach math take the test. The issue of discrimination based on ethnic and racial backgrounds will still be present and still infringe on the teachers’ rights, but it will be minimized to the absolute minimal impairment. All teachers who do not plan on entering a math career will have a more concentrated teaching path and reduce any additional burdens that they may feel. This way, all teachers who go into math will have already been familiar with most basic math and be more than capable in teaching students a good math course. 
+
+
+
+
+
+
+
+Criminal Law
+
+Question #2
+Analyze Jerry's criminal responsibility. Structure your response as a series of IRAC paragraphs
+considering the crimes of assault, manslaughter, and murder. Be sure to consider any defenses Jerry might raise, including the issue of intoxication and a lack of mens rea. As much as possible, refer to specific facts from the case scenario. 
+
+There are two charges against Jerry: Aggravated assault and murder. I will access the aggravated assault charge that Jerry did against Colleen and Panuel. The reason for the assault charge for Colleen and Panuel is because they were indeed harmed by Jerry, but they are not dead. 
+
+Actus Reus (assault)
+
+The first step in understanding assault is actus reus. Actus reus is defined as “guilty act” in Latin, relating to the main question of actus reus: Did the defendant commit a voluntary act that, directly or indirectly, resulted in the injuries that the victim received? In this case, Jerry had physically assaulted  Colleen and Panuel while he was pretty intoxicated, but not intoxicated enough to be considered unconsciously drunk. Therefore Jerry’s actions were indeed voluntary as he was conscious, excusing him from the possibility of being blackout drunk, making him liable for the assault he ensued. Actus reus is present. 
+
+Mens Rea (assault) 
+
+The next step in concluding assault is mens rea. Mens rea is defined as “guilty mind” in Latin, which related to the main question needed to be asked for mens rea: Did the defendant intend to threaten or apply force to the victim without the victim’s consent? It is explained that before the attack, Jerry was visibly angry at both Colleen and Panuel and accusing/ criticizing them. Afterwards, Jerry followed the two into the bedroom and assaulted them there. This proves that Jerry had a motive to assault them with consent, having a conscious intention to do what he did. Therefore, mens rea is present. 
+
+Degree (assault)
+
+The final step is determining what the degree of the assault is that Jerry should be charged with. 
+First degree assault, second degree assault (indictable assault), and aggravated assault. First degree assault is defined as when the defendant applies force intentionally to another person, attempts to threaten by the act of gestures to apply force, or while openly carrying a weapon or imitation of a weapon, making the victim think they are in danger. Second degree assault, aka indictable assault, is defined as when the defendant carries, uses, or threatens to use a weapon or an imitation weapon, causes the victim any kind of bodily harm, or chokes, suffocates, or strangles the victim. Aggravated assault is defined as when the defendant commits aggravated assault if he wounds, maims, disfigures, or endangers the life of the victim. In this case, after Jerry finished assaulting them, Lydia came in and saw both Colleen and Panuel on the bed unconscious. “Colleen’s mouth was gaped open and her lips appeared blue. Her eyes were wide open, bloodied and swollen, and her legs were bent and body twisted. Panuel’s left eye was swollen, and his face was bruised and bloodied”. Considering all the types of assault, Jerry’s actions exactly match the description of aggravated assault, therefore, he is guilty of aggravated assault. 
+
+The last analysis will be accessing the murder charge Jerry had on Marie. Marie was declared dead by the end of this, therefore having Jerry be liable for murder. 
+
+Actus Reus (murder)
+
+The first issue to discuss is whether actus reus is present in this case. Actus reus in homicide  is defined as “guilty act” in Latin, relating to the main question of actus reus: Did the defendant commit a voluntary act that, directly or indirectly, caused the victim’s death? Jerry physically assaulted Marie, and then proceeded to stab her, which ultimately caused her death. We also need to apply the causation test of if “but for” the defendant’s action, would the victim have lived. “But for Jerry's actions, Marie definitely would have lived. Therefore actus reus is present. 
+
+Mens Rea (murder) 
+
+The next issue to discuss is whether mens rea is present in this case. Mens rea in homicide is defined as “guilty mind” in Latin, which related to the main question needed to be asked for mens rea: Did the defendant subjectively intend to cause another person’s death? In order to access this we need to understand the scenario. Jerry had been previously drunk, and called the police to inform them that he “accidentally” killed his girlfriend Marie. During the “autopsy”, it was concluded that the knife that Jerry stabbed Marie stabbed her with had penetrated her through her sternum, or breast bone, and penetrated her chest to a depth of 12 centimeters. The pathologist explained that an extreme amount of force would have been made in order to do such a feat. This closes the possibility of Jerry accidentally stabbing Marie, since no person would be able to penetrate a bone and chest so deeply if it was “just by accident”. Jerry must have willingly and intended to stab her, causing her death. We also know that events had happened even before Jerry stabbed Marie. The pathologist had said that her body showed signs of physical assault such as multiple fresh bruises, scrapes, and cuts to the inner surfaces of her lips, which were the result of recent blows to her mouth that caused her mouth to bleed, etc. This means that Jerry had assaulted Marie before he stabbed her since witnesses from Lydia, Colleen, and Panuel never saw any noticeable injuries on her before. Accidental stabbing defense or not, intended assault was present in this situation which makes Jerry’s stabbing also even more likely to be intended. Therefore mens rea is present. 
+
+Degree (murder)
+
+The final issue to discuss is what degree Jerry’s murder should be charged with. If the murder was planned and deliberate, resulted in the death of a police officer, or occurred in the course of certain crimes of domination, like sexual assault, kidnapping, terrorism, it is a murder in the first degree. Otherwise, it is a murder in the second degree. We know that Jerry most likely did not carry out this murder out of recklessness, eliminating the possibility of manslaughter. Considering that Jerry was somewhat intoxicated and did not happen as a previously planned out homicide, resulted in the death of a police officer, or occurred in the course of certain crimes of domination, that means it was not first degree murder. Therefore Jerry is guilty on the charge of second degree murder. 
+
+Defenses
+
+Some defenses that may be used on behalf of Jerry is when according to Mina, Jerry can usually handle his alcohol very well, and that it was a very normal night like any other. Jerry had had additional drinks at Lydia’s house afterwards, which made him even more drunk. Another defense could be that the reason he seemed pretty sober among police authorities is because he can handle his alcohol very well, so it passed through his system pretty quickly. That would mean during the assault and murder he committed he might've been unconscious, and only until he called the police was when he gained consciousness again. k. These two defenses would however not work through and through as it is only considered a successful defense if Jerry had been unconsciously drunk; in fact he was not, as proved from the actus reus and mens rea analyzed. 
+
+Question #3 Craft an appropriate sentence for Jerry using the guidelines below. You need only decide how long he should remain in prison and when he would be eligible for parole. Explain the rationale behind your sentence, including which purposes you prioritized and what aggravating or mitigating factors you considered. If you assign Jerry multiple sentences, indicate whether he should serve them consecutively or concurrently.
+
+I would give Jerry two sentences for aggravated assault; the full 14 years with eligibility for parole in 12 years CONSECUTIVELY. For second degree murder I would give him a life sentence with eligibility for parole after 20 years. For aggravated assault, the reason I would give him two sentences for aggravated assault and the full 14 years with eligibility for parole in 12 years is because he didn’t just assault one person, he assaulted two; Colleen and Panuel. His qualification for aggravated assault wasn’t just one of the attributes to qualify, it was all of them and more. Jerry deserves both sentences to its full capacity. Even if he was drunk he was still conscious, and he didn’t seem to deny he did it and only claimed that he “accidentally” killed Marie. As for second degree murder, I believe a life sentence with eligibility for parole after 20 years is most suitable for him. First of all, he lied to the police claiming he “accidentally” stabbed his girlfriend when it was clear he did it on purpose. Secondly, he not only stabbed Marie, he also abused her beforehand, and he didn’t seem to have any reason for it as well. Another element to include would be to consider the fact that he repeatedly swore to the police when they tried to swab his hands. Only when the police told him he'd have to restrain him was when he stopped. It might not have been a very big factor in the sentencing, but it holds an impression for the authorities; this may have affected how long his parole would be. 
+
+
+Tort Law 
+
+Question #4 
+Analyze all tort claims that Sarah or Francis (i.e., his family) can bring against Mr. Henson, Ms. Benitez, and Cantor Academy. Also, consider any affirmative defenses. Structure your response as a series of IRAC paragraphs and refer to specific case facts as much as possible.
+
+There are two scenarios in this case. One with Mr. Henson and Sarah, and another with Ms. Benitez, Cantor Academy, and Francis.
+
+Regarding the case between Mr. Henson and Sarah, I will access this using the intention tort of battery. The tort of battery protects a person’s bodily integrity. A battery is defined as an intentional harmful or offensive touch. The two main component elements are: an intent to cause an objectively harmful or offensive touch, and contact resulting in actual harm or offense to the plaintiff. 
+
+The first issue to discuss is whether or not intent is present. The question to ask is if the defendant intended to contact the plaintiff in a manner that was objectively harmful
+or offensive. In this case, Mr. Henson definitely did not intend his side hug in any harmful or offensive way. The reason why he side hugged her in the first place is because Sarah had previously broke down crying due to stress in Mr. Henson’s class, so she ran out embarrassed. Mr. Henson could obviously tell that Sarah was distraught, so his action of a side hug was probably for comfort with the intention of making her feel better out of empathy. Therefore, there is no objectively harmful or offensive intention. 
+
+The second issue to discuss is contact. The question to be asked is whether the plaintiff actually harmed or offended the contact. In this case, the only evidence proving that there may not have been consent would be when it says that Sarah “froze” when Mr. Henson hugged her. That short term description is too broad. It can be interpreted completely wrong and it might’ve just been that Sarah was surprised about the hug due to the fact that most student’s view him as a relatively awkward teacher, so she would never think that he would do such an action. There is also no further description of what Sarah felt afterward. It’s also possible that Sarah just froze because she was in an emotionally high state and did not expect any support at the moment. Therefore, Sarah was not harmed nor probably offended in the contact initiated. 
+
+The third issue to be considered is consent (defense included). This question asks whether the defendant is liable or not if the plaintiff consented, whether explicitly or implicitly, to the contact. In this case, it did not show that Sarah had consented to the side hug in any way, meaning that there should be no consent. Despite that, the side hug was not used in an aspect of sexual intention, nor physical harm. If we are analyzing the particular scope of consent in this case, it is possible the judge will understand the reason for no consent, especially when the hugs’ intentions were emotional comfort. 
+
+The final issue to be considered is vicarious liability. The question to ask is whether an employer is vicariously liable for torts committed by their employees within the scope of their employment. This is talking about the relation between Mr. Henson and Cantor Academy. If Sarah and her family choose to sue Mr. Henson on the tort of battery, Cantor would also be liable for this lawsuit as well. Since this action happened within school grounds, it not only makes Mr. Henson is liable, but also the school. 
+------------------------------------------------------------------------------------------------------------------
+
+For the second and final scenario, I will be analyzing the case towards Francis, Ms. Benitez, and Cantor academy. For this case, I will be using the intention tort of negligence. 
+
+The first issue to determine is whether the plaintiff suffered an actual physical injury. In this case, Francis died due to the Van flipping and crashing. Therefore, Injury is present. 
+
+The second issue to determine is whether the plaintiff’s injury is a foreseeable result of the defendant’s actions. Technically, yes. The fact that the van had curved and then flipped and crashed means that such a big event happening would have the assumption that all inside the van would get foreseeably injured, and possibly dead. On the other hand, in this case, no one in the van died except Francis. The reason being that he didn’t buckle his seat belt resulting in him being ejected from the van and dying from impact as a result. That element itself is not foreseeable and therefore not at fault on behalf of the defendant. It all depends on whether the judge chooses to acknowledge this.
+
+The third issue to determine is whether the defendant breach the standard of care of a reasonable person. Yes. Ms. Benitez obviously did not expect this to happen, therefore already qualifying for the safety of the other passengers. Should she have known this would happen, she would have acted differently, but this incident was an accident. Therefore breach is present. 
+
+The final issue is to determine whether the plaintiff would be whole but for the defendant’s actions. If Ms. Benitez had not gotten into this accident, Francis would not have died. Even if he did not have his seatbelt on during the time, without the van crash in the first place, Francis still would not have died. Therefore causation is present. 
+
+If Francis’ family chooses to sue Ms. Benitez, it is possible it would be successful, and Cantor Academy would also be vicariously liable as the van was property of the school. Therefore, both Ms. Benitez and Cantor Academy are liable.
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
