@@ -8,7 +8,7 @@ def main():
     data_path = 'processed_data.pkl'  # Path to your data file (pickle file with training/testing data)
     
     # Initialize the TextClassifier
-    classifier = TextClassifier(model_name, model_dir, num_labels=10)  # Assuming 10 classes in your dataset
+    classifier = TextClassifier(model_name, model_dir, num_labels=4)  # Assuming 10 classes in your dataset
     
     # Load the data
     classifier.load_data(data_path)

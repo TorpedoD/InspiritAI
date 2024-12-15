@@ -85,22 +85,27 @@ class TextClassifier:
 
     def load_data(self, data_path):
         with open(data_path, 'rb') as f:
-            X_train, X_test, y_train, y_test, labels = pickle.load(f)
+            X_train, X_test, y_train, y_test, label_classes = pickle.load(f)
         print(f"Total number of samples in the dataset: {len(X_train) + len(X_test)}")
-        print(f"Total number of unique labels: {len(set(labels))}")
+        print(f"Total number of unique labels: {len(label_classes)}")
 
         self.X_train = X_train
         self.X_test = X_test
         self.y_train = y_train
         self.y_test = y_test
-        self.labels = labels
+        self.labels = label_classes
 
     def encode_labels(self):
         self.label_encoder = LabelEncoder()
-        self.label_encoder.fit(self.labels)
+        
+        # Combine training and testing labels correctly
+        all_labels = list(self.y_train) + list(self.y_test)  # Convert to lists and concatenate
+        self.label_encoder.fit(all_labels)  # Fit on the combined set of labels
+
         self.y_train_encoded = self.label_encoder.transform(self.y_train)
         self.y_test_encoded = self.label_encoder.transform(self.y_test)
         print("Labels encoded successfully.")
+
 
     def prepare_datasets(self):
         train_dataset = Dataset.from_dict({'text': self.X_train, 'labels': self.y_train_encoded})
@@ -117,6 +122,8 @@ class TextClassifier:
         print("Datasets prepared and tokenized.")
 
     def train(self, output_dir='./results', num_train_epochs=3, batch_size=2, learning_rate=5e-5):
+        assert self.num_labels == len(self.label_encoder.classes_), "Mismatch in num_labels and actual label classes."
+
         training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=num_train_epochs,
@@ -210,14 +217,14 @@ class TextClassifier:
         print(f"Trained model loaded from {model_dir}")
 
     def evaluate(self):
-        # Check if datasets are prepared
-        if not hasattr(self, 'tokenized_test_dataset') or self.tokenized_test_dataset is None:
-            raise ValueError("Test dataset is not prepared. Please prepare datasets before evaluation.")
-    
-        # Check if model and tokenizer are loaded
-        if self.model is None or self.tokenizer is None:
-            raise ValueError("Model or tokenizer is not loaded. Please load a trained model first.")
-    
+        # Debugging log for num_labels and label encoder classes
+        print(f"Expected num_labels: {self.num_labels}")
+        print(f"Actual classes in LabelEncoder: {len(self.label_encoder.classes_)}")
+        print(f"LabelEncoder classes: {self.label_encoder.classes_}")
+
+        # Validate `num_labels`
+        assert self.num_labels == len(self.label_encoder.classes_), "Mismatch in num_labels and actual label classes."
+
         # Initialize the Trainer if not already done
         if self.trainer is None:
             print("Initializing Trainer for evaluation...")
@@ -236,36 +243,25 @@ class TextClassifier:
                 tokenizer=self.tokenizer,
                 compute_metrics=self.compute_metrics,
             )
-    
+
         print("Evaluating the model...")
-        # Perform evaluation
         eval_results = self.trainer.evaluate()
         print(f"\nEvaluation results:\n{eval_results}")
-    
+
         # Get predictions
         predictions = self.trainer.predict(self.tokenized_test_dataset)
         preds = predictions.predictions.argmax(-1)
-    
+
+        # Decode predictions and labels
         true_labels = self.label_encoder.inverse_transform(self.y_test_encoded)
         predicted_labels = self.label_encoder.inverse_transform(preds)
-    
+
         # Classification Report
         print("\nClassification Report:")
         print(classification_report(true_labels, predicted_labels, labels=self.label_encoder.classes_))
-    
-        # Accuracy calculation
-        accuracy = accuracy_score(true_labels, predicted_labels)
-        print(f"Accuracy: {accuracy:.4f}")
-    
-        # Additional metrics calculation
-        precision, recall, f1, _ = precision_recall_fscore_support(true_labels, predicted_labels, average='weighted', zero_division=0)
-        print(f"Precision: {precision:.4f}")
-        print(f"Recall: {recall:.4f}")
-        print(f"F1 Score: {f1:.4f}")
-    
+
         # Generate confusion matrix and ROC curve
         self.generate_visualizations(true_labels, predicted_labels)
-
 
     def generate_visualizations(self, true_labels, predicted_labels):
         # Confusion Matrix
@@ -275,30 +271,30 @@ class TextClassifier:
         plt.title('Confusion Matrix')
         plt.xlabel('Predicted')
         plt.ylabel('True')
-        plt.savefig('confusion_matrix.png')  # Save the confusion matrix as PNG
-        plt.close()  # Close the plot to avoid showing it
-    
-        # Compute ROC curve for each class (multi-class ROC curve)
+        plt.savefig('confusion_matrix.png')
+        plt.close()
+
+        # ROC Curve for valid indices
         true_labels_one_hot = np.array([self.label_encoder.transform([label])[0] for label in true_labels])
-        
-        # Use the predictions to compute softmax probabilities
         predicted_probs = self.trainer.predict(self.tokenized_test_dataset).predictions
-        predicted_probs = torch.softmax(torch.tensor(predicted_probs), dim=-1).numpy()  # Apply softmax to get probabilities
-    
-        # Plot ROC curve for each class
+        predicted_probs = torch.softmax(torch.tensor(predicted_probs), dim=-1).numpy()
+
         plt.figure(figsize=(8, 6))
-        for i in range(self.num_labels):
+        for i in range(len(self.label_encoder.classes_)):
+            if i >= predicted_probs.shape[1]:
+                print(f"Skipping invalid index {i} for ROC Curve")
+                continue
             fpr, tpr, _ = roc_curve(true_labels_one_hot == i, predicted_probs[:, i])
             roc_auc = auc(fpr, tpr)
             plt.plot(fpr, tpr, lw=2, label=f'Class {self.label_encoder.classes_[i]} (AUC = {roc_auc:.2f})')
-    
+
         plt.plot([0, 1], [0, 1], linestyle='--', lw=2)
         plt.title('Receiver Operating Characteristic (ROC) Curve')
         plt.xlabel('False Positive Rate')
         plt.ylabel('True Positive Rate')
         plt.legend(loc='lower right')
-        plt.savefig('roc_curve.png')  # Save the ROC curve as PNG
-        plt.close()  # Close the plot to avoid showing it
+        plt.savefig('roc_curve.png')
+        plt.close()
 
 
 # Usage example
@@ -307,7 +303,7 @@ if __name__ == "__main__":
     model_dir = "./save_model"
     data_path = 'processed_data.pkl'
 
-    classifier = TextClassifier(model_name, model_dir, num_labels=10)  # Assuming you have 10 classes for your dataset
+    classifier = TextClassifier(model_name, model_dir, num_labels=4)  # Correct number of labels
     classifier.load_data(data_path)
     classifier.encode_labels()
     classifier.prepare_datasets()
