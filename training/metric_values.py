@@ -3,7 +3,7 @@ from sklearn.metrics import classification_report
 
 if __name__ == "__main__":
     # Best parameters from hyperparameter tuning
-    best_params = {'learning_rate': 1.955100747572315e-05, 'batch_size': 16, 'num_train_epochs': 7}
+    best_params = {'learning_rate': 3.360440024365462e-05, 'batch_size': 32, 'num_train_epochs': 5}
 
     # Initialize classifier
     classifier = TextClassifier("bert-base-uncased", num_labels=4)
