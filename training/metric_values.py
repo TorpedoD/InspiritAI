@@ -2,17 +2,12 @@ from train_llama import TextClassifier
 from sklearn.metrics import classification_report
 
 if __name__ == "__main__":
-    # Best parameters from hyperparameter tuning
-    best_params = {'learning_rate': 1.955100747572315e-05, 'batch_size': 16, 'num_train_epochs': 7}
+    best_params = {'learning_rate': 2e-5, 'batch_size': 16, 'num_train_epochs': 5}
 
-    # Initialize classifier
-    classifier = TextClassifier("bert-base-uncased", num_labels=4)
-
-    # Load and tokenize data
+    classifier = TextClassifier("roberta-base", num_labels=4)
     X_train, X_test, y_train, y_test, _ = classifier.load_data("processed_data.pkl")
     train_dataset, test_dataset = classifier.tokenize_data(X_train, X_test, y_train, y_test)
 
-    # Train final model
     eval_loss, trainer = classifier.train_and_evaluate(
         train_dataset,
         test_dataset,
@@ -21,7 +16,6 @@ if __name__ == "__main__":
         num_train_epochs=best_params["num_train_epochs"],
     )
 
-    # Predict and evaluate
-    preds = classifier.predict(test_dataset, trainer)
+    preds = trainer.predict(test_dataset).predictions.argmax(axis=1)
     print("\nClassification Report:")
     print(classification_report(y_test, preds))
