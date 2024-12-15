@@ -25,3 +25,17 @@ if __name__ == "__main__":
     preds = classifier.predict(test_dataset, trainer)
     print("\nClassification Report:")
     print(classification_report(y_test, preds))
+
+'''
+              precision    recall  f1-score   support
+
+           0       0.44      0.62      0.51        52
+           1       0.99      0.99      0.99        85
+           2       0.46      0.48      0.47        54
+           3       0.00      0.00      0.00        24
+
+    accuracy                           0.66       215
+   macro avg       0.47      0.52      0.49       215
+weighted avg       0.61      0.66      0.63       215
+
+'''
