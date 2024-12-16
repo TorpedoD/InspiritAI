@@ -2,7 +2,7 @@ from train_llama import TextClassifier
 from sklearn.metrics import classification_report
 
 if __name__ == "__main__":
-    best_params = {'learning_rate': 2e-5, 'batch_size': 16, 'num_train_epochs': 5}
+    best_params = {'learning_rate': 6.044169858061599e-05, 'batch_size': 8, 'num_train_epochs': 4}
 
     classifier = TextClassifier("roberta-base", num_labels=4)
     X_train, X_test, y_train, y_test, _ = classifier.load_data("processed_data.pkl")

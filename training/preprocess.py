@@ -1,6 +1,6 @@
 import os
 import zipfile
-import pandas as pd
+import re
 import random
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -9,110 +9,131 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 import pickle
 import nltk
+from collections import Counter
 
 # Download required NLTK resources
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-# Data Augmentation (Synonym Replacement)
-def synonym_replacement(text, word_map):
+# Step 1: Data Augmentation Functions (Only used for under-represented classes)
+def random_insertion(text, n=2):
     tokens = word_tokenize(text)
-    augmented_text = [word_map.get(word, word) for word in tokens]
-    return " ".join(augmented_text)
+    for _ in range(n):
+        if tokens:
+            random_word = random.choice(tokens)
+            random_position = random.randint(0, len(tokens) - 1)
+            tokens.insert(random_position, random_word)
+    return " ".join(tokens)
 
-def generate_word_map():
-    # Replace these with actual synonyms or an external library
-    return {"good": "excellent", "bad": "poor", "happy": "joyful"}
+def random_deletion(text, p=0.2):
+    tokens = word_tokenize(text)
+    if len(tokens) == 1:
+        return text
+    return " ".join([word for word in tokens if random.random() > p])
 
-# Step 1: Define a function to read .txt files from subfolders
-def read_txt_files_from_folder(folder_path):
-    data = []  # Stores content of .txt files
-    labels = []  # Stores folder names as labels
-    file_count = 0  # Count of processed files
+def random_swap(text, n=2):
+    tokens = word_tokenize(text)
+    for _ in range(n):
+        if len(tokens) > 1:
+            idx1, idx2 = random.sample(range(len(tokens)), 2)
+            tokens[idx1], tokens[idx2] = tokens[idx2], tokens[idx1]
+    return " ".join(tokens)
 
-    if not os.path.exists(folder_path):
-        print(f"Error: The folder '{folder_path}' does not exist.")
-        return None, None
-
-    for root, dirs, files in os.walk(folder_path):
+# Step 2: Read .txt files
+def read_txt_files(folder_path, allowed_labels=None):
+    data, labels = [], []
+    for root, _, files in os.walk(folder_path):
         for file in files:
             if file.endswith('.txt'):
-                file_path = os.path.join(root, file)
-                folder_name = os.path.basename(os.path.dirname(file_path)).strip().lower()
-
-                if folder_name not in {'gpt_txt', 'theo_txt', 'damian_txt', 'misia_txt'}:
+                folder_name = os.path.basename(root).strip().lower()
+                if allowed_labels and folder_name not in allowed_labels:
                     continue
-
+                file_path = os.path.join(root, file)
                 try:
                     with open(file_path, 'r', encoding='utf-8', errors='replace') as f:
-                        content = f.read()
-                        data.append(content)
+                        data.append(f.read())
                         labels.append(folder_name)
-                        file_count += 1
                 except Exception as e:
                     print(f"Error reading file {file_path}: {e}")
-
-    print(f"Processed {file_count} files with labels: {set(labels)}")
     return data, labels
 
-# Step 2: Preprocess the text data (tokenization, stopword removal, lemmatization)
-def preprocess_text(data, augment=False):
+# Step 3: Preprocess the text
+def preprocess_text(data):
     stop_words = set(stopwords.words('english'))
     lemmatizer = WordNetLemmatizer()
-    word_map = generate_word_map() if augment else {}
 
     processed_data = []
     for text in data:
-        try:
-            tokens = word_tokenize(text)
-            filtered_tokens = [
-                lemmatizer.lemmatize(word.lower())
-                for word in tokens
-                if word.isalpha() and word.lower() not in stop_words
-            ]
-            text = " ".join(filtered_tokens)
-            if augment:
-                text = synonym_replacement(text, word_map)
-            processed_data.append(text)
-        except Exception as e:
-            print(f"Error during preprocessing: {e}")
-            processed_data.append("")
+        text = re.sub(r'[^A-Za-z\s]', '', text)  # Remove non-ASCII characters
+        text = re.sub(r'\s+', ' ', text).strip()  # Remove extra spaces
+        tokens = word_tokenize(text)
+        filtered_tokens = [
+            lemmatizer.lemmatize(word.lower())
+            for word in tokens
+            if word.isalpha() and word.lower() not in stop_words
+        ]
+        processed_data.append(" ".join(filtered_tokens))
     return processed_data
 
-# Step 3: Unzip the dataset
+# Step 4: Balance Dataset
+def balance_dataset(data, labels):
+    label_counter = Counter(labels)
+    max_count = max(label_counter.values())
+    new_data, new_labels = [], []
+
+    for label in label_counter.keys():
+        class_data = [d for d, l in zip(data, labels) if l == label]
+        if len(class_data) < max_count:
+            additional_samples = max_count - len(class_data)
+            print(f"Augmenting class '{label}' with {additional_samples} samples...")
+            for _ in range(additional_samples):
+                new_data.append(random.choice(class_data))
+                new_labels.append(label)
+        new_data.extend(class_data)
+        new_labels.extend([label] * len(class_data))
+
+    return new_data, new_labels
+
+# Step 5: Unzip the dataset
 def unzip_file(zip_path, extract_to):
     if not os.path.exists(zip_path):
-        print(f"Error: The zip file '{zip_path}' does not exist.")
-        return
+        raise FileNotFoundError(f"Error: The zip file '{zip_path}' does not exist.")
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         zip_ref.extractall(extract_to)
     print(f"Files unzipped to: {extract_to}")
 
-
-# Main preprocessing script
+# Main Script
 if __name__ == "__main__":
     zip_file_path = "data/txt.zip"
     extract_to = "data/txt"
-    pull_from = "data/txt/txt"
+    folder_path = "data/txt/txt"
+    allowed_labels = {'gpt_txt', 'theo_txt', 'damian_txt', 'misia_txt'}
 
+    # Unzip and read data
     unzip_file(zip_file_path, extract_to)
-    data, labels = read_txt_files_from_folder(pull_from)
-    if data is None or labels is None:
-        exit(1)
+    data, labels = read_txt_files(folder_path, allowed_labels)
+    print(f"Original dataset: {len(data)} samples.")
 
-    print("Splitting data...")
+    # Balance dataset (limited to original sample sizes)
+    data, labels = balance_dataset(data, labels)
+    print(f"Balanced dataset: {len(data)} samples.")
+
+    # Split dataset
     X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size=0.2, random_state=42)
 
-    print("Preprocessing data...")
-    X_train_processed = preprocess_text(X_train, augment=True)
+    # Preprocess training and testing data
+    print("Preprocessing training and testing data...")
+    X_train_processed = preprocess_text(X_train)
     X_test_processed = preprocess_text(X_test)
 
+    # Encode labels
     label_encoder = LabelEncoder()
-    label_encoder.fit(y_train + y_test)
-    y_train_encoded = label_encoder.transform(y_train)
+    y_train_encoded = label_encoder.fit_transform(y_train)
     y_test_encoded = label_encoder.transform(y_test)
 
+    # Save processed data
     with open('processed_data.pkl', 'wb') as f:
         pickle.dump((X_train_processed, X_test_processed, y_train_encoded, y_test_encoded, label_encoder.classes_), f)
+
     print("Preprocessing complete.")
