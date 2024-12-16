@@ -19,3 +19,17 @@ if __name__ == "__main__":
     preds = trainer.predict(test_dataset).predictions.argmax(axis=1)
     print("\nClassification Report:")
     print(classification_report(y_test, preds))
+
+'''
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.73      0.73        73
+           1       0.99      1.00      0.99        85
+           2       0.78      0.73      0.75        77
+           3       0.92      0.98      0.95        82
+
+    accuracy                           0.86       317
+   macro avg       0.86      0.86      0.86       317
+weighted avg       0.86      0.86      0.86       317
+'''
