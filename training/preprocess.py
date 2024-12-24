@@ -2,16 +2,14 @@ import os
 import zipfile
 import random
 import numpy as np
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+from collections import Counter
 import pickle
 import nltk
-from collections import Counter
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.utils import resample
 
-# Download required NLTK resources
+# NLTK downloads
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
@@ -39,37 +37,31 @@ def cutmix(data, labels, alpha=0.2):
         new_labels.append(labels[i])
     return new_data, new_labels
 
-# Balance Dataset with Oversampling and Augmentation
-def balance_dataset(data, labels):
+# Balance Dataset
+def balance_dataset(data, labels, target_count=None):
     label_counter = Counter(labels)
-    print(f"Initial label distribution: {label_counter}")
-    max_count = max(label_counter.values())
-    new_data, new_labels = [], []
+    max_count = target_count or max(label_counter.values())
+    balanced_data, balanced_labels = [], []
 
     for label in label_counter.keys():
-        class_data = [d for d, l in zip(data, labels) if l == label]
-        if len(class_data) < max_count:
-            additional_samples = max_count - len(class_data)
-            for _ in range(additional_samples):
-                augmented = random.choice(class_data)
-                new_data.append(augmented)  # Random oversampling
-                new_labels.append(label)
-        new_data.extend(class_data)
-        new_labels.extend([label] * len(class_data))
+        label_data = [d for d, l in zip(data, labels) if l == label]
+        if len(label_data) < max_count:
+            oversampled = resample(
+                label_data,
+                replace=True,
+                n_samples=max_count - len(label_data),
+                random_state=42,
+            )
+            balanced_data.extend(oversampled)
+            balanced_labels.extend([label] * len(oversampled))
+        balanced_data.extend(label_data)
+        balanced_labels.extend([label] * len(label_data))
 
-    # Apply Mixup and Cutmix
-    mixed_data, mixed_labels = mixup(new_data, new_labels)
-    cut_data, cut_labels = cutmix(new_data, new_labels)
+    print(f"Balanced dataset: {Counter(balanced_labels)}")
+    return balanced_data, balanced_labels
 
-    final_data = mixed_data + cut_data + new_data
-    final_labels = mixed_labels + cut_labels + new_labels
-
-    print(f"Balanced label distribution: {Counter(final_labels)}")
-    return final_data, final_labels
-
-# Main Preprocessing Script
+# Preprocessing
 if __name__ == "__main__":
-    # Paths and labels
     zip_file_path = "data/txt.zip"
     extract_to = "data/txt"
     folder_path = "data/txt/txt"
@@ -81,55 +73,57 @@ if __name__ == "__main__":
         zip_ref.extractall(extract_to)
     print(f"Files unzipped to: {extract_to}")
 
-    # Read data
+    # Read and clean data
     data, labels = [], []
     for root, _, files in os.walk(folder_path):
-        folder_name = os.path.basename(root)
-        if folder_name in allowed_labels:
-            print(f"Processing folder: {folder_name} with {len(files)} files")
+        label = os.path.basename(root)
+        if label in allowed_labels:
             for file in files:
                 if file.endswith('.txt'):
-                    with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
-                        data.append(f.read())
-                        labels.append(folder_name)
+                    file_path = os.path.join(root, file)
+                    try:
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            content = f.read()
+                        data.append(content)
+                        labels.append(label)
+                    except UnicodeDecodeError:
+                        try:
+                            with open(file_path, 'r', encoding='latin-1') as f:
+                                content = f.read()
+                            data.append(content)
+                            labels.append(label)
+                        except Exception as e:
+                            print(f"Skipping file {file_path}: {e}")
 
-    print(f"Original dataset: {len(data)} samples.")
-    print(f"Label distribution before balancing: {Counter(labels)}")
+    # Filter empty files and truncate long texts
+    MAX_TEXT_LENGTH = 1000
+    cleaned_data, cleaned_labels = [], []
+    for text, label in zip(data, labels):
+        if len(text.split()) > 0:
+            truncated_text = ' '.join(text.split()[:MAX_TEXT_LENGTH])
+            cleaned_data.append(truncated_text)
+            cleaned_labels.append(label)
 
-    # Check for missing labels
-    for label in allowed_labels:
-        if label not in Counter(labels):
-            print(f"Warning: Missing data for label '{label}'")
+    print(f"Initial dataset size: {len(cleaned_data)}")
+    print(f"Initial label distribution: {Counter(cleaned_labels)}")
 
     # Balance dataset
-    balanced_data, balanced_labels = balance_dataset(data, labels)
+    balanced_data, balanced_labels = balance_dataset(cleaned_data, cleaned_labels)
 
-    # Calculate a valid test size
-    num_samples = len(balanced_labels)
-    num_classes = len(set(balanced_labels))
+    # Train-test split
+    label_encoder = LabelEncoder()
+    encoded_labels = label_encoder.fit_transform(balanced_labels)
 
-    # Ensure test_size is a valid float between 0 and 1
-    test_size = min(0.2, max(2 * num_classes / num_samples, 0.1))
-
-    # Split dataset
     X_train, X_test, y_train, y_test = train_test_split(
-        balanced_data, balanced_labels, test_size=test_size, stratify=balanced_labels, random_state=42
+        balanced_data, encoded_labels, test_size=0.2, stratify=encoded_labels, random_state=42
     )
 
-    # Log train-test split
-    print(f"Training set: {len(X_train)} samples, Test set: {len(X_test)} samples.")
-    print(f"Train label distribution: {Counter(y_train)}")
+    print(f"Training set size: {len(X_train)}, Test set size: {len(X_test)}")
+    print(f"Training label distribution: {Counter(y_train)}")
     print(f"Test label distribution: {Counter(y_test)}")
-
-    # Label encoding
-    label_encoder = LabelEncoder()
-    y_train_encoded = label_encoder.fit_transform(y_train)
-    y_test_encoded = label_encoder.transform(y_test)
-
-    print(f"Encoded labels: {list(label_encoder.classes_)}")
 
     # Save processed data
     with open("processed_data.pkl", "wb") as f:
-        pickle.dump((X_train, X_test, y_train_encoded, y_test_encoded, label_encoder.classes_), f)
+        pickle.dump((X_train, X_test, y_train, y_test, label_encoder.classes_), f)
 
     print("Preprocessing complete. Data saved to 'processed_data.pkl'.")

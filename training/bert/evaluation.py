@@ -59,7 +59,44 @@ if __name__ == "__main__":
     print(classification_report(fold["test_labels"], preds, target_names=label_classes))
 
 '''
+{'learning_rate': 0.00014595457016207378, 'batch_size': 16, 'num_train_epochs': 7}
+Classification Report:
+              precision    recall  f1-score   support
+
+     GPT_txt       0.96      0.99      0.97        69
+    Theo_txt       0.88      1.00      0.93        56
+  damian_txt       0.73      0.53      0.61        66
+   misia_txt       0.66      0.75      0.70        63
+
+    accuracy                           0.81       254
+   macro avg       0.81      0.82      0.81       254
+weighted avg       0.81      0.81      0.80       254
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     GPT_txt       0.99      1.00      0.99        69
+    Theo_txt       0.88      1.00      0.93        56
+  damian_txt       0.72      0.64      0.68        66
+   misia_txt       0.71      0.70      0.70        63
+
+    accuracy                           0.83       254
+   macro avg       0.82      0.83      0.83       254
+weighted avg       0.82      0.83      0.83       254
+
 {'learning_rate': 5.699270651832986e-05, 'batch_size': 16, 'num_train_epochs': 8}
+Classification Report:
+              precision    recall  f1-score   support
+
+     GPT_txt       0.99      0.99      0.99        69
+    Theo_txt       0.95      0.98      0.96        56
+  damian_txt       0.73      0.68      0.70        66
+   misia_txt       0.72      0.75      0.73        63
+
+    accuracy                           0.85       254
+   macro avg       0.85      0.85      0.85       254
+weighted avg       0.84      0.85      0.85       254
+
 Classification Report:
               precision    recall  f1-score   support
 
@@ -73,6 +110,18 @@ Classification Report:
 weighted avg       0.83      0.83      0.83       856
 
 {'learning_rate': 6.044169858061599e-05, 'batch_size': 8, 'num_train_epochs': 4}
+Classification Report:
+              precision    recall  f1-score   support
+
+     GPT_txt       0.99      0.99      0.99        69
+    Theo_txt       0.84      1.00      0.91        56
+  damian_txt       0.75      0.59      0.66        66
+   misia_txt       0.74      0.78      0.76        63
+
+    accuracy                           0.83       254
+   macro avg       0.83      0.84      0.83       254
+weighted avg       0.83      0.83      0.83       254
+
 Classification Report:
               precision    recall  f1-score   support
 
